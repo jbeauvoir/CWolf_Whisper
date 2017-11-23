@@ -1,0 +1,1170 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ForumTableViewController"
+provides-nominal:
+- "24UserLoginAndRegistration24ForumTableViewControllerC"
+provides-member:
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", ""]
+provides-dynamic-lookup:
+- "MenuButton"
+- "clickedMenuButton"
+- "nothingView"
+- "numberOfSections"
+- "observeValue"
+- "prepare"
+- "tableView"
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "BottomMenuBar"
+- "CGFloat"
+- "CastingPrecedence"
+- !private "DispatchQueue"
+- "Download"
+- "ForumDataSource"
+- !private "ForumDetailsViewController"
+- !private "ForumTableViewCell"
+- "ForumTableViewController"
+- "IndexPath"
+- "Int"
+- "NSKeyValueChangeKey"
+- "SettingLauncher"
+- "String"
+- "StringLiteralType"
+- "UIBarButtonItem"
+- "UIStoryboardSegue"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewController"
+- "UIView"
+- "UnsafeMutableRawPointer"
+- !private "print"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "row"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["24UserLoginAndRegistration13BottomMenuBarC", "init"]
+- !private ["So15CALayerDelegateP", "addConstraintsWithFormat"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "indexPath"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["So15CALayerDelegateP", "useForum"]
+- ["s7CVarArgP", "BottomMenuBar"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", "Download"]
+- !private ["s7CVarArgP", "ForumDataSource"]
+- !private ["s7CVarArgP", "MenuButton"]
+- ["s7CVarArgP", "SettingLauncher"]
+- !private ["s7CVarArgP", "addConstraintsWithFormat"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "bottomMenuBar"]
+- !private ["s7CVarArgP", "dataFromServer"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "downloadAssistant"]
+- !private ["s7CVarArgP", "download_request"]
+- !private ["s7CVarArgP", "forumAt"]
+- !private ["s7CVarArgP", "forumForThisView"]
+- !private ["s7CVarArgP", "forumsDS"]
+- !private ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "indexPath"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "numForums"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "reloadData"]
+- !private ["s7CVarArgP", "removeObserver"]
+- !private ["s7CVarArgP", "revealMenu"]
+- !private ["s7CVarArgP", "rightBarButtonItems"]
+- !private ["s7CVarArgP", "settingLauncher"]
+- !private ["s7CVarArgP", "setupNavBarButtons"]
+- !private ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "useForum"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "row"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "row"]
+- ["s28CustomDebugStringConvertibleP", "BottomMenuBar"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", "Download"]
+- !private ["s28CustomDebugStringConvertibleP", "ForumDataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "MenuButton"]
+- ["s28CustomDebugStringConvertibleP", "SettingLauncher"]
+- !private ["s28CustomDebugStringConvertibleP", "addConstraintsWithFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "bottomMenuBar"]
+- !private ["s28CustomDebugStringConvertibleP", "dataFromServer"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadAssistant"]
+- !private ["s28CustomDebugStringConvertibleP", "download_request"]
+- !private ["s28CustomDebugStringConvertibleP", "forumAt"]
+- !private ["s28CustomDebugStringConvertibleP", "forumForThisView"]
+- !private ["s28CustomDebugStringConvertibleP", "forumsDS"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "indexPath"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "numForums"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "revealMenu"]
+- !private ["s28CustomDebugStringConvertibleP", "rightBarButtonItems"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "settingLauncher"]
+- !private ["s28CustomDebugStringConvertibleP", "setupNavBarButtons"]
+- !private ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "useForum"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "row"]
+- ["s23CustomStringConvertibleP", "BottomMenuBar"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", "Download"]
+- !private ["s23CustomStringConvertibleP", "ForumDataSource"]
+- !private ["s23CustomStringConvertibleP", "MenuButton"]
+- ["s23CustomStringConvertibleP", "SettingLauncher"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addConstraintsWithFormat"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "bottomMenuBar"]
+- !private ["s23CustomStringConvertibleP", "dataFromServer"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "downloadAssistant"]
+- !private ["s23CustomStringConvertibleP", "download_request"]
+- !private ["s23CustomStringConvertibleP", "forumAt"]
+- !private ["s23CustomStringConvertibleP", "forumForThisView"]
+- !private ["s23CustomStringConvertibleP", "forumsDS"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "indexPath"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "numForums"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "revealMenu"]
+- !private ["s23CustomStringConvertibleP", "rightBarButtonItems"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "settingLauncher"]
+- !private ["s23CustomStringConvertibleP", "setupNavBarButtons"]
+- !private ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "useForum"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "row"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["24UserLoginAndRegistration8DownloadC", "addObserver"]
+- !private ["24UserLoginAndRegistration8DownloadC", "dataFromServer"]
+- !private ["24UserLoginAndRegistration8DownloadC", "download_request"]
+- ["24UserLoginAndRegistration8DownloadC", "init"]
+- !private ["24UserLoginAndRegistration8DownloadC", "removeObserver"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "row"]
+- ["s9EquatableP", "BottomMenuBar"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- ["s9EquatableP", "Download"]
+- !private ["s9EquatableP", "ForumDataSource"]
+- !private ["s9EquatableP", "MenuButton"]
+- ["s9EquatableP", "SettingLauncher"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addConstraintsWithFormat"]
+- !private ["s9EquatableP", "addObserver"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "bottomMenuBar"]
+- !private ["s9EquatableP", "dataFromServer"]
+- !private ["s9EquatableP", "dequeueReusableCell"]
+- !private ["s9EquatableP", "destination"]
+- !private ["s9EquatableP", "downloadAssistant"]
+- !private ["s9EquatableP", "download_request"]
+- !private ["s9EquatableP", "forumAt"]
+- !private ["s9EquatableP", "forumForThisView"]
+- !private ["s9EquatableP", "forumsDS"]
+- !private ["s9EquatableP", "identifier"]
+- !private ["s9EquatableP", "indexPath"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "navigationItem"]
+- !private ["s9EquatableP", "numForums"]
+- !private ["s9EquatableP", "old"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "reloadData"]
+- !private ["s9EquatableP", "removeObserver"]
+- !private ["s9EquatableP", "revealMenu"]
+- !private ["s9EquatableP", "rightBarButtonItems"]
+- !private ["s9EquatableP", "row"]
+- !private ["s9EquatableP", "settingLauncher"]
+- !private ["s9EquatableP", "setupNavBarButtons"]
+- !private ["s9EquatableP", "tableView"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "useForum"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "old"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["24UserLoginAndRegistration15ForumDataSourceC", "forumAt"]
+- !private ["24UserLoginAndRegistration15ForumDataSourceC", "init"]
+- !private ["24UserLoginAndRegistration15ForumDataSourceC", "numForums"]
+- !private ["24UserLoginAndRegistration26ForumDetailsViewControllerC", "forumForThisView"]
+- !private ["24UserLoginAndRegistration18ForumTableViewCellC", "useForum"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "BottomMenuBar"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "CGFloat"]
+- !private ["24UserLoginAndRegistration24ForumTableViewControllerC", "DispatchQueue"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "Download"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "ForumDataSource"]
+- !private ["24UserLoginAndRegistration24ForumTableViewControllerC", "ForumDetailsViewController"]
+- !private ["24UserLoginAndRegistration24ForumTableViewControllerC", "ForumTableViewCell"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "IndexPath"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "Int"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "MenuButton"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "NSKeyValueChangeKey"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "SettingLauncher"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "String"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "UIBarButtonItem"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "UIStoryboardSegue"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "UITableView"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "UITableViewCell"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "UIView"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "UnsafeMutableRawPointer"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "bottomMenuBar"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "clickedMenuButton"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "deinit"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "downloadAssistant"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "forumsDS"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "init"]
+- !private ["24UserLoginAndRegistration24ForumTableViewControllerC", "navigationItem"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "nothingView"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "numberOfSections"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "observeValue"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "prepare"]
+- !private ["24UserLoginAndRegistration24ForumTableViewControllerC", "print"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "revealMenu"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "settingLauncher"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "setupBottomMenuBar"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "setupNavBarButtons"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "tableView"]
+- !private ["24UserLoginAndRegistration24ForumTableViewControllerC", "view"]
+- ["24UserLoginAndRegistration24ForumTableViewControllerC", "viewDidLoad"]
+- ["s8HashableP", "BottomMenuBar"]
+- !private ["s8HashableP", "DispatchQueue"]
+- ["s8HashableP", "Download"]
+- !private ["s8HashableP", "ForumDataSource"]
+- !private ["s8HashableP", "MenuButton"]
+- ["s8HashableP", "SettingLauncher"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addConstraintsWithFormat"]
+- !private ["s8HashableP", "addObserver"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "bottomMenuBar"]
+- !private ["s8HashableP", "dataFromServer"]
+- !private ["s8HashableP", "dequeueReusableCell"]
+- !private ["s8HashableP", "destination"]
+- !private ["s8HashableP", "downloadAssistant"]
+- !private ["s8HashableP", "download_request"]
+- !private ["s8HashableP", "forumAt"]
+- !private ["s8HashableP", "forumForThisView"]
+- !private ["s8HashableP", "forumsDS"]
+- !private ["s8HashableP", "identifier"]
+- !private ["s8HashableP", "indexPath"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "navigationItem"]
+- !private ["s8HashableP", "numForums"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "reloadData"]
+- !private ["s8HashableP", "removeObserver"]
+- !private ["s8HashableP", "revealMenu"]
+- !private ["s8HashableP", "rightBarButtonItems"]
+- !private ["s8HashableP", "row"]
+- !private ["s8HashableP", "settingLauncher"]
+- !private ["s8HashableP", "setupNavBarButtons"]
+- !private ["s8HashableP", "tableView"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "useForum"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "row"]
+- ["So8NSCodingP", "BottomMenuBar"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- ["So8NSCodingP", "Download"]
+- !private ["So8NSCodingP", "ForumDataSource"]
+- !private ["So8NSCodingP", "MenuButton"]
+- ["So8NSCodingP", "SettingLauncher"]
+- !private ["So8NSCodingP", "addConstraintsWithFormat"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "bottomMenuBar"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "downloadAssistant"]
+- !private ["So8NSCodingP", "forumForThisView"]
+- !private ["So8NSCodingP", "forumsDS"]
+- !private ["So8NSCodingP", "indexPath"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSCodingP", "revealMenu"]
+- !private ["So8NSCodingP", "rightBarButtonItems"]
+- !private ["So8NSCodingP", "settingLauncher"]
+- !private ["So8NSCodingP", "setupNavBarButtons"]
+- !private ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "useForum"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "BottomMenuBar"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- ["So26NSExtensionRequestHandlingP", "Download"]
+- !private ["So26NSExtensionRequestHandlingP", "ForumDataSource"]
+- !private ["So26NSExtensionRequestHandlingP", "MenuButton"]
+- ["So26NSExtensionRequestHandlingP", "SettingLauncher"]
+- !private ["So26NSExtensionRequestHandlingP", "bottomMenuBar"]
+- !private ["So26NSExtensionRequestHandlingP", "downloadAssistant"]
+- !private ["So26NSExtensionRequestHandlingP", "forumForThisView"]
+- !private ["So26NSExtensionRequestHandlingP", "forumsDS"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "revealMenu"]
+- !private ["So26NSExtensionRequestHandlingP", "settingLauncher"]
+- !private ["So26NSExtensionRequestHandlingP", "setupNavBarButtons"]
+- !private ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["SC26NSKeyValueObservingOptionsV", "old"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "BottomMenuBar"]
+- ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "Download"]
+- ["So8NSObjectC", "ForumDataSource"]
+- !private ["So8NSObjectC", "ForumDetailsViewController"]
+- !private ["So8NSObjectC", "ForumTableViewCell"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "MenuButton"]
+- ["So8NSObjectC", "NSKeyValueChangeKey"]
+- ["So8NSObjectC", "SettingLauncher"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIBarButtonItem"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "UITableViewCell"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "UnsafeMutableRawPointer"]
+- !private ["So8NSObjectC", "addConstraintsWithFormat"]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "bottomMenuBar"]
+- ["So8NSObjectC", "clickedMenuButton"]
+- !private ["So8NSObjectC", "dataFromServer"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- !private ["So8NSObjectC", "destination"]
+- ["So8NSObjectC", "downloadAssistant"]
+- !private ["So8NSObjectC", "download_request"]
+- !private ["So8NSObjectC", "forumAt"]
+- !private ["So8NSObjectC", "forumForThisView"]
+- ["So8NSObjectC", "forumsDS"]
+- !private ["So8NSObjectC", "identifier"]
+- !private ["So8NSObjectC", "indexPath"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "navigationItem"]
+- ["So8NSObjectC", "nothingView"]
+- !private ["So8NSObjectC", "numForums"]
+- ["So8NSObjectC", "numberOfSections"]
+- ["So8NSObjectC", "observeValue"]
+- ["So8NSObjectC", "prepare"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "reloadData"]
+- !private ["So8NSObjectC", "removeObserver"]
+- ["So8NSObjectC", "revealMenu"]
+- !private ["So8NSObjectC", "rightBarButtonItems"]
+- ["So8NSObjectC", "settingLauncher"]
+- ["So8NSObjectC", "setupBottomMenuBar"]
+- ["So8NSObjectC", "setupNavBarButtons"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "useForum"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So16NSObjectProtocolP", "BottomMenuBar"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- ["So16NSObjectProtocolP", "Download"]
+- !private ["So16NSObjectProtocolP", "ForumDataSource"]
+- !private ["So16NSObjectProtocolP", "MenuButton"]
+- ["So16NSObjectProtocolP", "SettingLauncher"]
+- !private ["So16NSObjectProtocolP", "addConstraintsWithFormat"]
+- !private ["So16NSObjectProtocolP", "addObserver"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "bottomMenuBar"]
+- !private ["So16NSObjectProtocolP", "dataFromServer"]
+- !private ["So16NSObjectProtocolP", "dequeueReusableCell"]
+- !private ["So16NSObjectProtocolP", "destination"]
+- !private ["So16NSObjectProtocolP", "downloadAssistant"]
+- !private ["So16NSObjectProtocolP", "download_request"]
+- !private ["So16NSObjectProtocolP", "forumAt"]
+- !private ["So16NSObjectProtocolP", "forumForThisView"]
+- !private ["So16NSObjectProtocolP", "forumsDS"]
+- !private ["So16NSObjectProtocolP", "identifier"]
+- !private ["So16NSObjectProtocolP", "indexPath"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "navigationItem"]
+- !private ["So16NSObjectProtocolP", "numForums"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "reloadData"]
+- !private ["So16NSObjectProtocolP", "removeObserver"]
+- !private ["So16NSObjectProtocolP", "revealMenu"]
+- !private ["So16NSObjectProtocolP", "rightBarButtonItems"]
+- !private ["So16NSObjectProtocolP", "settingLauncher"]
+- !private ["So16NSObjectProtocolP", "setupNavBarButtons"]
+- !private ["So16NSObjectProtocolP", "tableView"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "useForum"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s9OptionSetP", "old"]
+- !private ["s22RandomAccessCollectionP", "row"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "old"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "row"]
+- !private ["s10SetAlgebraP", "old"]
+- ["24UserLoginAndRegistration15SettingLauncherC", "init"]
+- !private ["24UserLoginAndRegistration15SettingLauncherC", "revealMenu"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addConstraintsWithFormat"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "indexPath"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So29UIAccessibilityIdentificationP", "useForum"]
+- !private ["So12UIAppearanceP", "addConstraintsWithFormat"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "indexPath"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So12UIAppearanceP", "useForum"]
+- ["So21UIAppearanceContainerP", "BottomMenuBar"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- ["So21UIAppearanceContainerP", "Download"]
+- !private ["So21UIAppearanceContainerP", "ForumDataSource"]
+- !private ["So21UIAppearanceContainerP", "MenuButton"]
+- ["So21UIAppearanceContainerP", "SettingLauncher"]
+- !private ["So21UIAppearanceContainerP", "addConstraintsWithFormat"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "bottomMenuBar"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "downloadAssistant"]
+- !private ["So21UIAppearanceContainerP", "forumForThisView"]
+- !private ["So21UIAppearanceContainerP", "forumsDS"]
+- !private ["So21UIAppearanceContainerP", "indexPath"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "revealMenu"]
+- !private ["So21UIAppearanceContainerP", "settingLauncher"]
+- !private ["So21UIAppearanceContainerP", "setupNavBarButtons"]
+- !private ["So21UIAppearanceContainerP", "tableView"]
+- !private ["So21UIAppearanceContainerP", "useForum"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So26UICollectionViewDataSourceP", "init"]
+- !private ["So26UICollectionViewDataSourceP", "revealMenu"]
+- ["So24UICollectionViewDelegateP", "init"]
+- !private ["So24UICollectionViewDelegateP", "revealMenu"]
+- ["So34UICollectionViewDelegateFlowLayoutP", "init"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "revealMenu"]
+- ["So18UIContentContainerP", "BottomMenuBar"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- ["So18UIContentContainerP", "Download"]
+- !private ["So18UIContentContainerP", "ForumDataSource"]
+- !private ["So18UIContentContainerP", "MenuButton"]
+- ["So18UIContentContainerP", "SettingLauncher"]
+- !private ["So18UIContentContainerP", "bottomMenuBar"]
+- !private ["So18UIContentContainerP", "downloadAssistant"]
+- !private ["So18UIContentContainerP", "forumForThisView"]
+- !private ["So18UIContentContainerP", "forumsDS"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "revealMenu"]
+- !private ["So18UIContentContainerP", "settingLauncher"]
+- !private ["So18UIContentContainerP", "setupNavBarButtons"]
+- !private ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "addConstraintsWithFormat"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "indexPath"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So17UICoordinateSpaceP", "useForum"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "indexPath"]
+- !private ["So23UIDataSourceTranslatingP", "reloadData"]
+- !private ["So13UIDynamicItemP", "addConstraintsWithFormat"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "indexPath"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So13UIDynamicItemP", "useForum"]
+- ["So18UIFocusEnvironmentP", "BottomMenuBar"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- ["So18UIFocusEnvironmentP", "Download"]
+- !private ["So18UIFocusEnvironmentP", "ForumDataSource"]
+- !private ["So18UIFocusEnvironmentP", "MenuButton"]
+- ["So18UIFocusEnvironmentP", "SettingLauncher"]
+- !private ["So18UIFocusEnvironmentP", "addConstraintsWithFormat"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "bottomMenuBar"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "downloadAssistant"]
+- !private ["So18UIFocusEnvironmentP", "forumForThisView"]
+- !private ["So18UIFocusEnvironmentP", "forumsDS"]
+- !private ["So18UIFocusEnvironmentP", "indexPath"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "revealMenu"]
+- !private ["So18UIFocusEnvironmentP", "settingLauncher"]
+- !private ["So18UIFocusEnvironmentP", "setupNavBarButtons"]
+- !private ["So18UIFocusEnvironmentP", "tableView"]
+- !private ["So18UIFocusEnvironmentP", "useForum"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "addConstraintsWithFormat"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "indexPath"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So11UIFocusItemP", "useForum"]
+- !private ["So27UIGestureRecognizerDelegateP", "useForum"]
+- !private ["So16UINavigationItemC", "rightBarButtonItems"]
+- !private ["So16UINavigationItemC", "title"]
+- ["So30UIPasteConfigurationSupportingP", "BottomMenuBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- ["So30UIPasteConfigurationSupportingP", "Download"]
+- !private ["So30UIPasteConfigurationSupportingP", "ForumDataSource"]
+- !private ["So30UIPasteConfigurationSupportingP", "MenuButton"]
+- ["So30UIPasteConfigurationSupportingP", "SettingLauncher"]
+- !private ["So30UIPasteConfigurationSupportingP", "addConstraintsWithFormat"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "bottomMenuBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "downloadAssistant"]
+- !private ["So30UIPasteConfigurationSupportingP", "forumForThisView"]
+- !private ["So30UIPasteConfigurationSupportingP", "forumsDS"]
+- !private ["So30UIPasteConfigurationSupportingP", "indexPath"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "revealMenu"]
+- !private ["So30UIPasteConfigurationSupportingP", "settingLauncher"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupNavBarButtons"]
+- !private ["So30UIPasteConfigurationSupportingP", "tableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "useForum"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "BottomMenuBar"]
+- ["So11UIResponderC", "CGFloat"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- ["So11UIResponderC", "Download"]
+- ["So11UIResponderC", "ForumDataSource"]
+- !private ["So11UIResponderC", "ForumDetailsViewController"]
+- !private ["So11UIResponderC", "ForumTableViewCell"]
+- ["So11UIResponderC", "IndexPath"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "MenuButton"]
+- ["So11UIResponderC", "NSKeyValueChangeKey"]
+- ["So11UIResponderC", "SettingLauncher"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIBarButtonItem"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- ["So11UIResponderC", "UITableView"]
+- ["So11UIResponderC", "UITableViewCell"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "UnsafeMutableRawPointer"]
+- !private ["So11UIResponderC", "addConstraintsWithFormat"]
+- !private ["So11UIResponderC", "addSubview"]
+- ["So11UIResponderC", "bottomMenuBar"]
+- ["So11UIResponderC", "clickedMenuButton"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- ["So11UIResponderC", "downloadAssistant"]
+- !private ["So11UIResponderC", "forumForThisView"]
+- ["So11UIResponderC", "forumsDS"]
+- !private ["So11UIResponderC", "indexPath"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "navigationItem"]
+- ["So11UIResponderC", "nothingView"]
+- ["So11UIResponderC", "numberOfSections"]
+- ["So11UIResponderC", "observeValue"]
+- ["So11UIResponderC", "prepare"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "reloadData"]
+- ["So11UIResponderC", "revealMenu"]
+- ["So11UIResponderC", "settingLauncher"]
+- ["So11UIResponderC", "setupBottomMenuBar"]
+- ["So11UIResponderC", "setupNavBarButtons"]
+- ["So11UIResponderC", "tableView"]
+- !private ["So11UIResponderC", "useForum"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "BottomMenuBar"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- ["So30UIResponderStandardEditActionsP", "Download"]
+- !private ["So30UIResponderStandardEditActionsP", "ForumDataSource"]
+- !private ["So30UIResponderStandardEditActionsP", "MenuButton"]
+- ["So30UIResponderStandardEditActionsP", "SettingLauncher"]
+- !private ["So30UIResponderStandardEditActionsP", "addConstraintsWithFormat"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "bottomMenuBar"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "downloadAssistant"]
+- !private ["So30UIResponderStandardEditActionsP", "forumForThisView"]
+- !private ["So30UIResponderStandardEditActionsP", "forumsDS"]
+- !private ["So30UIResponderStandardEditActionsP", "indexPath"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadData"]
+- !private ["So30UIResponderStandardEditActionsP", "revealMenu"]
+- !private ["So30UIResponderStandardEditActionsP", "settingLauncher"]
+- !private ["So30UIResponderStandardEditActionsP", "setupNavBarButtons"]
+- !private ["So30UIResponderStandardEditActionsP", "tableView"]
+- !private ["So30UIResponderStandardEditActionsP", "useForum"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "indexPath"]
+- !private ["So12UIScrollViewC", "reloadData"]
+- ["So20UIScrollViewDelegateP", "BottomMenuBar"]
+- !private ["So20UIScrollViewDelegateP", "DispatchQueue"]
+- ["So20UIScrollViewDelegateP", "Download"]
+- !private ["So20UIScrollViewDelegateP", "ForumDataSource"]
+- !private ["So20UIScrollViewDelegateP", "MenuButton"]
+- ["So20UIScrollViewDelegateP", "SettingLauncher"]
+- !private ["So20UIScrollViewDelegateP", "bottomMenuBar"]
+- !private ["So20UIScrollViewDelegateP", "downloadAssistant"]
+- !private ["So20UIScrollViewDelegateP", "forumsDS"]
+- ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "navigationItem"]
+- !private ["So20UIScrollViewDelegateP", "print"]
+- !private ["So20UIScrollViewDelegateP", "revealMenu"]
+- !private ["So20UIScrollViewDelegateP", "settingLauncher"]
+- !private ["So20UIScrollViewDelegateP", "setupNavBarButtons"]
+- !private ["So20UIScrollViewDelegateP", "tableView"]
+- !private ["So20UIScrollViewDelegateP", "view"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "indexPath"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
+- ["So16UIStateRestoringP", "BottomMenuBar"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- ["So16UIStateRestoringP", "Download"]
+- !private ["So16UIStateRestoringP", "ForumDataSource"]
+- !private ["So16UIStateRestoringP", "MenuButton"]
+- ["So16UIStateRestoringP", "SettingLauncher"]
+- !private ["So16UIStateRestoringP", "bottomMenuBar"]
+- !private ["So16UIStateRestoringP", "downloadAssistant"]
+- !private ["So16UIStateRestoringP", "forumForThisView"]
+- !private ["So16UIStateRestoringP", "forumsDS"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "revealMenu"]
+- !private ["So16UIStateRestoringP", "settingLauncher"]
+- !private ["So16UIStateRestoringP", "setupNavBarButtons"]
+- !private ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So17UIStoryboardSegueC", "identifier"]
+- !private ["So11UITableViewC", "dequeueReusableCell"]
+- !private ["So11UITableViewC", "indexPath"]
+- !private ["So11UITableViewC", "reloadData"]
+- !private ["So15UITableViewCellC", "useForum"]
+- ["So21UITableViewControllerC", "BottomMenuBar"]
+- ["So21UITableViewControllerC", "CGFloat"]
+- !private ["So21UITableViewControllerC", "DispatchQueue"]
+- ["So21UITableViewControllerC", "Download"]
+- ["So21UITableViewControllerC", "ForumDataSource"]
+- !private ["So21UITableViewControllerC", "ForumDetailsViewController"]
+- !private ["So21UITableViewControllerC", "ForumTableViewCell"]
+- ["So21UITableViewControllerC", "IndexPath"]
+- ["So21UITableViewControllerC", "Int"]
+- ["So21UITableViewControllerC", "MenuButton"]
+- ["So21UITableViewControllerC", "NSKeyValueChangeKey"]
+- ["So21UITableViewControllerC", "SettingLauncher"]
+- ["So21UITableViewControllerC", "String"]
+- ["So21UITableViewControllerC", "UIBarButtonItem"]
+- ["So21UITableViewControllerC", "UIStoryboardSegue"]
+- ["So21UITableViewControllerC", "UITableView"]
+- ["So21UITableViewControllerC", "UITableViewCell"]
+- ["So21UITableViewControllerC", "UIView"]
+- ["So21UITableViewControllerC", "UnsafeMutableRawPointer"]
+- ["So21UITableViewControllerC", "bottomMenuBar"]
+- ["So21UITableViewControllerC", "clickedMenuButton"]
+- ["So21UITableViewControllerC", "downloadAssistant"]
+- ["So21UITableViewControllerC", "forumsDS"]
+- ["So21UITableViewControllerC", "init"]
+- !private ["So21UITableViewControllerC", "navigationItem"]
+- ["So21UITableViewControllerC", "nothingView"]
+- ["So21UITableViewControllerC", "numberOfSections"]
+- ["So21UITableViewControllerC", "observeValue"]
+- ["So21UITableViewControllerC", "prepare"]
+- !private ["So21UITableViewControllerC", "print"]
+- ["So21UITableViewControllerC", "revealMenu"]
+- ["So21UITableViewControllerC", "settingLauncher"]
+- ["So21UITableViewControllerC", "setupBottomMenuBar"]
+- ["So21UITableViewControllerC", "setupNavBarButtons"]
+- ["So21UITableViewControllerC", "tableView"]
+- !private ["So21UITableViewControllerC", "view"]
+- ["So21UITableViewControllerC", "viewDidLoad"]
+- ["So21UITableViewControllerC", ""]
+- ["So21UITableViewDataSourceP", "BottomMenuBar"]
+- !private ["So21UITableViewDataSourceP", "DispatchQueue"]
+- ["So21UITableViewDataSourceP", "Download"]
+- !private ["So21UITableViewDataSourceP", "ForumDataSource"]
+- !private ["So21UITableViewDataSourceP", "MenuButton"]
+- ["So21UITableViewDataSourceP", "SettingLauncher"]
+- !private ["So21UITableViewDataSourceP", "bottomMenuBar"]
+- !private ["So21UITableViewDataSourceP", "downloadAssistant"]
+- !private ["So21UITableViewDataSourceP", "forumsDS"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "navigationItem"]
+- !private ["So21UITableViewDataSourceP", "print"]
+- !private ["So21UITableViewDataSourceP", "revealMenu"]
+- !private ["So21UITableViewDataSourceP", "settingLauncher"]
+- !private ["So21UITableViewDataSourceP", "setupNavBarButtons"]
+- !private ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So21UITableViewDataSourceP", "view"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", ""]
+- ["So19UITableViewDelegateP", "BottomMenuBar"]
+- !private ["So19UITableViewDelegateP", "DispatchQueue"]
+- ["So19UITableViewDelegateP", "Download"]
+- !private ["So19UITableViewDelegateP", "ForumDataSource"]
+- !private ["So19UITableViewDelegateP", "MenuButton"]
+- ["So19UITableViewDelegateP", "SettingLauncher"]
+- !private ["So19UITableViewDelegateP", "bottomMenuBar"]
+- !private ["So19UITableViewDelegateP", "downloadAssistant"]
+- !private ["So19UITableViewDelegateP", "forumsDS"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "navigationItem"]
+- !private ["So19UITableViewDelegateP", "print"]
+- !private ["So19UITableViewDelegateP", "revealMenu"]
+- !private ["So19UITableViewDelegateP", "settingLauncher"]
+- !private ["So19UITableViewDelegateP", "setupNavBarButtons"]
+- !private ["So19UITableViewDelegateP", "tableView"]
+- !private ["So19UITableViewDelegateP", "view"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", ""]
+- ["So18UITraitEnvironmentP", "BottomMenuBar"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- ["So18UITraitEnvironmentP", "Download"]
+- !private ["So18UITraitEnvironmentP", "ForumDataSource"]
+- !private ["So18UITraitEnvironmentP", "MenuButton"]
+- ["So18UITraitEnvironmentP", "SettingLauncher"]
+- !private ["So18UITraitEnvironmentP", "addConstraintsWithFormat"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "bottomMenuBar"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "downloadAssistant"]
+- !private ["So18UITraitEnvironmentP", "forumForThisView"]
+- !private ["So18UITraitEnvironmentP", "forumsDS"]
+- !private ["So18UITraitEnvironmentP", "indexPath"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "reloadData"]
+- !private ["So18UITraitEnvironmentP", "revealMenu"]
+- !private ["So18UITraitEnvironmentP", "settingLauncher"]
+- !private ["So18UITraitEnvironmentP", "setupNavBarButtons"]
+- !private ["So18UITraitEnvironmentP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "useForum"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "addConstraintsWithFormat"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "indexPath"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "reloadData"]
+- !private ["So6UIViewC", "useForum"]
+- ["So16UIViewControllerC", "BottomMenuBar"]
+- ["So16UIViewControllerC", "CGFloat"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- ["So16UIViewControllerC", "Download"]
+- ["So16UIViewControllerC", "ForumDataSource"]
+- !private ["So16UIViewControllerC", "ForumDetailsViewController"]
+- !private ["So16UIViewControllerC", "ForumTableViewCell"]
+- ["So16UIViewControllerC", "IndexPath"]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "MenuButton"]
+- ["So16UIViewControllerC", "NSKeyValueChangeKey"]
+- ["So16UIViewControllerC", "SettingLauncher"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIBarButtonItem"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- ["So16UIViewControllerC", "UITableView"]
+- ["So16UIViewControllerC", "UITableViewCell"]
+- ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", "UnsafeMutableRawPointer"]
+- ["So16UIViewControllerC", "bottomMenuBar"]
+- ["So16UIViewControllerC", "clickedMenuButton"]
+- ["So16UIViewControllerC", "downloadAssistant"]
+- !private ["So16UIViewControllerC", "forumForThisView"]
+- ["So16UIViewControllerC", "forumsDS"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- ["So16UIViewControllerC", "nothingView"]
+- ["So16UIViewControllerC", "numberOfSections"]
+- ["So16UIViewControllerC", "observeValue"]
+- ["So16UIViewControllerC", "prepare"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "revealMenu"]
+- ["So16UIViewControllerC", "settingLauncher"]
+- ["So16UIViewControllerC", "setupBottomMenuBar"]
+- ["So16UIViewControllerC", "setupNavBarButtons"]
+- ["So16UIViewControllerC", "tableView"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "row"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addConstraintsWithFormat"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indexPath"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "useForum"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "row"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "row"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "BottomMenuBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Download"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ForumDataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MenuButton"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SettingLauncher"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addConstraintsWithFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bottomMenuBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataFromServer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadAssistant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "download_request"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "forumAt"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "forumForThisView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "forumsDS"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indexPath"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numForums"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "revealMenu"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightBarButtonItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "settingLauncher"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupNavBarButtons"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "useForum"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s22_RandomAccessIndexableP", "row"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "24UserLoginAndRegistration13BottomMenuBarC"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- "24UserLoginAndRegistration8DownloadC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "24UserLoginAndRegistration15ForumDataSourceC"
+- !private "24UserLoginAndRegistration26ForumDetailsViewControllerC"
+- !private "24UserLoginAndRegistration18ForumTableViewCellC"
+- "24UserLoginAndRegistration24ForumTableViewControllerC"
+- "s8HashableP"
+- !private "10Foundation9IndexPathV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- !private "SC26NSKeyValueObservingOptionsV"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- "24UserLoginAndRegistration15SettingLauncherC"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So26UICollectionViewDataSourceP"
+- "So24UICollectionViewDelegateP"
+- "So34UICollectionViewDelegateFlowLayoutP"
+- "So18UIContentContainerP"
+- "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So17UIStoryboardSegueC"
+- !private "So11UITableViewC"
+- !private "So15UITableViewCellC"
+- "So21UITableViewControllerC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- "s23_BidirectionalIndexableP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/UserLoginAndRegistration-Bridging-Header.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/SWRevealViewController.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+interface-hash: "7013488a23c367e65d786960da8a3d72"

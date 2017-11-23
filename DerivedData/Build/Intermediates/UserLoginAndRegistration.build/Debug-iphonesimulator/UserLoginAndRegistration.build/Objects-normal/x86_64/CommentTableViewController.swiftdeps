@@ -1,0 +1,852 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CommentTableViewController"
+provides-nominal:
+- "24UserLoginAndRegistration26CommentTableViewControllerC"
+provides-member:
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", ""]
+provides-dynamic-lookup:
+- "MenuButton"
+- "MenuButtonClicked"
+- "numberOfSections"
+- "observeValue"
+- "tableView"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "CommentDataSource"
+- !private "CommentTableViewCell"
+- "CommentTableViewController"
+- !private "DispatchQueue"
+- "DownloadComments"
+- "IndexPath"
+- "Int"
+- "NSKeyValueChangeKey"
+- "SettingLauncher"
+- "String"
+- "StringLiteralType"
+- "UIBarButtonItem"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewController"
+- "UnsafeMutableRawPointer"
+- !private "print"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "row"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["So15CALayerDelegateP", "useComment"]
+- !private ["s7CVarArgP", "CommentDataSource"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", "DownloadComments"]
+- ["s7CVarArgP", "SettingLauncher"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "commentAt"]
+- !private ["s7CVarArgP", "commentsDS"]
+- !private ["s7CVarArgP", "dataFromServer"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "downloadAssistant"]
+- !private ["s7CVarArgP", "download_request"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "numComments"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "reloadData"]
+- !private ["s7CVarArgP", "removeObserver"]
+- !private ["s7CVarArgP", "revealMenu"]
+- !private ["s7CVarArgP", "settingLauncher"]
+- !private ["s7CVarArgP", "tableView"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "useComment"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "row"]
+- !private ["24UserLoginAndRegistration17CommentDataSourceC", "commentAt"]
+- !private ["24UserLoginAndRegistration17CommentDataSourceC", "init"]
+- !private ["24UserLoginAndRegistration17CommentDataSourceC", "numComments"]
+- !private ["24UserLoginAndRegistration20CommentTableViewCellC", "useComment"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "CommentDataSource"]
+- !private ["24UserLoginAndRegistration26CommentTableViewControllerC", "CommentTableViewCell"]
+- !private ["24UserLoginAndRegistration26CommentTableViewControllerC", "DispatchQueue"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "DownloadComments"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "IndexPath"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "Int"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "MenuButton"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "MenuButtonClicked"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "NSKeyValueChangeKey"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "SettingLauncher"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "String"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "UIBarButtonItem"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "UITableView"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "UITableViewCell"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "UnsafeMutableRawPointer"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "commentsDS"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "deinit"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "downloadAssistant"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "init"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "numberOfSections"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "observeValue"]
+- !private ["24UserLoginAndRegistration26CommentTableViewControllerC", "print"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "revealMenu"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "settingLauncher"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "tableView"]
+- !private ["24UserLoginAndRegistration26CommentTableViewControllerC", "title"]
+- ["24UserLoginAndRegistration26CommentTableViewControllerC", "viewDidLoad"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "CommentDataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", "DownloadComments"]
+- ["s28CustomDebugStringConvertibleP", "SettingLauncher"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "commentAt"]
+- !private ["s28CustomDebugStringConvertibleP", "commentsDS"]
+- !private ["s28CustomDebugStringConvertibleP", "dataFromServer"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadAssistant"]
+- !private ["s28CustomDebugStringConvertibleP", "download_request"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "numComments"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "revealMenu"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "settingLauncher"]
+- !private ["s28CustomDebugStringConvertibleP", "tableView"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "useComment"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s23CustomStringConvertibleP", "CommentDataSource"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", "DownloadComments"]
+- ["s23CustomStringConvertibleP", "SettingLauncher"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "commentAt"]
+- !private ["s23CustomStringConvertibleP", "commentsDS"]
+- !private ["s23CustomStringConvertibleP", "dataFromServer"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "downloadAssistant"]
+- !private ["s23CustomStringConvertibleP", "download_request"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "numComments"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "revealMenu"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "settingLauncher"]
+- !private ["s23CustomStringConvertibleP", "tableView"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "useComment"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "row"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["24UserLoginAndRegistration16DownloadCommentsC", "addObserver"]
+- !private ["24UserLoginAndRegistration16DownloadCommentsC", "dataFromServer"]
+- !private ["24UserLoginAndRegistration16DownloadCommentsC", "download_request"]
+- ["24UserLoginAndRegistration16DownloadCommentsC", "init"]
+- !private ["24UserLoginAndRegistration16DownloadCommentsC", "removeObserver"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "row"]
+- !private ["s9EquatableP", "CommentDataSource"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- ["s9EquatableP", "DownloadComments"]
+- ["s9EquatableP", "SettingLauncher"]
+- !private ["s9EquatableP", "addObserver"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "commentAt"]
+- !private ["s9EquatableP", "commentsDS"]
+- !private ["s9EquatableP", "dataFromServer"]
+- !private ["s9EquatableP", "dequeueReusableCell"]
+- !private ["s9EquatableP", "downloadAssistant"]
+- !private ["s9EquatableP", "download_request"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "numComments"]
+- !private ["s9EquatableP", "old"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "reloadData"]
+- !private ["s9EquatableP", "removeObserver"]
+- !private ["s9EquatableP", "revealMenu"]
+- !private ["s9EquatableP", "row"]
+- !private ["s9EquatableP", "settingLauncher"]
+- !private ["s9EquatableP", "tableView"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "useComment"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "old"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CommentDataSource"]
+- !private ["s8HashableP", "DispatchQueue"]
+- ["s8HashableP", "DownloadComments"]
+- ["s8HashableP", "SettingLauncher"]
+- !private ["s8HashableP", "addObserver"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "commentAt"]
+- !private ["s8HashableP", "commentsDS"]
+- !private ["s8HashableP", "dataFromServer"]
+- !private ["s8HashableP", "dequeueReusableCell"]
+- !private ["s8HashableP", "downloadAssistant"]
+- !private ["s8HashableP", "download_request"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "numComments"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "reloadData"]
+- !private ["s8HashableP", "removeObserver"]
+- !private ["s8HashableP", "revealMenu"]
+- !private ["s8HashableP", "row"]
+- !private ["s8HashableP", "settingLauncher"]
+- !private ["s8HashableP", "tableView"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "useComment"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["10Foundation9IndexPathV", "row"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "row"]
+- !private ["So8NSCodingP", "CommentDataSource"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- ["So8NSCodingP", "DownloadComments"]
+- ["So8NSCodingP", "SettingLauncher"]
+- !private ["So8NSCodingP", "commentsDS"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "downloadAssistant"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSCodingP", "revealMenu"]
+- !private ["So8NSCodingP", "settingLauncher"]
+- !private ["So8NSCodingP", "tableView"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "useComment"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "CommentDataSource"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- ["So26NSExtensionRequestHandlingP", "DownloadComments"]
+- ["So26NSExtensionRequestHandlingP", "SettingLauncher"]
+- !private ["So26NSExtensionRequestHandlingP", "commentsDS"]
+- !private ["So26NSExtensionRequestHandlingP", "downloadAssistant"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "revealMenu"]
+- !private ["So26NSExtensionRequestHandlingP", "settingLauncher"]
+- !private ["So26NSExtensionRequestHandlingP", "tableView"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["SC26NSKeyValueObservingOptionsV", "old"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "CommentDataSource"]
+- !private ["So8NSObjectC", "CommentTableViewCell"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "DownloadComments"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "MenuButton"]
+- ["So8NSObjectC", "MenuButtonClicked"]
+- ["So8NSObjectC", "NSKeyValueChangeKey"]
+- ["So8NSObjectC", "SettingLauncher"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIBarButtonItem"]
+- ["So8NSObjectC", "UITableView"]
+- ["So8NSObjectC", "UITableViewCell"]
+- ["So8NSObjectC", "UnsafeMutableRawPointer"]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "commentAt"]
+- ["So8NSObjectC", "commentsDS"]
+- !private ["So8NSObjectC", "dataFromServer"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- ["So8NSObjectC", "downloadAssistant"]
+- !private ["So8NSObjectC", "download_request"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "numComments"]
+- ["So8NSObjectC", "numberOfSections"]
+- ["So8NSObjectC", "observeValue"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "reloadData"]
+- !private ["So8NSObjectC", "removeObserver"]
+- ["So8NSObjectC", "revealMenu"]
+- ["So8NSObjectC", "settingLauncher"]
+- ["So8NSObjectC", "tableView"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "useComment"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "CommentDataSource"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- ["So16NSObjectProtocolP", "DownloadComments"]
+- ["So16NSObjectProtocolP", "SettingLauncher"]
+- !private ["So16NSObjectProtocolP", "addObserver"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "commentAt"]
+- !private ["So16NSObjectProtocolP", "commentsDS"]
+- !private ["So16NSObjectProtocolP", "dataFromServer"]
+- !private ["So16NSObjectProtocolP", "dequeueReusableCell"]
+- !private ["So16NSObjectProtocolP", "downloadAssistant"]
+- !private ["So16NSObjectProtocolP", "download_request"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "numComments"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "reloadData"]
+- !private ["So16NSObjectProtocolP", "removeObserver"]
+- !private ["So16NSObjectProtocolP", "revealMenu"]
+- !private ["So16NSObjectProtocolP", "settingLauncher"]
+- !private ["So16NSObjectProtocolP", "tableView"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "useComment"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s9OptionSetP", "old"]
+- !private ["s22RandomAccessCollectionP", "row"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "old"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "row"]
+- !private ["s10SetAlgebraP", "old"]
+- ["24UserLoginAndRegistration15SettingLauncherC", "init"]
+- !private ["24UserLoginAndRegistration15SettingLauncherC", "revealMenu"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So29UIAccessibilityIdentificationP", "useComment"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So12UIAppearanceP", "useComment"]
+- !private ["So21UIAppearanceContainerP", "CommentDataSource"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- ["So21UIAppearanceContainerP", "DownloadComments"]
+- ["So21UIAppearanceContainerP", "SettingLauncher"]
+- !private ["So21UIAppearanceContainerP", "commentsDS"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "downloadAssistant"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "revealMenu"]
+- !private ["So21UIAppearanceContainerP", "settingLauncher"]
+- !private ["So21UIAppearanceContainerP", "tableView"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- !private ["So21UIAppearanceContainerP", "useComment"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So26UICollectionViewDataSourceP", "init"]
+- !private ["So26UICollectionViewDataSourceP", "revealMenu"]
+- ["So24UICollectionViewDelegateP", "init"]
+- !private ["So24UICollectionViewDelegateP", "revealMenu"]
+- ["So34UICollectionViewDelegateFlowLayoutP", "init"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "revealMenu"]
+- !private ["So18UIContentContainerP", "CommentDataSource"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- ["So18UIContentContainerP", "DownloadComments"]
+- ["So18UIContentContainerP", "SettingLauncher"]
+- !private ["So18UIContentContainerP", "commentsDS"]
+- !private ["So18UIContentContainerP", "downloadAssistant"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "revealMenu"]
+- !private ["So18UIContentContainerP", "settingLauncher"]
+- !private ["So18UIContentContainerP", "tableView"]
+- !private ["So18UIContentContainerP", "title"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So17UICoordinateSpaceP", "useComment"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "reloadData"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So13UIDynamicItemP", "useComment"]
+- !private ["So18UIFocusEnvironmentP", "CommentDataSource"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- ["So18UIFocusEnvironmentP", "DownloadComments"]
+- ["So18UIFocusEnvironmentP", "SettingLauncher"]
+- !private ["So18UIFocusEnvironmentP", "commentsDS"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "downloadAssistant"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "revealMenu"]
+- !private ["So18UIFocusEnvironmentP", "settingLauncher"]
+- !private ["So18UIFocusEnvironmentP", "tableView"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- !private ["So18UIFocusEnvironmentP", "useComment"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So11UIFocusItemP", "useComment"]
+- !private ["So27UIGestureRecognizerDelegateP", "useComment"]
+- !private ["So30UIPasteConfigurationSupportingP", "CommentDataSource"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- ["So30UIPasteConfigurationSupportingP", "DownloadComments"]
+- ["So30UIPasteConfigurationSupportingP", "SettingLauncher"]
+- !private ["So30UIPasteConfigurationSupportingP", "commentsDS"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "downloadAssistant"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "revealMenu"]
+- !private ["So30UIPasteConfigurationSupportingP", "settingLauncher"]
+- !private ["So30UIPasteConfigurationSupportingP", "tableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "useComment"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "CommentDataSource"]
+- !private ["So11UIResponderC", "CommentTableViewCell"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- ["So11UIResponderC", "DownloadComments"]
+- ["So11UIResponderC", "IndexPath"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "MenuButton"]
+- ["So11UIResponderC", "MenuButtonClicked"]
+- ["So11UIResponderC", "NSKeyValueChangeKey"]
+- ["So11UIResponderC", "SettingLauncher"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIBarButtonItem"]
+- ["So11UIResponderC", "UITableView"]
+- ["So11UIResponderC", "UITableViewCell"]
+- ["So11UIResponderC", "UnsafeMutableRawPointer"]
+- ["So11UIResponderC", "commentsDS"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- ["So11UIResponderC", "downloadAssistant"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "numberOfSections"]
+- ["So11UIResponderC", "observeValue"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "reloadData"]
+- ["So11UIResponderC", "revealMenu"]
+- ["So11UIResponderC", "settingLauncher"]
+- ["So11UIResponderC", "tableView"]
+- !private ["So11UIResponderC", "title"]
+- !private ["So11UIResponderC", "useComment"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CommentDataSource"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- ["So30UIResponderStandardEditActionsP", "DownloadComments"]
+- ["So30UIResponderStandardEditActionsP", "SettingLauncher"]
+- !private ["So30UIResponderStandardEditActionsP", "commentsDS"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "downloadAssistant"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadData"]
+- !private ["So30UIResponderStandardEditActionsP", "revealMenu"]
+- !private ["So30UIResponderStandardEditActionsP", "settingLauncher"]
+- !private ["So30UIResponderStandardEditActionsP", "tableView"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "useComment"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "reloadData"]
+- !private ["So20UIScrollViewDelegateP", "CommentDataSource"]
+- !private ["So20UIScrollViewDelegateP", "DispatchQueue"]
+- ["So20UIScrollViewDelegateP", "DownloadComments"]
+- ["So20UIScrollViewDelegateP", "SettingLauncher"]
+- !private ["So20UIScrollViewDelegateP", "commentsDS"]
+- !private ["So20UIScrollViewDelegateP", "downloadAssistant"]
+- ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "print"]
+- !private ["So20UIScrollViewDelegateP", "revealMenu"]
+- !private ["So20UIScrollViewDelegateP", "settingLauncher"]
+- !private ["So20UIScrollViewDelegateP", "tableView"]
+- !private ["So20UIScrollViewDelegateP", "title"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
+- !private ["So16UIStateRestoringP", "CommentDataSource"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- ["So16UIStateRestoringP", "DownloadComments"]
+- ["So16UIStateRestoringP", "SettingLauncher"]
+- !private ["So16UIStateRestoringP", "commentsDS"]
+- !private ["So16UIStateRestoringP", "downloadAssistant"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "revealMenu"]
+- !private ["So16UIStateRestoringP", "settingLauncher"]
+- !private ["So16UIStateRestoringP", "tableView"]
+- !private ["So16UIStateRestoringP", "title"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So11UITableViewC", "dequeueReusableCell"]
+- !private ["So11UITableViewC", "reloadData"]
+- !private ["So15UITableViewCellC", "useComment"]
+- ["So21UITableViewControllerC", "CommentDataSource"]
+- !private ["So21UITableViewControllerC", "CommentTableViewCell"]
+- !private ["So21UITableViewControllerC", "DispatchQueue"]
+- ["So21UITableViewControllerC", "DownloadComments"]
+- ["So21UITableViewControllerC", "IndexPath"]
+- ["So21UITableViewControllerC", "Int"]
+- ["So21UITableViewControllerC", "MenuButton"]
+- ["So21UITableViewControllerC", "MenuButtonClicked"]
+- ["So21UITableViewControllerC", "NSKeyValueChangeKey"]
+- ["So21UITableViewControllerC", "SettingLauncher"]
+- ["So21UITableViewControllerC", "String"]
+- ["So21UITableViewControllerC", "UIBarButtonItem"]
+- ["So21UITableViewControllerC", "UITableView"]
+- ["So21UITableViewControllerC", "UITableViewCell"]
+- ["So21UITableViewControllerC", "UnsafeMutableRawPointer"]
+- ["So21UITableViewControllerC", "commentsDS"]
+- ["So21UITableViewControllerC", "downloadAssistant"]
+- ["So21UITableViewControllerC", "init"]
+- ["So21UITableViewControllerC", "numberOfSections"]
+- ["So21UITableViewControllerC", "observeValue"]
+- !private ["So21UITableViewControllerC", "print"]
+- ["So21UITableViewControllerC", "revealMenu"]
+- ["So21UITableViewControllerC", "settingLauncher"]
+- ["So21UITableViewControllerC", "tableView"]
+- !private ["So21UITableViewControllerC", "title"]
+- ["So21UITableViewControllerC", "viewDidLoad"]
+- ["So21UITableViewControllerC", ""]
+- !private ["So21UITableViewDataSourceP", "CommentDataSource"]
+- !private ["So21UITableViewDataSourceP", "DispatchQueue"]
+- ["So21UITableViewDataSourceP", "DownloadComments"]
+- ["So21UITableViewDataSourceP", "SettingLauncher"]
+- !private ["So21UITableViewDataSourceP", "commentsDS"]
+- !private ["So21UITableViewDataSourceP", "downloadAssistant"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So21UITableViewDataSourceP", "print"]
+- !private ["So21UITableViewDataSourceP", "revealMenu"]
+- !private ["So21UITableViewDataSourceP", "settingLauncher"]
+- !private ["So21UITableViewDataSourceP", "tableView"]
+- !private ["So21UITableViewDataSourceP", "title"]
+- !private ["So21UITableViewDataSourceP", "viewDidLoad"]
+- ["So21UITableViewDataSourceP", ""]
+- !private ["So19UITableViewDelegateP", "CommentDataSource"]
+- !private ["So19UITableViewDelegateP", "DispatchQueue"]
+- ["So19UITableViewDelegateP", "DownloadComments"]
+- ["So19UITableViewDelegateP", "SettingLauncher"]
+- !private ["So19UITableViewDelegateP", "commentsDS"]
+- !private ["So19UITableViewDelegateP", "downloadAssistant"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITableViewDelegateP", "print"]
+- !private ["So19UITableViewDelegateP", "revealMenu"]
+- !private ["So19UITableViewDelegateP", "settingLauncher"]
+- !private ["So19UITableViewDelegateP", "tableView"]
+- !private ["So19UITableViewDelegateP", "title"]
+- !private ["So19UITableViewDelegateP", "viewDidLoad"]
+- ["So19UITableViewDelegateP", ""]
+- !private ["So18UITraitEnvironmentP", "CommentDataSource"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- ["So18UITraitEnvironmentP", "DownloadComments"]
+- ["So18UITraitEnvironmentP", "SettingLauncher"]
+- !private ["So18UITraitEnvironmentP", "commentsDS"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "downloadAssistant"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "reloadData"]
+- !private ["So18UITraitEnvironmentP", "revealMenu"]
+- !private ["So18UITraitEnvironmentP", "settingLauncher"]
+- !private ["So18UITraitEnvironmentP", "tableView"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- !private ["So18UITraitEnvironmentP", "useComment"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "reloadData"]
+- !private ["So6UIViewC", "useComment"]
+- ["So16UIViewControllerC", "CommentDataSource"]
+- !private ["So16UIViewControllerC", "CommentTableViewCell"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- ["So16UIViewControllerC", "DownloadComments"]
+- ["So16UIViewControllerC", "IndexPath"]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "MenuButton"]
+- ["So16UIViewControllerC", "MenuButtonClicked"]
+- ["So16UIViewControllerC", "NSKeyValueChangeKey"]
+- ["So16UIViewControllerC", "SettingLauncher"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIBarButtonItem"]
+- ["So16UIViewControllerC", "UITableView"]
+- ["So16UIViewControllerC", "UITableViewCell"]
+- ["So16UIViewControllerC", "UnsafeMutableRawPointer"]
+- ["So16UIViewControllerC", "commentsDS"]
+- ["So16UIViewControllerC", "downloadAssistant"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "numberOfSections"]
+- ["So16UIViewControllerC", "observeValue"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "revealMenu"]
+- ["So16UIViewControllerC", "settingLauncher"]
+- ["So16UIViewControllerC", "tableView"]
+- !private ["So16UIViewControllerC", "title"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "row"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "useComment"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "row"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "row"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CommentDataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DownloadComments"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SettingLauncher"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "commentAt"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "commentsDS"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataFromServer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadAssistant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "download_request"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numComments"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "revealMenu"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "settingLauncher"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "useComment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "row"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s22_RandomAccessIndexableP", "row"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "24UserLoginAndRegistration17CommentDataSourceC"
+- !private "24UserLoginAndRegistration20CommentTableViewCellC"
+- "24UserLoginAndRegistration26CommentTableViewControllerC"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- "24UserLoginAndRegistration16DownloadCommentsC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation9IndexPathV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- !private "SC26NSKeyValueObservingOptionsV"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- "24UserLoginAndRegistration15SettingLauncherC"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So26UICollectionViewDataSourceP"
+- "So24UICollectionViewDelegateP"
+- "So34UICollectionViewDelegateFlowLayoutP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So11UITableViewC"
+- !private "So15UITableViewCellC"
+- "So21UITableViewControllerC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/UserLoginAndRegistration-Bridging-Header.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/SWRevealViewController.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+interface-hash: "3e9202e95d015ba5592ff2d393041dda"
