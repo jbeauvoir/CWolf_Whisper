@@ -8,9 +8,9 @@
 
 import UIKit
 
+//self.tableView.reloadData() USE TO RELOAD TABLES GOING TO NEED SOON
 
 class ForumTableViewController: UITableViewController  {
-    @IBOutlet weak var nothingView: UIView!
     @IBOutlet weak var MenuButton: UIBarButtonItem!
     @IBAction func clickedMenuButton(_ sender: Any) {
         revealMenu()
@@ -19,48 +19,46 @@ class ForumTableViewController: UITableViewController  {
     
     let settingLauncher = SettingLauncher()
     var forumsDS: ForumDataSource?
+   // var forumHomeDS: ForumHomeDataSource?
     var downloadAssistant = Download(withURLString: "https://blue.cs.sonoma.edu/~dsmith/")
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        //view.backgroundColor = UIColor.white
+    
         downloadAssistant.addObserver(self, forKeyPath: "dataFromServer", options: .old, context: nil) //whenever the data changes on this object or it completes its download Observe
         downloadAssistant.download_request() // store the downloaded
-        
-
-        
-        ///////
-        /*
-        navigationController?.navigationBar.isTranslucent = false;
-        navigationItem.title = "Home"
-        let CGtemp = CGRect(origin: CGPoint(x: 0,y :0), size: CGSize(width: view.frame.width - 32, height: view.frame.height))
-        let titleLabel = UILabel(frame: CGtemp)
-        titleLabel.text = "Home"
-        titleLabel.textColor = UIColor.white
-        titleLabel.font = UIFont.systemFont(ofSize: 20)
-        navigationItem.titleView = titleLabel
-         */
-        ////////////
         //were the scoller starts
-        //tableView?.contentInset = UIEdgeInsetsMake(50, 0, 0, 0)
-        //tableView?.scrollIndicatorInsets = UIEdgeInsetsMake(50,0,0,0)
-  
+        self.automaticallyAdjustsScrollViewInsets = false;
+        //tableView?.contentInset = UIEdgeInsetsMake(0, 0, 0, 0)
+        //tableView?.scrollIndicatorInsets = UIEdgeInsetsMake(0,0,0,0)
+        tableView?.clipsToBounds = true
+        //navigationController?.isNavigationBarHidden = true //hide or appear nav bar
+        navigationController?.navigationBar.isTranslucent = true;//see through navigation controller
         //setupBottomMenuBar()
+         self.navigationController?.navigationBar.tintColor = UIColor.white
+        
         setupNavBarButtons()
        
     }
+    
+    
    /*
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let height: CGFloat = 75 //whatever height you want
+        let height: CGFloat = 100 //whatever height you want
         let bounds = self.navigationController!.navigationBar.bounds
         self.navigationController?.navigationBar.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height + height)
-        self.navigationController?.navigationBar.tintColor = UIColor.red
+       
      //CHANGE THE HEIGHT OR SIZE OF THE NAVIGATION CONTROLLER
     }
  */
-   
+    func setPageNumber()->Int{
+        var pageNumber = ForumPageViewController.PageWeAreOn.whatPageWeAreOn
+        print("WE ARE AT PAGE:  \(pageNumber)")
+        return pageNumber
+    }
+    
+    
     let bottomMenuBar: BottomMenuBar = {
         let menuB = BottomMenuBar()
         return menuB
@@ -75,6 +73,8 @@ class ForumTableViewController: UITableViewController  {
     }
     
     func setupNavBarButtons() {
+       // self.navigationController?.navigationItem.rightBarButtonItems = [MenuButton]
+       // self.navigationController?.navigationItem.title = "Home"
         navigationItem.rightBarButtonItems = [MenuButton]
         navigationItem.title = "Home"
     }
@@ -134,6 +134,8 @@ class ForumTableViewController: UITableViewController  {
     
    // func minilinespace
 
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.

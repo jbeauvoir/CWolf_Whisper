@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>SK6YJ95S75.team-SeaWolfWhisper.UserLoginAndRegistration</string>
+	<string>W7BECS7GGC.team-SeaWolfWhisper.UserLoginAndRegistration</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>SK6YJ95S75.team-SeaWolfWhisper.UserLoginAndRegistration</string>
+		<string>W7BECS7GGC.team-SeaWolfWhisper.UserLoginAndRegistration</string>
 	</array>
 </dict>
 </plist>

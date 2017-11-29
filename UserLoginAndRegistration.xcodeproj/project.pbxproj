@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		33A3BDF2978733FC335C56B9 /* Pods_UserLoginAndRegistrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B4889C5637F3DB5AF5586A /* Pods_UserLoginAndRegistrationTests.framework */; };
+		3F51AF691FCE362D005F1976 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51AF681FCE362D005F1976 /* MessageTableViewController.swift */; };
 		3F523DB71FC508FD006A565A /* BottomMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F523DB61FC508FD006A565A /* BottomMenuBar.swift */; };
 		3F8942E51FBBF7D40094D056 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8942E41FBBF7D40094D056 /* UserInformation.swift */; };
 		3F9A10F21FB6766100A626C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A10F11FB6766100A626C7 /* LoginViewController.swift */; };
@@ -23,6 +24,7 @@
 		3FC3A6791FB90DB100EAD209 /* DownloadComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A6781FB90DB100EAD209 /* DownloadComments.swift */; };
 		3FC3A67B1FB90DF300EAD209 /* CommentDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A67A1FB90DF300EAD209 /* CommentDataSource.swift */; };
 		3FC3A67D1FB90E0400EAD209 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A67C1FB90E0400EAD209 /* Comment.swift */; };
+		3FD8DA6D1FCE52690014E583 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8DA6C1FCE52680014E583 /* AboutUsViewController.swift */; };
 		3FE0AAC91FAAE33700971C39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AAC81FAAE33700971C39 /* AppDelegate.swift */; };
 		3FE0AACB1FAAE33700971C39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AACA1FAAE33700971C39 /* ViewController.swift */; };
 		3FE0AACE1FAAE33700971C39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0AACC1FAAE33700971C39 /* Main.storyboard */; };
@@ -37,8 +39,6 @@
 		3FE612D41FB78D5D00DDC94C /* ForumDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE612D31FB78D5D00DDC94C /* ForumDataSource.swift */; };
 		3FE612D61FB78D7900DDC94C /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE612D51FB78D7900DDC94C /* Download.swift */; };
 		3FF8E0171FC64076009D55C0 /* ForumPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8E0161FC64075009D55C0 /* ForumPageViewController.swift */; };
-		3FF8E01B1FC6412B009D55C0 /* HotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8E01A1FC6412B009D55C0 /* HotViewController.swift */; };
-		3FF8E01D1FC6413C009D55C0 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8E01C1FC6413C009D55C0 /* MessageViewController.swift */; };
 		3FF8E01F1FC64171009D55C0 /* CatagoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8E01E1FC64171009D55C0 /* CatagoryViewController.swift */; };
 		C8588C1EBFC3B2B582FD1F94 /* Pods_UserLoginAndRegistration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B35CDDD65C10C6AA227FD94 /* Pods_UserLoginAndRegistration.framework */; };
 		DFB6D935DB00BE6681EAB2A6 /* Pods_UserLoginAndRegistrationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C04691ABE6D545D5DEA6DF /* Pods_UserLoginAndRegistrationUITests.framework */; };
@@ -67,6 +67,7 @@
 		0C218FFDF43D43766DB1C337 /* Pods-UserLoginAndRegistrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginAndRegistrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginAndRegistrationTests/Pods-UserLoginAndRegistrationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1FC60F021E072A3573A2EE29 /* Pods-UserLoginAndRegistration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginAndRegistration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginAndRegistration/Pods-UserLoginAndRegistration.debug.xcconfig"; sourceTree = "<group>"; };
 		281F2E918A5B4E2259946DE6 /* Pods-UserLoginAndRegistrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginAndRegistrationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginAndRegistrationTests/Pods-UserLoginAndRegistrationTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F51AF681FCE362D005F1976 /* MessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
 		3F523DB61FC508FD006A565A /* BottomMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMenuBar.swift; sourceTree = "<group>"; };
 		3F8942E41FBBF7D40094D056 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
 		3F9A10F11FB6766100A626C7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +83,7 @@
 		3FC3A6781FB90DB100EAD209 /* DownloadComments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadComments.swift; sourceTree = "<group>"; };
 		3FC3A67A1FB90DF300EAD209 /* CommentDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentDataSource.swift; sourceTree = "<group>"; };
 		3FC3A67C1FB90E0400EAD209 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		3FD8DA6C1FCE52680014E583 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		3FE0AAC51FAAE33700971C39 /* UserLoginAndRegistration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserLoginAndRegistration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE0AAC81FAAE33700971C39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FE0AACA1FAAE33700971C39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,8 +104,6 @@
 		3FE612D31FB78D5D00DDC94C /* ForumDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumDataSource.swift; sourceTree = "<group>"; };
 		3FE612D51FB78D7900DDC94C /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		3FF8E0161FC64075009D55C0 /* ForumPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumPageViewController.swift; sourceTree = "<group>"; };
-		3FF8E01A1FC6412B009D55C0 /* HotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotViewController.swift; sourceTree = "<group>"; };
-		3FF8E01C1FC6413C009D55C0 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		3FF8E01E1FC64171009D55C0 /* CatagoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryViewController.swift; sourceTree = "<group>"; };
 		75B4889C5637F3DB5AF5586A /* Pods_UserLoginAndRegistrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserLoginAndRegistrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C04691ABE6D545D5DEA6DF /* Pods_UserLoginAndRegistrationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserLoginAndRegistrationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,19 +177,10 @@
 				3F9ADF1B1FBA3C3E004B41D4 /* SettingCell.swift */,
 				3F9ADF1D1FBA3E80004B41D4 /* BaseCell.swift */,
 				3FF8E0161FC64075009D55C0 /* ForumPageViewController.swift */,
-				3FF8E01A1FC6412B009D55C0 /* HotViewController.swift */,
-				3FF8E01C1FC6413C009D55C0 /* MessageViewController.swift */,
 				3FF8E01E1FC64171009D55C0 /* CatagoryViewController.swift */,
+				3F51AF681FCE362D005F1976 /* MessageTableViewController.swift */,
 			);
 			name = ForumLoad;
-			sourceTree = "<group>";
-		};
-		3FC3A6721FB9004F00EAD209 /* NewForum */ = {
-			isa = PBXGroup;
-			children = (
-				3FC3A66F1FB8FF6200EAD209 /* NewForumViewController.swift */,
-			);
-			name = NewForum;
 			sourceTree = "<group>";
 		};
 		3FC3A6731FB9079F00EAD209 /* CommentsOfForum */ = {
@@ -204,6 +195,15 @@
 			name = CommentsOfForum;
 			sourceTree = "<group>";
 		};
+		3FD8DA6B1FCE51EA0014E583 /* MenuViews */ = {
+			isa = PBXGroup;
+			children = (
+				3FC3A66F1FB8FF6200EAD209 /* NewForumViewController.swift */,
+				3FD8DA6C1FCE52680014E583 /* AboutUsViewController.swift */,
+			);
+			name = MenuViews;
+			sourceTree = "<group>";
+		};
 		3FE0AABC1FAAE33700971C39 = {
 			isa = PBXGroup;
 			children = (
@@ -212,11 +212,11 @@
 				3FE0AACC1FAAE33700971C39 /* Main.storyboard */,
 				3FE0AACF1FAAE33700971C39 /* Assets.xcassets */,
 				3FE0AAD11FAAE33700971C39 /* LaunchScreen.storyboard */,
+				3FD8DA6B1FCE51EA0014E583 /* MenuViews */,
 				3FA132DA1FBD071A006B8476 /* ThingsToDo */,
 				3F8942E31FBBF79A0094D056 /* UserInformation */,
 				3F9ADF1F1FBA46F3004B41D4 /* Helpers */,
 				3FC3A6731FB9079F00EAD209 /* CommentsOfForum */,
-				3FC3A6721FB9004F00EAD209 /* NewForum */,
 				3FC3A6711FB8FFE300EAD209 /* ForumLoad */,
 				3FE0AAC71FAAE33700971C39 /* UserLoginAndRegistration */,
 				3FE0AADC1FAAE33700971C39 /* UserLoginAndRegistrationTests */,
@@ -588,8 +588,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF8E01D1FC6413C009D55C0 /* MessageViewController.swift in Sources */,
 				3F9ADF1E1FBA3E80004B41D4 /* BaseCell.swift in Sources */,
+				3FD8DA6D1FCE52690014E583 /* AboutUsViewController.swift in Sources */,
 				3F8942E51FBBF7D40094D056 /* UserInformation.swift in Sources */,
 				3FE612D01FB78C9200DDC94C /* ForumTableViewCell.swift in Sources */,
 				3FE612D41FB78D5D00DDC94C /* ForumDataSource.swift in Sources */,
@@ -599,7 +599,6 @@
 				3FC3A6791FB90DB100EAD209 /* DownloadComments.swift in Sources */,
 				3FE612D21FB78D1F00DDC94C /* ForumTableViewController.swift in Sources */,
 				3F9A10F21FB6766100A626C7 /* LoginViewController.swift in Sources */,
-				3FF8E01B1FC6412B009D55C0 /* HotViewController.swift in Sources */,
 				3FE0AACB1FAAE33700971C39 /* ViewController.swift in Sources */,
 				3FA132DC1FBD0747006B8476 /* WhatToDoList-ReadMe.swift in Sources */,
 				3FC3A6751FB9085100EAD209 /* CommentTableViewController.swift in Sources */,
@@ -608,6 +607,7 @@
 				3FC3A6771FB90C3100EAD209 /* CommentTableViewCell.swift in Sources */,
 				3FE0AAC91FAAE33700971C39 /* AppDelegate.swift in Sources */,
 				3FC3A67D1FB90E0400EAD209 /* Comment.swift in Sources */,
+				3F51AF691FCE362D005F1976 /* MessageTableViewController.swift in Sources */,
 				3FE612D61FB78D7900DDC94C /* Download.swift in Sources */,
 				3F9ADF211FBA4734004B41D4 /* Extensions.swift in Sources */,
 				3FE0AAF71FAAEDC300971C39 /* RegisterPageViewController.swift in Sources */,

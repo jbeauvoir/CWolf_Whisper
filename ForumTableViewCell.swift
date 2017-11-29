@@ -28,6 +28,11 @@ class ForumTableViewCell: UITableViewCell {
     
     
     func useForum(_ forum: Forum) {
+        /////
+//        if let socialPagesOnly = forum.forumType(){
+  //          if socialPagesOnly == "social"{
+        //////
+        
        if let aImage = forum.getImage()  {
             cellImage.image = aImage
         }
@@ -44,7 +49,7 @@ class ForumTableViewCell: UITableViewCell {
         addSubview(userProfileImage!)
        
         //set up the view and use data from JSON Object for the title of the forum to be set
-         let forumTitleLabel = forum.setforumTitleLabel()
+        let forumTitleLabel = forum.setforumTitleLabel()
         if let forumTitle = forum.forumName() {
         forumTitleLabel.text = forum.userNameForForum()! + " - " + forumTitle
         }
@@ -87,6 +92,9 @@ class ForumTableViewCell: UITableViewCell {
         
         addConstraint(NSLayoutConstraint(item: forumSubTitleLabel, attribute: .height, relatedBy: .equal, toItem: self, attribute: .height, multiplier: 0, constant: 30))
        //////
+    //        }
+     //   }
+        
         
     }
   

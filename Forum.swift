@@ -10,6 +10,9 @@ import UIKit
 
 class Forum: NSObject {
     
+    var category: Bool = false
+    var trending: Bool = false
+    var home: Bool = false
     let forum: AnyObject
     
     init(forum: AnyObject)
@@ -40,6 +43,15 @@ class Forum: NSObject {
             return f as? String
         }
         return nil
+    }
+    
+    func forumType()-> String?{
+        if let f = forum["forum_type"]{
+            return f as? String
+        }
+        return nil
+        
+        
     }
     
     func userProfileImage() -> UIImage?

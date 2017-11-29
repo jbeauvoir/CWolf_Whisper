@@ -21,7 +21,7 @@ class ForumDetailsViewController: UIViewController {
     @IBAction func MenuButtonClicked(_ sender: Any) {
         revealMenu()
     }
-    
+
     let settingLauncher = SettingLauncher()
     var numberOfLikesForForum = 0 // needs to become a DB item
     var forum: Forum?
@@ -86,4 +86,5 @@ class ForumDetailsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
 }
