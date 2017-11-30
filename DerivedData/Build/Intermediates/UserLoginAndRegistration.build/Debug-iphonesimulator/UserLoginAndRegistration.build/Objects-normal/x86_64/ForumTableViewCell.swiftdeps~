@@ -12,7 +12,6 @@ provides-dynamic-lookup:
 - "setSelected"
 depends-top-level:
 - !private "+"
-- !private "=="
 - "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
@@ -26,7 +25,6 @@ depends-top-level:
 - !private "print"
 depends-member:
 - !private ["s23BidirectionalCollectionP", "init"]
-- !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "NSLayoutConstraint"]
 - !private ["So15CALayerDelegateP", "addConstraint"]
 - !private ["So15CALayerDelegateP", "addConstraintsWithFormat"]
@@ -48,7 +46,6 @@ depends-member:
 - !private ["s7CVarArgP", "cellImage"]
 - !private ["s7CVarArgP", "forumName"]
 - !private ["s7CVarArgP", "forumSubTitle"]
-- !private ["s7CVarArgP", "forumType"]
 - !private ["s7CVarArgP", "getImage"]
 - !private ["s7CVarArgP", "image"]
 - !private ["s7CVarArgP", "init"]
@@ -74,7 +71,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "cellImage"]
 - !private ["s28CustomDebugStringConvertibleP", "forumName"]
 - !private ["s28CustomDebugStringConvertibleP", "forumSubTitle"]
-- !private ["s28CustomDebugStringConvertibleP", "forumType"]
 - !private ["s28CustomDebugStringConvertibleP", "getImage"]
 - !private ["s28CustomDebugStringConvertibleP", "image"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
@@ -90,12 +86,9 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "userNameForForum"]
 - !private ["s28CustomDebugStringConvertibleP", "userProfileImage"]
 - ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
-- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "addConstraint"]
 - !private ["s23CustomStringConvertibleP", "addConstraintsWithFormat"]
 - !private ["s23CustomStringConvertibleP", "addSubview"]
@@ -103,7 +96,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "cellImage"]
 - !private ["s23CustomStringConvertibleP", "forumName"]
 - !private ["s23CustomStringConvertibleP", "forumSubTitle"]
-- !private ["s23CustomStringConvertibleP", "forumType"]
 - !private ["s23CustomStringConvertibleP", "getImage"]
 - !private ["s23CustomStringConvertibleP", "image"]
 - !private ["s23CustomStringConvertibleP", "init"]
@@ -119,12 +111,9 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "userNameForForum"]
 - !private ["s23CustomStringConvertibleP", "userProfileImage"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "init"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "init"]
 - !private ["s9EquatableP", "NSLayoutConstraint"]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "addConstraint"]
 - !private ["s9EquatableP", "addConstraintsWithFormat"]
 - !private ["s9EquatableP", "addSubview"]
@@ -134,7 +123,6 @@ depends-member:
 - !private ["s9EquatableP", "equal"]
 - !private ["s9EquatableP", "forumName"]
 - !private ["s9EquatableP", "forumSubTitle"]
-- !private ["s9EquatableP", "forumType"]
 - !private ["s9EquatableP", "getImage"]
 - !private ["s9EquatableP", "height"]
 - !private ["s9EquatableP", "image"]
@@ -154,13 +142,11 @@ depends-member:
 - !private ["s9EquatableP", "userNameForForum"]
 - !private ["s9EquatableP", "userProfileImage"]
 - ["s9EquatableP", ""]
-- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["24UserLoginAndRegistration5ForumC", "forumName"]
 - !private ["24UserLoginAndRegistration5ForumC", "forumSubTitle"]
-- !private ["24UserLoginAndRegistration5ForumC", "forumType"]
 - !private ["24UserLoginAndRegistration5ForumC", "getImage"]
 - !private ["24UserLoginAndRegistration5ForumC", "setforumSubTitle"]
 - !private ["24UserLoginAndRegistration5ForumC", "setforumTitleLabel"]
@@ -187,7 +173,6 @@ depends-member:
 - ["24UserLoginAndRegistration18ForumTableViewCellC", "setupViews"]
 - ["24UserLoginAndRegistration18ForumTableViewCellC", "useForum"]
 - !private ["s8HashableP", "NSLayoutConstraint"]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "addConstraint"]
 - !private ["s8HashableP", "addConstraintsWithFormat"]
 - !private ["s8HashableP", "addSubview"]
@@ -197,7 +182,6 @@ depends-member:
 - !private ["s8HashableP", "equal"]
 - !private ["s8HashableP", "forumName"]
 - !private ["s8HashableP", "forumSubTitle"]
-- !private ["s8HashableP", "forumType"]
 - !private ["s8HashableP", "getImage"]
 - !private ["s8HashableP", "height"]
 - !private ["s8HashableP", "image"]
@@ -217,7 +201,6 @@ depends-member:
 - !private ["s8HashableP", "userNameForForum"]
 - !private ["s8HashableP", "userProfileImage"]
 - ["s8HashableP", ""]
-- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "NSLayoutConstraint"]
@@ -257,7 +240,6 @@ depends-member:
 - ["So8NSObjectC", "cellLabel"]
 - !private ["So8NSObjectC", "forumName"]
 - !private ["So8NSObjectC", "forumSubTitle"]
-- !private ["So8NSObjectC", "forumType"]
 - !private ["So8NSObjectC", "getImage"]
 - !private ["So8NSObjectC", "image"]
 - ["So8NSObjectC", "init"]
@@ -282,7 +264,6 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "cellImage"]
 - !private ["So16NSObjectProtocolP", "forumName"]
 - !private ["So16NSObjectProtocolP", "forumSubTitle"]
-- !private ["So16NSObjectProtocolP", "forumType"]
 - !private ["So16NSObjectProtocolP", "getImage"]
 - !private ["So16NSObjectProtocolP", "image"]
 - !private ["So16NSObjectProtocolP", "init"]
@@ -542,7 +523,6 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setSelected"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
-- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
@@ -559,7 +539,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "cellImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "forumName"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "forumSubTitle"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "forumType"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "getImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
@@ -575,13 +554,11 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "userNameForForum"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "userProfileImage"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s26_RangeReplaceableIndexableP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "s23BidirectionalCollectionP"
-- !private "Sb"
 - "So15CALayerDelegateP"
 - "s7CVarArgP"
 - !private "s10CollectionP"
@@ -593,7 +570,6 @@ depends-nominal:
 - !private "s9DecodableP"
 - !private "s9EncodableP"
 - "s9EquatableP"
-- !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
@@ -649,7 +625,6 @@ depends-nominal:
 - "So6UIViewC"
 - !private "s23_BidirectionalIndexableP"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
-- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
