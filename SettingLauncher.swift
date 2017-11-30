@@ -12,32 +12,35 @@ class Setting: NSObject {
     
     let name: String
     let imageName: String
-    
+
     init(name: String, imageName: String){
         self.name = name
         self.imageName = imageName
         
     }
-    
-    
 }
 
-
 class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+    
     let blackView = UIView()
 
     let collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        cv.backgroundColor = UIColor.white
+        cv.backgroundColor = UIColor.rgb(red: 131, green: 177, blue: 255)
         return cv
     }()
     
     let cellId = "cellId"
    
     let settings: [Setting] = {
-        return [Setting(name:"Add New Forum", imageName: "addForum"), Setting(name: "Home", imageName: "Home"), Setting(name: "History", imageName: "history"), Setting(name: "App info", imageName: "info"), Setting(name: "Logout", imageName: "Logout")]
+        return [Setting(name:"Add New Forum", imageName: "addForum2"), Setting(name: "Home", imageName: "Home2"), Setting(name: "History", imageName: "history2"), Setting(name: "App info", imageName: "info3"), Setting(name: "Logout", imageName: "Logout2")]
     }()
+
+ 
+    
+    var forumTableViewController: ForumTableViewController? 
+    
     
     func revealMenu() {
         //show menu
@@ -45,15 +48,16 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
         let screenWidth = screenSize.width
         let screenHeight = screenSize.height
         
+        
         if let window = UIApplication.shared.keyWindow{
             
             blackView.backgroundColor = UIColor(white: 0, alpha: 0.5)
             
-            blackView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(endMenuView)))
+            blackView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleDismiss)))
             
             window.addSubview(blackView)
             window.addSubview(collectionView)
-            
+            window.backgroundColor = UIColor.rgb(red: 131, green: 177, blue: 255)
             let height: CGFloat = CGFloat(settings.count * 50)
             blackView.frame = window.frame
             blackView.alpha = 0
@@ -68,7 +72,7 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
         
         }
     }
-    
+ /*
     @objc func endMenuView(){
        let screenSize = UIScreen.main.bounds
        let screenWidth = screenSize.width
@@ -79,9 +83,29 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
        
         if let window = UIApplication.shared.keyWindow{
             self.collectionView.frame = CGrect3
+            
         }
     }
-    
+   */
+    @objc func handleDismiss(setting: Setting) {
+        UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
+            
+            self.blackView.alpha = 0
+            
+            if let window = UIApplication.shared.keyWindow {
+                let CGrect3 = CGRect(origin: CGPoint(x: 0,y :window.frame.height), size: CGSize(width:  self.collectionView.frame.width, height: self.collectionView.frame.height))
+                self.collectionView.frame = CGrect3
+            }
+            
+        }) { (completed: Bool) in
+            print("comepleted now trying to call function")
+            if setting.name != "" {
+                print("calling")
+                self.forumTableViewController?.showViewControllerForAddForum(setting: setting)
+            }
+        }
+    }
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return settings.count
     }
@@ -102,16 +126,17 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
         return 0
     }
-        
-        
-   
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let setting = settings[indexPath.item]
+        print(setting.name)
+        handleDismiss(setting: setting)
+    }
+   
     override init(){
         super.init()
         collectionView.dataSource = self
         collectionView.delegate = self
-        //start doing something
-        
         collectionView.register(SettingCell.self, forCellWithReuseIdentifier: cellId)
     }
     

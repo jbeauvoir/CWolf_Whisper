@@ -11,15 +11,20 @@ import UIKit
 
 class SettingCell: BaseCell {
     
-    override var isHighlighted: Bool {
+    override var isHighlighted: Bool {//if they hold the click don set the label images etc
         didSet{
-            print(isHighlighted)
-            backgroundColor = isHighlighted ? UIColor.darkGray : UIColor.white
-            nameLabel.textColor = isHighlighted ? UIColor.white : UIColor.black
+            nameLabel.textColor = isHighlighted ? UIColor.white : UIColor.white
+            backgroundColor = isHighlighted ? UIColor.darkGray : UIColor.rgb(red: 131, green: 177, blue: 255)
+            iconImageView.backgroundColor = isHighlighted ? UIColor.darkGray : UIColor.rgb(red: 131, green: 177, blue: 255)
         }
     }
-    
-    
+    override var isSelected: Bool {
+        didSet {
+            nameLabel.textColor = isHighlighted ? UIColor.white : UIColor.white
+            backgroundColor = isHighlighted ? UIColor.darkGray : UIColor.rgb(red: 131, green: 177, blue: 255)
+            iconImageView.backgroundColor = isHighlighted ? UIColor.darkGray : UIColor.rgb(red: 131, green: 177, blue: 255)
+        }
+    }
     var setting: Setting?{
         didSet{
             nameLabel.text = setting?.name
@@ -49,6 +54,8 @@ class SettingCell: BaseCell {
         super.setupViews()
         addSubview(nameLabel)
         addSubview(iconImageView)
+        backgroundColor = UIColor.rgb(red: 131, green: 177, blue: 255)
+        nameLabel.textColor = UIColor.white
         
         addConstraintsWithFormat(format:"H:|-8-[v0(30)]-8-[v1]|", views: iconImageView, nameLabel)
         

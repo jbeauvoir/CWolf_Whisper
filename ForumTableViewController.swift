@@ -16,8 +16,12 @@ class ForumTableViewController: UITableViewController  {
         revealMenu()
     }
    
+    lazy var settingLauncher: SettingLauncher = {
+    let setUp = SettingLauncher()
+    setUp.forumTableViewController = self
+        return setUp
+    }()
     
-    let settingLauncher = SettingLauncher()
     var forumsDS: ForumDataSource?
    // var forumHomeDS: ForumHomeDataSource?
     var downloadAssistant = Download(withURLString: "https://blue.cs.sonoma.edu/~dsmith/")
@@ -42,16 +46,16 @@ class ForumTableViewController: UITableViewController  {
     }
     
     
-   /*
+   
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let height: CGFloat = 100 //whatever height you want
+        let height: CGFloat = 200 //whatever height you want
         let bounds = self.navigationController!.navigationBar.bounds
         self.navigationController?.navigationBar.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height + height)
        
      //CHANGE THE HEIGHT OR SIZE OF THE NAVIGATION CONTROLLER
     }
- */
+ 
     func setPageNumber()->Int{
         var pageNumber = ForumPageViewController.PageWeAreOn.whatPageWeAreOn
         print("WE ARE AT PAGE:  \(pageNumber)")
@@ -80,9 +84,22 @@ class ForumTableViewController: UITableViewController  {
     }
 
     func revealMenu(){
-       settingLauncher.revealMenu()
+        //settingLauncher.forumTViewController = self
+        settingLauncher.revealMenu()
+        //showViewControllerForMenu()
     }
-    
+   
+    func showViewControllerForAddForum(setting: Setting) {
+        //call the class you want to setup the addforum viewcontroller
+        print("new UIVIEWCONTROLLER onto stack")
+        let addForum = UIViewController()
+        addForum.view.backgroundColor = UIColor.white
+        addForum.navigationItem.title = setting.name
+        navigationController?.navigationBar.tintColor = UIColor.white
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        navigationController?.pushViewController(addForum, animated: true)
+    }
+ 
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView?{
         view.addSubview(bottomMenuBar)
         view.addConstraintsWithFormat(format: "H:|[v0]|", views: bottomMenuBar)

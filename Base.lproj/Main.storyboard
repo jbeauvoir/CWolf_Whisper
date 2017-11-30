@@ -302,7 +302,7 @@
                             <outlet property="delegate" destination="85A-Nt-F2H" id="S7F-1g-rpA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Forums" id="PSi-1o-rvB">
+                    <navigationItem key="navigationItem" title="Forums" prompt=" " id="PSi-1o-rvB">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="k9t-Vy-pRS">
                             <connections>
                                 <action selector="clickedMenuButton:" destination="85A-Nt-F2H" id="Lot-ft-75X"/>
@@ -488,22 +488,16 @@
         <scene sceneID="7ce-0N-T6U">
             <objects>
                 <pageViewController storyboardIdentifier="ForumPageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" pageSpacing="4" navigationOrientation="horizontal" spineLocation="none" id="6oY-Xh-pgr" customClass="ForumPageViewController" customModule="UserLoginAndRegistration" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="hMC-Lq-Ucq">
+                    <navigationItem key="navigationItem" prompt=" " id="hMC-Lq-Ucq">
                         <barButtonItem key="backBarButtonItem" title="back" id="GcD-Cq-igB"/>
                         <leftBarButtonItems>
                             <barButtonItem title="Home" image="Home" id="sNH-Ta-0r5">
                                 <inset key="imageInsets" minX="0.0" minY="1" maxX="10" maxY="0.0"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <action selector="homeClicked:" destination="6oY-Xh-pgr" id="ox9-XB-kcE"/>
-                                </connections>
                             </barButtonItem>
                             <barButtonItem title="Trending" image="hot" id="Nul-Ud-YEB">
                                 <inset key="imageInsets" minX="0.0" minY="-2" maxX="15" maxY="0.0"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <action selector="hotClicked:" destination="6oY-Xh-pgr" id="IMu-wu-VqR"/>
-                                </connections>
                             </barButtonItem>
                         </leftBarButtonItems>
                         <rightBarButtonItems>
@@ -519,18 +513,12 @@
                                 <inset key="imageInsets" minX="-20" minY="0.0" maxX="15" maxY="0.0"/>
                                 <inset key="largeContentSizeImageInsets" minX="-3" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <action selector="catClicked:" destination="6oY-Xh-pgr" id="aq5-D6-nY2"/>
-                                </connections>
                             </barButtonItem>
                             <barButtonItem title="IM" image="chat" id="2V7-wT-BLF">
                                 <inset key="imageInsets" minX="0.0" minY="0.0" maxX="15" maxY="0.0"/>
                                 <inset key="landscapeImageInsets" minX="0.0" minY="4" maxX="0.0" maxY="0.0"/>
                                 <inset key="largeContentSizeImageInsets" minX="0.0" minY="-10" maxX="0.0" maxY="0.0"/>
                                 <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                                <connections>
-                                    <action selector="imClicked:" destination="6oY-Xh-pgr" id="bH0-gH-TLl"/>
-                                </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
@@ -575,8 +563,15 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="socialLabelButton:" destination="1EX-p9-Je5" eventType="touchUpInside" id="L3T-U6-z56"/>
-                                    <action selector="sportsLabelButton:" destination="1EX-p9-Je5" eventType="touchUpInside" id="CwF-Me-jQZ"/>
+                                    <action selector="sportsLabelButton:" destination="1EX-p9-Je5" eventType="touchUpInside" id="mEv-pp-hIP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOv-r5-wLX">
+                                <rect key="frame" x="100" y="209" width="44" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="sports"/>
+                                <connections>
+                                    <action selector="sportsImageButton:" destination="1EX-p9-Je5" eventType="touchUpInside" id="ycB-gc-y6i"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bU1-q9-6Lo">
@@ -587,7 +582,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="socialLabelButton:" destination="1EX-p9-Je5" eventType="touchUpInside" id="IUM-KU-wyK"/>
+                                    <action selector="socialLabelButton:" destination="1EX-p9-Je5" eventType="touchUpInside" id="Vp4-Gh-qzS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vid-ZS-kUn">
@@ -630,15 +625,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="socialImageButton:" destination="1EX-p9-Je5" eventType="touchUpInside" id="lD4-ma-8pd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOv-r5-wLX">
-                                <rect key="frame" x="100" y="209" width="44" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="sports"/>
-                                <connections>
-                                    <action selector="sportsImageButton:" destination="1EX-p9-Je5" eventType="touchUpInside" id="1ls-B3-c4r"/>
+                                    <action selector="socialImageButton:" destination="1EX-p9-Je5" eventType="touchUpInside" id="JLD-ta-56q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXI-OU-hfh">
@@ -687,8 +674,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="1eS-mR-bj3"/>
                     <connections>
-                        <outlet property="sportsImageButton" destination="YOv-r5-wLX" id="uEY-xP-Qof"/>
-                        <outlet property="sportsLabelButton" destination="deN-Zp-zrv" id="dOO-I9-AwK"/>
+                        <outlet property="social" destination="NzE-Yl-Nlc" id="HvL-tJ-zVE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VxM-5f-R6a" userLabel="First Responder" sceneMemberID="firstResponder"/>

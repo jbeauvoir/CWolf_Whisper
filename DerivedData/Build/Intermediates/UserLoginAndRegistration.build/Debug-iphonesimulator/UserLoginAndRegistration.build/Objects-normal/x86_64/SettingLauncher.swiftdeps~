@@ -10,16 +10,19 @@ provides-member:
 - ["24UserLoginAndRegistration15SettingLauncherC", ""]
 provides-dynamic-lookup:
 - "collectionView"
-- "endMenuView"
+- "handleDismiss"
 depends-top-level:
+- !private "!="
 - !private "*"
 - "Array"
 - "AssignmentPrecedence"
+- !private "Bool"
 - "CGFloat"
 - !private "CGPoint"
 - !private "CGRect"
 - "CGSize"
 - "CastingPrecedence"
+- "ForumTableViewController"
 - "IndexPath"
 - "Int"
 - "NSObject"
@@ -40,6 +43,7 @@ depends-top-level:
 - !private "UIScreen"
 - !private "UITapGestureRecognizer"
 - "UIView"
+- !private "print"
 depends-member:
 - !private ["Sa", "count"]
 - !private ["Sa", "subscript"]
@@ -49,6 +53,7 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "item"]
 - !private ["s23BidirectionalCollectionP", "subscript"]
 - !private ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "addGestureRecognizer"]
 - !private ["So15CALayerDelegateP", "addSubview"]
 - !private ["So15CALayerDelegateP", "alpha"]
@@ -94,8 +99,9 @@ depends-member:
 - !private ["s7CVarArgP", "dataSource"]
 - !private ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "dequeueReusableCell"]
-- !private ["s7CVarArgP", "endMenuView"]
+- !private ["s7CVarArgP", "forumTableViewController"]
 - !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "handleDismiss"]
 - !private ["s7CVarArgP", "imageName"]
 - ["s7CVarArgP", "indexPathForPreferredFocusedView"]
 - ["s7CVarArgP", "indexPathForPreferredFocusedViewInCollectionView"]
@@ -107,7 +113,9 @@ depends-member:
 - !private ["s7CVarArgP", "name"]
 - ["s7CVarArgP", "numberOfSections"]
 - ["s7CVarArgP", "numberOfSectionsInCollectionView"]
+- !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "register"]
+- ["s7CVarArgP", "rgb"]
 - ["s7CVarArgP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s7CVarArgP", "scrollViewDidEndDecelerating"]
 - ["s7CVarArgP", "scrollViewDidEndDragging"]
@@ -124,10 +132,10 @@ depends-member:
 - !private ["s7CVarArgP", "setting"]
 - !private ["s7CVarArgP", "settings"]
 - !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "showViewControllerForAddForum"]
 - !private ["s7CVarArgP", "subscript"]
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
-- ["s7CVarArgP", "white"]
 - ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "count"]
 - ["s10CollectionP", "init"]
@@ -161,8 +169,9 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "dataSource"]
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
-- !private ["s28CustomDebugStringConvertibleP", "endMenuView"]
+- !private ["s28CustomDebugStringConvertibleP", "forumTableViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "handleDismiss"]
 - !private ["s28CustomDebugStringConvertibleP", "height"]
 - !private ["s28CustomDebugStringConvertibleP", "imageName"]
 - ["s28CustomDebugStringConvertibleP", "indexPathForPreferredFocusedView"]
@@ -176,7 +185,9 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "name"]
 - ["s28CustomDebugStringConvertibleP", "numberOfSections"]
 - ["s28CustomDebugStringConvertibleP", "numberOfSectionsInCollectionView"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "register"]
+- ["s28CustomDebugStringConvertibleP", "rgb"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewDidEndDecelerating"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewDidEndDragging"]
@@ -193,17 +204,19 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "setting"]
 - !private ["s28CustomDebugStringConvertibleP", "settings"]
 - !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "showViewControllerForAddForum"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - ["s28CustomDebugStringConvertibleP", "viewForZooming"]
 - ["s28CustomDebugStringConvertibleP", "viewForZoomingInScrollView"]
-- ["s28CustomDebugStringConvertibleP", "white"]
 - !private ["s28CustomDebugStringConvertibleP", "width"]
 - ["s28CustomDebugStringConvertibleP", "zero"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "height"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "width"]
 - ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "count"]
 - !private ["s17CustomReflectableP", "height"]
 - ["s17CustomReflectableP", "init"]
@@ -224,6 +237,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "UIScreen"]
 - !private ["s23CustomStringConvertibleP", "UITapGestureRecognizer"]
 - ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
 - !private ["s23CustomStringConvertibleP", "addSubview"]
 - !private ["s23CustomStringConvertibleP", "alpha"]
@@ -237,8 +251,9 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "dataSource"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
-- !private ["s23CustomStringConvertibleP", "endMenuView"]
+- !private ["s23CustomStringConvertibleP", "forumTableViewController"]
 - !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "handleDismiss"]
 - !private ["s23CustomStringConvertibleP", "imageName"]
 - ["s23CustomStringConvertibleP", "indexPathForPreferredFocusedView"]
 - ["s23CustomStringConvertibleP", "indexPathForPreferredFocusedViewInCollectionView"]
@@ -251,7 +266,9 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "name"]
 - ["s23CustomStringConvertibleP", "numberOfSections"]
 - ["s23CustomStringConvertibleP", "numberOfSectionsInCollectionView"]
+- !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "register"]
+- ["s23CustomStringConvertibleP", "rgb"]
 - ["s23CustomStringConvertibleP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s23CustomStringConvertibleP", "scrollViewDidEndDecelerating"]
 - ["s23CustomStringConvertibleP", "scrollViewDidEndDragging"]
@@ -268,11 +285,12 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "setting"]
 - !private ["s23CustomStringConvertibleP", "settings"]
 - !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "showViewControllerForAddForum"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - ["s23CustomStringConvertibleP", "viewForZooming"]
 - ["s23CustomStringConvertibleP", "viewForZoomingInScrollView"]
-- ["s23CustomStringConvertibleP", "white"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "count"]
 - !private ["s9DecodableP", "height"]
 - ["s9DecodableP", "init"]
@@ -280,6 +298,7 @@ depends-member:
 - !private ["s9DecodableP", "subscript"]
 - !private ["s9DecodableP", "width"]
 - ["s9DecodableP", "zero"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "count"]
 - !private ["s9EncodableP", "height"]
 - ["s9EncodableP", "init"]
@@ -300,6 +319,7 @@ depends-member:
 - !private ["s9EquatableP", "UIScreen"]
 - !private ["s9EquatableP", "UITapGestureRecognizer"]
 - ["s9EquatableP", "UIView"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "addGestureRecognizer"]
 - !private ["s9EquatableP", "addSubview"]
 - !private ["s9EquatableP", "alpha"]
@@ -313,8 +333,9 @@ depends-member:
 - !private ["s9EquatableP", "dataSource"]
 - !private ["s9EquatableP", "delegate"]
 - !private ["s9EquatableP", "dequeueReusableCell"]
-- !private ["s9EquatableP", "endMenuView"]
+- !private ["s9EquatableP", "forumTableViewController"]
 - !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "handleDismiss"]
 - !private ["s9EquatableP", "height"]
 - !private ["s9EquatableP", "imageName"]
 - ["s9EquatableP", "indexPathForPreferredFocusedView"]
@@ -328,7 +349,9 @@ depends-member:
 - !private ["s9EquatableP", "name"]
 - ["s9EquatableP", "numberOfSections"]
 - ["s9EquatableP", "numberOfSectionsInCollectionView"]
+- !private ["s9EquatableP", "print"]
 - !private ["s9EquatableP", "register"]
+- ["s9EquatableP", "rgb"]
 - ["s9EquatableP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s9EquatableP", "scrollViewDidEndDecelerating"]
 - ["s9EquatableP", "scrollViewDidEndDragging"]
@@ -345,9 +368,9 @@ depends-member:
 - !private ["s9EquatableP", "setting"]
 - !private ["s9EquatableP", "settings"]
 - !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "showViewControllerForAddForum"]
 - ["s9EquatableP", "viewForZooming"]
 - ["s9EquatableP", "viewForZoomingInScrollView"]
-- ["s9EquatableP", "white"]
 - !private ["s9EquatableP", "width"]
 - ["s9EquatableP", "zero"]
 - ["s9EquatableP", ""]
@@ -355,12 +378,14 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "curveEaseOut"]
 - !private ["s25ExpressibleByArrayLiteralP", "item"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s13FloatingPointP", "init"]
+- !private ["24UserLoginAndRegistration24ForumTableViewControllerC", "showViewControllerForAddForum"]
 - !private ["s8HashableP", "CGFloat"]
 - !private ["s8HashableP", "CGPoint"]
 - !private ["s8HashableP", "CGRect"]
@@ -374,6 +399,7 @@ depends-member:
 - !private ["s8HashableP", "UIScreen"]
 - !private ["s8HashableP", "UITapGestureRecognizer"]
 - ["s8HashableP", "UIView"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "addGestureRecognizer"]
 - !private ["s8HashableP", "addSubview"]
 - !private ["s8HashableP", "alpha"]
@@ -386,8 +412,9 @@ depends-member:
 - !private ["s8HashableP", "dataSource"]
 - !private ["s8HashableP", "delegate"]
 - !private ["s8HashableP", "dequeueReusableCell"]
-- !private ["s8HashableP", "endMenuView"]
+- !private ["s8HashableP", "forumTableViewController"]
 - !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "handleDismiss"]
 - !private ["s8HashableP", "imageName"]
 - ["s8HashableP", "indexPathForPreferredFocusedView"]
 - ["s8HashableP", "indexPathForPreferredFocusedViewInCollectionView"]
@@ -400,7 +427,9 @@ depends-member:
 - !private ["s8HashableP", "name"]
 - ["s8HashableP", "numberOfSections"]
 - ["s8HashableP", "numberOfSectionsInCollectionView"]
+- !private ["s8HashableP", "print"]
 - !private ["s8HashableP", "register"]
+- ["s8HashableP", "rgb"]
 - ["s8HashableP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s8HashableP", "scrollViewDidEndDecelerating"]
 - ["s8HashableP", "scrollViewDidEndDragging"]
@@ -417,11 +446,12 @@ depends-member:
 - !private ["s8HashableP", "setting"]
 - !private ["s8HashableP", "settings"]
 - !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "showViewControllerForAddForum"]
 - ["s8HashableP", "viewForZooming"]
 - ["s8HashableP", "viewForZoomingInScrollView"]
-- ["s8HashableP", "white"]
 - ["s8HashableP", ""]
 - !private ["10Foundation9IndexPathV", "item"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s25LosslessStringConvertibleP", "init"]
 - ["s10MirrorPathP", "init"]
 - !private ["s17MutableCollectionP", "count"]
@@ -438,19 +468,23 @@ depends-member:
 - !private ["So8NSCodingP", "frame"]
 - ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "register"]
+- ["So8NSCodingP", "rgb"]
 - !private ["So8NSCodingP", "setting"]
-- ["So8NSCodingP", "white"]
+- !private ["So8NSCodingP", "showViewControllerForAddForum"]
 - ["So9NSCopyingP", "init"]
-- ["So9NSCopyingP", "white"]
+- ["So9NSCopyingP", "rgb"]
+- !private ["So26NSExtensionRequestHandlingP", "showViewControllerForAddForum"]
 - ["So21NSItemProviderReadingP", "init"]
-- ["So21NSItemProviderReadingP", "white"]
+- ["So21NSItemProviderReadingP", "rgb"]
 - ["So21NSItemProviderWritingP", "init"]
-- ["So21NSItemProviderWritingP", "white"]
+- ["So21NSItemProviderWritingP", "rgb"]
 - ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "CGFloat"]
 - !private ["So8NSObjectC", "CGPoint"]
 - !private ["So8NSObjectC", "CGRect"]
 - ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "ForumTableViewController"]
 - ["So8NSObjectC", "IndexPath"]
 - ["So8NSObjectC", "Int"]
 - ["So8NSObjectC", "Setting"]
@@ -477,8 +511,9 @@ depends-member:
 - !private ["So8NSObjectC", "dataSource"]
 - !private ["So8NSObjectC", "delegate"]
 - !private ["So8NSObjectC", "dequeueReusableCell"]
-- ["So8NSObjectC", "endMenuView"]
+- ["So8NSObjectC", "forumTableViewController"]
 - !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "handleDismiss"]
 - ["So8NSObjectC", "imageName"]
 - ["So8NSObjectC", "indexPathForPreferredFocusedView"]
 - ["So8NSObjectC", "indexPathForPreferredFocusedViewInCollectionView"]
@@ -490,8 +525,10 @@ depends-member:
 - ["So8NSObjectC", "name"]
 - ["So8NSObjectC", "numberOfSections"]
 - ["So8NSObjectC", "numberOfSectionsInCollectionView"]
+- !private ["So8NSObjectC", "print"]
 - !private ["So8NSObjectC", "register"]
 - ["So8NSObjectC", "revealMenu"]
+- ["So8NSObjectC", "rgb"]
 - ["So8NSObjectC", "scrollViewDidChangeAdjustedContentInset"]
 - ["So8NSObjectC", "scrollViewDidEndDecelerating"]
 - ["So8NSObjectC", "scrollViewDidEndDragging"]
@@ -508,9 +545,9 @@ depends-member:
 - !private ["So8NSObjectC", "setting"]
 - ["So8NSObjectC", "settings"]
 - !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "showViewControllerForAddForum"]
 - ["So8NSObjectC", "viewForZooming"]
 - ["So8NSObjectC", "viewForZoomingInScrollView"]
-- ["So8NSObjectC", "white"]
 - ["So8NSObjectC", ""]
 - !private ["So16NSObjectProtocolP", "CGFloat"]
 - !private ["So16NSObjectProtocolP", "CGPoint"]
@@ -537,8 +574,9 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "dataSource"]
 - !private ["So16NSObjectProtocolP", "delegate"]
 - !private ["So16NSObjectProtocolP", "dequeueReusableCell"]
-- !private ["So16NSObjectProtocolP", "endMenuView"]
+- !private ["So16NSObjectProtocolP", "forumTableViewController"]
 - !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "handleDismiss"]
 - !private ["So16NSObjectProtocolP", "imageName"]
 - ["So16NSObjectProtocolP", "indexPathForPreferredFocusedView"]
 - ["So16NSObjectProtocolP", "indexPathForPreferredFocusedViewInCollectionView"]
@@ -550,7 +588,9 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "name"]
 - ["So16NSObjectProtocolP", "numberOfSections"]
 - ["So16NSObjectProtocolP", "numberOfSectionsInCollectionView"]
+- !private ["So16NSObjectProtocolP", "print"]
 - !private ["So16NSObjectProtocolP", "register"]
+- ["So16NSObjectProtocolP", "rgb"]
 - ["So16NSObjectProtocolP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So16NSObjectProtocolP", "scrollViewDidEndDecelerating"]
 - ["So16NSObjectProtocolP", "scrollViewDidEndDragging"]
@@ -567,12 +607,12 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "setting"]
 - !private ["So16NSObjectProtocolP", "settings"]
 - !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "showViewControllerForAddForum"]
 - ["So16NSObjectProtocolP", "viewForZooming"]
 - ["So16NSObjectProtocolP", "viewForZoomingInScrollView"]
-- ["So16NSObjectProtocolP", "white"]
 - ["So16NSObjectProtocolP", ""]
 - ["So14NSSecureCodingP", "init"]
-- ["So14NSSecureCodingP", "white"]
+- ["So14NSSecureCodingP", "rgb"]
 - ["So8NSStringC", "init"]
 - !private ["s7NumericP", "init"]
 - !private ["s9OptionSetP", "curveEaseOut"]
@@ -595,10 +635,12 @@ depends-member:
 - ["24UserLoginAndRegistration7SettingC", "init"]
 - ["24UserLoginAndRegistration7SettingC", "name"]
 - !private ["24UserLoginAndRegistration11SettingCellC", "setting"]
+- !private ["24UserLoginAndRegistration15SettingLauncherC", "Bool"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "CGFloat"]
 - !private ["24UserLoginAndRegistration15SettingLauncherC", "CGPoint"]
 - !private ["24UserLoginAndRegistration15SettingLauncherC", "CGRect"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "CGSize"]
+- ["24UserLoginAndRegistration15SettingLauncherC", "ForumTableViewController"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "IndexPath"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "Int"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "Setting"]
@@ -616,7 +658,8 @@ depends-member:
 - ["24UserLoginAndRegistration15SettingLauncherC", "cellId"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "collectionView"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "deinit"]
-- ["24UserLoginAndRegistration15SettingLauncherC", "endMenuView"]
+- ["24UserLoginAndRegistration15SettingLauncherC", "forumTableViewController"]
+- ["24UserLoginAndRegistration15SettingLauncherC", "handleDismiss"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "indexPathForPreferredFocusedView"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "indexTitles"]
@@ -624,6 +667,7 @@ depends-member:
 - ["24UserLoginAndRegistration15SettingLauncherC", "init"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "numberOfSections"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "numberOfSectionsInCollectionView"]
+- !private ["24UserLoginAndRegistration15SettingLauncherC", "print"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "revealMenu"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "scrollViewDidChangeAdjustedContentInset"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "scrollViewDidEndDecelerating"]
@@ -684,6 +728,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "register"]
 - !private ["So21UIAppearanceContainerP", "setting"]
+- !private ["So21UIAppearanceContainerP", "showViewControllerForAddForum"]
 - !private ["So13UIApplicationC", "keyWindow"]
 - !private ["So13UIApplicationC", "shared"]
 - !private ["So24UICollectionReusableViewC", "setting"]
@@ -711,13 +756,15 @@ depends-member:
 - !private ["So26UICollectionViewDataSourceP", "blackView"]
 - !private ["So26UICollectionViewDataSourceP", "cellId"]
 - ["So26UICollectionViewDataSourceP", "collectionView"]
-- !private ["So26UICollectionViewDataSourceP", "endMenuView"]
+- !private ["So26UICollectionViewDataSourceP", "forumTableViewController"]
+- !private ["So26UICollectionViewDataSourceP", "handleDismiss"]
 - ["So26UICollectionViewDataSourceP", "indexPathForPreferredFocusedView"]
 - ["So26UICollectionViewDataSourceP", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["So26UICollectionViewDataSourceP", "indexTitles"]
 - ["So26UICollectionViewDataSourceP", "indexTitlesForCollectionView"]
 - ["So26UICollectionViewDataSourceP", "numberOfSections"]
 - ["So26UICollectionViewDataSourceP", "numberOfSectionsInCollectionView"]
+- !private ["So26UICollectionViewDataSourceP", "print"]
 - ["So26UICollectionViewDataSourceP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So26UICollectionViewDataSourceP", "scrollViewDidEndDecelerating"]
 - ["So26UICollectionViewDataSourceP", "scrollViewDidEndDragging"]
@@ -751,13 +798,15 @@ depends-member:
 - !private ["So24UICollectionViewDelegateP", "blackView"]
 - !private ["So24UICollectionViewDelegateP", "cellId"]
 - ["So24UICollectionViewDelegateP", "collectionView"]
-- !private ["So24UICollectionViewDelegateP", "endMenuView"]
+- !private ["So24UICollectionViewDelegateP", "forumTableViewController"]
+- !private ["So24UICollectionViewDelegateP", "handleDismiss"]
 - ["So24UICollectionViewDelegateP", "indexPathForPreferredFocusedView"]
 - ["So24UICollectionViewDelegateP", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["So24UICollectionViewDelegateP", "indexTitles"]
 - ["So24UICollectionViewDelegateP", "indexTitlesForCollectionView"]
 - ["So24UICollectionViewDelegateP", "numberOfSections"]
 - ["So24UICollectionViewDelegateP", "numberOfSectionsInCollectionView"]
+- !private ["So24UICollectionViewDelegateP", "print"]
 - ["So24UICollectionViewDelegateP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So24UICollectionViewDelegateP", "scrollViewDidEndDecelerating"]
 - ["So24UICollectionViewDelegateP", "scrollViewDidEndDragging"]
@@ -791,13 +840,15 @@ depends-member:
 - !private ["So34UICollectionViewDelegateFlowLayoutP", "blackView"]
 - !private ["So34UICollectionViewDelegateFlowLayoutP", "cellId"]
 - ["So34UICollectionViewDelegateFlowLayoutP", "collectionView"]
-- !private ["So34UICollectionViewDelegateFlowLayoutP", "endMenuView"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "forumTableViewController"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "handleDismiss"]
 - ["So34UICollectionViewDelegateFlowLayoutP", "indexPathForPreferredFocusedView"]
 - ["So34UICollectionViewDelegateFlowLayoutP", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["So34UICollectionViewDelegateFlowLayoutP", "indexTitles"]
 - ["So34UICollectionViewDelegateFlowLayoutP", "indexTitlesForCollectionView"]
 - ["So34UICollectionViewDelegateFlowLayoutP", "numberOfSections"]
 - ["So34UICollectionViewDelegateFlowLayoutP", "numberOfSectionsInCollectionView"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "print"]
 - ["So34UICollectionViewDelegateFlowLayoutP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So34UICollectionViewDelegateFlowLayoutP", "scrollViewDidEndDecelerating"]
 - ["So34UICollectionViewDelegateFlowLayoutP", "scrollViewDidEndDragging"]
@@ -818,7 +869,8 @@ depends-member:
 - ["So26UICollectionViewFlowLayoutC", "init"]
 - ["So22UICollectionViewLayoutC", "init"]
 - !private ["So7UIColorC", "init"]
-- ["So7UIColorC", "white"]
+- ["So7UIColorC", "rgb"]
+- !private ["So18UIContentContainerP", "showViewControllerForAddForum"]
 - !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
 - !private ["So17UICoordinateSpaceP", "alpha"]
@@ -862,6 +914,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "register"]
 - !private ["So18UIFocusEnvironmentP", "setting"]
+- !private ["So18UIFocusEnvironmentP", "showViewControllerForAddForum"]
 - !private ["So11UIFocusItemP", "addGestureRecognizer"]
 - !private ["So11UIFocusItemP", "addSubview"]
 - !private ["So11UIFocusItemP", "alpha"]
@@ -889,6 +942,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "register"]
 - !private ["So30UIPasteConfigurationSupportingP", "setting"]
 - !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "showViewControllerForAddForum"]
 - !private ["So11UIResponderC", "addGestureRecognizer"]
 - !private ["So11UIResponderC", "addSubview"]
 - !private ["So11UIResponderC", "alpha"]
@@ -903,6 +957,7 @@ depends-member:
 - !private ["So11UIResponderC", "register"]
 - !private ["So11UIResponderC", "setting"]
 - !private ["So11UIResponderC", "shared"]
+- !private ["So11UIResponderC", "showViewControllerForAddForum"]
 - !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
 - !private ["So30UIResponderStandardEditActionsP", "addSubview"]
 - !private ["So30UIResponderStandardEditActionsP", "alpha"]
@@ -917,6 +972,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "register"]
 - !private ["So30UIResponderStandardEditActionsP", "setting"]
 - !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "showViewControllerForAddForum"]
 - !private ["So8UIScreenC", "bounds"]
 - !private ["So8UIScreenC", "main"]
 - ["So12UIScrollViewC", "backgroundColor"]
@@ -942,13 +998,15 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "blackView"]
 - !private ["So20UIScrollViewDelegateP", "cellId"]
 - ["So20UIScrollViewDelegateP", "collectionView"]
-- !private ["So20UIScrollViewDelegateP", "endMenuView"]
+- !private ["So20UIScrollViewDelegateP", "forumTableViewController"]
+- !private ["So20UIScrollViewDelegateP", "handleDismiss"]
 - ["So20UIScrollViewDelegateP", "indexPathForPreferredFocusedView"]
 - ["So20UIScrollViewDelegateP", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["So20UIScrollViewDelegateP", "indexTitles"]
 - ["So20UIScrollViewDelegateP", "indexTitlesForCollectionView"]
 - ["So20UIScrollViewDelegateP", "numberOfSections"]
 - ["So20UIScrollViewDelegateP", "numberOfSectionsInCollectionView"]
+- !private ["So20UIScrollViewDelegateP", "print"]
 - ["So20UIScrollViewDelegateP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So20UIScrollViewDelegateP", "scrollViewDidEndDecelerating"]
 - ["So20UIScrollViewDelegateP", "scrollViewDidEndDragging"]
@@ -963,6 +1021,7 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "scrollViewWillBeginZooming"]
 - ["So20UIScrollViewDelegateP", "scrollViewWillEndDragging"]
 - !private ["So20UIScrollViewDelegateP", "settings"]
+- !private ["So20UIScrollViewDelegateP", "showViewControllerForAddForum"]
 - ["So20UIScrollViewDelegateP", "viewForZooming"]
 - ["So20UIScrollViewDelegateP", "viewForZoomingInScrollView"]
 - ["So20UIScrollViewDelegateP", ""]
@@ -973,6 +1032,10 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "frame"]
 - ["So35UISpringLoadedInteractionSupportingP", "init"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "register"]
+- !private ["So16UIStateRestoringP", "showViewControllerForAddForum"]
+- !private ["So21UITableViewControllerC", "showViewControllerForAddForum"]
+- !private ["So21UITableViewDataSourceP", "showViewControllerForAddForum"]
+- !private ["So19UITableViewDelegateP", "showViewControllerForAddForum"]
 - !private ["So22UITapGestureRecognizerC", "init"]
 - !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
 - !private ["So18UITraitEnvironmentP", "addSubview"]
@@ -988,6 +1051,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "main"]
 - !private ["So18UITraitEnvironmentP", "register"]
 - !private ["So18UITraitEnvironmentP", "setting"]
+- !private ["So18UITraitEnvironmentP", "showViewControllerForAddForum"]
 - !private ["So6UIViewC", "addGestureRecognizer"]
 - !private ["So6UIViewC", "addSubview"]
 - !private ["So6UIViewC", "alpha"]
@@ -1001,7 +1065,9 @@ depends-member:
 - !private ["So6UIViewC", "register"]
 - !private ["So6UIViewC", "setting"]
 - !private ["SC22UIViewAnimationOptionsV", "curveEaseOut"]
+- !private ["So16UIViewControllerC", "showViewControllerForAddForum"]
 - !private ["So8UIWindowC", "addSubview"]
+- !private ["So8UIWindowC", "backgroundColor"]
 - !private ["So8UIWindowC", "frame"]
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s14_ArrayProtocolP", "subscript"]
@@ -1025,12 +1091,13 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setting"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "init"]
-- ["s26_ExpressibleByColorLiteralP", "white"]
+- ["s26_ExpressibleByColorLiteralP", "rgb"]
 - ["s33_ExpressibleByStringInterpolationP", "init"]
 - ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s10_IndexableP", "count"]
@@ -1066,8 +1133,9 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "endMenuView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "forumTableViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleDismiss"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imageName"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForPreferredFocusedView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForPreferredFocusedViewInCollectionView"]
@@ -1079,7 +1147,9 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSections"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSectionsInCollectionView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "rgb"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidEndDecelerating"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidEndDragging"]
@@ -1096,13 +1166,14 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setting"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "settings"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showViewControllerForAddForum"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZooming"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZoomingInScrollView"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "white"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["s17_MutableIndexableP", "count"]
 - !private ["s17_MutableIndexableP", "item"]
 - !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "height"]
 - ["s21_ObjectiveCBridgeableP", "init"]
@@ -1123,6 +1194,7 @@ depends-nominal:
 - !private "24UserLoginAndRegistration8BaseCellC"
 - "s23BidirectionalCollectionP"
 - !private "s19BinaryFloatingPointP"
+- !private "Sb"
 - "So15CALayerDelegateP"
 - !private "12CoreGraphics7CGFloatV"
 - !private "SC7CGPointV"
@@ -1139,12 +1211,14 @@ depends-nominal:
 - "s9EncodableP"
 - "s9EquatableP"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s13FloatingPointP"
+- !private "24UserLoginAndRegistration24ForumTableViewControllerC"
 - "s8HashableP"
 - !private "10Foundation9IndexPathV"
 - "s25LosslessStringConvertibleP"
@@ -1152,6 +1226,7 @@ depends-nominal:
 - !private "s17MutableCollectionP"
 - "So8NSCodingP"
 - "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
 - "So21NSItemProviderReadingP"
 - "So21NSItemProviderWritingP"
 - "So16NSMutableCopyingP"
@@ -1190,6 +1265,7 @@ depends-nominal:
 - "So26UICollectionViewFlowLayoutC"
 - "So22UICollectionViewLayoutC"
 - "So7UIColorC"
+- !private "So18UIContentContainerP"
 - "So17UICoordinateSpaceP"
 - "So23UIDataSourceTranslatingP"
 - "So13UIDynamicItemP"
@@ -1203,10 +1279,15 @@ depends-nominal:
 - "So12UIScrollViewC"
 - "So20UIScrollViewDelegateP"
 - "So35UISpringLoadedInteractionSupportingP"
+- !private "So16UIStateRestoringP"
+- !private "So21UITableViewControllerC"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
 - !private "So22UITapGestureRecognizerC"
 - "So18UITraitEnvironmentP"
 - "So6UIViewC"
 - !private "SC22UIViewAnimationOptionsV"
+- !private "So16UIViewControllerC"
 - !private "So8UIWindowC"
 - !private "s14_ArrayProtocolP"
 - "s23_BidirectionalIndexableP"
@@ -1214,6 +1295,7 @@ depends-nominal:
 - !private "s22_CVarArgPassedAsDoubleP"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s39_ExpressibleByBuiltinUTF16StringLiteralP"
@@ -1318,8 +1400,4 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-interface-hash: "07e060ecc0438660ee7def5be5c70f91"
+interface-hash: "8399eba4ea0dbbeeb8eb594f67eabd04"

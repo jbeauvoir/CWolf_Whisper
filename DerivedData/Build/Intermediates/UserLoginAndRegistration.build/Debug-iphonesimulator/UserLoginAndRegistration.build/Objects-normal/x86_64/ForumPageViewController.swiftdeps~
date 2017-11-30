@@ -10,14 +10,10 @@ provides-member:
 provides-dynamic-lookup:
 - "MENUBUTTON"
 - "MENUBUTTONCLICKED"
-- "catClicked"
 - "catNavBoutton"
 - "didReceiveMemoryWarning"
-- "homeClicked"
 - "homeNavButton"
-- "hotClicked"
 - "hotNavButton"
-- "imClicked"
 - "imNavButton"
 - "pageViewController"
 - "presentationCount"
@@ -308,7 +304,6 @@ depends-member:
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "VCarray"]
 - !private ["24UserLoginAndRegistration23ForumPageViewControllerC", "VCarray.storage"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "VCinstance"]
-- ["24UserLoginAndRegistration23ForumPageViewControllerC", "catClicked"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "catNavBoutton"]
 - !private ["24UserLoginAndRegistration23ForumPageViewControllerC", "dataSource"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "deinit"]
@@ -316,11 +311,8 @@ depends-member:
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "didReceiveMemoryWarning"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "getPageNumber"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "highlightAndUpdate"]
-- ["24UserLoginAndRegistration23ForumPageViewControllerC", "homeClicked"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "homeNavButton"]
-- ["24UserLoginAndRegistration23ForumPageViewControllerC", "hotClicked"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "hotNavButton"]
-- ["24UserLoginAndRegistration23ForumPageViewControllerC", "imClicked"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "imNavButton"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "init"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "pageViewController"]
@@ -493,7 +485,6 @@ depends-member:
 - !private ["So8NSObjectC", "backgroundColor"]
 - !private ["So8NSObjectC", "black"]
 - !private ["So8NSObjectC", "bounds"]
-- ["So8NSObjectC", "catClicked"]
 - ["So8NSObjectC", "catNavBoutton"]
 - !private ["So8NSObjectC", "clear"]
 - !private ["So8NSObjectC", "dataSource"]
@@ -502,11 +493,8 @@ depends-member:
 - !private ["So8NSObjectC", "frame"]
 - ["So8NSObjectC", "getPageNumber"]
 - ["So8NSObjectC", "highlightAndUpdate"]
-- ["So8NSObjectC", "homeClicked"]
 - ["So8NSObjectC", "homeNavButton"]
-- ["So8NSObjectC", "hotClicked"]
 - ["So8NSObjectC", "hotNavButton"]
-- ["So8NSObjectC", "imClicked"]
 - ["So8NSObjectC", "imNavButton"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "instantiateViewController"]
@@ -748,18 +736,14 @@ depends-member:
 - ["So20UIPageViewControllerC", "VCarray"]
 - ["So20UIPageViewControllerC", "VCarray.storage"]
 - ["So20UIPageViewControllerC", "VCinstance"]
-- ["So20UIPageViewControllerC", "catClicked"]
 - ["So20UIPageViewControllerC", "catNavBoutton"]
 - !private ["So20UIPageViewControllerC", "dataSource"]
 - !private ["So20UIPageViewControllerC", "delegate"]
 - ["So20UIPageViewControllerC", "didReceiveMemoryWarning"]
 - ["So20UIPageViewControllerC", "getPageNumber"]
 - ["So20UIPageViewControllerC", "highlightAndUpdate"]
-- ["So20UIPageViewControllerC", "homeClicked"]
 - ["So20UIPageViewControllerC", "homeNavButton"]
-- ["So20UIPageViewControllerC", "hotClicked"]
 - ["So20UIPageViewControllerC", "hotNavButton"]
-- ["So20UIPageViewControllerC", "imClicked"]
 - ["So20UIPageViewControllerC", "imNavButton"]
 - ["So20UIPageViewControllerC", "init"]
 - ["So20UIPageViewControllerC", "pageViewController"]
@@ -882,7 +866,6 @@ depends-member:
 - ["So11UIResponderC", "VCarray.storage"]
 - ["So11UIResponderC", "VCinstance"]
 - !private ["So11UIResponderC", "backgroundColor"]
-- ["So11UIResponderC", "catClicked"]
 - ["So11UIResponderC", "catNavBoutton"]
 - !private ["So11UIResponderC", "dataSource"]
 - !private ["So11UIResponderC", "delegate"]
@@ -890,11 +873,8 @@ depends-member:
 - !private ["So11UIResponderC", "frame"]
 - ["So11UIResponderC", "getPageNumber"]
 - ["So11UIResponderC", "highlightAndUpdate"]
-- ["So11UIResponderC", "homeClicked"]
 - ["So11UIResponderC", "homeNavButton"]
-- ["So11UIResponderC", "hotClicked"]
 - ["So11UIResponderC", "hotNavButton"]
-- ["So11UIResponderC", "imClicked"]
 - ["So11UIResponderC", "imNavButton"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "pageViewController"]
@@ -1038,18 +1018,14 @@ depends-member:
 - ["So16UIViewControllerC", "VCarray"]
 - ["So16UIViewControllerC", "VCarray.storage"]
 - ["So16UIViewControllerC", "VCinstance"]
-- ["So16UIViewControllerC", "catClicked"]
 - ["So16UIViewControllerC", "catNavBoutton"]
 - !private ["So16UIViewControllerC", "dataSource"]
 - !private ["So16UIViewControllerC", "delegate"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "getPageNumber"]
 - ["So16UIViewControllerC", "highlightAndUpdate"]
-- ["So16UIViewControllerC", "homeClicked"]
 - ["So16UIViewControllerC", "homeNavButton"]
-- ["So16UIViewControllerC", "hotClicked"]
 - ["So16UIViewControllerC", "hotNavButton"]
-- ["So16UIViewControllerC", "imClicked"]
 - ["So16UIViewControllerC", "imNavButton"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "pageViewController"]
@@ -1357,4 +1333,4 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-interface-hash: "4ccfbe7e535a98c5073715b344ff4d0e"
+interface-hash: "1a6d8c0bbbc641c01ddad431c35c99fc"

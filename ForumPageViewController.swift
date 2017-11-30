@@ -19,7 +19,7 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     @IBOutlet weak var hotNavButton: UIBarButtonItem!
     @IBOutlet weak var catNavBoutton: UIBarButtonItem!
     @IBOutlet weak var imNavButton: UIBarButtonItem!
-  
+  /*
     //ot using any of these atm
   //IF WE WANTED TO LET USER TO CLICK TO A CERTAIN TAB, BUT ITS EASY ENOUGH TO SWIPE TO SPOT
     @IBAction func homeClicked(_ sender: Any) {
@@ -44,7 +44,7 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         //move page to that spot
     
     }
-
+*/
     
     let settingLauncher = SettingLauncher()
    
