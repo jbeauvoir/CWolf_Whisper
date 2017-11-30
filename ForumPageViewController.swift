@@ -56,8 +56,8 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     lazy var VCarray: [UIViewController] = {
         return [self.VCinstance(name: "HomeViewController" ),
                 self.VCinstance(name: "HomeViewController" ),
-                self.VCinstance(name: "CatagoryViewController" ),
-                self.VCinstance(name: "MessageViewController" )] //These are the storyboard IDs that will be shown on swiping
+                self.VCinstance(name: "MessageViewController" ),
+                self.VCinstance(name: "CatagoryViewController" )] //These are the storyboard IDs that will be shown on swiping
                                                                 //change name to which vieewwcontroller you want
     }()
     
@@ -69,7 +69,7 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         super.viewDidLoad()
         self.dataSource = self
         self.delegate = self
-        homeNavButton.tintColor = UIColor.red
+        homeNavButton.tintColor = UIColor.black
         if let firstVC = VCarray.first {
             setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
         }
