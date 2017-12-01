@@ -13,11 +13,13 @@ import UIKit
 class ForumTableViewController: UITableViewController  {
     @IBOutlet weak var MenuButton: UIBarButtonItem!
     @IBAction func clickedMenuButton(_ sender: Any) {
+        print("Clicked menu button")
         revealMenu()
     }
    
     lazy var settingLauncher: SettingLauncher = {
     let setUp = SettingLauncher()
+    print("Setting forumTableViewController in SettingLauncher")
     setUp.forumTableViewController = self
         return setUp
     }()
@@ -40,7 +42,6 @@ class ForumTableViewController: UITableViewController  {
         navigationController?.navigationBar.isTranslucent = true;//see through navigation controller
         //setupBottomMenuBar()
          self.navigationController?.navigationBar.tintColor = UIColor.white
-        
         setupNavBarButtons()
        
     }
@@ -57,7 +58,7 @@ class ForumTableViewController: UITableViewController  {
     }
  
     func setPageNumber()->Int{
-        var pageNumber = ForumPageViewController.PageWeAreOn.whatPageWeAreOn
+        var pageNumber = ForumPageViewController.PageWeAreOn.page
         print("WE ARE AT PAGE:  \(pageNumber)")
         return pageNumber
     }
@@ -84,7 +85,8 @@ class ForumTableViewController: UITableViewController  {
     }
 
     func revealMenu(){
-        //settingLauncher.forumTViewController = self
+        print("Setting the FTVC")
+        settingLauncher.forumTableViewController = self
         settingLauncher.revealMenu()
         //showViewControllerForMenu()
     }

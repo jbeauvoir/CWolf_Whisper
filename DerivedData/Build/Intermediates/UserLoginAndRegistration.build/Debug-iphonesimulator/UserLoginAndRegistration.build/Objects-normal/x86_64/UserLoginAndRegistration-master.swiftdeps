@@ -1,17 +1,17 @@
-version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
 options: "6ad7382e672f65a8b40233888c894a70"
-build_time: [1512024486, 293286000]
+build_time: [1512087237, 338919000]
 inputs:
   "/Users/student/Desktop/UserLoginAndRegistration/BaseCell.swift": [1512004660, 0]
-  "/Users/student/Desktop/UserLoginAndRegistration/AboutUsViewController.swift": [1512004660, 0]
+  "/Users/student/Desktop/UserLoginAndRegistration/AboutUsViewController.swift": [1512086530, 0]
   "/Users/student/Desktop/UserLoginAndRegistration/UserInformation/UserInformation.swift": [1512004673, 0]
   "/Users/student/Desktop/UserLoginAndRegistration/ForumTableViewCell.swift": [1512004672, 0]
   "/Users/student/Desktop/UserLoginAndRegistration/ForumDataSource.swift": [1512004672, 0]
   "/Users/student/Desktop/UserLoginAndRegistration/NewForumViewController.swift": [1512004672, 0]
-  "/Users/student/Desktop/UserLoginAndRegistration/ForumPageViewController.swift": [1512012340, 0]
+  "/Users/student/Desktop/UserLoginAndRegistration/ForumPageViewController.swift": [1512087236, 0]
   "/Users/student/Desktop/UserLoginAndRegistration/CatagoryViewController.swift": [1512012340, 0]
   "/Users/student/Desktop/UserLoginAndRegistration/DownloadComments.swift": [1512004672, 0]
-  "/Users/student/Desktop/UserLoginAndRegistration/ForumTableViewController.swift": [1512024274, 0]
+  "/Users/student/Desktop/UserLoginAndRegistration/ForumTableViewController.swift": [1512086568, 0]
   "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/LoginViewController.swift": [1512004673, 0]
   "/Users/student/Desktop/UserLoginAndRegistration/ViewController.swift": [1512004673, 0]
   "/Users/student/Desktop/UserLoginAndRegistration/ThingsToDo/WhatToDoList-ReadMe.swift": [1512004673, 0]
@@ -27,5 +27,5 @@ inputs:
   "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/RegisterPageViewController.swift": [1512004673, 0]
   "/Users/student/Desktop/UserLoginAndRegistration/CommentDataSource.swift": [1512004660, 0]
   "/Users/student/Desktop/UserLoginAndRegistration/Forum.swift": [1512004672, 0]
-  "/Users/student/Desktop/UserLoginAndRegistration/SettingLauncher.swift": [1512024483, 0]
+  "/Users/student/Desktop/UserLoginAndRegistration/SettingLauncher.swift": [1512086530, 0]
   "/Users/student/Desktop/UserLoginAndRegistration/BottomMenuBar.swift": [1512013117, 0]

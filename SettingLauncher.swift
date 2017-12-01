@@ -21,9 +21,9 @@ class Setting: NSObject {
 }
 
 class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
-    
     let blackView = UIView()
-
+    var forumTableViewController: ForumTableViewController?
+    
     let collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
@@ -37,9 +37,6 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
         return [Setting(name:"Add New Forum", imageName: "addForum2"), Setting(name: "Home", imageName: "Home2"), Setting(name: "History", imageName: "history2"), Setting(name: "App info", imageName: "info3"), Setting(name: "Logout", imageName: "Logout2")]
     }()
 
- 
-    
-    var forumTableViewController: ForumTableViewController? 
     
     
     func revealMenu() {
@@ -101,7 +98,13 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
             print("comepleted now trying to call function")
             if setting.name != "" {
                 print("calling")
-                self.forumTableViewController?.showViewControllerForAddForum(setting: setting)
+                
+               /* let vc = UIStoryboard.self as! ForumTableViewController
+                vc.view.backgroundColor = .clear
+                vc.modalPresentationStyle = .overCurrentContext
+                self.forumTableViewController?.present(vc, animated: true, completion: nil)
+                 */
+                //self.forumTableViewController?.showViewControllerForAddForum(setting: setting)
             }
         }
     }

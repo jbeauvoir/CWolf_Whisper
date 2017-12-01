@@ -179,6 +179,7 @@
 				3FF8E0161FC64075009D55C0 /* ForumPageViewController.swift */,
 				3FF8E01E1FC64171009D55C0 /* CatagoryViewController.swift */,
 				3F51AF681FCE362D005F1976 /* MessageTableViewController.swift */,
+				3FD8DA6C1FCE52680014E583 /* AboutUsViewController.swift */,
 			);
 			name = ForumLoad;
 			sourceTree = "<group>";
@@ -199,7 +200,6 @@
 			isa = PBXGroup;
 			children = (
 				3FC3A66F1FB8FF6200EAD209 /* NewForumViewController.swift */,
-				3FD8DA6C1FCE52680014E583 /* AboutUsViewController.swift */,
 			);
 			name = MenuViews;
 			sourceTree = "<group>";

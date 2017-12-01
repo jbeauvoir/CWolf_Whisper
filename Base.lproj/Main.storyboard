@@ -4,7 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -235,7 +235,7 @@
         <!--About Us View Controller-->
         <scene sceneID="ADM-uW-ytY">
             <objects>
-                <viewController id="cwo-RL-mb6" customClass="AboutUsViewController" customModule="UserLoginAndRegistration" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AboutUsViewController" id="cwo-RL-mb6" customClass="AboutUsViewController" customModule="UserLoginAndRegistration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fag-Gw-YsB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -245,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lH2-rF-jgB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4412" y="888"/>
+            <point key="canvasLocation" x="4426" y="888"/>
         </scene>
         <!--Forums-->
         <scene sceneID="Sbr-vq-1Sr">
@@ -751,7 +751,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="t4f-PR-gHl"/>
-        <segue reference="noN-WF-rjq"/>
+        <segue reference="dNC-K8-tLI"/>
         <segue reference="IeQ-z0-fcX"/>
     </inferredMetricsTieBreakers>
 </document>
