@@ -152,6 +152,19 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     }
     
     
+    func showViewControllerForAddForum(setting: Setting) {
+        //call the class you want to setup the addforum viewcontroller
+        print("new UIVIEWCONTROLLER onto stack")
+        let addForum = UIViewController()
+        addForum.view.backgroundColor = UIColor.white
+        addForum.navigationItem.title = setting.name
+        navigationController?.navigationBar.tintColor = UIColor.white
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        navigationController?.pushViewController(addForum, animated: true)
+    }
+    
+    
+    
     func setPageNumber(pageIdx: Int){
        // let viewControllerIndex = VCarray.index(of: viewController)
         PageWeAreOn.page = pageIdx

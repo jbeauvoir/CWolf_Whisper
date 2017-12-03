@@ -19,10 +19,10 @@ class ForumTableViewController: UITableViewController  {
    
     lazy var settingLauncher: SettingLauncher = {
     let setUp = SettingLauncher()
-    print("Setting forumTableViewController in SettingLauncher")
     setUp.forumTableViewController = self
         return setUp
     }()
+    
     
     var forumsDS: ForumDataSource?
    // var forumHomeDS: ForumHomeDataSource?
@@ -30,6 +30,8 @@ class ForumTableViewController: UITableViewController  {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
     
         downloadAssistant.addObserver(self, forKeyPath: "dataFromServer", options: .old, context: nil) //whenever the data changes on this object or it completes its download Observe
         downloadAssistant.download_request() // store the downloaded

@@ -22,7 +22,7 @@ class Setting: NSObject {
 
 class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     let blackView = UIView()
-    
+   
     var forumTableViewController: ForumTableViewController?
     
     let collectionView: UICollectionView = {
@@ -99,12 +99,7 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
             print("comepleted now trying to call function")
             if setting.name != "" {
                 print("calling")
-                
-               /* let vc = UIStoryboard.self as! ForumTableViewController
-                vc.view.backgroundColor = .clear
-                vc.modalPresentationStyle = .overCurrentContext
-                self.forumTableViewController?.present(vc, animated: true, completion: nil)
-                 */
+                //PROBLEM NEEDS FIX
                 self.forumTableViewController?.showViewControllerForAddForum(setting: setting)
             }
         }
