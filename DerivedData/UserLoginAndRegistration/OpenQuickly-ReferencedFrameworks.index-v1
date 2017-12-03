@@ -10,15 +10,15 @@
 	<string>FirebaseDatabase</string>
 	<string>Fabric</string>
 	<string>FirebaseAnalytics</string>
-	<string>sys</string>
 	<string>UIKit</string>
 	<string>FirebasePerformance</string>
+	<string>sys</string>
 	<string>FirebaseRemoteConfig</string>
 	<string>Crashlytics</string>
-	<string>FirebaseAuth</string>
 	<string>XCTest</string>
-	<string>FirebaseCrash</string>
+	<string>FirebaseAuth</string>
 	<string>UserLoginAndRegistration</string>
+	<string>FirebaseCrash</string>
 	<string>FirebaseMessaging</string>
 	<string>WatchKit</string>
 	<string>FirebaseCore</string>

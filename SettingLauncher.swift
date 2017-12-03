@@ -22,6 +22,7 @@ class Setting: NSObject {
 
 class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     let blackView = UIView()
+    
     var forumTableViewController: ForumTableViewController?
     
     let collectionView: UICollectionView = {
@@ -104,7 +105,7 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
                 vc.modalPresentationStyle = .overCurrentContext
                 self.forumTableViewController?.present(vc, animated: true, completion: nil)
                  */
-                //self.forumTableViewController?.showViewControllerForAddForum(setting: setting)
+                self.forumTableViewController?.showViewControllerForAddForum(setting: setting)
             }
         }
     }

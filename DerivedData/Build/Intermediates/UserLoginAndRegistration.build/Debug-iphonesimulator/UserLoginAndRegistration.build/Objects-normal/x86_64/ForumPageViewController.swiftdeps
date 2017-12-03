@@ -13,7 +13,6 @@ provides-dynamic-lookup:
 - "catNavBoutton"
 - "didReceiveMemoryWarning"
 - "homeNavButton"
-- "hotNavButton"
 - "imNavButton"
 - "pageViewController"
 - "presentationCount"
@@ -83,7 +82,6 @@ depends-member:
 - !private ["s7CVarArgP", "frame"]
 - !private ["s7CVarArgP", "highlightAndUpdate"]
 - !private ["s7CVarArgP", "homeNavButton"]
-- !private ["s7CVarArgP", "hotNavButton"]
 - !private ["s7CVarArgP", "imNavButton"]
 - !private ["s7CVarArgP", "index"]
 - ["s7CVarArgP", "init"]
@@ -139,7 +137,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "frame"]
 - !private ["s28CustomDebugStringConvertibleP", "highlightAndUpdate"]
 - !private ["s28CustomDebugStringConvertibleP", "homeNavButton"]
-- !private ["s28CustomDebugStringConvertibleP", "hotNavButton"]
 - !private ["s28CustomDebugStringConvertibleP", "imNavButton"]
 - !private ["s28CustomDebugStringConvertibleP", "index"]
 - ["s28CustomDebugStringConvertibleP", "init"]
@@ -198,7 +195,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "frame"]
 - !private ["s23CustomStringConvertibleP", "highlightAndUpdate"]
 - !private ["s23CustomStringConvertibleP", "homeNavButton"]
-- !private ["s23CustomStringConvertibleP", "hotNavButton"]
 - !private ["s23CustomStringConvertibleP", "imNavButton"]
 - !private ["s23CustomStringConvertibleP", "index"]
 - ["s23CustomStringConvertibleP", "init"]
@@ -261,7 +257,6 @@ depends-member:
 - !private ["s9EquatableP", "frame"]
 - !private ["s9EquatableP", "highlightAndUpdate"]
 - !private ["s9EquatableP", "homeNavButton"]
-- !private ["s9EquatableP", "hotNavButton"]
 - !private ["s9EquatableP", "imNavButton"]
 - ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "instantiateViewController"]
@@ -321,7 +316,6 @@ depends-member:
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "getPageNumber"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "highlightAndUpdate"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "homeNavButton"]
-- ["24UserLoginAndRegistration23ForumPageViewControllerC", "hotNavButton"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "imNavButton"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "init"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "pageViewController"]
@@ -359,7 +353,6 @@ depends-member:
 - !private ["s8HashableP", "frame"]
 - !private ["s8HashableP", "highlightAndUpdate"]
 - !private ["s8HashableP", "homeNavButton"]
-- !private ["s8HashableP", "hotNavButton"]
 - !private ["s8HashableP", "imNavButton"]
 - ["s8HashableP", "init"]
 - !private ["s8HashableP", "instantiateViewController"]
@@ -410,7 +403,6 @@ depends-member:
 - !private ["So8NSCodingP", "frame"]
 - !private ["So8NSCodingP", "highlightAndUpdate"]
 - !private ["So8NSCodingP", "homeNavButton"]
-- !private ["So8NSCodingP", "hotNavButton"]
 - !private ["So8NSCodingP", "imNavButton"]
 - !private ["So8NSCodingP", "init"]
 - ["So8NSCodingP", "pageViewController"]
@@ -451,7 +443,6 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
 - !private ["So26NSExtensionRequestHandlingP", "highlightAndUpdate"]
 - !private ["So26NSExtensionRequestHandlingP", "homeNavButton"]
-- !private ["So26NSExtensionRequestHandlingP", "hotNavButton"]
 - !private ["So26NSExtensionRequestHandlingP", "imNavButton"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - ["So26NSExtensionRequestHandlingP", "pageViewController"]
@@ -510,7 +501,6 @@ depends-member:
 - ["So8NSObjectC", "getPageNumber"]
 - ["So8NSObjectC", "highlightAndUpdate"]
 - ["So8NSObjectC", "homeNavButton"]
-- ["So8NSObjectC", "hotNavButton"]
 - ["So8NSObjectC", "imNavButton"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "instantiateViewController"]
@@ -554,7 +544,6 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "frame"]
 - !private ["So16NSObjectProtocolP", "highlightAndUpdate"]
 - !private ["So16NSObjectProtocolP", "homeNavButton"]
-- !private ["So16NSObjectProtocolP", "hotNavButton"]
 - !private ["So16NSObjectProtocolP", "imNavButton"]
 - ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "instantiateViewController"]
@@ -636,7 +625,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "frame"]
 - !private ["So21UIAppearanceContainerP", "highlightAndUpdate"]
 - !private ["So21UIAppearanceContainerP", "homeNavButton"]
-- !private ["So21UIAppearanceContainerP", "hotNavButton"]
 - !private ["So21UIAppearanceContainerP", "imNavButton"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - ["So21UIAppearanceContainerP", "pageViewController"]
@@ -681,7 +669,6 @@ depends-member:
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
 - !private ["So18UIContentContainerP", "highlightAndUpdate"]
 - !private ["So18UIContentContainerP", "homeNavButton"]
-- !private ["So18UIContentContainerP", "hotNavButton"]
 - !private ["So18UIContentContainerP", "imNavButton"]
 - !private ["So18UIContentContainerP", "init"]
 - ["So18UIContentContainerP", "pageViewController"]
@@ -721,7 +708,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "frame"]
 - !private ["So18UIFocusEnvironmentP", "highlightAndUpdate"]
 - !private ["So18UIFocusEnvironmentP", "homeNavButton"]
-- !private ["So18UIFocusEnvironmentP", "hotNavButton"]
 - !private ["So18UIFocusEnvironmentP", "imNavButton"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - ["So18UIFocusEnvironmentP", "pageViewController"]
@@ -768,7 +754,6 @@ depends-member:
 - ["So20UIPageViewControllerC", "getPageNumber"]
 - ["So20UIPageViewControllerC", "highlightAndUpdate"]
 - ["So20UIPageViewControllerC", "homeNavButton"]
-- ["So20UIPageViewControllerC", "hotNavButton"]
 - ["So20UIPageViewControllerC", "imNavButton"]
 - ["So20UIPageViewControllerC", "init"]
 - ["So20UIPageViewControllerC", "pageViewController"]
@@ -800,7 +785,6 @@ depends-member:
 - !private ["So30UIPageViewControllerDataSourceP", "delegate"]
 - !private ["So30UIPageViewControllerDataSourceP", "highlightAndUpdate"]
 - !private ["So30UIPageViewControllerDataSourceP", "homeNavButton"]
-- !private ["So30UIPageViewControllerDataSourceP", "hotNavButton"]
 - !private ["So30UIPageViewControllerDataSourceP", "imNavButton"]
 - ["So30UIPageViewControllerDataSourceP", "pageViewController"]
 - ["So30UIPageViewControllerDataSourceP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
@@ -828,7 +812,6 @@ depends-member:
 - !private ["So28UIPageViewControllerDelegateP", "delegate"]
 - !private ["So28UIPageViewControllerDelegateP", "highlightAndUpdate"]
 - !private ["So28UIPageViewControllerDelegateP", "homeNavButton"]
-- !private ["So28UIPageViewControllerDelegateP", "hotNavButton"]
 - !private ["So28UIPageViewControllerDelegateP", "imNavButton"]
 - ["So28UIPageViewControllerDelegateP", "pageViewController"]
 - ["So28UIPageViewControllerDelegateP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
@@ -860,7 +843,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "frame"]
 - !private ["So30UIPasteConfigurationSupportingP", "highlightAndUpdate"]
 - !private ["So30UIPasteConfigurationSupportingP", "homeNavButton"]
-- !private ["So30UIPasteConfigurationSupportingP", "hotNavButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "imNavButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "pageViewController"]
@@ -906,7 +888,6 @@ depends-member:
 - ["So11UIResponderC", "getPageNumber"]
 - ["So11UIResponderC", "highlightAndUpdate"]
 - ["So11UIResponderC", "homeNavButton"]
-- ["So11UIResponderC", "hotNavButton"]
 - ["So11UIResponderC", "imNavButton"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "pageViewController"]
@@ -941,7 +922,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "frame"]
 - !private ["So30UIResponderStandardEditActionsP", "highlightAndUpdate"]
 - !private ["So30UIResponderStandardEditActionsP", "homeNavButton"]
-- !private ["So30UIResponderStandardEditActionsP", "hotNavButton"]
 - !private ["So30UIResponderStandardEditActionsP", "imNavButton"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "pageViewController"]
@@ -979,7 +959,6 @@ depends-member:
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
 - !private ["So16UIStateRestoringP", "highlightAndUpdate"]
 - !private ["So16UIStateRestoringP", "homeNavButton"]
-- !private ["So16UIStateRestoringP", "hotNavButton"]
 - !private ["So16UIStateRestoringP", "imNavButton"]
 - !private ["So16UIStateRestoringP", "init"]
 - ["So16UIStateRestoringP", "pageViewController"]
@@ -1016,7 +995,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "frame"]
 - !private ["So18UITraitEnvironmentP", "highlightAndUpdate"]
 - !private ["So18UITraitEnvironmentP", "homeNavButton"]
-- !private ["So18UITraitEnvironmentP", "hotNavButton"]
 - !private ["So18UITraitEnvironmentP", "imNavButton"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "main"]
@@ -1064,7 +1042,6 @@ depends-member:
 - ["So16UIViewControllerC", "getPageNumber"]
 - ["So16UIViewControllerC", "highlightAndUpdate"]
 - ["So16UIViewControllerC", "homeNavButton"]
-- ["So16UIViewControllerC", "hotNavButton"]
 - ["So16UIViewControllerC", "imNavButton"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "pageViewController"]
@@ -1143,7 +1120,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "highlightAndUpdate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "homeNavButton"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "hotNavButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imNavButton"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
@@ -1375,8 +1351,4 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-interface-hash: "246a1875a79aef662c65bf471ae18617"
+interface-hash: "e6698c4a4c5053091e80b8fbb390e8dc"

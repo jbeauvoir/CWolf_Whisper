@@ -16,7 +16,6 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     }
     //not using any of these atm
     @IBOutlet weak var homeNavButton: UIBarButtonItem!
-    @IBOutlet weak var hotNavButton: UIBarButtonItem!
     @IBOutlet weak var catNavBoutton: UIBarButtonItem!
     @IBOutlet weak var imNavButton: UIBarButtonItem!
   /*
@@ -52,7 +51,6 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     
     lazy var VCarray: [UIViewController] = {
         return [self.VCinstance(name: "HomeViewController" ),
-                self.VCinstance(name: "HomeViewController" ),
                 self.VCinstance(name: "MessageViewController" ),
                 self.VCinstance(name: "CatagoryViewController" )] //These are the storyboard IDs that will be shown on swiping
                                                                 //change name to which vieewwcontroller you want
@@ -170,7 +168,6 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         //update the table view, refresh the connection with what you want. otherwise do nothing and let that ViewController load
         if  nextSpot == 0  {
             homeNavButton.tintColor = UIColor.red
-            hotNavButton.tintColor = UIColor.white
             imNavButton.tintColor = UIColor.white
             catNavBoutton.tintColor = UIColor.white
             //setup home viewTable
@@ -178,7 +175,6 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         }
         if nextSpot == 1 {
             homeNavButton.tintColor = UIColor.white
-            hotNavButton.tintColor = UIColor.red
             imNavButton.tintColor = UIColor.white
             catNavBoutton.tintColor = UIColor.white
             //setup trending viewTable
@@ -186,7 +182,6 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         }
         if nextSpot == 2 {
             homeNavButton.tintColor = UIColor.white
-            hotNavButton.tintColor = UIColor.white
             imNavButton.tintColor = UIColor.red
             catNavBoutton.tintColor = UIColor.white
             //setup Cat
@@ -195,7 +190,6 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         }
         if nextSpot == 3 {
             homeNavButton.tintColor = UIColor.white
-            hotNavButton.tintColor = UIColor.white
             imNavButton.tintColor = UIColor.white
             catNavBoutton.tintColor = UIColor.red
             //always reset connection when here
