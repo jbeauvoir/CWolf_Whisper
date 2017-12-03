@@ -10,6 +10,7 @@ target 'UserLoginAndRegistration' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
+  pod 'JSQMessagesViewController'
 
   target 'UserLoginAndRegistrationTests' do
     inherit! :search_paths
