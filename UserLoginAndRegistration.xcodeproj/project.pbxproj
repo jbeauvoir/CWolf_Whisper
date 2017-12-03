@@ -40,6 +40,9 @@
 		3FE612D61FB78D7900DDC94C /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE612D51FB78D7900DDC94C /* Download.swift */; };
 		3FF8E0171FC64076009D55C0 /* ForumPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8E0161FC64075009D55C0 /* ForumPageViewController.swift */; };
 		3FF8E01F1FC64171009D55C0 /* CatagoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8E01E1FC64171009D55C0 /* CatagoryViewController.swift */; };
+		802773191FD39A460099C3FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802773181FD39A460099C3FB /* Constants.swift */; };
+		803CBEE81FD3845500884D90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 803CBEE71FD3845500884D90 /* GoogleService-Info.plist */; };
+		803CBEEA1FD385B900884D90 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803CBEE91FD385B900884D90 /* ChatViewController.swift */; };
 		C8588C1EBFC3B2B582FD1F94 /* Pods_UserLoginAndRegistration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B35CDDD65C10C6AA227FD94 /* Pods_UserLoginAndRegistration.framework */; };
 		DFB6D935DB00BE6681EAB2A6 /* Pods_UserLoginAndRegistrationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C04691ABE6D545D5DEA6DF /* Pods_UserLoginAndRegistrationUITests.framework */; };
 /* End PBXBuildFile section */
@@ -107,6 +110,10 @@
 		3FF8E01E1FC64171009D55C0 /* CatagoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryViewController.swift; sourceTree = "<group>"; };
 		75B4889C5637F3DB5AF5586A /* Pods_UserLoginAndRegistrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserLoginAndRegistrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C04691ABE6D545D5DEA6DF /* Pods_UserLoginAndRegistrationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserLoginAndRegistrationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		802773171FD397590099C3FB /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		802773181FD39A460099C3FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		803CBEE71FD3845500884D90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		803CBEE91FD385B900884D90 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		B4A6CEBA113EE63F71D1813D /* Pods-UserLoginAndRegistration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginAndRegistration.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginAndRegistration/Pods-UserLoginAndRegistration.release.xcconfig"; sourceTree = "<group>"; };
 		D8E40EEE9C1F0021196D02E3 /* Pods-UserLoginAndRegistrationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginAndRegistrationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginAndRegistrationUITests/Pods-UserLoginAndRegistrationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -207,11 +214,13 @@
 		3FE0AABC1FAAE33700971C39 = {
 			isa = PBXGroup;
 			children = (
+				803CBEE71FD3845500884D90 /* GoogleService-Info.plist */,
 				3FE0AACA1FAAE33700971C39 /* ViewController.swift */,
 				3FE0AAC81FAAE33700971C39 /* AppDelegate.swift */,
 				3FE0AACC1FAAE33700971C39 /* Main.storyboard */,
 				3FE0AACF1FAAE33700971C39 /* Assets.xcassets */,
 				3FE0AAD11FAAE33700971C39 /* LaunchScreen.storyboard */,
+				802773161FD396E60099C3FB /* Chat */,
 				3FD8DA6B1FCE51EA0014E583 /* MenuViews */,
 				3FA132DA1FBD071A006B8476 /* ThingsToDo */,
 				3F8942E31FBBF79A0094D056 /* UserInformation */,
@@ -276,6 +285,16 @@
 				0A70E48A7C36430FBD7C8EC5 /* Pods-UserLoginAndRegistrationUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		802773161FD396E60099C3FB /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				803CBEE91FD385B900884D90 /* ChatViewController.swift */,
+				802773171FD397590099C3FB /* Bridging-Header.h */,
+				802773181FD39A460099C3FB /* Constants.swift */,
+			);
+			path = Chat;
 			sourceTree = "<group>";
 		};
 		FEBAE4ECBDD8DE6636C665D1 /* Frameworks */ = {
@@ -406,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FE0AAD31FAAE33700971C39 /* LaunchScreen.storyboard in Resources */,
+				803CBEE81FD3845500884D90 /* GoogleService-Info.plist in Resources */,
 				3FE0AAD01FAAE33700971C39 /* Assets.xcassets in Resources */,
 				3FE0AACE1FAAE33700971C39 /* Main.storyboard in Resources */,
 			);
@@ -503,6 +523,8 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-UserLoginAndRegistration/Pods-UserLoginAndRegistration-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -510,6 +532,8 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -593,11 +617,13 @@
 				3F8942E51FBBF7D40094D056 /* UserInformation.swift in Sources */,
 				3FE612D01FB78C9200DDC94C /* ForumTableViewCell.swift in Sources */,
 				3FE612D41FB78D5D00DDC94C /* ForumDataSource.swift in Sources */,
+				802773191FD39A460099C3FB /* Constants.swift in Sources */,
 				3FC3A6701FB8FF6200EAD209 /* NewForumViewController.swift in Sources */,
 				3FF8E0171FC64076009D55C0 /* ForumPageViewController.swift in Sources */,
 				3FF8E01F1FC64171009D55C0 /* CatagoryViewController.swift in Sources */,
 				3FC3A6791FB90DB100EAD209 /* DownloadComments.swift in Sources */,
 				3FE612D21FB78D1F00DDC94C /* ForumTableViewController.swift in Sources */,
+				803CBEEA1FD385B900884D90 /* ChatViewController.swift in Sources */,
 				3F9A10F21FB6766100A626C7 /* LoginViewController.swift in Sources */,
 				3FE0AACB1FAAE33700971C39 /* ViewController.swift in Sources */,
 				3FA132DC1FBD0747006B8476 /* WhatToDoList-ReadMe.swift in Sources */,

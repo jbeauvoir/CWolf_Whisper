@@ -16,15 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        //135-206-250
-       /*
-        UINavigationBar.appearance().barTintColor = UIColor(red: 230, green: 32, blue: 31, alpha: 1)
-        //get rid of bacl bar under the navigation bar
-        UINavigationBar.appearance().shadowImage = UIImage()
-        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
-        application.statusBarStyle = .lightContent
-        */
+        FirebaseApp.configure()
+        
         return true
     }
 
