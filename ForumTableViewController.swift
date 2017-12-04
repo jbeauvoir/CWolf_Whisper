@@ -16,9 +16,9 @@ class ForumTableViewController: UITableViewController  {
     var unusedCells: Int = 0
     var forumsDS: ForumDataSource?
     var downloadAssistant = Download(withURLString: "https://blue.cs.sonoma.edu/~dsmith/")
-     let del = UIApplication.shared.delegate as? AppDelegate
+    let del = UIApplication.shared.delegate as? AppDelegate
     
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
   
@@ -33,7 +33,6 @@ class ForumTableViewController: UITableViewController  {
         navigationController?.navigationBar.isTranslucent = true;//see through navigation controller
         // self.navigationController?.navigationBar.tintColor = UIColor.white
         //setupNavBarButtons()
-       
     }
 
     func setPageNumber()->Int{

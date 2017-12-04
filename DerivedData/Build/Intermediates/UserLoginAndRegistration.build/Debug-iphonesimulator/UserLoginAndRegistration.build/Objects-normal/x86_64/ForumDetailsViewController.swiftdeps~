@@ -10,7 +10,6 @@ provides-dynamic-lookup:
 - "ForumPicture"
 - "ForumTitle"
 - "LikeButton"
-- "MenuButton"
 - "NumOfCommentsLabel"
 - "NumOfLikesLabel"
 - "didReceiveMemoryWarning"
@@ -32,7 +31,6 @@ depends-top-level:
 - "SettingLauncher"
 - !private "String"
 - !private "StringLiteralType"
-- "UIBarButtonItem"
 - "UIButton"
 - "UIImageView"
 - "UILabel"
@@ -199,12 +197,10 @@ depends-member:
 - ["24UserLoginAndRegistration26ForumDetailsViewControllerC", "ForumPicture"]
 - ["24UserLoginAndRegistration26ForumDetailsViewControllerC", "ForumTitle"]
 - ["24UserLoginAndRegistration26ForumDetailsViewControllerC", "LikeButton"]
-- ["24UserLoginAndRegistration26ForumDetailsViewControllerC", "MenuButton"]
 - ["24UserLoginAndRegistration26ForumDetailsViewControllerC", "NumOfCommentsLabel"]
 - ["24UserLoginAndRegistration26ForumDetailsViewControllerC", "NumOfLikesLabel"]
 - ["24UserLoginAndRegistration26ForumDetailsViewControllerC", "SettingLauncher"]
 - !private ["24UserLoginAndRegistration26ForumDetailsViewControllerC", "String"]
-- ["24UserLoginAndRegistration26ForumDetailsViewControllerC", "UIBarButtonItem"]
 - ["24UserLoginAndRegistration26ForumDetailsViewControllerC", "UIButton"]
 - ["24UserLoginAndRegistration26ForumDetailsViewControllerC", "UIImageView"]
 - ["24UserLoginAndRegistration26ForumDetailsViewControllerC", "UILabel"]
@@ -310,12 +306,10 @@ depends-member:
 - ["So8NSObjectC", "ForumPicture"]
 - ["So8NSObjectC", "ForumTitle"]
 - ["So8NSObjectC", "LikeButton"]
-- ["So8NSObjectC", "MenuButton"]
 - ["So8NSObjectC", "NumOfCommentsLabel"]
 - ["So8NSObjectC", "NumOfLikesLabel"]
 - ["So8NSObjectC", "SettingLauncher"]
 - !private ["So8NSObjectC", "String"]
-- ["So8NSObjectC", "UIBarButtonItem"]
 - ["So8NSObjectC", "UIButton"]
 - ["So8NSObjectC", "UIImageView"]
 - ["So8NSObjectC", "UILabel"]
@@ -545,12 +539,10 @@ depends-member:
 - ["So11UIResponderC", "ForumPicture"]
 - ["So11UIResponderC", "ForumTitle"]
 - ["So11UIResponderC", "LikeButton"]
-- ["So11UIResponderC", "MenuButton"]
 - ["So11UIResponderC", "NumOfCommentsLabel"]
 - ["So11UIResponderC", "NumOfLikesLabel"]
 - ["So11UIResponderC", "SettingLauncher"]
 - !private ["So11UIResponderC", "String"]
-- ["So11UIResponderC", "UIBarButtonItem"]
 - ["So11UIResponderC", "UIButton"]
 - ["So11UIResponderC", "UIImageView"]
 - ["So11UIResponderC", "UILabel"]
@@ -658,12 +650,10 @@ depends-member:
 - ["So16UIViewControllerC", "ForumPicture"]
 - ["So16UIViewControllerC", "ForumTitle"]
 - ["So16UIViewControllerC", "LikeButton"]
-- ["So16UIViewControllerC", "MenuButton"]
 - ["So16UIViewControllerC", "NumOfCommentsLabel"]
 - ["So16UIViewControllerC", "NumOfLikesLabel"]
 - ["So16UIViewControllerC", "SettingLauncher"]
 - !private ["So16UIViewControllerC", "String"]
-- ["So16UIViewControllerC", "UIBarButtonItem"]
 - ["So16UIViewControllerC", "UIButton"]
 - ["So16UIViewControllerC", "UIImageView"]
 - ["So16UIViewControllerC", "UILabel"]
@@ -898,4 +888,4 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-interface-hash: "d4fa9e5dbd71b7dba433c9851a9e6696"
+interface-hash: "b19053ce8bee540eef170c1a3fc9ef5f"

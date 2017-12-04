@@ -16,7 +16,7 @@ provides-dynamic-lookup:
 depends-top-level:
 - "AppDelegate"
 - "Bool"
-- !private "BooleanLiteralType"
+- "BooleanLiteralType"
 - "Int"
 - "String"
 - "StringLiteralType"
@@ -47,6 +47,7 @@ depends-member:
 - ["24UserLoginAndRegistration11AppDelegateC", "deinit"]
 - ["24UserLoginAndRegistration11AppDelegateC", "init"]
 - ["24UserLoginAndRegistration11AppDelegateC", "numOfUnusedCells"]
+- ["24UserLoginAndRegistration11AppDelegateC", "useCellOrNot"]
 - ["24UserLoginAndRegistration11AppDelegateC", "whichSettingButtonIClicked"]
 - ["24UserLoginAndRegistration11AppDelegateC", "window"]
 - ["s23BidirectionalCollectionP", "init"]
@@ -161,6 +162,7 @@ depends-member:
 - ["So8NSObjectC", "applicationWillTerminate"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "numOfUnusedCells"]
+- ["So8NSObjectC", "useCellOrNot"]
 - ["So8NSObjectC", "whichSettingButtonIClicked"]
 - ["So8NSObjectC", "window"]
 - ["So16NSObjectProtocolP", "application"]
@@ -235,6 +237,7 @@ depends-member:
 - ["So11UIResponderC", "applicationWillTerminate"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "numOfUnusedCells"]
+- ["So11UIResponderC", "useCellOrNot"]
 - ["So11UIResponderC", "whichSettingButtonIClicked"]
 - ["So11UIResponderC", "window"]
 - ["So11UIResponderC", ""]
@@ -419,4 +422,4 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-interface-hash: "be954ea9ba8f216a5614dd7bf81d2b4e"
+interface-hash: "1031060bb26f916d4108fca1d5140258"

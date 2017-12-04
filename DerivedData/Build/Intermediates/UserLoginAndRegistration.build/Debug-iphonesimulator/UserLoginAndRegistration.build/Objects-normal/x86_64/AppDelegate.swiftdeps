@@ -3,10 +3,8 @@ provides-top-level:
 - "AppDelegate"
 provides-nominal:
 - "24UserLoginAndRegistration11AppDelegateC"
-- "24UserLoginAndRegistration11AppDelegateC22arrayOfCatagorysChosenV"
 provides-member:
 - ["24UserLoginAndRegistration11AppDelegateC", ""]
-- ["24UserLoginAndRegistration11AppDelegateC22arrayOfCatagorysChosenV", ""]
 provides-dynamic-lookup:
 - "application"
 - "applicationDidBecomeActive"
@@ -46,7 +44,6 @@ depends-member:
 - ["24UserLoginAndRegistration11AppDelegateC", "applicationWillEnterForeground"]
 - ["24UserLoginAndRegistration11AppDelegateC", "applicationWillResignActive"]
 - ["24UserLoginAndRegistration11AppDelegateC", "applicationWillTerminate"]
-- ["24UserLoginAndRegistration11AppDelegateC", "arrayOfCatagorysChosen"]
 - ["24UserLoginAndRegistration11AppDelegateC", "deinit"]
 - ["24UserLoginAndRegistration11AppDelegateC", "init"]
 - ["24UserLoginAndRegistration11AppDelegateC", "numOfUnusedCells"]
@@ -286,11 +283,6 @@ depends-member:
 - ["s21_ObjectiveCBridgeableP", "init"]
 - ["s26_RangeReplaceableIndexableP", "init"]
 - ["s16_SwiftStringViewP", "init"]
-- ["24UserLoginAndRegistration11AppDelegateC22arrayOfCatagorysChosenV", "Bool"]
-- ["24UserLoginAndRegistration11AppDelegateC22arrayOfCatagorysChosenV", "String"]
-- ["24UserLoginAndRegistration11AppDelegateC22arrayOfCatagorysChosenV", "catagoryNameChosen"]
-- ["24UserLoginAndRegistration11AppDelegateC22arrayOfCatagorysChosenV", "init"]
-- ["24UserLoginAndRegistration11AppDelegateC22arrayOfCatagorysChosenV", "wasItchosen"]
 depends-nominal:
 - "24UserLoginAndRegistration11AppDelegateC"
 - "s23BidirectionalCollectionP"
@@ -342,7 +334,6 @@ depends-nominal:
 - "s21_ObjectiveCBridgeableP"
 - "s26_RangeReplaceableIndexableP"
 - "s16_SwiftStringViewP"
-- "24UserLoginAndRegistration11AppDelegateC22arrayOfCatagorysChosenV"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -431,4 +422,4 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-interface-hash: "c966d1e962df3985464c88b13fca3029"
+interface-hash: "1031060bb26f916d4108fca1d5140258"

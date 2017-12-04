@@ -16,12 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var whichSettingButtonIClicked: String = ""
     var numOfUnusedCells: Int = 0
     var useCellOrNot: Bool = false
-   
-    public struct arrayOfCatagorysChosen { //when the user decides on a catagory
-        var catagoryNameChosen: String = ""
-        var wasItchosen: Bool = false
-    }
-
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
