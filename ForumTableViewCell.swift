@@ -7,44 +7,21 @@
 //
 
 import UIKit
-/*
-If you are creating the cell programatically just do this in the init in the cell class:
-
-override init(frame: CGRect) {
-    let noProblemFrame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
-    super.init(frame: noProblemFrame)
-}
-otherwise do the same in awakeFromNib
-
-override func awakeFromNib() {
-    let noProblemFrame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
-    frame = noProblemFrame
-*/
-//This Class sets up are table and its cells, adds views and constraints
 
 class ForumTableViewCell: UITableViewCell {
 
     @IBOutlet weak var cellImage: UIImageView!
     @IBOutlet weak var cellLabel: UILabel!
-   /*
-    override init(frame: CGRect) {
-        let noProblemFrame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
-        super.init(frame: noProblemFrame)
-    }
+
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }*/
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        let noProblemFrame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
-        frame = noProblemFrame
         // Initialization code
     }
-    
-
-    
+    var count: Int = 0
+    var numOfUnusedCells: Int = 0
+    var dontUse: Bool = false
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
@@ -52,10 +29,10 @@ class ForumTableViewCell: UITableViewCell {
     
     func useForum(_ forum: Forum) {
         /////
-//        if let socialPagesOnly = forum.forumType(){
-  //          if socialPagesOnly == "social"{
+        let socialPagesOnly = forum.forumType()//
+           if socialPagesOnly == "social"{//
         //////
-        
+        self.dontUse = false
        if let aImage = forum.getImage()  {
             cellImage.image = aImage
         }
@@ -120,13 +97,26 @@ class ForumTableViewCell: UITableViewCell {
         
         addConstraint(NSLayoutConstraint(item: forumSubTitleLabel, attribute: .height, relatedBy: .equal, toItem: self, attribute: .height, multiplier: 0, constant: 30))
        //////
-    //        }
-     //   }
-        
-        
+        }//
+        if socialPagesOnly != "social"{
+            self.dontUse = true
+            forum.setUseCellOrNot()
+            forum.setNumberOfCellsNotUsed()
+
+        }
+        //  print("numofunusedcells\(forum.returnNumberOfCellsNotUsed())")
+        self.dontUse = false
     }
   
+    func getUnusednumbers(_ forum: Forum)->Int{
+       // print("getUnused func:")
+       // print("numofunusedcells\(forum.returnNumberOfCellsNotUsed())")
+        return forum.returnNumberOfCellsNotUsed()
+        
+    }
+    
+    
+    
     func setupViews(){
-        print("weGotHere ON Mistake")
     }
 }

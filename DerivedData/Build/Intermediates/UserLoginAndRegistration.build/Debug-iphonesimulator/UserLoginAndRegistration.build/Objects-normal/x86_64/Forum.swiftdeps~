@@ -7,8 +7,10 @@ provides-member:
 - ["24UserLoginAndRegistration5ForumC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "+="
 - !private "/"
 - "AnyObject"
+- "AppDelegate"
 - "AssignmentPrecedence"
 - "Bool"
 - "BooleanLiteralType"
@@ -19,6 +21,7 @@ depends-top-level:
 - "NSObject"
 - "String"
 - !private "StringLiteralType"
+- "UIApplication"
 - !private "UIColor"
 - !private "UIEdgeInsetsMake"
 - "UIImage"
@@ -28,6 +31,7 @@ depends-top-level:
 - "UIView"
 - !private "URL"
 depends-member:
+- !private ["24UserLoginAndRegistration11AppDelegateC", "numOfUnusedCells"]
 - !private ["s23BidirectionalCollectionP", "init"]
 - !private ["So7CALayerC", "cornerRadius"]
 - !private ["So15CALayerDelegateP", "backgroundColor"]
@@ -40,6 +44,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So13CAMediaTimingP", "cornerRadius"]
 - !private ["s7CVarArgP", "Data"]
+- ["s7CVarArgP", "UIApplication"]
 - !private ["s7CVarArgP", "UIColor"]
 - !private ["s7CVarArgP", "UIEdgeInsetsMake"]
 - !private ["s7CVarArgP", "UIImage"]
@@ -51,12 +56,16 @@ depends-member:
 - !private ["s7CVarArgP", "backgroundColor"]
 - !private ["s7CVarArgP", "clipsToBounds"]
 - !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "del"]
+- ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "forum"]
 - !private ["s7CVarArgP", "green"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "isUserInteractionEnabled"]
 - !private ["s7CVarArgP", "layer"]
 - !private ["s7CVarArgP", "lightGray"]
+- !private ["s7CVarArgP", "numOfUnusedCells"]
+- ["s7CVarArgP", "shared"]
 - !private ["s7CVarArgP", "textColor"]
 - !private ["s7CVarArgP", "textContainerInset"]
 - !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
@@ -64,6 +73,7 @@ depends-member:
 - !private ["s10CollectionP", "init"]
 - !private ["s10ComparableP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "Data"]
+- ["s28CustomDebugStringConvertibleP", "UIApplication"]
 - !private ["s28CustomDebugStringConvertibleP", "UIColor"]
 - !private ["s28CustomDebugStringConvertibleP", "UIEdgeInsetsMake"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImage"]
@@ -75,12 +85,16 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
 - !private ["s28CustomDebugStringConvertibleP", "clipsToBounds"]
 - !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "del"]
+- ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "forum"]
 - !private ["s28CustomDebugStringConvertibleP", "green"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "isUserInteractionEnabled"]
 - !private ["s28CustomDebugStringConvertibleP", "layer"]
 - !private ["s28CustomDebugStringConvertibleP", "lightGray"]
+- !private ["s28CustomDebugStringConvertibleP", "numOfUnusedCells"]
+- ["s28CustomDebugStringConvertibleP", "shared"]
 - !private ["s28CustomDebugStringConvertibleP", "textColor"]
 - !private ["s28CustomDebugStringConvertibleP", "textContainerInset"]
 - !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
@@ -88,6 +102,7 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "Data"]
+- ["s23CustomStringConvertibleP", "UIApplication"]
 - !private ["s23CustomStringConvertibleP", "UIColor"]
 - !private ["s23CustomStringConvertibleP", "UIEdgeInsetsMake"]
 - !private ["s23CustomStringConvertibleP", "UIImage"]
@@ -99,12 +114,16 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "backgroundColor"]
 - !private ["s23CustomStringConvertibleP", "clipsToBounds"]
 - !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "del"]
+- ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "forum"]
 - !private ["s23CustomStringConvertibleP", "green"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isUserInteractionEnabled"]
 - !private ["s23CustomStringConvertibleP", "layer"]
 - !private ["s23CustomStringConvertibleP", "lightGray"]
+- !private ["s23CustomStringConvertibleP", "numOfUnusedCells"]
+- ["s23CustomStringConvertibleP", "shared"]
 - !private ["s23CustomStringConvertibleP", "textColor"]
 - !private ["s23CustomStringConvertibleP", "textContainerInset"]
 - !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
@@ -113,6 +132,7 @@ depends-member:
 - !private ["s9DecodableP", "init"]
 - !private ["s9EncodableP", "init"]
 - !private ["s9EquatableP", "Data"]
+- ["s9EquatableP", "UIApplication"]
 - !private ["s9EquatableP", "UIColor"]
 - !private ["s9EquatableP", "UIEdgeInsetsMake"]
 - !private ["s9EquatableP", "UIImage"]
@@ -124,12 +144,16 @@ depends-member:
 - !private ["s9EquatableP", "backgroundColor"]
 - !private ["s9EquatableP", "clipsToBounds"]
 - !private ["s9EquatableP", "cornerRadius"]
+- !private ["s9EquatableP", "del"]
+- ["s9EquatableP", "delegate"]
 - !private ["s9EquatableP", "forum"]
 - !private ["s9EquatableP", "green"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "isUserInteractionEnabled"]
 - !private ["s9EquatableP", "layer"]
 - !private ["s9EquatableP", "lightGray"]
+- !private ["s9EquatableP", "numOfUnusedCells"]
+- ["s9EquatableP", "shared"]
 - !private ["s9EquatableP", "textColor"]
 - !private ["s9EquatableP", "textContainerInset"]
 - !private ["s9EquatableP", "translatesAutoresizingMaskIntoConstraints"]
@@ -138,10 +162,12 @@ depends-member:
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["24UserLoginAndRegistration5ForumC", "AnyObject"]
+- ["24UserLoginAndRegistration5ForumC", "AppDelegate"]
 - ["24UserLoginAndRegistration5ForumC", "Bool"]
 - !private ["24UserLoginAndRegistration5ForumC", "Data"]
 - ["24UserLoginAndRegistration5ForumC", "Int"]
 - ["24UserLoginAndRegistration5ForumC", "String"]
+- ["24UserLoginAndRegistration5ForumC", "UIApplication"]
 - !private ["24UserLoginAndRegistration5ForumC", "UIColor"]
 - !private ["24UserLoginAndRegistration5ForumC", "UIEdgeInsetsMake"]
 - ["24UserLoginAndRegistration5ForumC", "UIImage"]
@@ -152,6 +178,7 @@ depends-member:
 - !private ["24UserLoginAndRegistration5ForumC", "URL"]
 - ["24UserLoginAndRegistration5ForumC", "category"]
 - ["24UserLoginAndRegistration5ForumC", "deinit"]
+- ["24UserLoginAndRegistration5ForumC", "del"]
 - ["24UserLoginAndRegistration5ForumC", "forum"]
 - ["24UserLoginAndRegistration5ForumC", "forumBody"]
 - ["24UserLoginAndRegistration5ForumC", "forumName"]
@@ -162,6 +189,8 @@ depends-member:
 - ["24UserLoginAndRegistration5ForumC", "init"]
 - ["24UserLoginAndRegistration5ForumC", "numberOfComments"]
 - ["24UserLoginAndRegistration5ForumC", "numberOfLikes"]
+- ["24UserLoginAndRegistration5ForumC", "returnNumberOfCellsNotUsed"]
+- ["24UserLoginAndRegistration5ForumC", "setNumberOfCellsNotUsed"]
 - ["24UserLoginAndRegistration5ForumC", "setforumSubTitle"]
 - ["24UserLoginAndRegistration5ForumC", "setforumTitleLabel"]
 - ["24UserLoginAndRegistration5ForumC", "setseperateTabelView"]
@@ -171,6 +200,7 @@ depends-member:
 - ["24UserLoginAndRegistration5ForumC", "userNameForForum"]
 - ["24UserLoginAndRegistration5ForumC", "userProfileImage"]
 - !private ["s8HashableP", "Data"]
+- ["s8HashableP", "UIApplication"]
 - !private ["s8HashableP", "UIColor"]
 - !private ["s8HashableP", "UIEdgeInsetsMake"]
 - !private ["s8HashableP", "UIImage"]
@@ -182,12 +212,16 @@ depends-member:
 - !private ["s8HashableP", "backgroundColor"]
 - !private ["s8HashableP", "clipsToBounds"]
 - !private ["s8HashableP", "cornerRadius"]
+- !private ["s8HashableP", "del"]
+- ["s8HashableP", "delegate"]
 - !private ["s8HashableP", "forum"]
 - !private ["s8HashableP", "green"]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "isUserInteractionEnabled"]
 - !private ["s8HashableP", "layer"]
 - !private ["s8HashableP", "lightGray"]
+- !private ["s8HashableP", "numOfUnusedCells"]
+- ["s8HashableP", "shared"]
 - !private ["s8HashableP", "textColor"]
 - !private ["s8HashableP", "textContainerInset"]
 - !private ["s8HashableP", "translatesAutoresizingMaskIntoConstraints"]
@@ -217,10 +251,12 @@ depends-member:
 - !private ["So21NSItemProviderWritingP", "lightGray"]
 - !private ["So16NSMutableCopyingP", "init"]
 - ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "AppDelegate"]
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "Data"]
 - ["So8NSObjectC", "Int"]
 - ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIApplication"]
 - !private ["So8NSObjectC", "UIColor"]
 - !private ["So8NSObjectC", "UIEdgeInsetsMake"]
 - ["So8NSObjectC", "UIImage"]
@@ -233,6 +269,8 @@ depends-member:
 - ["So8NSObjectC", "category"]
 - !private ["So8NSObjectC", "clipsToBounds"]
 - !private ["So8NSObjectC", "cornerRadius"]
+- ["So8NSObjectC", "del"]
+- ["So8NSObjectC", "delegate"]
 - ["So8NSObjectC", "forum"]
 - ["So8NSObjectC", "forumBody"]
 - ["So8NSObjectC", "forumName"]
@@ -245,13 +283,17 @@ depends-member:
 - !private ["So8NSObjectC", "isUserInteractionEnabled"]
 - !private ["So8NSObjectC", "layer"]
 - !private ["So8NSObjectC", "lightGray"]
+- !private ["So8NSObjectC", "numOfUnusedCells"]
 - ["So8NSObjectC", "numberOfComments"]
 - ["So8NSObjectC", "numberOfLikes"]
+- ["So8NSObjectC", "returnNumberOfCellsNotUsed"]
+- ["So8NSObjectC", "setNumberOfCellsNotUsed"]
 - ["So8NSObjectC", "setforumSubTitle"]
 - ["So8NSObjectC", "setforumTitleLabel"]
 - ["So8NSObjectC", "setseperateTabelView"]
 - ["So8NSObjectC", "setthumbnailImageView"]
 - ["So8NSObjectC", "setuserProfileImage"]
+- ["So8NSObjectC", "shared"]
 - !private ["So8NSObjectC", "textColor"]
 - !private ["So8NSObjectC", "textContainerInset"]
 - !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
@@ -260,6 +302,7 @@ depends-member:
 - ["So8NSObjectC", "userProfileImage"]
 - ["So8NSObjectC", ""]
 - !private ["So16NSObjectProtocolP", "Data"]
+- ["So16NSObjectProtocolP", "UIApplication"]
 - !private ["So16NSObjectProtocolP", "UIColor"]
 - !private ["So16NSObjectProtocolP", "UIEdgeInsetsMake"]
 - !private ["So16NSObjectProtocolP", "UIImage"]
@@ -271,12 +314,16 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "backgroundColor"]
 - !private ["So16NSObjectProtocolP", "clipsToBounds"]
 - !private ["So16NSObjectProtocolP", "cornerRadius"]
+- !private ["So16NSObjectProtocolP", "del"]
+- ["So16NSObjectProtocolP", "delegate"]
 - !private ["So16NSObjectProtocolP", "forum"]
 - !private ["So16NSObjectProtocolP", "green"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "isUserInteractionEnabled"]
 - !private ["So16NSObjectProtocolP", "layer"]
 - !private ["So16NSObjectProtocolP", "lightGray"]
+- !private ["So16NSObjectProtocolP", "numOfUnusedCells"]
+- ["So16NSObjectProtocolP", "shared"]
 - !private ["So16NSObjectProtocolP", "textColor"]
 - !private ["So16NSObjectProtocolP", "textContainerInset"]
 - !private ["So16NSObjectProtocolP", "translatesAutoresizingMaskIntoConstraints"]
@@ -324,6 +371,9 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "textColor"]
 - !private ["So21UIAppearanceContainerP", "textContainerInset"]
 - !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- ["So13UIApplicationC", "delegate"]
+- ["So13UIApplicationC", "shared"]
+- !private ["So21UIApplicationDelegateP", "numOfUnusedCells"]
 - !private ["So7UIColorC", "green"]
 - !private ["So7UIColorC", "init"]
 - !private ["So7UIColorC", "lightGray"]
@@ -380,25 +430,34 @@ depends-member:
 - !private ["So7UILabelC", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
 - !private ["So30UIPasteConfigurationSupportingP", "clipsToBounds"]
+- ["So30UIPasteConfigurationSupportingP", "delegate"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "isUserInteractionEnabled"]
 - !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "numOfUnusedCells"]
+- ["So30UIPasteConfigurationSupportingP", "shared"]
 - !private ["So30UIPasteConfigurationSupportingP", "textColor"]
 - !private ["So30UIPasteConfigurationSupportingP", "textContainerInset"]
 - !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So11UIResponderC", "backgroundColor"]
 - !private ["So11UIResponderC", "clipsToBounds"]
+- ["So11UIResponderC", "delegate"]
 - !private ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "isUserInteractionEnabled"]
 - !private ["So11UIResponderC", "layer"]
+- !private ["So11UIResponderC", "numOfUnusedCells"]
+- ["So11UIResponderC", "shared"]
 - !private ["So11UIResponderC", "textColor"]
 - !private ["So11UIResponderC", "textContainerInset"]
 - !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
 - !private ["So30UIResponderStandardEditActionsP", "clipsToBounds"]
+- ["So30UIResponderStandardEditActionsP", "delegate"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "isUserInteractionEnabled"]
 - !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "numOfUnusedCells"]
+- ["So30UIResponderStandardEditActionsP", "shared"]
 - !private ["So30UIResponderStandardEditActionsP", "textColor"]
 - !private ["So30UIResponderStandardEditActionsP", "textContainerInset"]
 - !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
@@ -477,6 +536,7 @@ depends-member:
 - !private ["s10_IndexableP", "init"]
 - !private ["s14_IndexableBaseP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Data"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIEdgeInsetsMake"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
@@ -488,12 +548,16 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "clipsToBounds"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "del"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "forum"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "green"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isUserInteractionEnabled"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "lightGray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numOfUnusedCells"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "textColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "textContainerInset"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
@@ -504,6 +568,7 @@ depends-member:
 - !private ["s26_RangeReplaceableIndexableP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- !private "24UserLoginAndRegistration11AppDelegateC"
 - !private "s23BidirectionalCollectionP"
 - !private "So7CALayerC"
 - !private "So15CALayerDelegateP"
@@ -549,6 +614,8 @@ depends-nominal:
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - !private "So21UIAppearanceContainerP"
+- "So13UIApplicationC"
+- !private "So21UIApplicationDelegateP"
 - !private "So7UIColorC"
 - !private "So30UIContentSizeCategoryAdjustingP"
 - !private "So17UICoordinateSpaceP"
@@ -560,9 +627,9 @@ depends-nominal:
 - !private "So39UIItemProviderPresentationSizeProvidingP"
 - !private "So10UIKeyInputP"
 - !private "So7UILabelC"
-- !private "So30UIPasteConfigurationSupportingP"
-- !private "So11UIResponderC"
-- !private "So30UIResponderStandardEditActionsP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
 - !private "So12UIScrollViewC"
 - !private "So15UITextDraggableP"
 - !private "So15UITextDroppableP"
@@ -681,4 +748,4 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-interface-hash: "3310b42942288d1e2d2f72d7bc06e65a"
+interface-hash: "def4c76a615949f87509a262dbd2838e"

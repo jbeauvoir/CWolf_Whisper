@@ -14,7 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var whichSettingButtonIClicked: String = ""
-    var x = AboutUsViewController()
+    var numOfUnusedCells: Int = 0
+    var useCellOrNot: Bool = false
+
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

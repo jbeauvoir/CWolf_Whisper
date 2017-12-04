@@ -10,7 +10,7 @@ import UIKit
 
 class Setting: NSObject {
     
-    let name: String
+    let name: String?
     let imageName: String
 
     init(name: String, imageName: String){
@@ -99,13 +99,13 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
         
         { (completed: Bool) in
             print("comepleted now trying to call function")
-            if setting.name != "" {
-                if var myDelegate = UIApplication.shared.delegate as? AppDelegate{
-                    myDelegate.whichSettingButtonIClicked = setting.name
-                    //let x = AboutUsViewController()
-                    self.forumPageVC?.whichSettingButtonWasClicked(stringToCheck: setting.name)
-                }
+            var tempString: String?
+            tempString = setting.name
+            
+            if tempString != "" {
+                    self.forumPageVC?.whichSettingButtonWasClicked(stringToCheck: tempString!)
             }
+            else{}
         }
     }
 

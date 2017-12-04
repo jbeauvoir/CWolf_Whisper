@@ -8,12 +8,11 @@
 
 import UIKit
 
+
 class Forum: NSObject {
-    
-    var category: Bool = false
-    var trending: Bool = false
     var home: Bool = false
     let forum: AnyObject
+    let del = UIApplication.shared.delegate as? AppDelegate
     
     init(forum: AnyObject)
     {
@@ -50,8 +49,14 @@ class Forum: NSObject {
             return f as? String
         }
         return nil
-        
-        
+    }
+    
+    func setNumberOfCellsNotUsed(){
+        del?.numOfUnusedCells += 1
+    }
+    
+    func returnNumberOfCellsNotUsed()->Int{
+        return del!.numOfUnusedCells
     }
     
     func userProfileImage() -> UIImage?
@@ -100,6 +105,10 @@ class Forum: NSObject {
             }
         }
         return nil
+    }
+    
+    func setUseCellOrNot(){
+        del?.useCellOrNot = true
     }
     
     //Forum Table getters and Setters

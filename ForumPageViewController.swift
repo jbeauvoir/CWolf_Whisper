@@ -13,7 +13,7 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     @IBAction func MENUBUTTONCLICKED(_ sender: Any) {
         print("Menu button was clicked, calling settingLauncher.revealMenu")
         settingsLauncher.revealMenu()
-        print("came out of setting Launcher class")
+       // print("came out of setting Launcher class")
     }
     //not using any of these atm
     @IBOutlet weak var homeNavButton: UIBarButtonItem!
@@ -170,30 +170,34 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     
     
     func whichSettingButtonWasClicked(stringToCheck: String){
-        print("printing the string grabed \(stringToCheck)")
-        //Add New Forum", imageName: "addForum2"), Setting(name: "Home", imageName: "Home2"), Setting(name: "History", imageName: "history2"), Setting(name: "App info", imageName: "info3"), Setting(name: "Logout", imageName: "Logout2")]
-        if stringToCheck == "App info" {
-            performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
-            
+        
+        
+        if stringToCheck == "" {
+            print("error, empty string, Continue")
         }
-        /*
-        if stringToCheck == "Add New Forum" {
-            performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
+        else{
+           
+            if stringToCheck == "App info" {
+                performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
+            }
             
-        }
-        if stringToCheck == "Home" {
-            performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
+            if stringToCheck == "Add New Forum" {
+                performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
             
-        }
-        if stringToCheck == "History" {
-            performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
+            }
+            if stringToCheck == "Home" {
+                performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
             
-        }
-        if stringToCheck == "Logout" {
-            performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
+            }
+            if stringToCheck == "History" {
+                performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
             
+            }
+            if stringToCheck == "Logout" {
+                performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
+            
+            }
         }
-        */
         
     }
     

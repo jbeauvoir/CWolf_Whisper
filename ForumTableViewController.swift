@@ -24,32 +24,32 @@ class ForumTableViewController: UITableViewController  {
         return setUp
     }()
     */
-    
+    var useOrNo: Bool = false
+    var unusedCells: Int = 0
     var forumsDS: ForumDataSource?
-   // var forumHomeDS: ForumHomeDataSource?
     var downloadAssistant = Download(withURLString: "https://blue.cs.sonoma.edu/~dsmith/")
+     let del = UIApplication.shared.delegate as? AppDelegate
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-    
+  
         downloadAssistant.addObserver(self, forKeyPath: "dataFromServer", options: .old, context: nil) //whenever the data changes on this object or it completes its download Observe
         downloadAssistant.download_request() // store the downloaded
         //were the scoller starts
         self.automaticallyAdjustsScrollViewInsets = false;
-        //tableView?.contentInset = UIEdgeInsetsMake(0, 0, 0, 0)
-        //tableView?.scrollIndicatorInsets = UIEdgeInsetsMake(0,0,0,0)
+        tableView?.contentInset = UIEdgeInsetsMake(0, 0, 0, 0)
+        tableView?.scrollIndicatorInsets = UIEdgeInsetsMake(50,0,0,0)
         tableView?.clipsToBounds = true
         //navigationController?.isNavigationBarHidden = true //hide or appear nav bar
         navigationController?.navigationBar.isTranslucent = true;//see through navigation controller
         //setupBottomMenuBar()
-         self.navigationController?.navigationBar.tintColor = UIColor.white
+        // self.navigationController?.navigationBar.tintColor = UIColor.white
         setupNavBarButtons()
        
     }
     
-    
+    /*
    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -58,7 +58,7 @@ class ForumTableViewController: UITableViewController  {
         self.navigationController?.navigationBar.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height + height)
        
      //CHANGE THE HEIGHT OR SIZE OF THE NAVIGATION CONTROLLER
-    }
+    }*/
  
     func setPageNumber()->Int{
         var pageNumber = ForumPageViewController.PageWeAreOn.page
@@ -95,13 +95,27 @@ class ForumTableViewController: UITableViewController  {
     }
  
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView?{
-        view.addSubview(bottomMenuBar)
-        view.addConstraintsWithFormat(format: "H:|[v0]|", views: bottomMenuBar)
-        view.addConstraintsWithFormat(format: "V:|[v0(50)]", views: bottomMenuBar)
-        return bottomMenuBar
+        //view.addSubview(bottomMenuBar)
+        //view.addConstraintsWithFormat(format: "H:|[v0]|", views: bottomMenuBar)
+        //view.addConstraintsWithFormat(format: "V:|[v0(50)]", views: bottomMenuBar)
+        //return bottomMenuBar
+        return nil
     }
     
- 
+    //size of our tableView Cells hieght
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    var height: CGFloat = 0.0;
+    if (useOrNo == true){ //This is setting the cells were not using to a height of 0 essentially hiding them.
+        height = 0.0;
+    }
+    else{
+        height = 65.0;
+    }
+    useOrNo = false
+    del?.useCellOrNot = false
+    return height;
+    }
+    
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         print(downloadAssistant.dataFromServer!)
@@ -124,7 +138,9 @@ class ForumTableViewController: UITableViewController  {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if let fds = forumsDS { //if data source is set, which is checked in the observationValue
-            return fds.numForums()
+            print(del?.numOfUnusedCells)
+            
+            return fds.numForums() - (del?.numOfUnusedCells)! 
         }
         return 0
     }
@@ -134,20 +150,17 @@ class ForumTableViewController: UITableViewController  {
         if let theCell = cell as? ForumTableViewCell, let forum = forumsDS?.forumAt(indexPath.row) {
             print("calling useforum()")
             theCell.useForum(forum)
+            //self.unusedCells = theCell.getUnusednumbers(forum)
+            if del?.useCellOrNot == true {
+                useOrNo = true
+            }
         }
-        
         return cell
     }
-    
-    
-    //size of our tableView Cells hieght
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
-    {
-        return 65.0;//Choose your custom row height
-    }
-    
-   // func minilinespace
 
+    func returnNumberOfCellsNotUsed(count: Int){
+        
+    }
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
