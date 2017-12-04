@@ -6,19 +6,47 @@ provides-nominal:
 provides-member:
 - ["24UserLoginAndRegistration22CatagoryViewControllerC", ""]
 provides-dynamic-lookup:
+- "buySellImageButton"
+- "buySellLabelButton"
 - "didReceiveMemoryWarning"
+- "generalInfoImageButton"
+- "generalInfoLabelButton"
+- "jokesImageButton"
+- "jokesLabelButton"
+- "schoolImageButton"
+- "schoolLabelButton"
+- "social"
+- "socialImageButton"
+- "socialLabelButton"
+- "sportsImageButton"
+- "sportsLabelButton"
 - "viewDidLoad"
 depends-top-level:
 - "CatagoryViewController"
+- "UIButton"
 - "UIViewController"
 depends-member:
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", ""]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "UIButton"]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "buySellImageButton"]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "buySellLabelButton"]
 - ["24UserLoginAndRegistration22CatagoryViewControllerC", "deinit"]
 - ["24UserLoginAndRegistration22CatagoryViewControllerC", "didReceiveMemoryWarning"]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "generalInfoImageButton"]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "generalInfoLabelButton"]
 - ["24UserLoginAndRegistration22CatagoryViewControllerC", "init"]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "jokesImageButton"]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "jokesLabelButton"]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "schoolImageButton"]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "schoolLabelButton"]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "social"]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "socialImageButton"]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "socialLabelButton"]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "sportsImageButton"]
+- ["24UserLoginAndRegistration22CatagoryViewControllerC", "sportsLabelButton"]
 - ["24UserLoginAndRegistration22CatagoryViewControllerC", "viewDidLoad"]
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
@@ -44,8 +72,22 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "buySellImageButton"]
+- ["So8NSObjectC", "buySellLabelButton"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "generalInfoImageButton"]
+- ["So8NSObjectC", "generalInfoLabelButton"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "jokesImageButton"]
+- ["So8NSObjectC", "jokesLabelButton"]
+- ["So8NSObjectC", "schoolImageButton"]
+- ["So8NSObjectC", "schoolLabelButton"]
+- ["So8NSObjectC", "social"]
+- ["So8NSObjectC", "socialImageButton"]
+- ["So8NSObjectC", "socialLabelButton"]
+- ["So8NSObjectC", "sportsImageButton"]
+- ["So8NSObjectC", "sportsLabelButton"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
 - !private ["So16NSObjectProtocolP", "init"]
@@ -67,8 +109,22 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "buySellImageButton"]
+- ["So11UIResponderC", "buySellLabelButton"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "generalInfoImageButton"]
+- ["So11UIResponderC", "generalInfoLabelButton"]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "jokesImageButton"]
+- ["So11UIResponderC", "jokesLabelButton"]
+- ["So11UIResponderC", "schoolImageButton"]
+- ["So11UIResponderC", "schoolLabelButton"]
+- ["So11UIResponderC", "social"]
+- ["So11UIResponderC", "socialImageButton"]
+- ["So11UIResponderC", "socialLabelButton"]
+- ["So11UIResponderC", "sportsImageButton"]
+- ["So11UIResponderC", "sportsLabelButton"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
@@ -82,8 +138,22 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "buySellImageButton"]
+- ["So16UIViewControllerC", "buySellLabelButton"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "generalInfoImageButton"]
+- ["So16UIViewControllerC", "generalInfoLabelButton"]
 - ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "jokesImageButton"]
+- ["So16UIViewControllerC", "jokesLabelButton"]
+- ["So16UIViewControllerC", "schoolImageButton"]
+- ["So16UIViewControllerC", "schoolLabelButton"]
+- ["So16UIViewControllerC", "social"]
+- ["So16UIViewControllerC", "socialImageButton"]
+- ["So16UIViewControllerC", "socialLabelButton"]
+- ["So16UIViewControllerC", "sportsImageButton"]
+- ["So16UIViewControllerC", "sportsLabelButton"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
@@ -199,8 +269,4 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-interface-hash: "c202b3de1a2cc547af451458cb78cd5b"
+interface-hash: "936d29ac24bc9c5c8f2e844cdb6a8e1c"

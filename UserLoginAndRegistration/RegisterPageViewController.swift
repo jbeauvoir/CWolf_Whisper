@@ -7,6 +7,14 @@
 //
 
 import UIKit
+import StitchCore
+import ExtendedJson
+import MongoDBService
+
+
+let stitchClient = StitchClient(appId: "seawolfwhispher-tjmeq")
+let mongoClient = MongoDBClient(stitchClient: stitchClient, serviceName: "mongodb-atlas")
+let db = mongoClient.database(named: "ssuDataBase")
 
 class RegisterPageViewController: UIViewController {
 
@@ -25,28 +33,43 @@ class RegisterPageViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var repeatPassword: UITextField!
+    
     
     @IBAction func registerButtonTapped(_ sender: UIButton) {
-        let userEmail = userEmailTextField.text
-        let userPassword = userPasswordTextField.text
-        let userRepeatPassword = repeatPasswordTextField.text
+        print(sender)
+        print(userEmailTextField)
+        print()
+        print("email: ", email.text)
+        print("password: ", password.text)
+        print("repeat: ", repeatPassword.text)
+        print()
         
         //check for empty fields
-        if(userEmail!.isEmpty || userPassword!.isEmpty || userRepeatPassword!.isEmpty)
+        if(email.text!.isEmpty || password.text!.isEmpty || repeatPassword.text!.isEmpty)
         {
         //display alert
             displayMyAlertsMessage(userMessage: "All fields are required")
         }
-        if (userPassword != userRepeatPassword)
+        if (password.text! != repeatPassword.text!)
         {
             displayMyAlertsMessage(userMessage: "Passwords dont match")
         }
         
-        //stpre data
         
-        
-        
+        if(!email.text!.isEmpty && !password.text!.isEmpty && !repeatPassword.text!.isEmpty){
+            if(password.text! == repeatPassword.text!){
+                let userCreated: UserInformation = UserInformation(email: email.text!, password: password.text!,  forums: [])
+                print("User created: ", userCreated)
+                print()
+                print("email: ", email.text)
+                print()
+            }
+        }
     }
+    
     
     func  displayMyAlertsMessage(userMessage:String)
     {

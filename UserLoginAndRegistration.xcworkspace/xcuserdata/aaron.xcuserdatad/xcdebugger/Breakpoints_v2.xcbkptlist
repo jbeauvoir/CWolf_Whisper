@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserLoginAndRegistration/RegisterPageViewController.swift"
-            timestampString = "534042159.863731"
+            timestampString = "534046563.221999"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
             endingLineNumber = "65"
-            landmarkName = "RegisterPageViewController"
-            landmarkType = "3">
+            landmarkName = "registerButtonTapped(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,13 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserLoginAndRegistration/RegisterPageViewController.swift"
-            timestampString = "534042159.86495"
+            timestampString = "534046563.226268"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
             endingLineNumber = "64"
-            landmarkName = "RegisterPageViewController"
-            landmarkType = "3">
+            landmarkName = "registerButtonTapped(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserLoginAndRegistration/RegisterPageViewController.swift"
-            timestampString = "534042159.866044"
+            timestampString = "534046563.226799"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserLoginAndRegistration/RegisterPageViewController.swift"
-            timestampString = "534042159.86708"
+            timestampString = "534046563.22721"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UserLoginAndRegistration/RegisterPageViewController.swift"
-            timestampString = "534042159.868052"
+            timestampString = "534046563.227698"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"

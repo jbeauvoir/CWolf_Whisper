@@ -9,7 +9,40 @@
 import UIKit
 
 class CatagoryViewController: UIViewController {
-
+    
+   
+   
+    @IBOutlet weak var social: UIButton!
+    @IBAction func socialImageButton(_ sender: Any) {
+    }
+    @IBAction func socialLabelButton(_ sender: Any) {
+    }
+    ///////
+    @IBAction func sportsImageButton(_ sender: Any) {
+    }
+    @IBAction func sportsLabelButton(_ sender: Any) {
+    }
+    
+    @IBAction func generalInfoLabelButton(_ sender: Any) {
+    }
+    @IBAction func generalInfoImageButton(_ sender: Any) {
+    }
+    ////
+    @IBAction func jokesLabelButton(_ sender: Any) {
+    }
+    @IBAction func jokesImageButton(_ sender: Any) {
+    }
+    ////
+    @IBAction func schoolLabelButton(_ sender: Any) {
+    }
+    @IBAction func schoolImageButton(_ sender: Any) {
+    }
+    ////
+    @IBAction func buySellLabelButton(_ sender: Any) {
+    }
+    @IBAction func buySellImageButton(_ sender: Any) {
+    }
+    ////
     override func viewDidLoad() {
         super.viewDidLoad()
 

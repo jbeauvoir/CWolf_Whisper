@@ -40,6 +40,7 @@
 		3FE612D61FB78D7900DDC94C /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE612D51FB78D7900DDC94C /* Download.swift */; };
 		3FF8E0171FC64076009D55C0 /* ForumPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8E0161FC64075009D55C0 /* ForumPageViewController.swift */; };
 		3FF8E01F1FC64171009D55C0 /* CatagoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8E01E1FC64171009D55C0 /* CatagoryViewController.swift */; };
+		93C420F71FD4E86E0094CC9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93C420F61FD4E86E0094CC9D /* GoogleService-Info.plist */; };
 		C8588C1EBFC3B2B582FD1F94 /* Pods_UserLoginAndRegistration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B35CDDD65C10C6AA227FD94 /* Pods_UserLoginAndRegistration.framework */; };
 		DFB6D935DB00BE6681EAB2A6 /* Pods_UserLoginAndRegistrationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C04691ABE6D545D5DEA6DF /* Pods_UserLoginAndRegistrationUITests.framework */; };
 /* End PBXBuildFile section */
@@ -107,6 +108,7 @@
 		3FF8E01E1FC64171009D55C0 /* CatagoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryViewController.swift; sourceTree = "<group>"; };
 		75B4889C5637F3DB5AF5586A /* Pods_UserLoginAndRegistrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserLoginAndRegistrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C04691ABE6D545D5DEA6DF /* Pods_UserLoginAndRegistrationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserLoginAndRegistrationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C420F61FD4E86E0094CC9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B4A6CEBA113EE63F71D1813D /* Pods-UserLoginAndRegistration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginAndRegistration.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginAndRegistration/Pods-UserLoginAndRegistration.release.xcconfig"; sourceTree = "<group>"; };
 		D8E40EEE9C1F0021196D02E3 /* Pods-UserLoginAndRegistrationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginAndRegistrationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginAndRegistrationUITests/Pods-UserLoginAndRegistrationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +181,7 @@
 				3FF8E0161FC64075009D55C0 /* ForumPageViewController.swift */,
 				3FF8E01E1FC64171009D55C0 /* CatagoryViewController.swift */,
 				3F51AF681FCE362D005F1976 /* MessageTableViewController.swift */,
+				3FD8DA6C1FCE52680014E583 /* AboutUsViewController.swift */,
 			);
 			name = ForumLoad;
 			sourceTree = "<group>";
@@ -199,7 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				3FC3A66F1FB8FF6200EAD209 /* NewForumViewController.swift */,
-				3FD8DA6C1FCE52680014E583 /* AboutUsViewController.swift */,
 			);
 			name = MenuViews;
 			sourceTree = "<group>";
@@ -207,6 +209,7 @@
 		3FE0AABC1FAAE33700971C39 = {
 			isa = PBXGroup;
 			children = (
+				93C420F61FD4E86E0094CC9D /* GoogleService-Info.plist */,
 				3FE0AACA1FAAE33700971C39 /* ViewController.swift */,
 				3FE0AAC81FAAE33700971C39 /* AppDelegate.swift */,
 				3FE0AACC1FAAE33700971C39 /* Main.storyboard */,
@@ -406,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FE0AAD31FAAE33700971C39 /* LaunchScreen.storyboard in Resources */,
+				93C420F71FD4E86E0094CC9D /* GoogleService-Info.plist in Resources */,
 				3FE0AAD01FAAE33700971C39 /* Assets.xcassets in Resources */,
 				3FE0AACE1FAAE33700971C39 /* Main.storyboard in Resources */,
 			);
@@ -501,19 +505,23 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-UserLoginAndRegistration/Pods-UserLoginAndRegistration-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ExtendedJson/ExtendedJson.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
-				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/MongoDBService/MongoDBService.framework",
+				"${BUILT_PRODUCTS_DIR}/StitchCore/StitchCore.framework",
+				"${BUILT_PRODUCTS_DIR}/StitchLogger/StitchLogger.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExtendedJson.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MongoDBService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchLogger.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);

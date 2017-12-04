@@ -11,15 +11,14 @@ import UIKit
 class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate  {
     @IBOutlet weak var MENUBUTTON: UIBarButtonItem!
     @IBAction func MENUBUTTONCLICKED(_ sender: Any) {
+        print("hello")
         settingLauncher.revealMenu()
     }
-    
     //not using any of these atm
     @IBOutlet weak var homeNavButton: UIBarButtonItem!
-    @IBOutlet weak var hotNavButton: UIBarButtonItem!
     @IBOutlet weak var catNavBoutton: UIBarButtonItem!
     @IBOutlet weak var imNavButton: UIBarButtonItem!
-  
+  /*
     //ot using any of these atm
   //IF WE WANTED TO LET USER TO CLICK TO A CERTAIN TAB, BUT ITS EASY ENOUGH TO SWIPE TO SPOT
     @IBAction func homeClicked(_ sender: Any) {
@@ -44,20 +43,16 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         //move page to that spot
     
     }
-
-    
+*/
     let settingLauncher = SettingLauncher()
-   
-    
     struct PageWeAreOn {
-        static var whatPageWeAreOn:Int = 0
+        static var page:Int = 0
     }
     
     lazy var VCarray: [UIViewController] = {
         return [self.VCinstance(name: "HomeViewController" ),
-                self.VCinstance(name: "HomeViewController" ),
-                self.VCinstance(name: "CatagoryViewController" ),
-                self.VCinstance(name: "MessageViewController" )] //These are the storyboard IDs that will be shown on swiping
+                self.VCinstance(name: "MessageViewController" ),
+                self.VCinstance(name: "CatagoryViewController" )] //These are the storyboard IDs that will be shown on swiping
                                                                 //change name to which vieewwcontroller you want
     }()
     
@@ -69,7 +64,7 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         super.viewDidLoad()
         self.dataSource = self
         self.delegate = self
-        homeNavButton.tintColor = UIColor.red
+        homeNavButton.tintColor = UIColor.black
         if let firstVC = VCarray.first {
             setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
         }
@@ -94,55 +89,6 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         }
     }
     
-    func whatPageWeAreOn(pageIdx: Int){
-        PageWeAreOn.whatPageWeAreOn = pageIdx
-    }
-    
-    func getPageNumber()->Int{
-        return PageWeAreOn.whatPageWeAreOn
-    }
-    
-    
-    func highlightAndUpdate(){
-
-        
-        //update the table view, refresh the connection with what you want. otherwise do nothing and let that ViewController load
-        if   getPageNumber() == 0  {
-            homeNavButton.tintColor = UIColor.red
-            hotNavButton.tintColor = UIColor.white
-            imNavButton.tintColor = UIColor.white
-            catNavBoutton.tintColor = UIColor.white
-            //setup home viewTable
-            //reset connection to load it
-        }
-        if getPageNumber() == 1 {
-            homeNavButton.tintColor = UIColor.white
-            hotNavButton.tintColor = UIColor.red
-            imNavButton.tintColor = UIColor.white
-            catNavBoutton.tintColor = UIColor.white
-            //setup trending viewTable
-            //reset connection to load it
-        }
-        if getPageNumber() == 2 {
-            homeNavButton.tintColor = UIColor.white
-            hotNavButton.tintColor = UIColor.white
-            imNavButton.tintColor = UIColor.red
-            catNavBoutton.tintColor = UIColor.white
-            //setup Cat
-            //once they chose a cat, reload home page but with cat restrictions
-            //reset connection to load it
-        }
-        if getPageNumber() == 3 {
-            homeNavButton.tintColor = UIColor.white
-            hotNavButton.tintColor = UIColor.white
-            imNavButton.tintColor = UIColor.white
-            catNavBoutton.tintColor = UIColor.red
-            //always reset connection when here
-            //setup Chat message board
-        }
-        
-    }
-    
     public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController?{
         
         guard let viewControllerIndex = VCarray.index(of: viewController)
@@ -162,19 +108,20 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         
         //whatPageWeAreOn(pageIdx: viewControllerIndex)
         //highlightAndUpdate(pagenumber: viewControllerIndex)//changes color of button on top and updates info if needed
-      
-        
+
+        setPageNumber(pageIdx: viewControllerIndex)
+        print(prevIndex)
+        highlightAndUpdate(nextSpot: prevIndex)
         return VCarray[prevIndex]
     }
     
     public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController?{
-        
+
         guard let viewControllerIndex = VCarray.index(of: viewController)
             else {
                 return nil
         }
         let nextIndex = viewControllerIndex + 1
-        
         guard nextIndex < VCarray.count
             else {
                 return VCarray.first
@@ -182,11 +129,11 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         guard VCarray.count > nextIndex
             else{
                 return nil
+                
         }
-        
-        //whatPageWeAreOn(pageIdx: getPageNumber())
+        setPageNumber(pageIdx: viewControllerIndex)
+        highlightAndUpdate(nextSpot: nextIndex)
         //changes color of button on top and updates info if needed
-        
         return VCarray[nextIndex]
     }
     
@@ -203,4 +150,68 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         }
         return firstViewControllerIndex
     }
+    
+    
+    func showViewControllerForAddForum(setting: Setting) {
+        //call the class you want to setup the addforum viewcontroller
+        print("new UIVIEWCONTROLLER onto stack")
+        let addForum = UIViewController()
+        addForum.view.backgroundColor = UIColor.white
+        addForum.navigationItem.title = setting.name
+        navigationController?.navigationBar.tintColor = UIColor.white
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        navigationController?.pushViewController(addForum, animated: true)
+    }
+    
+    
+    
+    func setPageNumber(pageIdx: Int){
+       // let viewControllerIndex = VCarray.index(of: viewController)
+        PageWeAreOn.page = pageIdx
+    }
+    
+    func getPageNumber()->Int{
+        return PageWeAreOn.page
+    }
+    
+    
+    func highlightAndUpdate(nextSpot: Int){
+        
+        print(nextSpot)
+        //update the table view, refresh the connection with what you want. otherwise do nothing and let that ViewController load
+        if  nextSpot == 0  {
+            homeNavButton.tintColor = UIColor.red
+            imNavButton.tintColor = UIColor.white
+            catNavBoutton.tintColor = UIColor.white
+            //setup home viewTable
+            //reset connection to load it
+        }
+        if nextSpot == 1 {
+            homeNavButton.tintColor = UIColor.white
+            imNavButton.tintColor = UIColor.white
+            catNavBoutton.tintColor = UIColor.white
+            //setup trending viewTable
+            //reset connection to load it
+        }
+        if nextSpot == 2 {
+            homeNavButton.tintColor = UIColor.white
+            imNavButton.tintColor = UIColor.red
+            catNavBoutton.tintColor = UIColor.white
+            //setup Cat
+            //once they chose a cat, reload home page but with cat restrictions
+            //reset connection to load it
+        }
+        if nextSpot == 3 {
+            homeNavButton.tintColor = UIColor.white
+            imNavButton.tintColor = UIColor.white
+            catNavBoutton.tintColor = UIColor.red
+            //always reset connection when here
+            //setup Chat message board
+        }
+        
+    }
+    
+    
+    
+    
 }

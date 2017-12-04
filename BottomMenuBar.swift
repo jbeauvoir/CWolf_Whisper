@@ -87,13 +87,13 @@ class BottomMenuCell: BaseCell{
     
     override var isHighlighted: Bool {
         didSet {
-            imageView.tintColor = isHighlighted ? UIColor.white : UIColor.rgb(red: 91, green: 14, blue: 13)
+            imageView.tintColor = isHighlighted ? UIColor.white : UIColor.red
         }
     }
     
     override var isSelected: Bool {
         didSet {
-            imageView.tintColor = isSelected ? UIColor.white : UIColor.rgb(red: 91, green: 14, blue: 13)
+            imageView.tintColor = isSelected ? UIColor.white : UIColor.red
         }
     }
     
