@@ -2,17 +2,14 @@
 //  NewForumViewController.swift
 //  UserLoginAndRegistration
 //
-//  Created by student on 11/12/17.
+//  Created by student on 12/4/17.
 //  Copyright © 2017 team SeaWolfWhisper. All rights reserved.
 //
 
 import UIKit
 
 class NewForumViewController: UIViewController {
-    @IBOutlet weak var addTitleTextField: UITextField!
-    @IBOutlet weak var addBodyTextField: UITextField!
-    @IBOutlet weak var addPicLabel: UILabel!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

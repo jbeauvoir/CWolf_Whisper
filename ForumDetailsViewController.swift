@@ -17,18 +17,18 @@ class ForumDetailsViewController: UIViewController {
     @IBOutlet weak var NumOfCommentsLabel: UILabel!
     @IBOutlet weak var NumOfLikesLabel: UILabel!
     @IBOutlet weak var likedView: UIImageView!
-    @IBOutlet weak var MenuButton: UIBarButtonItem!
-    @IBAction func MenuButtonClicked(_ sender: Any) {
-        revealMenu()
-    }
+    //@IBOutlet weak var MenuButton: UIBarButtonItem!
+   // @IBAction func MenuButtonClicked(_ sender: Any) {
+     //   revealMenu()
+  //  }
 
     let settingLauncher = SettingLauncher()
     var numberOfLikesForForum = 0 // needs to become a DB item
     var forum: Forum?
     
-    func revealMenu(){
-        settingLauncher.revealMenu()
-    }
+   // func revealMenu(){
+   //     settingLauncher.revealMenu()
+   // }
     
     @IBAction func likeButtonClicked(_ sender: Any) {
          likedView.isHidden = false //set a boolean so that that user cant see again next time they return

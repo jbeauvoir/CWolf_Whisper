@@ -8,7 +8,7 @@
 
 import UIKit
 
-
+/*
 class BottomMenuBar: UIView, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     lazy var collectionView: UICollectionView = {
@@ -103,6 +103,6 @@ class BottomMenuCell: BaseCell{
     }
     
 }
-    
+    */
     
 

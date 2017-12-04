@@ -10,6 +10,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AcademyEngraved.ttf">
+            <string>AcademyEngravedLetPlain</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -219,7 +224,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.51342099399999996" green="0.69428344799999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Dxn-se-pJU"/>
                     </view>
                     <connections>
@@ -230,7 +235,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gxt-LL-Btc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4244" y="1671"/>
+            <point key="canvasLocation" x="553" y="1702"/>
         </scene>
         <!--Forums-->
         <scene sceneID="Sbr-vq-1Sr">
@@ -249,10 +254,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zxo-Gk-3Vk">
-                                            <rect key="frame" x="96" y="70" width="3600000" height="26"/>
+                                            <rect key="frame" x="96" y="70" width="9000000000" height="26"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGc-nL-yns">
-                                                    <rect key="frame" x="0.0" y="0.0" width="3600000" height="26"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="9000000000" height="26"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -278,7 +283,7 @@
                                 <connections>
                                     <outlet property="cellImage" destination="YNj-Yb-HWi" id="9tS-1z-zSE"/>
                                     <outlet property="cellLabel" destination="JGc-nL-yns" id="R96-4B-xRq"/>
-                                    <segue destination="VuD-NV-kES" kind="show" identifier="ShowForumDetails" id="noN-WF-rjq"/>
+                                    <segue destination="VuD-NV-kES" kind="show" identifier="ShowForumDetails" id="9Lo-76-XPa"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -287,21 +292,12 @@
                             <outlet property="delegate" destination="85A-Nt-F2H" id="S7F-1g-rpA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Forums" id="PSi-1o-rvB">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="k9t-Vy-pRS">
-                            <connections>
-                                <action selector="clickedMenuButton:" destination="85A-Nt-F2H" id="Lot-ft-75X"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Forums" id="PSi-1o-rvB"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black"/>
-                    <connections>
-                        <outlet property="MenuButton" destination="k9t-Vy-pRS" id="FYy-sB-BFq"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gpf-dc-pZG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1748" y="886.50674662668678"/>
+            <point key="canvasLocation" x="1429.5" y="886.5"/>
         </scene>
         <!--Forum Details View Controller-->
         <scene sceneID="bzw-sk-p1Q">
@@ -365,17 +361,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.51342099399999996" green="0.69428344799999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="fIu-WC-PmV"/>
                     </view>
                     <navigationItem key="navigationItem" id="ItI-uT-BUH">
                         <barButtonItem key="backBarButtonItem" title="Forums" id="tVO-1O-SHQ"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="menu2" id="Plt-if-u10">
-                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="-22" maxY="0.0"/>
-                            <connections>
-                                <action selector="MenuButtonClicked:" destination="VuD-NV-kES" id="NBL-mr-1t9"/>
-                            </connections>
-                        </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black"/>
                     <connections>
@@ -383,7 +373,6 @@
                         <outlet property="ForumPicture" destination="t6U-0z-MMr" id="kJ1-tA-FYv"/>
                         <outlet property="ForumTitle" destination="58t-54-eoq" id="GkB-Pf-iYN"/>
                         <outlet property="LikeButton" destination="I7m-NB-OZj" id="5kk-5K-h3E"/>
-                        <outlet property="MenuButton" destination="Plt-if-u10" id="RMF-3Y-E31"/>
                         <outlet property="NumOfCommentsLabel" destination="HU1-Am-90D" id="9Ip-0M-lbL"/>
                         <outlet property="NumOfLikesLabel" destination="glp-oh-4be" id="Xu3-WE-KSx"/>
                         <outlet property="forumBodyLabel" destination="OKA-gW-eiZ" id="ZwL-KD-aEe"/>
@@ -392,7 +381,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gbC-oU-WU1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1382" y="1693"/>
+            <point key="canvasLocation" x="1430" y="1701"/>
         </scene>
         <!--Comments-->
         <scene sceneID="FU3-O0-G8t">
@@ -449,7 +438,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xp3-YF-LsF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1382" y="2482"/>
+            <point key="canvasLocation" x="1430" y="2469"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vwm-Uo-9AN">
@@ -508,13 +497,13 @@
                         <outlet property="homeNavButton" destination="sNH-Ta-0r5" id="XTX-dj-Jge"/>
                         <outlet property="imNavButton" destination="2V7-wT-BLF" id="l2P-m5-gqj"/>
                         <segue destination="85A-Nt-F2H" kind="show" id="bTr-MC-U5p"/>
-                        <segue destination="1EX-p9-Je5" kind="show" id="3a7-d9-FVh"/>
                         <segue destination="I6m-DK-bny" kind="show" identifier="ShowAboutInfo" id="W6G-l3-din"/>
+                        <segue destination="b07-gR-8an" kind="show" identifier="NewForumViewController" customClass="N" id="0DI-gZ-2UE"/>
                     </connections>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fhj-Ru-AuW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="721" y="887"/>
+            <point key="canvasLocation" x="554" y="888"/>
         </scene>
         <!--Catagory View Controller-->
         <scene sceneID="Tpu-tJ-8sf">
@@ -659,7 +648,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VxM-5f-R6a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2910" y="888"/>
+            <point key="canvasLocation" x="2329" y="888"/>
         </scene>
         <!--About Us View Controller-->
         <scene sceneID="RQT-06-dob">
@@ -668,13 +657,41 @@
                     <view key="view" contentMode="scaleToFill" id="ctc-cg-Du2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8jy-DM-sv7">
+                                <rect key="frame" x="67" y="145" width="240" height="441"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C-Wolf Whisper consists of 3 great guys. woo" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qlf-d4-0Gg">
+                                        <rect key="frame" x="8" y="8" width="224" height="425"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About C-Wolf whisper" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7m8-e1-Byk">
+                                <rect key="frame" x="67" y="97" width="240" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.51342099399999996" green="0.69428344799999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="5yU-o6-Ema"/>
                     </view>
+                    <connections>
+                        <outlet property="AboutUsBodyLabel" destination="qlf-d4-0Gg" id="4pV-Of-Fn2"/>
+                        <outlet property="AboutUsTitleLabel" destination="7m8-e1-Byk" id="6H3-xi-z5k"/>
+                        <outlet property="AboutUsView" destination="8jy-DM-sv7" id="4nz-kp-le8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hOx-gP-xdB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2911" y="1657"/>
+            <point key="canvasLocation" x="-319.19999999999999" y="1700.5997001499252"/>
         </scene>
         <!--Message View Controller-->
         <scene sceneID="uKy-lF-DqH">
@@ -683,14 +700,14 @@
                     <view key="view" contentMode="scaleToFill" id="cAo-jn-s5t">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.51342099399999996" green="0.69428344799999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Psc-iQ-V1D"/>
                     </view>
                     <navigationItem key="navigationItem" id="JHI-5M-KEX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n4F-ag-fnF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5361" y="905"/>
+            <point key="canvasLocation" x="3170" y="888"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Vgp-Ig-Vbd">
@@ -713,24 +730,6 @@
             </objects>
             <point key="canvasLocation" x="-319" y="889"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="aua-F6-CIP">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XSw-pM-jaw" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Idj-mW-feq">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="fpq-LA-JPO" kind="relationship" relationship="rootViewController" id="P1Z-Qp-kHs"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gJj-Va-jjQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4540.8000000000002" y="905.84707646176923"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Home" width="50" height="50"/>
@@ -742,7 +741,6 @@
         <image name="info2" width="100" height="100"/>
         <image name="jokes" width="100" height="100"/>
         <image name="liked" width="50" height="50"/>
-        <image name="menu" width="100" height="100"/>
         <image name="menu2" width="100" height="100"/>
         <image name="school" width="100" height="100"/>
         <image name="social" width="100" height="100"/>

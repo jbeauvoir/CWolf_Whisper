@@ -6,15 +6,10 @@ provides-nominal:
 provides-member:
 - ["24UserLoginAndRegistration22NewForumViewControllerC", ""]
 provides-dynamic-lookup:
-- "addBodyTextField"
-- "addPicLabel"
-- "addTitleTextField"
 - "didReceiveMemoryWarning"
 - "viewDidLoad"
 depends-top-level:
 - "NewForumViewController"
-- "UILabel"
-- "UITextField"
 - "UIViewController"
 depends-member:
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
@@ -45,11 +40,6 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
-- ["So8NSObjectC", "UILabel"]
-- ["So8NSObjectC", "UITextField"]
-- ["So8NSObjectC", "addBodyTextField"]
-- ["So8NSObjectC", "addPicLabel"]
-- ["So8NSObjectC", "addTitleTextField"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "viewDidLoad"]
@@ -57,11 +47,6 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", ""]
-- ["24UserLoginAndRegistration22NewForumViewControllerC", "UILabel"]
-- ["24UserLoginAndRegistration22NewForumViewControllerC", "UITextField"]
-- ["24UserLoginAndRegistration22NewForumViewControllerC", "addBodyTextField"]
-- ["24UserLoginAndRegistration22NewForumViewControllerC", "addPicLabel"]
-- ["24UserLoginAndRegistration22NewForumViewControllerC", "addTitleTextField"]
 - ["24UserLoginAndRegistration22NewForumViewControllerC", "deinit"]
 - ["24UserLoginAndRegistration22NewForumViewControllerC", "didReceiveMemoryWarning"]
 - ["24UserLoginAndRegistration22NewForumViewControllerC", "init"]
@@ -82,11 +67,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
-- ["So11UIResponderC", "UILabel"]
-- ["So11UIResponderC", "UITextField"]
-- ["So11UIResponderC", "addBodyTextField"]
-- ["So11UIResponderC", "addPicLabel"]
-- ["So11UIResponderC", "addTitleTextField"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "viewDidLoad"]
@@ -102,11 +82,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
-- ["So16UIViewControllerC", "UILabel"]
-- ["So16UIViewControllerC", "UITextField"]
-- ["So16UIViewControllerC", "addBodyTextField"]
-- ["So16UIViewControllerC", "addPicLabel"]
-- ["So16UIViewControllerC", "addTitleTextField"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "viewDidLoad"]
@@ -224,4 +199,4 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-interface-hash: "da37fb5943e5a979569c3d0a286674b8"
+interface-hash: "8bf467de34b7c5ceac137ea075352745"

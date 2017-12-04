@@ -174,8 +174,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_feature(modules)
 @import UIKit;
 @import CoreGraphics;
-@import Foundation;
 @import ObjectiveC;
+@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -187,11 +187,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wnullability"
 
 SWIFT_MODULE_NAMESPACE_PUSH("UserLoginAndRegistration")
+@class UIView;
+@class UILabel;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC24UserLoginAndRegistration21AboutUsViewController")
 @interface AboutUsViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified AboutUsView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified AboutUsTitleLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified AboutUsBodyLabel;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -218,28 +223,6 @@ SWIFT_CLASS("_TtC24UserLoginAndRegistration8BaseCell")
 @interface BaseCell : UICollectionViewCell
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UICollectionView;
-@class UICollectionViewLayout;
-
-SWIFT_CLASS("_TtC24UserLoginAndRegistration13BottomMenuBar")
-@interface BottomMenuBar : UIView <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC24UserLoginAndRegistration14BottomMenuCell")
-@interface BottomMenuCell : BaseCell
-@property (nonatomic, getter=isHighlighted) BOOL highlighted;
-@property (nonatomic, getter=isSelected) BOOL selected;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 @class UIButton;
@@ -283,7 +266,6 @@ SWIFT_CLASS("_TtC24UserLoginAndRegistration17CommentDataSource")
 @end
 
 @class UIImageView;
-@class UILabel;
 
 SWIFT_CLASS("_TtC24UserLoginAndRegistration20CommentTableViewCell")
 @interface CommentTableViewCell : UITableViewCell
@@ -350,8 +332,6 @@ SWIFT_CLASS("_TtC24UserLoginAndRegistration26ForumDetailsViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified NumOfCommentsLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified NumOfLikesLabel;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified likedView;
-@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified MenuButton;
-- (IBAction)MenuButtonClicked:(id _Nonnull)sender;
 - (IBAction)likeButtonClicked:(id _Nonnull)sender;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
@@ -394,8 +374,6 @@ SWIFT_CLASS("_TtC24UserLoginAndRegistration18ForumTableViewCell")
 
 SWIFT_CLASS("_TtC24UserLoginAndRegistration24ForumTableViewController")
 @interface ForumTableViewController : UITableViewController
-@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified MenuButton;
-- (IBAction)clickedMenuButton:(id _Nonnull)sender;
 - (void)viewDidLoad;
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -427,19 +405,16 @@ SWIFT_CLASS("_TtC24UserLoginAndRegistration21MessageViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITextField;
 
 SWIFT_CLASS("_TtC24UserLoginAndRegistration22NewForumViewController")
 @interface NewForumViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified addTitleTextField;
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified addBodyTextField;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified addPicLabel;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextField;
 
 SWIFT_CLASS("_TtC24UserLoginAndRegistration26RegisterPageViewController")
 @interface RegisterPageViewController : UIViewController
@@ -468,6 +443,8 @@ SWIFT_CLASS("_TtC24UserLoginAndRegistration11SettingCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UICollectionView;
+@class UICollectionViewLayout;
 
 SWIFT_CLASS("_TtC24UserLoginAndRegistration15SettingLauncher")
 @interface SettingLauncher : NSObject <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>

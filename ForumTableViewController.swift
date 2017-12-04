@@ -11,19 +11,7 @@ import UIKit
 //self.tableView.reloadData() USE TO RELOAD TABLES GOING TO NEED SOON
 
 class ForumTableViewController: UITableViewController  {
-    @IBOutlet weak var MenuButton: UIBarButtonItem!
-    @IBAction func clickedMenuButton(_ sender: Any) {
-        print("Clicked menu button")
-        revealMenu()
-    }
-  /*
-    lazy var settingLauncher: SettingLauncher = {
-    print("Setup")
-    let setUp = SettingLauncher()
-    setUp.forumTableViewController = self
-        return setUp
-    }()
-    */
+   // @IBOutlet weak var MenuButton: UIBarButtonItem!
     var useOrNo: Bool = false
     var unusedCells: Int = 0
     var forumsDS: ForumDataSource?
@@ -43,62 +31,25 @@ class ForumTableViewController: UITableViewController  {
         tableView?.clipsToBounds = true
         //navigationController?.isNavigationBarHidden = true //hide or appear nav bar
         navigationController?.navigationBar.isTranslucent = true;//see through navigation controller
-        //setupBottomMenuBar()
         // self.navigationController?.navigationBar.tintColor = UIColor.white
-        setupNavBarButtons()
+        //setupNavBarButtons()
        
     }
-    
-    /*
-   
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        let height: CGFloat = 200 //whatever height you want
-        let bounds = self.navigationController!.navigationBar.bounds
-        self.navigationController?.navigationBar.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height + height)
-       
-     //CHANGE THE HEIGHT OR SIZE OF THE NAVIGATION CONTROLLER
-    }*/
- 
+
     func setPageNumber()->Int{
         var pageNumber = ForumPageViewController.PageWeAreOn.page
         print("WE ARE AT PAGE:  \(pageNumber)")
         return pageNumber
     }
-    
-    
-    let bottomMenuBar: BottomMenuBar = {
-        let menuB = BottomMenuBar()
-        return menuB
-    }()
-    
-    func setupBottomMenuBar(){
-        
-        view.addSubview(bottomMenuBar)
-        view.addConstraintsWithFormat(format: "H:|[v0]|", views: bottomMenuBar)
-        view.addConstraintsWithFormat(format: "V:|[v0(50)]", views: bottomMenuBar)
-        
-    }
-    
+/*
     func setupNavBarButtons() {
        // self.navigationController?.navigationItem.rightBarButtonItems = [MenuButton]
        // self.navigationController?.navigationItem.title = "Home"
         navigationItem.rightBarButtonItems = [MenuButton]
         navigationItem.title = "Home"
     }
-
-    func revealMenu(){
-        print("ERROR WRONG REVEAL")
-       // settingLauncher.forumTableViewController = self
-      //  settingLauncher.revealMenu()
-        //showViewControllerForMenu()
-    }
- 
+*/
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView?{
-        //view.addSubview(bottomMenuBar)
-        //view.addConstraintsWithFormat(format: "H:|[v0]|", views: bottomMenuBar)
-        //view.addConstraintsWithFormat(format: "V:|[v0(50)]", views: bottomMenuBar)
-        //return bottomMenuBar
         return nil
     }
     

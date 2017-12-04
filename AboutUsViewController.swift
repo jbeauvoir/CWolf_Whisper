@@ -9,7 +9,10 @@
 import UIKit
 
 class AboutUsViewController: UIViewController {
-
+    @IBOutlet weak var AboutUsView: UIView!
+    @IBOutlet weak var AboutUsTitleLabel: UILabel!
+    @IBOutlet weak var AboutUsBodyLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
@@ -22,23 +25,9 @@ class AboutUsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     func setup(){
-        //call the class you want to setup the addforum viewcontroller
-        print("new UIVIEWCONTROLLER onto stack")
-        //let addForum = UIViewController()
-        //addForum.view.backgroundColor = UIColor.white
-        //addForum.navigationItem.title = setting.name
-        navigationController?.navigationBar.tintColor = UIColor.white
-        navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
-        //navigationController?.pushViewController(addForum, animated: true)
+        AboutUsBodyLabel.textAlignment = .left
+        AboutUsBodyLabel.adjustsFontSizeToFitWidth = true
+        AboutUsBodyLabel.text = "C-Wolf Whisper consists of 3 great guys. woot"
     }
-        /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

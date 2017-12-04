@@ -182,18 +182,18 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
             }
             
             if stringToCheck == "Add New Forum" {
+                performSegue(withIdentifier: "NewForumViewContoler", sender: nil)
+            
+            }
+            if stringToCheck == "Home" {// complete
                 performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
             
             }
-            if stringToCheck == "Home" {
+            if stringToCheck == "History" { //complete
                 performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
             
             }
-            if stringToCheck == "History" {
-                performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
-            
-            }
-            if stringToCheck == "Logout" {
+            if stringToCheck == "Logout" { //complete
                 performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
             
             }
