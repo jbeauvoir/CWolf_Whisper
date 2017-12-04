@@ -168,26 +168,32 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     }
     
     
-    func showViewControllerForAddForum(setting: Setting) {
-        //call the class you want to setup the addforum viewcontroller
-        print("new UIVIEWCONTROLLER onto stack")
-        let addForum = UIViewController()
-        addForum.view.backgroundColor = UIColor.white
-        addForum.navigationItem.title = setting.name
-        navigationController?.navigationBar.tintColor = UIColor.white
-        navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
-        navigationController?.pushViewController(addForum, animated: true)
-    }
-    
     
     func whichSettingButtonWasClicked(stringToCheck: String){
         print("printing the string grabed \(stringToCheck)")
-        
-        if stringToCheck != "" {
+        //Add New Forum", imageName: "addForum2"), Setting(name: "Home", imageName: "Home2"), Setting(name: "History", imageName: "history2"), Setting(name: "App info", imageName: "info3"), Setting(name: "Logout", imageName: "Logout2")]
+        if stringToCheck == "App info" {
             performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
             
         }
-        
+        /*
+        if stringToCheck == "Add New Forum" {
+            performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
+            
+        }
+        if stringToCheck == "Home" {
+            performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
+            
+        }
+        if stringToCheck == "History" {
+            performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
+            
+        }
+        if stringToCheck == "Logout" {
+            performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
+            
+        }
+        */
         
     }
     

@@ -7,16 +7,39 @@
 //
 
 import UIKit
+/*
+If you are creating the cell programatically just do this in the init in the cell class:
 
+override init(frame: CGRect) {
+    let noProblemFrame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
+    super.init(frame: noProblemFrame)
+}
+otherwise do the same in awakeFromNib
 
+override func awakeFromNib() {
+    let noProblemFrame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
+    frame = noProblemFrame
+*/
 //This Class sets up are table and its cells, adds views and constraints
 
 class ForumTableViewCell: UITableViewCell {
 
     @IBOutlet weak var cellImage: UIImageView!
     @IBOutlet weak var cellLabel: UILabel!
+   /*
+    override init(frame: CGRect) {
+        let noProblemFrame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
+        super.init(frame: noProblemFrame)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }*/
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        let noProblemFrame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
+        frame = noProblemFrame
         // Initialization code
     }
     

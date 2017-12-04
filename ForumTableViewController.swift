@@ -88,7 +88,7 @@ class ForumTableViewController: UITableViewController  {
     }
 
     func revealMenu(){
-        print("Setting the FTVC")
+        print("ERROR WRONG REVEAL")
        // settingLauncher.forumTableViewController = self
       //  settingLauncher.revealMenu()
         //showViewControllerForMenu()
@@ -100,6 +100,8 @@ class ForumTableViewController: UITableViewController  {
         view.addConstraintsWithFormat(format: "V:|[v0(50)]", views: bottomMenuBar)
         return bottomMenuBar
     }
+    
+ 
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         print(downloadAssistant.dataFromServer!)
@@ -136,6 +138,7 @@ class ForumTableViewController: UITableViewController  {
         
         return cell
     }
+    
     
     //size of our tableView Cells hieght
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
