@@ -230,7 +230,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gxt-LL-Btc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4012" y="887.40629685157433"/>
+            <point key="canvasLocation" x="4244" y="1671"/>
         </scene>
         <!--About Us View Controller-->
         <scene sceneID="ADM-uW-ytY">
@@ -260,7 +260,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="152"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fV0-Cd-xUp" id="GDy-RO-DI7" customClass="ForumTableViewCell" customModule="UserLoginAndRegistration" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="151.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="152"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zxo-Gk-3Vk">
@@ -422,7 +422,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JdH-eg-B4p" id="6vH-iH-swl" customClass="CommentTableViewCell" customModule="UserLoginAndRegistration" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="104.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ekv-M0-tM1">
@@ -522,12 +522,14 @@
                         <outlet property="catNavBoutton" destination="1rw-hJ-ZM8" id="xMX-rB-L1w"/>
                         <outlet property="homeNavButton" destination="sNH-Ta-0r5" id="XTX-dj-Jge"/>
                         <outlet property="imNavButton" destination="2V7-wT-BLF" id="l2P-m5-gqj"/>
-                        <segue destination="VuD-NV-kES" kind="show" id="dNC-K8-tLI"/>
+                        <segue destination="85A-Nt-F2H" kind="show" id="bTr-MC-U5p"/>
+                        <segue destination="1EX-p9-Je5" kind="show" id="3a7-d9-FVh"/>
+                        <segue destination="cwo-RL-mb6" kind="presentation" identifier="ShowAboutInfo" id="Gza-ga-tfj"/>
                     </connections>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fhj-Ru-AuW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="964" y="888.30584707646187"/>
+            <point key="canvasLocation" x="721" y="887"/>
         </scene>
         <!--Catagory View Controller-->
         <scene sceneID="Tpu-tJ-8sf">
@@ -687,7 +689,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2po-TL-iGf" id="ck0-FA-aOE">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -717,7 +719,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="6oY-Xh-pgr" kind="relationship" relationship="rootViewController" id="sza-dk-aNH"/>
+                        <segue destination="6oY-Xh-pgr" kind="relationship" relationship="rootViewController" id="ZlA-zf-sBg"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dWa-Pd-9Br" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -759,7 +761,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="t4f-PR-gHl"/>
-        <segue reference="dNC-K8-tLI"/>
         <segue reference="IeQ-z0-fcX"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -16,7 +16,6 @@ class Setting: NSObject {
     init(name: String, imageName: String){
         self.name = name
         self.imageName = imageName
-        
     }
 }
 
@@ -24,6 +23,7 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
     let blackView = UIView()
    
     var forumTableViewController: ForumTableViewController?
+    
     
     let collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -95,12 +95,16 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
                 self.collectionView.frame = CGrect3
             }
             
-        }) { (completed: Bool) in
+        })
+        
+        { (completed: Bool) in
             print("comepleted now trying to call function")
             if setting.name != "" {
-                print("calling")
-                //PROBLEM NEEDS FIX
-                self.forumTableViewController?.showViewControllerForAddForum(setting: setting)
+                if var myDelegate = UIApplication.shared.delegate as? AppDelegate{
+                    myDelegate.whichSettingButtonIClicked = setting.name
+                    //let x = AboutUsViewController()
+                   //forumTableViewController.whichSettingButtonWasClicked(adsa: setting.name)
+                }
             }
         }
     }
@@ -130,6 +134,7 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
         let setting = settings[indexPath.item]
         print(setting.name)
         handleDismiss(setting: setting)
+        print("EXIT")
     }
    
     override init(){
@@ -138,6 +143,5 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
         collectionView.delegate = self
         collectionView.register(SettingCell.self, forCellWithReuseIdentifier: cellId)
     }
-    
- 
+
 }

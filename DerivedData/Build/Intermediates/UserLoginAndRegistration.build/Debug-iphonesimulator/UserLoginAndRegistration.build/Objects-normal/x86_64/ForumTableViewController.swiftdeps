@@ -1698,4 +1698,4 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-interface-hash: "3c826c1edab82517cacb7398ae280fed"
+interface-hash: "f68ffc20160870dc6125ee4f8fc84148"

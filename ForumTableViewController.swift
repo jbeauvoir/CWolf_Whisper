@@ -18,6 +18,7 @@ class ForumTableViewController: UITableViewController  {
     }
    
     lazy var settingLauncher: SettingLauncher = {
+    print("Setup")
     let setUp = SettingLauncher()
     setUp.forumTableViewController = self
         return setUp

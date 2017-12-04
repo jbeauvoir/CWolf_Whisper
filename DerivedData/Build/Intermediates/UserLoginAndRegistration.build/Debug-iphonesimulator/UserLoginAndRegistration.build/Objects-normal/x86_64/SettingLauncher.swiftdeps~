@@ -14,6 +14,7 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "!="
 - !private "*"
+- !private "AppDelegate"
 - "Array"
 - "AssignmentPrecedence"
 - !private "Bool"
@@ -45,6 +46,7 @@ depends-top-level:
 - "UIView"
 - !private "print"
 depends-member:
+- !private ["24UserLoginAndRegistration11AppDelegateC", "whichSettingButtonIClicked"]
 - !private ["Sa", "count"]
 - !private ["Sa", "subscript"]
 - !private ["24UserLoginAndRegistration8BaseCellC", "setting"]
@@ -132,10 +134,11 @@ depends-member:
 - !private ["s7CVarArgP", "setting"]
 - !private ["s7CVarArgP", "settings"]
 - !private ["s7CVarArgP", "shared"]
-- !private ["s7CVarArgP", "showViewControllerForAddForum"]
 - !private ["s7CVarArgP", "subscript"]
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
+- !private ["s7CVarArgP", "whichSettingButtonIClicked"]
+- !private ["s7CVarArgP", "whichSettingButtonWasClicked"]
 - ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "count"]
 - ["s10CollectionP", "init"]
@@ -204,10 +207,11 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "setting"]
 - !private ["s28CustomDebugStringConvertibleP", "settings"]
 - !private ["s28CustomDebugStringConvertibleP", "shared"]
-- !private ["s28CustomDebugStringConvertibleP", "showViewControllerForAddForum"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - ["s28CustomDebugStringConvertibleP", "viewForZooming"]
 - ["s28CustomDebugStringConvertibleP", "viewForZoomingInScrollView"]
+- !private ["s28CustomDebugStringConvertibleP", "whichSettingButtonIClicked"]
+- !private ["s28CustomDebugStringConvertibleP", "whichSettingButtonWasClicked"]
 - !private ["s28CustomDebugStringConvertibleP", "width"]
 - ["s28CustomDebugStringConvertibleP", "zero"]
 - ["s28CustomDebugStringConvertibleP", ""]
@@ -222,6 +226,7 @@ depends-member:
 - ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "item"]
 - !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "whichSettingButtonWasClicked"]
 - !private ["s17CustomReflectableP", "width"]
 - ["s17CustomReflectableP", "zero"]
 - !private ["s23CustomStringConvertibleP", "CGFloat"]
@@ -285,10 +290,11 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "setting"]
 - !private ["s23CustomStringConvertibleP", "settings"]
 - !private ["s23CustomStringConvertibleP", "shared"]
-- !private ["s23CustomStringConvertibleP", "showViewControllerForAddForum"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - ["s23CustomStringConvertibleP", "viewForZooming"]
 - ["s23CustomStringConvertibleP", "viewForZoomingInScrollView"]
+- !private ["s23CustomStringConvertibleP", "whichSettingButtonIClicked"]
+- !private ["s23CustomStringConvertibleP", "whichSettingButtonWasClicked"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "count"]
@@ -296,6 +302,7 @@ depends-member:
 - ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "item"]
 - !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "whichSettingButtonWasClicked"]
 - !private ["s9DecodableP", "width"]
 - ["s9DecodableP", "zero"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
@@ -304,6 +311,7 @@ depends-member:
 - ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "item"]
 - !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "whichSettingButtonWasClicked"]
 - !private ["s9EncodableP", "width"]
 - ["s9EncodableP", "zero"]
 - !private ["s9EquatableP", "CGFloat"]
@@ -368,9 +376,10 @@ depends-member:
 - !private ["s9EquatableP", "setting"]
 - !private ["s9EquatableP", "settings"]
 - !private ["s9EquatableP", "shared"]
-- !private ["s9EquatableP", "showViewControllerForAddForum"]
 - ["s9EquatableP", "viewForZooming"]
 - ["s9EquatableP", "viewForZoomingInScrollView"]
+- !private ["s9EquatableP", "whichSettingButtonIClicked"]
+- !private ["s9EquatableP", "whichSettingButtonWasClicked"]
 - !private ["s9EquatableP", "width"]
 - ["s9EquatableP", "zero"]
 - ["s9EquatableP", ""]
@@ -382,10 +391,11 @@ depends-member:
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "whichSettingButtonWasClicked"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s13FloatingPointP", "init"]
-- !private ["24UserLoginAndRegistration24ForumTableViewControllerC", "showViewControllerForAddForum"]
+- !private ["24UserLoginAndRegistration24ForumTableViewControllerC", "whichSettingButtonWasClicked"]
 - !private ["s8HashableP", "CGFloat"]
 - !private ["s8HashableP", "CGPoint"]
 - !private ["s8HashableP", "CGRect"]
@@ -446,9 +456,10 @@ depends-member:
 - !private ["s8HashableP", "setting"]
 - !private ["s8HashableP", "settings"]
 - !private ["s8HashableP", "shared"]
-- !private ["s8HashableP", "showViewControllerForAddForum"]
 - ["s8HashableP", "viewForZooming"]
 - ["s8HashableP", "viewForZoomingInScrollView"]
+- !private ["s8HashableP", "whichSettingButtonIClicked"]
+- !private ["s8HashableP", "whichSettingButtonWasClicked"]
 - ["s8HashableP", ""]
 - !private ["10Foundation9IndexPathV", "item"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
@@ -470,15 +481,16 @@ depends-member:
 - !private ["So8NSCodingP", "register"]
 - ["So8NSCodingP", "rgb"]
 - !private ["So8NSCodingP", "setting"]
-- !private ["So8NSCodingP", "showViewControllerForAddForum"]
+- !private ["So8NSCodingP", "whichSettingButtonWasClicked"]
 - ["So9NSCopyingP", "init"]
 - ["So9NSCopyingP", "rgb"]
-- !private ["So26NSExtensionRequestHandlingP", "showViewControllerForAddForum"]
+- !private ["So26NSExtensionRequestHandlingP", "whichSettingButtonWasClicked"]
 - ["So21NSItemProviderReadingP", "init"]
 - ["So21NSItemProviderReadingP", "rgb"]
 - ["So21NSItemProviderWritingP", "init"]
 - ["So21NSItemProviderWritingP", "rgb"]
 - ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "AppDelegate"]
 - !private ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "CGFloat"]
 - !private ["So8NSObjectC", "CGPoint"]
@@ -545,9 +557,10 @@ depends-member:
 - !private ["So8NSObjectC", "setting"]
 - ["So8NSObjectC", "settings"]
 - !private ["So8NSObjectC", "shared"]
-- !private ["So8NSObjectC", "showViewControllerForAddForum"]
 - ["So8NSObjectC", "viewForZooming"]
 - ["So8NSObjectC", "viewForZoomingInScrollView"]
+- !private ["So8NSObjectC", "whichSettingButtonIClicked"]
+- !private ["So8NSObjectC", "whichSettingButtonWasClicked"]
 - ["So8NSObjectC", ""]
 - !private ["So16NSObjectProtocolP", "CGFloat"]
 - !private ["So16NSObjectProtocolP", "CGPoint"]
@@ -607,15 +620,17 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "setting"]
 - !private ["So16NSObjectProtocolP", "settings"]
 - !private ["So16NSObjectProtocolP", "shared"]
-- !private ["So16NSObjectProtocolP", "showViewControllerForAddForum"]
 - ["So16NSObjectProtocolP", "viewForZooming"]
 - ["So16NSObjectProtocolP", "viewForZoomingInScrollView"]
+- !private ["So16NSObjectProtocolP", "whichSettingButtonIClicked"]
+- !private ["So16NSObjectProtocolP", "whichSettingButtonWasClicked"]
 - ["So16NSObjectProtocolP", ""]
 - ["So14NSSecureCodingP", "init"]
 - ["So14NSSecureCodingP", "rgb"]
 - ["So8NSStringC", "init"]
 - !private ["s7NumericP", "init"]
 - !private ["s9OptionSetP", "curveEaseOut"]
+- !private ["Sq", "whichSettingButtonWasClicked"]
 - !private ["s22RandomAccessCollectionP", "count"]
 - !private ["s22RandomAccessCollectionP", "item"]
 - !private ["s22RandomAccessCollectionP", "subscript"]
@@ -635,6 +650,7 @@ depends-member:
 - ["24UserLoginAndRegistration7SettingC", "init"]
 - ["24UserLoginAndRegistration7SettingC", "name"]
 - !private ["24UserLoginAndRegistration11SettingCellC", "setting"]
+- !private ["24UserLoginAndRegistration15SettingLauncherC", "AppDelegate"]
 - !private ["24UserLoginAndRegistration15SettingLauncherC", "Bool"]
 - ["24UserLoginAndRegistration15SettingLauncherC", "CGFloat"]
 - !private ["24UserLoginAndRegistration15SettingLauncherC", "CGPoint"]
@@ -728,9 +744,11 @@ depends-member:
 - ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "register"]
 - !private ["So21UIAppearanceContainerP", "setting"]
-- !private ["So21UIAppearanceContainerP", "showViewControllerForAddForum"]
+- !private ["So21UIAppearanceContainerP", "whichSettingButtonWasClicked"]
+- !private ["So13UIApplicationC", "delegate"]
 - !private ["So13UIApplicationC", "keyWindow"]
 - !private ["So13UIApplicationC", "shared"]
+- !private ["So21UIApplicationDelegateP", "whichSettingButtonIClicked"]
 - !private ["So24UICollectionReusableViewC", "setting"]
 - ["So16UICollectionViewC", "backgroundColor"]
 - !private ["So16UICollectionViewC", "dataSource"]
@@ -870,7 +888,7 @@ depends-member:
 - ["So22UICollectionViewLayoutC", "init"]
 - !private ["So7UIColorC", "init"]
 - ["So7UIColorC", "rgb"]
-- !private ["So18UIContentContainerP", "showViewControllerForAddForum"]
+- !private ["So18UIContentContainerP", "whichSettingButtonWasClicked"]
 - !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
 - !private ["So17UICoordinateSpaceP", "addSubview"]
 - !private ["So17UICoordinateSpaceP", "alpha"]
@@ -914,7 +932,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "register"]
 - !private ["So18UIFocusEnvironmentP", "setting"]
-- !private ["So18UIFocusEnvironmentP", "showViewControllerForAddForum"]
+- !private ["So18UIFocusEnvironmentP", "whichSettingButtonWasClicked"]
 - !private ["So11UIFocusItemP", "addGestureRecognizer"]
 - !private ["So11UIFocusItemP", "addSubview"]
 - !private ["So11UIFocusItemP", "alpha"]
@@ -942,7 +960,8 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "register"]
 - !private ["So30UIPasteConfigurationSupportingP", "setting"]
 - !private ["So30UIPasteConfigurationSupportingP", "shared"]
-- !private ["So30UIPasteConfigurationSupportingP", "showViewControllerForAddForum"]
+- !private ["So30UIPasteConfigurationSupportingP", "whichSettingButtonIClicked"]
+- !private ["So30UIPasteConfigurationSupportingP", "whichSettingButtonWasClicked"]
 - !private ["So11UIResponderC", "addGestureRecognizer"]
 - !private ["So11UIResponderC", "addSubview"]
 - !private ["So11UIResponderC", "alpha"]
@@ -957,7 +976,8 @@ depends-member:
 - !private ["So11UIResponderC", "register"]
 - !private ["So11UIResponderC", "setting"]
 - !private ["So11UIResponderC", "shared"]
-- !private ["So11UIResponderC", "showViewControllerForAddForum"]
+- !private ["So11UIResponderC", "whichSettingButtonIClicked"]
+- !private ["So11UIResponderC", "whichSettingButtonWasClicked"]
 - !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
 - !private ["So30UIResponderStandardEditActionsP", "addSubview"]
 - !private ["So30UIResponderStandardEditActionsP", "alpha"]
@@ -972,7 +992,8 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "register"]
 - !private ["So30UIResponderStandardEditActionsP", "setting"]
 - !private ["So30UIResponderStandardEditActionsP", "shared"]
-- !private ["So30UIResponderStandardEditActionsP", "showViewControllerForAddForum"]
+- !private ["So30UIResponderStandardEditActionsP", "whichSettingButtonIClicked"]
+- !private ["So30UIResponderStandardEditActionsP", "whichSettingButtonWasClicked"]
 - !private ["So8UIScreenC", "bounds"]
 - !private ["So8UIScreenC", "main"]
 - ["So12UIScrollViewC", "backgroundColor"]
@@ -1021,9 +1042,9 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "scrollViewWillBeginZooming"]
 - ["So20UIScrollViewDelegateP", "scrollViewWillEndDragging"]
 - !private ["So20UIScrollViewDelegateP", "settings"]
-- !private ["So20UIScrollViewDelegateP", "showViewControllerForAddForum"]
 - ["So20UIScrollViewDelegateP", "viewForZooming"]
 - ["So20UIScrollViewDelegateP", "viewForZoomingInScrollView"]
+- !private ["So20UIScrollViewDelegateP", "whichSettingButtonWasClicked"]
 - ["So20UIScrollViewDelegateP", ""]
 - ["So35UISpringLoadedInteractionSupportingP", "backgroundColor"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "dataSource"]
@@ -1032,10 +1053,10 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "frame"]
 - ["So35UISpringLoadedInteractionSupportingP", "init"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "register"]
-- !private ["So16UIStateRestoringP", "showViewControllerForAddForum"]
-- !private ["So21UITableViewControllerC", "showViewControllerForAddForum"]
-- !private ["So21UITableViewDataSourceP", "showViewControllerForAddForum"]
-- !private ["So19UITableViewDelegateP", "showViewControllerForAddForum"]
+- !private ["So16UIStateRestoringP", "whichSettingButtonWasClicked"]
+- !private ["So21UITableViewControllerC", "whichSettingButtonWasClicked"]
+- !private ["So21UITableViewDataSourceP", "whichSettingButtonWasClicked"]
+- !private ["So19UITableViewDelegateP", "whichSettingButtonWasClicked"]
 - !private ["So22UITapGestureRecognizerC", "init"]
 - !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
 - !private ["So18UITraitEnvironmentP", "addSubview"]
@@ -1051,7 +1072,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "main"]
 - !private ["So18UITraitEnvironmentP", "register"]
 - !private ["So18UITraitEnvironmentP", "setting"]
-- !private ["So18UITraitEnvironmentP", "showViewControllerForAddForum"]
+- !private ["So18UITraitEnvironmentP", "whichSettingButtonWasClicked"]
 - !private ["So6UIViewC", "addGestureRecognizer"]
 - !private ["So6UIViewC", "addSubview"]
 - !private ["So6UIViewC", "alpha"]
@@ -1065,7 +1086,7 @@ depends-member:
 - !private ["So6UIViewC", "register"]
 - !private ["So6UIViewC", "setting"]
 - !private ["SC22UIViewAnimationOptionsV", "curveEaseOut"]
-- !private ["So16UIViewControllerC", "showViewControllerForAddForum"]
+- !private ["So16UIViewControllerC", "whichSettingButtonWasClicked"]
 - !private ["So8UIWindowC", "addSubview"]
 - !private ["So8UIWindowC", "backgroundColor"]
 - !private ["So8UIWindowC", "frame"]
@@ -1166,9 +1187,10 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setting"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "settings"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "showViewControllerForAddForum"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZooming"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZoomingInScrollView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "whichSettingButtonIClicked"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "whichSettingButtonWasClicked"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["s17_MutableIndexableP", "count"]
 - !private ["s17_MutableIndexableP", "item"]
@@ -1179,6 +1201,7 @@ depends-member:
 - ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "item"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "whichSettingButtonWasClicked"]
 - !private ["s21_ObjectiveCBridgeableP", "width"]
 - ["s21_ObjectiveCBridgeableP", "zero"]
 - !private ["s22_RandomAccessIndexableP", "count"]
@@ -1190,6 +1213,7 @@ depends-member:
 - !private ["s11_StrideableP", "init"]
 - ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- !private "24UserLoginAndRegistration11AppDelegateC"
 - !private "Sa"
 - !private "24UserLoginAndRegistration8BaseCellC"
 - "s23BidirectionalCollectionP"
@@ -1215,6 +1239,7 @@ depends-nominal:
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s13FloatingPointP"
@@ -1236,6 +1261,7 @@ depends-nominal:
 - "So8NSStringC"
 - !private "s7NumericP"
 - !private "s9OptionSetP"
+- !private "Sq"
 - !private "s22RandomAccessCollectionP"
 - "s26RangeReplaceableCollectionP"
 - !private "s16RawRepresentableP"
@@ -1256,6 +1282,7 @@ depends-nominal:
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - !private "So13UIApplicationC"
+- !private "So21UIApplicationDelegateP"
 - !private "So24UICollectionReusableViewC"
 - "So16UICollectionViewC"
 - !private "So20UICollectionViewCellC"

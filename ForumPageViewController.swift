@@ -11,14 +11,36 @@ import UIKit
 class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate  {
     @IBOutlet weak var MENUBUTTON: UIBarButtonItem!
     @IBAction func MENUBUTTONCLICKED(_ sender: Any) {
-        print("hello")
+        print("Menu button was clicked, calling settingLauncher.revealMenu")
         settingLauncher.revealMenu()
+        print("came out of setting Launcher class")
+        if var myDelegate = UIApplication.shared.delegate as? AppDelegate{
+            print(myDelegate.whichSettingButtonIClicked)
+            whichSettingButtonWasClicked(stringToCheck: myDelegate.whichSettingButtonIClicked)
+        }
     }
     //not using any of these atm
     @IBOutlet weak var homeNavButton: UIBarButtonItem!
     @IBOutlet weak var catNavBoutton: UIBarButtonItem!
     @IBOutlet weak var imNavButton: UIBarButtonItem!
-  /*
+    var forumPageVC: ForumPageViewController?
+    
+    /*
+     var forumPVC = ForumPageViewController()
+     
+     override init(transitionStyle style: UIPageViewControllerTransitionStyle, navigationOrientation: UIPageViewControllerNavigationOrientation, options: [String : Any]? = nil) {
+     super.init(nibName: <#T##String?#>, bundle: <#T##Bundle?#>)
+     }
+     
+     required init?(coder: NSCoder) {
+     print("needed")
+     }
+     */
+    
+    let settingLauncher = SettingLauncher()
+    
+
+    /*
     //ot using any of these atm
   //IF WE WANTED TO LET USER TO CLICK TO A CERTAIN TAB, BUT ITS EASY ENOUGH TO SWIPE TO SPOT
     @IBAction func homeClicked(_ sender: Any) {
@@ -44,7 +66,7 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     
     }
 */
-    let settingLauncher = SettingLauncher()
+    
     struct PageWeAreOn {
         static var page:Int = 0
     }
@@ -55,6 +77,7 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
                 self.VCinstance(name: "CatagoryViewController" )] //These are the storyboard IDs that will be shown on swiping
                                                                 //change name to which vieewwcontroller you want
     }()
+    var viewController: [UIViewController] = []
     
      func VCinstance(name: String) -> UIViewController {
         return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: name)
@@ -62,9 +85,14 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //JUST added
+        if let navController = self.navigationController {
+            viewController = navController.viewControllers as [UIViewController]
+        //do changes etc
+        }
         self.dataSource = self
         self.delegate = self
-        homeNavButton.tintColor = UIColor.black
+        //homeNavButton.tintColor = UIColor.black
         if let firstVC = VCarray.first {
             setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
         }
@@ -109,9 +137,9 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         //whatPageWeAreOn(pageIdx: viewControllerIndex)
         //highlightAndUpdate(pagenumber: viewControllerIndex)//changes color of button on top and updates info if needed
 
-        setPageNumber(pageIdx: viewControllerIndex)
-        print(prevIndex)
-        highlightAndUpdate(nextSpot: prevIndex)
+        //setPageNumber(pageIdx: viewControllerIndex)
+        //print(prevIndex)
+        //highlightAndUpdate(nextSpot: prevIndex)
         return VCarray[prevIndex]
     }
     
@@ -131,8 +159,8 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
                 return nil
                 
         }
-        setPageNumber(pageIdx: viewControllerIndex)
-        highlightAndUpdate(nextSpot: nextIndex)
+        //setPageNumber(pageIdx: viewControllerIndex)
+        //highlightAndUpdate(nextSpot: nextIndex)
         //changes color of button on top and updates info if needed
         return VCarray[nextIndex]
     }
@@ -164,6 +192,16 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     }
     
     
+    func whichSettingButtonWasClicked(stringToCheck: String){
+        print("printing the string grabed \(stringToCheck)")
+        
+        if stringToCheck != "" {
+            performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
+            
+        }
+        
+        
+    }
     
     func setPageNumber(pageIdx: Int){
        // let viewControllerIndex = VCarray.index(of: viewController)
@@ -177,7 +215,7 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     
     func highlightAndUpdate(nextSpot: Int){
         
-        print(nextSpot)
+        //print(nextSpot)
         //update the table view, refresh the connection with what you want. otherwise do nothing and let that ViewController load
         if  nextSpot == 0  {
             homeNavButton.tintColor = UIColor.red
@@ -210,8 +248,5 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         }
         
     }
-    
-    
-    
     
 }
