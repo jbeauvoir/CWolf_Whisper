@@ -16,14 +16,14 @@ class ForumTableViewController: UITableViewController  {
         print("Clicked menu button")
         revealMenu()
     }
-   
+  /*
     lazy var settingLauncher: SettingLauncher = {
     print("Setup")
     let setUp = SettingLauncher()
     setUp.forumTableViewController = self
         return setUp
     }()
-    
+    */
     
     var forumsDS: ForumDataSource?
    // var forumHomeDS: ForumHomeDataSource?
@@ -89,20 +89,9 @@ class ForumTableViewController: UITableViewController  {
 
     func revealMenu(){
         print("Setting the FTVC")
-        settingLauncher.forumTableViewController = self
-        settingLauncher.revealMenu()
+       // settingLauncher.forumTableViewController = self
+      //  settingLauncher.revealMenu()
         //showViewControllerForMenu()
-    }
-   
-    func showViewControllerForAddForum(setting: Setting) {
-        //call the class you want to setup the addforum viewcontroller
-        print("new UIVIEWCONTROLLER onto stack")
-        let addForum = UIViewController()
-        addForum.view.backgroundColor = UIColor.white
-        addForum.navigationItem.title = setting.name
-        navigationController?.navigationBar.tintColor = UIColor.white
-        navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
-        navigationController?.pushViewController(addForum, animated: true)
     }
  
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView?{

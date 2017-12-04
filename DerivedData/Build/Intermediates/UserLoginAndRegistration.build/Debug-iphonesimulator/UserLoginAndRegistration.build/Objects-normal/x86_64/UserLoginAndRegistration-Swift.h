@@ -351,6 +351,7 @@ SWIFT_CLASS("_TtC24UserLoginAndRegistration26ForumDetailsViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified NumOfLikesLabel;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified likedView;
 @property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified MenuButton;
+- (IBAction)MenuButtonClicked:(id _Nonnull)sender;
 - (IBAction)likeButtonClicked:(id _Nonnull)sender;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;

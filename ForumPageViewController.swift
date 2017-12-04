@@ -12,12 +12,8 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     @IBOutlet weak var MENUBUTTON: UIBarButtonItem!
     @IBAction func MENUBUTTONCLICKED(_ sender: Any) {
         print("Menu button was clicked, calling settingLauncher.revealMenu")
-        settingLauncher.revealMenu()
+        settingsLauncher.revealMenu()
         print("came out of setting Launcher class")
-        if var myDelegate = UIApplication.shared.delegate as? AppDelegate{
-            print(myDelegate.whichSettingButtonIClicked)
-            whichSettingButtonWasClicked(stringToCheck: myDelegate.whichSettingButtonIClicked)
-        }
     }
     //not using any of these atm
     @IBOutlet weak var homeNavButton: UIBarButtonItem!
@@ -25,20 +21,12 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     @IBOutlet weak var imNavButton: UIBarButtonItem!
     var forumPageVC: ForumPageViewController?
     
-    /*
-     var forumPVC = ForumPageViewController()
-     
-     override init(transitionStyle style: UIPageViewControllerTransitionStyle, navigationOrientation: UIPageViewControllerNavigationOrientation, options: [String : Any]? = nil) {
-     super.init(nibName: <#T##String?#>, bundle: <#T##Bundle?#>)
-     }
-     
-     required init?(coder: NSCoder) {
-     print("needed")
-     }
-     */
-    
-    let settingLauncher = SettingLauncher()
-    
+    //let settingLauncher = SettingLauncher()
+    lazy var settingsLauncher: SettingLauncher = {
+        let launcher = SettingLauncher()
+        launcher.forumPageVC = self
+        return launcher
+    }()
 
     /*
     //ot using any of these atm

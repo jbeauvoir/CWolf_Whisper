@@ -22,8 +22,8 @@ class Setting: NSObject {
 class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     let blackView = UIView()
    
-    var forumTableViewController: ForumTableViewController?
-    
+    //var forumTableViewController: ForumTableViewController?
+    var forumPageVC: ForumPageViewController?
     
     let collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -103,7 +103,7 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
                 if var myDelegate = UIApplication.shared.delegate as? AppDelegate{
                     myDelegate.whichSettingButtonIClicked = setting.name
                     //let x = AboutUsViewController()
-                   //forumTableViewController.whichSettingButtonWasClicked(adsa: setting.name)
+                    self.forumPageVC?.whichSettingButtonWasClicked(stringToCheck: setting.name)
                 }
             }
         }
@@ -132,9 +132,9 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let setting = settings[indexPath.item]
-        print(setting.name)
+        //print(setting.name)
         handleDismiss(setting: setting)
-        print("EXIT")
+
     }
    
     override init(){

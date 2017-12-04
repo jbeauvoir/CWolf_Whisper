@@ -63,6 +63,9 @@ class ForumTableViewCell: UITableViewCell {
         }
         addSubview(forumSubTitleLabel)
         
+        forumTitleLabel.clipsToBounds = true
+        forumSubTitleLabel.clipsToBounds = true
+        
         ////////
         //adding Contraints to the ForumTableView
         //////////
@@ -73,7 +76,8 @@ class ForumTableViewCell: UITableViewCell {
         addConstraintsWithFormat(format: "V:|-16-[v0]-8-[v1(44)]-16-[v2(1)]|", views: thumbnailImageView!,userProfileImage!,seperateTableView!)
         addConstraintsWithFormat(format: "H:|[v0]|", views: seperateTableView!)
         addConstraintsWithFormat(format: "V:[v0(20)]", views: forumTitleLabel)
-
+        
+        var titleLabelHeightConstraint: NSLayoutConstraint?
         //////top
         addConstraint(NSLayoutConstraint(item: forumTitleLabel, attribute: .top, relatedBy: .equal, toItem: thumbnailImageView, attribute: .bottom, multiplier: 1, constant: 8))
         //left
@@ -81,14 +85,15 @@ class ForumTableViewCell: UITableViewCell {
         //right
          addConstraint(NSLayoutConstraint(item: forumTitleLabel, attribute: .right, relatedBy: .equal, toItem: thumbnailImageView, attribute: .right, multiplier: 1, constant: 0))
         //height
-         addConstraint(NSLayoutConstraint(item: forumTitleLabel, attribute: .height, relatedBy: .equal, toItem: self, attribute: .height, multiplier: 0, constant: 20))
+        titleLabelHeightConstraint = NSLayoutConstraint(item: forumTitleLabel, attribute: .height, relatedBy: .equal, toItem: self, attribute: .height, multiplier: 0, constant: 44)
+        addConstraint(titleLabelHeightConstraint!)
         //////////////////////////
         //top
         addConstraint(NSLayoutConstraint(item: forumSubTitleLabel, attribute: .top, relatedBy: .equal, toItem: forumTitleLabel, attribute: .bottom, multiplier: 1, constant: 4))
         //left
         addConstraint(NSLayoutConstraint(item: forumSubTitleLabel, attribute: .left, relatedBy: .equal, toItem: userProfileImage, attribute: .right, multiplier: 1, constant: 8))
         //right
-        addConstraint(NSLayoutConstraint(item: forumSubTitleLabel, attribute: .right, relatedBy: .equal, toItem: forumTitleLabel, attribute: .right, multiplier: 1, constant: -50))
+        addConstraint(NSLayoutConstraint(item: forumSubTitleLabel, attribute: .right, relatedBy: .equal, toItem: forumTitleLabel, attribute: .right, multiplier: 1, constant: 0))
         
         addConstraint(NSLayoutConstraint(item: forumSubTitleLabel, attribute: .height, relatedBy: .equal, toItem: self, attribute: .height, multiplier: 0, constant: 30))
        //////

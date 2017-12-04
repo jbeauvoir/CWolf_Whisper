@@ -249,10 +249,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zxo-Gk-3Vk">
-                                            <rect key="frame" x="96" y="70" width="9000000000" height="26"/>
+                                            <rect key="frame" x="96" y="70" width="3600000" height="26"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGc-nL-yns">
-                                                    <rect key="frame" x="0.0" y="0.0" width="9000000000" height="26"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="3600000" height="26"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -509,6 +509,7 @@
                         <outlet property="imNavButton" destination="2V7-wT-BLF" id="l2P-m5-gqj"/>
                         <segue destination="85A-Nt-F2H" kind="show" id="bTr-MC-U5p"/>
                         <segue destination="1EX-p9-Je5" kind="show" id="3a7-d9-FVh"/>
+                        <segue destination="I6m-DK-bny" kind="show" identifier="ShowAboutInfo" id="W6G-l3-din"/>
                     </connections>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fhj-Ru-AuW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -658,7 +659,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VxM-5f-R6a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2745" y="887"/>
+            <point key="canvasLocation" x="2910" y="888"/>
         </scene>
         <!--About Us View Controller-->
         <scene sceneID="RQT-06-dob">
@@ -673,7 +674,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hOx-gP-xdB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3730" y="907"/>
+            <point key="canvasLocation" x="2911" y="1657"/>
         </scene>
         <!--Message View Controller-->
         <scene sceneID="uKy-lF-DqH">

@@ -24,12 +24,12 @@ class AboutUsViewController: UIViewController {
     func setup(){
         //call the class you want to setup the addforum viewcontroller
         print("new UIVIEWCONTROLLER onto stack")
-        let addForum = UIViewController()
-        addForum.view.backgroundColor = UIColor.white
+        //let addForum = UIViewController()
+        //addForum.view.backgroundColor = UIColor.white
         //addForum.navigationItem.title = setting.name
         navigationController?.navigationBar.tintColor = UIColor.white
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
-        navigationController?.pushViewController(addForum, animated: true)
+        //navigationController?.pushViewController(addForum, animated: true)
     }
         /*
     // MARK: - Navigation
