@@ -419,13 +419,10 @@ SWIFT_CLASS("_TtC24UserLoginAndRegistration19LoginViewController")
 @end
 
 
-SWIFT_CLASS("_TtC24UserLoginAndRegistration26MessageTableViewController")
-@interface MessageTableViewController : UITableViewController
+SWIFT_CLASS("_TtC24UserLoginAndRegistration21MessageViewController")
+@interface MessageViewController : UIViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

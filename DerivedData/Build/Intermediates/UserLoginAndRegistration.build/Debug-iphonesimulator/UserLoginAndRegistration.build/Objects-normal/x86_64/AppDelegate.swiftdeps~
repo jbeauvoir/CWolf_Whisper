@@ -14,6 +14,7 @@ provides-dynamic-lookup:
 - "applicationWillTerminate"
 - "window"
 depends-top-level:
+- "AboutUsViewController"
 - "AppDelegate"
 - "Bool"
 - !private "BooleanLiteralType"
@@ -25,6 +26,8 @@ depends-top-level:
 - "UIResponder"
 - "UIWindow"
 depends-member:
+- ["24UserLoginAndRegistration21AboutUsViewControllerC", "init"]
+- ["24UserLoginAndRegistration11AppDelegateC", "AboutUsViewController"]
 - ["24UserLoginAndRegistration11AppDelegateC", "Bool"]
 - ["24UserLoginAndRegistration11AppDelegateC", "String"]
 - ["24UserLoginAndRegistration11AppDelegateC", "UIApplication"]
@@ -46,7 +49,9 @@ depends-member:
 - ["24UserLoginAndRegistration11AppDelegateC", "init"]
 - ["24UserLoginAndRegistration11AppDelegateC", "whichSettingButtonIClicked"]
 - ["24UserLoginAndRegistration11AppDelegateC", "window"]
+- ["24UserLoginAndRegistration11AppDelegateC", "x"]
 - ["s23BidirectionalCollectionP", "init"]
+- ["s7CVarArgP", "AboutUsViewController"]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
 - ["s7CVarArgP", "applicationDidEnterBackground"]
@@ -64,6 +69,7 @@ depends-member:
 - ["s7CVarArgP", ""]
 - ["s10CollectionP", "init"]
 - ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "AboutUsViewController"]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
@@ -81,6 +87,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", ""]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
 - ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "AboutUsViewController"]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
 - ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
@@ -98,6 +105,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", ""]
 - ["s9DecodableP", "init"]
 - ["s9EncodableP", "init"]
+- ["s9EquatableP", "AboutUsViewController"]
 - ["s9EquatableP", "application"]
 - ["s9EquatableP", "applicationDidBecomeActive"]
 - ["s9EquatableP", "applicationDidEnterBackground"]
@@ -116,6 +124,7 @@ depends-member:
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "AboutUsViewController"]
 - ["s8HashableP", "application"]
 - ["s8HashableP", "applicationDidBecomeActive"]
 - ["s8HashableP", "applicationDidEnterBackground"]
@@ -135,9 +144,11 @@ depends-member:
 - ["s10MirrorPathP", "init"]
 - ["So8NSCodingP", "init"]
 - ["So9NSCopyingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "init"]
 - ["So21NSItemProviderReadingP", "init"]
 - ["So21NSItemProviderWritingP", "init"]
 - ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "AboutUsViewController"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UIApplication"]
@@ -158,6 +169,8 @@ depends-member:
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "whichSettingButtonIClicked"]
 - ["So8NSObjectC", "window"]
+- ["So8NSObjectC", "x"]
+- ["So16NSObjectProtocolP", "AboutUsViewController"]
 - ["So16NSObjectProtocolP", "application"]
 - ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
 - ["So16NSObjectProtocolP", "applicationDidEnterBackground"]
@@ -181,6 +194,8 @@ depends-member:
 - ["s14StringProtocolP", "init"]
 - ["s16TextOutputStreamP", "init"]
 - ["s20TextOutputStreamableP", "init"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIApplicationDelegateP", "AboutUsViewController"]
 - ["So21UIApplicationDelegateP", "application"]
 - ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
 - ["So21UIApplicationDelegateP", "applicationDidEnterBackground"]
@@ -195,6 +210,9 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
 - ["So21UIApplicationDelegateP", "window"]
 - ["So21UIApplicationDelegateP", ""]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "AboutUsViewController"]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
@@ -207,9 +225,10 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "applicationWillEnterForeground"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
-- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "AboutUsViewController"]
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UIApplication"]
@@ -230,7 +249,9 @@ depends-member:
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "whichSettingButtonIClicked"]
 - ["So11UIResponderC", "window"]
+- ["So11UIResponderC", "x"]
 - ["So11UIResponderC", ""]
+- ["So30UIResponderStandardEditActionsP", "AboutUsViewController"]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
@@ -243,9 +264,12 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillEnterForeground"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillResignActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
-- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- ["So16UIStateRestoringP", "init"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So16UIViewControllerC", "init"]
 - ["s23_BidirectionalIndexableP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
@@ -255,6 +279,7 @@ depends-member:
 - ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - ["s10_IndexableP", "init"]
 - ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AboutUsViewController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
@@ -274,6 +299,7 @@ depends-member:
 - ["s26_RangeReplaceableIndexableP", "init"]
 - ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- "24UserLoginAndRegistration21AboutUsViewControllerC"
 - "24UserLoginAndRegistration11AppDelegateC"
 - "s23BidirectionalCollectionP"
 - "s7CVarArgP"
@@ -294,6 +320,7 @@ depends-nominal:
 - "s10MirrorPathP"
 - "So8NSCodingP"
 - "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
 - "So21NSItemProviderReadingP"
 - "So21NSItemProviderWritingP"
 - "So16NSMutableCopyingP"
@@ -307,10 +334,16 @@ depends-nominal:
 - "s14StringProtocolP"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
 - "So21UIApplicationDelegateP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
 - "s23_BidirectionalIndexableP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
@@ -412,4 +445,4 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-interface-hash: "9a9f78fbd9768d2e5b242614d6db1f86"
+interface-hash: "24f1725505a9f8e1313702aa2dca9962"

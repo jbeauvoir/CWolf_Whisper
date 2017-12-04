@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		33A3BDF2978733FC335C56B9 /* Pods_UserLoginAndRegistrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B4889C5637F3DB5AF5586A /* Pods_UserLoginAndRegistrationTests.framework */; };
-		3F51AF691FCE362D005F1976 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51AF681FCE362D005F1976 /* MessageTableViewController.swift */; };
 		3F523DB71FC508FD006A565A /* BottomMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F523DB61FC508FD006A565A /* BottomMenuBar.swift */; };
+		3F814F641FD4FBF300E65FF6 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F814F631FD4FBF300E65FF6 /* MessageViewController.swift */; };
 		3F8942E51FBBF7D40094D056 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8942E41FBBF7D40094D056 /* UserInformation.swift */; };
 		3F9A10F21FB6766100A626C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A10F11FB6766100A626C7 /* LoginViewController.swift */; };
 		3F9ADF1C1FBA3C3E004B41D4 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9ADF1B1FBA3C3E004B41D4 /* SettingCell.swift */; };
@@ -67,8 +67,8 @@
 		0C218FFDF43D43766DB1C337 /* Pods-UserLoginAndRegistrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginAndRegistrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginAndRegistrationTests/Pods-UserLoginAndRegistrationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1FC60F021E072A3573A2EE29 /* Pods-UserLoginAndRegistration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginAndRegistration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginAndRegistration/Pods-UserLoginAndRegistration.debug.xcconfig"; sourceTree = "<group>"; };
 		281F2E918A5B4E2259946DE6 /* Pods-UserLoginAndRegistrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginAndRegistrationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginAndRegistrationTests/Pods-UserLoginAndRegistrationTests.release.xcconfig"; sourceTree = "<group>"; };
-		3F51AF681FCE362D005F1976 /* MessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
 		3F523DB61FC508FD006A565A /* BottomMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMenuBar.swift; sourceTree = "<group>"; };
+		3F814F631FD4FBF300E65FF6 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		3F8942E41FBBF7D40094D056 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
 		3F9A10F11FB6766100A626C7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3F9ADF1B1FBA3C3E004B41D4 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
@@ -178,8 +178,8 @@
 				3F9ADF1D1FBA3E80004B41D4 /* BaseCell.swift */,
 				3FF8E0161FC64075009D55C0 /* ForumPageViewController.swift */,
 				3FF8E01E1FC64171009D55C0 /* CatagoryViewController.swift */,
-				3F51AF681FCE362D005F1976 /* MessageTableViewController.swift */,
 				3FD8DA6C1FCE52680014E583 /* AboutUsViewController.swift */,
+				3F814F631FD4FBF300E65FF6 /* MessageViewController.swift */,
 			);
 			name = ForumLoad;
 			sourceTree = "<group>";
@@ -589,6 +589,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F9ADF1E1FBA3E80004B41D4 /* BaseCell.swift in Sources */,
+				3F814F641FD4FBF300E65FF6 /* MessageViewController.swift in Sources */,
 				3FD8DA6D1FCE52690014E583 /* AboutUsViewController.swift in Sources */,
 				3F8942E51FBBF7D40094D056 /* UserInformation.swift in Sources */,
 				3FE612D01FB78C9200DDC94C /* ForumTableViewCell.swift in Sources */,
@@ -607,7 +608,6 @@
 				3FC3A6771FB90C3100EAD209 /* CommentTableViewCell.swift in Sources */,
 				3FE0AAC91FAAE33700971C39 /* AppDelegate.swift in Sources */,
 				3FC3A67D1FB90E0400EAD209 /* Comment.swift in Sources */,
-				3F51AF691FCE362D005F1976 /* MessageTableViewController.swift in Sources */,
 				3FE612D61FB78D7900DDC94C /* Download.swift in Sources */,
 				3F9ADF211FBA4734004B41D4 /* Extensions.swift in Sources */,
 				3FE0AAF71FAAEDC300971C39 /* RegisterPageViewController.swift in Sources */,
