@@ -11,7 +11,7 @@ import UIKit
 class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate  {
     @IBOutlet weak var MENUBUTTON: UIBarButtonItem!
     @IBAction func MENUBUTTONCLICKED(_ sender: Any) {
-        print("hello")
+        // print("hello")
         settingLauncher.revealMenu()
     }
     //not using any of these atm
@@ -110,7 +110,7 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
         //highlightAndUpdate(pagenumber: viewControllerIndex)//changes color of button on top and updates info if needed
 
         setPageNumber(pageIdx: viewControllerIndex)
-        print(prevIndex)
+        // print(prevIndex)
         highlightAndUpdate(nextSpot: prevIndex)
         return VCarray[prevIndex]
     }
@@ -154,7 +154,7 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     
     func showViewControllerForAddForum(setting: Setting) {
         //call the class you want to setup the addforum viewcontroller
-        print("new UIVIEWCONTROLLER onto stack")
+        // print("new UIVIEWCONTROLLER onto stack")
         let addForum = UIViewController()
         addForum.view.backgroundColor = UIColor.white
         addForum.navigationItem.title = setting.name
@@ -177,7 +177,7 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     
     func highlightAndUpdate(nextSpot: Int){
         
-        print(nextSpot)
+        // print(nextSpot)
         //update the table view, refresh the connection with what you want. otherwise do nothing and let that ViewController load
         if  nextSpot == 0  {
             homeNavButton.tintColor = UIColor.red

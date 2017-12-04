@@ -16,6 +16,7 @@ let stitchClient = StitchClient(appId: "seawolfwhispher-tjmeq")
 let mongoClient = MongoDBClient(stitchClient: stitchClient, serviceName: "mongodb-atlas")
 let db = mongoClient.database(named: "ssuDataBase")
 
+
 class RegisterPageViewController: UIViewController {
 
     @IBOutlet weak var userEmailTextField: UITextField!
@@ -39,13 +40,10 @@ class RegisterPageViewController: UIViewController {
     
     
     @IBAction func registerButtonTapped(_ sender: UIButton) {
-        print(sender)
-        print(userEmailTextField)
-        print()
-        print("email: ", email.text)
-        print("password: ", password.text)
-        print("repeat: ", repeatPassword.text)
-        print()
+        
+        print("email: ", email.text!)
+        print("password: ", password.text!)
+        print("repeat: ", repeatPassword.text!)
         
         //check for empty fields
         if(email.text!.isEmpty || password.text!.isEmpty || repeatPassword.text!.isEmpty)
@@ -61,11 +59,28 @@ class RegisterPageViewController: UIViewController {
         
         if(!email.text!.isEmpty && !password.text!.isEmpty && !repeatPassword.text!.isEmpty){
             if(password.text! == repeatPassword.text!){
-                let userCreated: UserInformation = UserInformation(email: email.text!, password: password.text!,  forums: [])
-                print("User created: ", userCreated)
-                print()
-                print("email: ", email.text)
-                print()
+                
+                let createdUser: UserInformation = UserInformation(email: email.text!, password: password.text!,  forums: [])
+                print("email: ", email.text!)
+                
+                stitchClient.anonymousAuth().then { (userId: String) -> StitchTask<Document> in
+                    return db.collection(named: "ssuDatabase.Users")
+                        .updateOne(query: ["owner_id": userId],
+                                   update: ["userEmail": self.email.text!,
+                                            "userPassword": self.password.text!,
+                                            // "userFavoriteForums": [],
+                                            "owner_id": userId],
+                                   upsert: true)
+                    // }.then { (doc: Document) -> StitchTask<[Document]> in
+                    }.then { (doc: StitchTask<Document>) -> StitchTask<[Document]> in
+                        return db.collection(named: "ssuDatabase.Users")
+                            // .find(query: ["owner_id": stitchClient.userId!], limit: 100)
+                            .find(query: ["userEmail": "aa"], limit: 100)
+                    }.then { (docs: [Document]) in
+                        print("docs", docs)
+                    }.catch { err in
+                        print(err)
+                }
             }
         }
     }

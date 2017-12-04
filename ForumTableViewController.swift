@@ -87,7 +87,7 @@ class ForumTableViewController: UITableViewController  {
     }
 
     func revealMenu(){
-        print("Setting the FTVC")
+        // print("Setting the FTVC")
         settingLauncher.forumTableViewController = self
         settingLauncher.revealMenu()
         //showViewControllerForMenu()
@@ -95,7 +95,7 @@ class ForumTableViewController: UITableViewController  {
    
     func showViewControllerForAddForum(setting: Setting) {
         //call the class you want to setup the addforum viewcontroller
-        print("new UIVIEWCONTROLLER onto stack")
+        // print("new UIVIEWCONTROLLER onto stack")
         let addForum = UIViewController()
         addForum.view.backgroundColor = UIColor.white
         addForum.navigationItem.title = setting.name
@@ -114,7 +114,7 @@ class ForumTableViewController: UITableViewController  {
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         print(downloadAssistant.dataFromServer!)
         forumsDS = ForumDataSource(dataSource: downloadAssistant.dataFromServer!) //say that the data has been downloaded and is ready to use
-        print("ready to use")
+        // print("ready to use")
         
         
         DispatchQueue.main.async(execute: {

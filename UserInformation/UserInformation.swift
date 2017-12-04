@@ -24,14 +24,5 @@ class UserInformation: NSObject {
         //self.password = ""
         //self.forums = [""]
         print("got here", email, password, forums)
-        
     }
-    //{
-        //self.userID = ""
-        //self.email = ""
-        //self.password = ""
-        //self.forums = [""]
-        //super.init()
-    //}
-
 }
