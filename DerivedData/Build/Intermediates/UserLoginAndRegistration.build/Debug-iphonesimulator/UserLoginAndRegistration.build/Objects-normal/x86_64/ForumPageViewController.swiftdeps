@@ -30,13 +30,16 @@ depends-top-level:
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
+- !private "Dictionary"
 - "ForumPageViewController"
 - "Int"
+- !private "NSAttributedStringKey"
 - "SettingLauncher"
 - "String"
 - !private "StringLiteralType"
 - "UIBarButtonItem"
 - !private "UIColor"
+- !private "UINavigationBar"
 - !private "UIPageControl"
 - "UIPageViewController"
 - "UIPageViewControllerDataSource"
@@ -45,8 +48,11 @@ depends-top-level:
 - !private "UIScrollView"
 - !private "UIStoryboard"
 - "UIViewController"
+- !private "del"
 - !private "print"
 depends-member:
+- !private ["24UserLoginAndRegistration11AppDelegateC", "catBool"]
+- !private ["24UserLoginAndRegistration11AppDelegateC", "home"]
 - !private ["Sa", "count"]
 - !private ["Sa", "first"]
 - !private ["Sa", "index"]
@@ -59,27 +65,36 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "last"]
 - !private ["s23BidirectionalCollectionP", "subscript"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "appearance"]
 - !private ["So15CALayerDelegateP", "backgroundColor"]
 - !private ["So15CALayerDelegateP", "frame"]
 - !private ["So15CALayerDelegateP", "subviews"]
+- !private ["So15CALayerDelegateP", "titleTextAttributes"]
+- !private ["s7CVarArgP", "NSAttributedStringKey"]
 - !private ["s7CVarArgP", "PageWeAreOn"]
 - !private ["s7CVarArgP", "SettingLauncher"]
 - !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UINavigationBar"]
 - !private ["s7CVarArgP", "UIScreen"]
 - !private ["s7CVarArgP", "UIStoryboard"]
 - !private ["s7CVarArgP", "VCarray"]
 - !private ["s7CVarArgP", "VCinstance"]
+- !private ["s7CVarArgP", "appearance"]
 - !private ["s7CVarArgP", "backgroundColor"]
 - !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "catBool"]
 - !private ["s7CVarArgP", "catNavBoutton"]
 - !private ["s7CVarArgP", "clear"]
 - !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "dataSource"]
+- !private ["s7CVarArgP", "del"]
 - !private ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "dismiss"]
 - !private ["s7CVarArgP", "first"]
 - !private ["s7CVarArgP", "forumPageVC"]
 - !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "home"]
 - !private ["s7CVarArgP", "homeNavButton"]
 - !private ["s7CVarArgP", "imNavButton"]
 - !private ["s7CVarArgP", "index"]
@@ -104,6 +119,7 @@ depends-member:
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "subviews"]
 - !private ["s7CVarArgP", "tintColor"]
+- !private ["s7CVarArgP", "titleTextAttributes"]
 - !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewController"]
 - !private ["s7CVarArgP", "viewControllers"]
@@ -118,24 +134,31 @@ depends-member:
 - !private ["s10CollectionP", "last"]
 - !private ["s10CollectionP", "subscript"]
 - !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NSAttributedStringKey"]
 - !private ["s28CustomDebugStringConvertibleP", "PageWeAreOn"]
 - !private ["s28CustomDebugStringConvertibleP", "SettingLauncher"]
 - !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UINavigationBar"]
 - !private ["s28CustomDebugStringConvertibleP", "UIScreen"]
 - !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
 - !private ["s28CustomDebugStringConvertibleP", "VCarray"]
 - !private ["s28CustomDebugStringConvertibleP", "VCinstance"]
+- !private ["s28CustomDebugStringConvertibleP", "appearance"]
 - !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
 - !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "catBool"]
 - !private ["s28CustomDebugStringConvertibleP", "catNavBoutton"]
 - !private ["s28CustomDebugStringConvertibleP", "clear"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "dataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "del"]
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
 - !private ["s28CustomDebugStringConvertibleP", "first"]
 - !private ["s28CustomDebugStringConvertibleP", "forumPageVC"]
 - !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "home"]
 - !private ["s28CustomDebugStringConvertibleP", "homeNavButton"]
 - !private ["s28CustomDebugStringConvertibleP", "imNavButton"]
 - !private ["s28CustomDebugStringConvertibleP", "index"]
@@ -160,6 +183,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "subviews"]
 - !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "titleTextAttributes"]
 - !private ["s28CustomDebugStringConvertibleP", "view"]
 - !private ["s28CustomDebugStringConvertibleP", "viewController"]
 - !private ["s28CustomDebugStringConvertibleP", "viewControllers"]
@@ -176,25 +200,32 @@ depends-member:
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "last"]
 - !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "NSAttributedStringKey"]
 - !private ["s23CustomStringConvertibleP", "PageWeAreOn"]
 - !private ["s23CustomStringConvertibleP", "SettingLauncher"]
 - !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UINavigationBar"]
 - !private ["s23CustomStringConvertibleP", "UIScreen"]
 - !private ["s23CustomStringConvertibleP", "UIStoryboard"]
 - !private ["s23CustomStringConvertibleP", "VCarray"]
 - !private ["s23CustomStringConvertibleP", "VCinstance"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "appearance"]
 - !private ["s23CustomStringConvertibleP", "backgroundColor"]
 - !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "catBool"]
 - !private ["s23CustomStringConvertibleP", "catNavBoutton"]
 - !private ["s23CustomStringConvertibleP", "clear"]
 - !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "dataSource"]
+- !private ["s23CustomStringConvertibleP", "del"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
 - !private ["s23CustomStringConvertibleP", "first"]
 - !private ["s23CustomStringConvertibleP", "forumPageVC"]
 - !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "home"]
 - !private ["s23CustomStringConvertibleP", "homeNavButton"]
 - !private ["s23CustomStringConvertibleP", "imNavButton"]
 - !private ["s23CustomStringConvertibleP", "index"]
@@ -219,6 +250,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "subviews"]
 - !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "titleTextAttributes"]
 - !private ["s23CustomStringConvertibleP", "view"]
 - !private ["s23CustomStringConvertibleP", "viewController"]
 - !private ["s23CustomStringConvertibleP", "viewControllers"]
@@ -240,24 +272,32 @@ depends-member:
 - !private ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "last"]
 - !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "NSAttributedStringKey"]
 - !private ["s9EquatableP", "PageWeAreOn"]
 - !private ["s9EquatableP", "SettingLauncher"]
 - !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UINavigationBar"]
 - !private ["s9EquatableP", "UIScreen"]
 - !private ["s9EquatableP", "UIStoryboard"]
 - !private ["s9EquatableP", "VCarray"]
 - !private ["s9EquatableP", "VCinstance"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "appearance"]
 - !private ["s9EquatableP", "backgroundColor"]
 - !private ["s9EquatableP", "bounds"]
+- !private ["s9EquatableP", "catBool"]
 - !private ["s9EquatableP", "catNavBoutton"]
 - !private ["s9EquatableP", "clear"]
 - !private ["s9EquatableP", "dataSource"]
+- !private ["s9EquatableP", "del"]
 - !private ["s9EquatableP", "delegate"]
 - !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "dismiss"]
+- !private ["s9EquatableP", "foregroundColor"]
 - !private ["s9EquatableP", "forumPageVC"]
 - !private ["s9EquatableP", "forward"]
 - !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "home"]
 - !private ["s9EquatableP", "homeNavButton"]
 - !private ["s9EquatableP", "imNavButton"]
 - !private ["s9EquatableP", "init"]
@@ -279,6 +319,7 @@ depends-member:
 - !private ["s9EquatableP", "settingsLauncher"]
 - !private ["s9EquatableP", "subviews"]
 - !private ["s9EquatableP", "tintColor"]
+- !private ["s9EquatableP", "titleTextAttributes"]
 - !private ["s9EquatableP", "view"]
 - !private ["s9EquatableP", "viewController"]
 - !private ["s9EquatableP", "viewControllers"]
@@ -299,11 +340,13 @@ depends-member:
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "Int"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "MENUBUTTON"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "MENUBUTTONCLICKED"]
+- !private ["24UserLoginAndRegistration23ForumPageViewControllerC", "NSAttributedStringKey"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "PageWeAreOn"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "SettingLauncher"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "String"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "UIBarButtonItem"]
 - !private ["24UserLoginAndRegistration23ForumPageViewControllerC", "UIColor"]
+- !private ["24UserLoginAndRegistration23ForumPageViewControllerC", "UINavigationBar"]
 - !private ["24UserLoginAndRegistration23ForumPageViewControllerC", "UIPageControl"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "UIPageViewController"]
 - !private ["24UserLoginAndRegistration23ForumPageViewControllerC", "UIScreen"]
@@ -316,8 +359,10 @@ depends-member:
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "catNavBoutton"]
 - !private ["24UserLoginAndRegistration23ForumPageViewControllerC", "dataSource"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "deinit"]
+- !private ["24UserLoginAndRegistration23ForumPageViewControllerC", "del"]
 - !private ["24UserLoginAndRegistration23ForumPageViewControllerC", "delegate"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "didReceiveMemoryWarning"]
+- !private ["24UserLoginAndRegistration23ForumPageViewControllerC", "dismiss"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "forumPageVC"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "getPageNumber"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "highlightAndUpdate"]
@@ -344,24 +389,32 @@ depends-member:
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "viewDidLoad"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "viewWillLayoutSubviews"]
 - ["24UserLoginAndRegistration23ForumPageViewControllerC", "whichSettingButtonWasClicked"]
+- !private ["s8HashableP", "NSAttributedStringKey"]
 - !private ["s8HashableP", "PageWeAreOn"]
 - !private ["s8HashableP", "SettingLauncher"]
 - !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UINavigationBar"]
 - !private ["s8HashableP", "UIScreen"]
 - !private ["s8HashableP", "UIStoryboard"]
 - !private ["s8HashableP", "VCarray"]
 - !private ["s8HashableP", "VCinstance"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "appearance"]
 - !private ["s8HashableP", "backgroundColor"]
 - !private ["s8HashableP", "bounds"]
+- !private ["s8HashableP", "catBool"]
 - !private ["s8HashableP", "catNavBoutton"]
 - !private ["s8HashableP", "clear"]
 - !private ["s8HashableP", "dataSource"]
+- !private ["s8HashableP", "del"]
 - !private ["s8HashableP", "delegate"]
 - !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "dismiss"]
+- !private ["s8HashableP", "foregroundColor"]
 - !private ["s8HashableP", "forumPageVC"]
 - !private ["s8HashableP", "forward"]
 - !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "home"]
 - !private ["s8HashableP", "homeNavButton"]
 - !private ["s8HashableP", "imNavButton"]
 - !private ["s8HashableP", "init"]
@@ -383,6 +436,7 @@ depends-member:
 - !private ["s8HashableP", "settingsLauncher"]
 - !private ["s8HashableP", "subviews"]
 - !private ["s8HashableP", "tintColor"]
+- !private ["s8HashableP", "titleTextAttributes"]
 - !private ["s8HashableP", "view"]
 - !private ["s8HashableP", "viewController"]
 - !private ["s8HashableP", "viewControllers"]
@@ -398,19 +452,25 @@ depends-member:
 - !private ["s17MutableCollectionP", "index"]
 - !private ["s17MutableCollectionP", "last"]
 - !private ["s17MutableCollectionP", "subscript"]
+- !private ["SC21NSAttributedStringKeyV", "foregroundColor"]
+- !private ["So8NSCodingP", "NSAttributedStringKey"]
 - !private ["So8NSCodingP", "PageWeAreOn"]
 - !private ["So8NSCodingP", "SettingLauncher"]
 - !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UINavigationBar"]
 - !private ["So8NSCodingP", "UIScreen"]
 - !private ["So8NSCodingP", "UIStoryboard"]
 - !private ["So8NSCodingP", "VCarray"]
 - !private ["So8NSCodingP", "VCinstance"]
+- !private ["So8NSCodingP", "appearance"]
 - !private ["So8NSCodingP", "backgroundColor"]
 - !private ["So8NSCodingP", "catNavBoutton"]
 - !private ["So8NSCodingP", "clear"]
 - !private ["So8NSCodingP", "dataSource"]
+- !private ["So8NSCodingP", "del"]
 - !private ["So8NSCodingP", "delegate"]
 - !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "dismiss"]
 - !private ["So8NSCodingP", "frame"]
 - !private ["So8NSCodingP", "homeNavButton"]
 - !private ["So8NSCodingP", "imNavButton"]
@@ -430,6 +490,7 @@ depends-member:
 - !private ["So8NSCodingP", "settingsLauncher"]
 - !private ["So8NSCodingP", "subviews"]
 - !private ["So8NSCodingP", "tintColor"]
+- !private ["So8NSCodingP", "titleTextAttributes"]
 - !private ["So8NSCodingP", "view"]
 - !private ["So8NSCodingP", "viewController"]
 - !private ["So8NSCodingP", "viewControllers"]
@@ -441,17 +502,21 @@ depends-member:
 - !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "red"]
 - !private ["So9NSCopyingP", "white"]
+- !private ["So26NSExtensionRequestHandlingP", "NSAttributedStringKey"]
 - !private ["So26NSExtensionRequestHandlingP", "PageWeAreOn"]
 - !private ["So26NSExtensionRequestHandlingP", "SettingLauncher"]
 - !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "UINavigationBar"]
 - !private ["So26NSExtensionRequestHandlingP", "UIScreen"]
 - !private ["So26NSExtensionRequestHandlingP", "UIStoryboard"]
 - !private ["So26NSExtensionRequestHandlingP", "VCarray"]
 - !private ["So26NSExtensionRequestHandlingP", "VCinstance"]
 - !private ["So26NSExtensionRequestHandlingP", "catNavBoutton"]
 - !private ["So26NSExtensionRequestHandlingP", "dataSource"]
+- !private ["So26NSExtensionRequestHandlingP", "del"]
 - !private ["So26NSExtensionRequestHandlingP", "delegate"]
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
 - !private ["So26NSExtensionRequestHandlingP", "homeNavButton"]
 - !private ["So26NSExtensionRequestHandlingP", "imNavButton"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
@@ -486,11 +551,13 @@ depends-member:
 - ["So8NSObjectC", "Int"]
 - ["So8NSObjectC", "MENUBUTTON"]
 - ["So8NSObjectC", "MENUBUTTONCLICKED"]
+- !private ["So8NSObjectC", "NSAttributedStringKey"]
 - !private ["So8NSObjectC", "PageWeAreOn"]
 - ["So8NSObjectC", "SettingLauncher"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UIBarButtonItem"]
 - !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UINavigationBar"]
 - !private ["So8NSObjectC", "UIPageControl"]
 - ["So8NSObjectC", "UIPageViewController"]
 - !private ["So8NSObjectC", "UIScreen"]
@@ -500,17 +567,22 @@ depends-member:
 - ["So8NSObjectC", "VCarray"]
 - ["So8NSObjectC", "VCarray.storage"]
 - ["So8NSObjectC", "VCinstance"]
+- !private ["So8NSObjectC", "appearance"]
 - !private ["So8NSObjectC", "backgroundColor"]
 - !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "catBool"]
 - ["So8NSObjectC", "catNavBoutton"]
 - !private ["So8NSObjectC", "clear"]
 - !private ["So8NSObjectC", "dataSource"]
+- !private ["So8NSObjectC", "del"]
 - !private ["So8NSObjectC", "delegate"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "dismiss"]
 - ["So8NSObjectC", "forumPageVC"]
 - !private ["So8NSObjectC", "frame"]
 - ["So8NSObjectC", "getPageNumber"]
 - ["So8NSObjectC", "highlightAndUpdate"]
+- !private ["So8NSObjectC", "home"]
 - ["So8NSObjectC", "homeNavButton"]
 - ["So8NSObjectC", "imNavButton"]
 - ["So8NSObjectC", "init"]
@@ -534,6 +606,7 @@ depends-member:
 - ["So8NSObjectC", "settingsLauncher.storage"]
 - !private ["So8NSObjectC", "subviews"]
 - !private ["So8NSObjectC", "tintColor"]
+- !private ["So8NSObjectC", "titleTextAttributes"]
 - !private ["So8NSObjectC", "view"]
 - ["So8NSObjectC", "viewController"]
 - !private ["So8NSObjectC", "viewControllers"]
@@ -542,22 +615,29 @@ depends-member:
 - ["So8NSObjectC", "viewWillLayoutSubviews"]
 - ["So8NSObjectC", "whichSettingButtonWasClicked"]
 - !private ["So8NSObjectC", "white"]
+- !private ["So16NSObjectProtocolP", "NSAttributedStringKey"]
 - !private ["So16NSObjectProtocolP", "PageWeAreOn"]
 - !private ["So16NSObjectProtocolP", "SettingLauncher"]
 - !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UINavigationBar"]
 - !private ["So16NSObjectProtocolP", "UIScreen"]
 - !private ["So16NSObjectProtocolP", "UIStoryboard"]
 - !private ["So16NSObjectProtocolP", "VCarray"]
 - !private ["So16NSObjectProtocolP", "VCinstance"]
+- !private ["So16NSObjectProtocolP", "appearance"]
 - !private ["So16NSObjectProtocolP", "backgroundColor"]
 - !private ["So16NSObjectProtocolP", "bounds"]
+- !private ["So16NSObjectProtocolP", "catBool"]
 - !private ["So16NSObjectProtocolP", "catNavBoutton"]
 - !private ["So16NSObjectProtocolP", "clear"]
 - !private ["So16NSObjectProtocolP", "dataSource"]
+- !private ["So16NSObjectProtocolP", "del"]
 - !private ["So16NSObjectProtocolP", "delegate"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "dismiss"]
 - !private ["So16NSObjectProtocolP", "forumPageVC"]
 - !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "home"]
 - !private ["So16NSObjectProtocolP", "homeNavButton"]
 - !private ["So16NSObjectProtocolP", "imNavButton"]
 - !private ["So16NSObjectProtocolP", "init"]
@@ -579,6 +659,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "settingsLauncher"]
 - !private ["So16NSObjectProtocolP", "subviews"]
 - !private ["So16NSObjectProtocolP", "tintColor"]
+- !private ["So16NSObjectProtocolP", "titleTextAttributes"]
 - !private ["So16NSObjectProtocolP", "view"]
 - !private ["So16NSObjectProtocolP", "viewController"]
 - !private ["So16NSObjectProtocolP", "viewControllers"]
@@ -605,6 +686,7 @@ depends-member:
 - !private ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s26RangeReplaceableCollectionP", "last"]
 - !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "foregroundColor"]
 - !private ["s16RawRepresentableP", "forward"]
 - !private ["s8SequenceP", "count"]
 - !private ["s8SequenceP", "first"]
@@ -619,26 +701,35 @@ depends-member:
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "appearance"]
 - !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
 - !private ["So29UIAccessibilityIdentificationP", "frame"]
 - !private ["So29UIAccessibilityIdentificationP", "subviews"]
 - !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "titleTextAttributes"]
+- !private ["So12UIAppearanceP", "appearance"]
 - !private ["So12UIAppearanceP", "backgroundColor"]
 - !private ["So12UIAppearanceP", "frame"]
 - !private ["So12UIAppearanceP", "subviews"]
 - !private ["So12UIAppearanceP", "tintColor"]
+- !private ["So12UIAppearanceP", "titleTextAttributes"]
+- !private ["So21UIAppearanceContainerP", "NSAttributedStringKey"]
 - !private ["So21UIAppearanceContainerP", "PageWeAreOn"]
 - !private ["So21UIAppearanceContainerP", "SettingLauncher"]
 - !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UINavigationBar"]
 - !private ["So21UIAppearanceContainerP", "UIScreen"]
 - !private ["So21UIAppearanceContainerP", "UIStoryboard"]
 - !private ["So21UIAppearanceContainerP", "VCarray"]
 - !private ["So21UIAppearanceContainerP", "VCinstance"]
+- !private ["So21UIAppearanceContainerP", "appearance"]
 - !private ["So21UIAppearanceContainerP", "backgroundColor"]
 - !private ["So21UIAppearanceContainerP", "catNavBoutton"]
 - !private ["So21UIAppearanceContainerP", "dataSource"]
+- !private ["So21UIAppearanceContainerP", "del"]
 - !private ["So21UIAppearanceContainerP", "delegate"]
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
 - !private ["So21UIAppearanceContainerP", "frame"]
 - !private ["So21UIAppearanceContainerP", "homeNavButton"]
 - !private ["So21UIAppearanceContainerP", "imNavButton"]
@@ -656,14 +747,19 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "setViewControllers"]
 - !private ["So21UIAppearanceContainerP", "settingsLauncher"]
 - !private ["So21UIAppearanceContainerP", "subviews"]
+- !private ["So21UIAppearanceContainerP", "titleTextAttributes"]
 - !private ["So21UIAppearanceContainerP", "view"]
 - !private ["So21UIAppearanceContainerP", "viewController"]
 - !private ["So21UIAppearanceContainerP", "viewControllers"]
 - !private ["So21UIAppearanceContainerP", "viewDidLayoutSubviews"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIApplicationDelegateP", "catBool"]
+- !private ["So21UIApplicationDelegateP", "home"]
 - !private ["So15UIBarButtonItemC", "tintColor"]
 - !private ["So9UIBarItemC", "tintColor"]
+- !private ["So16UIBarPositioningP", "appearance"]
+- !private ["So16UIBarPositioningP", "titleTextAttributes"]
 - !private ["So26UICollectionViewDataSourceP", "forumPageVC"]
 - !private ["So26UICollectionViewDataSourceP", "init"]
 - !private ["So26UICollectionViewDataSourceP", "revealMenu"]
@@ -676,17 +772,21 @@ depends-member:
 - !private ["So7UIColorC", "clear"]
 - !private ["So7UIColorC", "red"]
 - !private ["So7UIColorC", "white"]
+- !private ["So18UIContentContainerP", "NSAttributedStringKey"]
 - !private ["So18UIContentContainerP", "PageWeAreOn"]
 - !private ["So18UIContentContainerP", "SettingLauncher"]
 - !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "UINavigationBar"]
 - !private ["So18UIContentContainerP", "UIScreen"]
 - !private ["So18UIContentContainerP", "UIStoryboard"]
 - !private ["So18UIContentContainerP", "VCarray"]
 - !private ["So18UIContentContainerP", "VCinstance"]
 - !private ["So18UIContentContainerP", "catNavBoutton"]
 - !private ["So18UIContentContainerP", "dataSource"]
+- !private ["So18UIContentContainerP", "del"]
 - !private ["So18UIContentContainerP", "delegate"]
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "dismiss"]
 - !private ["So18UIContentContainerP", "homeNavButton"]
 - !private ["So18UIContentContainerP", "imNavButton"]
 - !private ["So18UIContentContainerP", "init"]
@@ -708,24 +808,33 @@ depends-member:
 - !private ["So18UIContentContainerP", "viewDidLayoutSubviews"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "appearance"]
 - !private ["So17UICoordinateSpaceP", "backgroundColor"]
 - !private ["So17UICoordinateSpaceP", "frame"]
 - !private ["So17UICoordinateSpaceP", "subviews"]
+- !private ["So17UICoordinateSpaceP", "titleTextAttributes"]
+- !private ["So13UIDynamicItemP", "appearance"]
 - !private ["So13UIDynamicItemP", "backgroundColor"]
 - !private ["So13UIDynamicItemP", "frame"]
 - !private ["So13UIDynamicItemP", "subviews"]
+- !private ["So13UIDynamicItemP", "titleTextAttributes"]
+- !private ["So18UIFocusEnvironmentP", "NSAttributedStringKey"]
 - !private ["So18UIFocusEnvironmentP", "PageWeAreOn"]
 - !private ["So18UIFocusEnvironmentP", "SettingLauncher"]
 - !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UINavigationBar"]
 - !private ["So18UIFocusEnvironmentP", "UIScreen"]
 - !private ["So18UIFocusEnvironmentP", "UIStoryboard"]
 - !private ["So18UIFocusEnvironmentP", "VCarray"]
 - !private ["So18UIFocusEnvironmentP", "VCinstance"]
+- !private ["So18UIFocusEnvironmentP", "appearance"]
 - !private ["So18UIFocusEnvironmentP", "backgroundColor"]
 - !private ["So18UIFocusEnvironmentP", "catNavBoutton"]
 - !private ["So18UIFocusEnvironmentP", "dataSource"]
+- !private ["So18UIFocusEnvironmentP", "del"]
 - !private ["So18UIFocusEnvironmentP", "delegate"]
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
 - !private ["So18UIFocusEnvironmentP", "frame"]
 - !private ["So18UIFocusEnvironmentP", "homeNavButton"]
 - !private ["So18UIFocusEnvironmentP", "imNavButton"]
@@ -743,25 +852,32 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "setViewControllers"]
 - !private ["So18UIFocusEnvironmentP", "settingsLauncher"]
 - !private ["So18UIFocusEnvironmentP", "subviews"]
+- !private ["So18UIFocusEnvironmentP", "titleTextAttributes"]
 - !private ["So18UIFocusEnvironmentP", "view"]
 - !private ["So18UIFocusEnvironmentP", "viewController"]
 - !private ["So18UIFocusEnvironmentP", "viewControllers"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLayoutSubviews"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "appearance"]
 - !private ["So11UIFocusItemP", "backgroundColor"]
 - !private ["So11UIFocusItemP", "frame"]
 - !private ["So11UIFocusItemP", "subviews"]
+- !private ["So11UIFocusItemP", "titleTextAttributes"]
+- !private ["So15UINavigationBarC", "appearance"]
+- !private ["So15UINavigationBarC", "titleTextAttributes"]
 - !private ["So22UINavigationControllerC", "viewControllers"]
 - ["So20UIPageViewControllerC", "ForumPageViewController"]
 - ["So20UIPageViewControllerC", "Int"]
 - ["So20UIPageViewControllerC", "MENUBUTTON"]
 - ["So20UIPageViewControllerC", "MENUBUTTONCLICKED"]
+- !private ["So20UIPageViewControllerC", "NSAttributedStringKey"]
 - !private ["So20UIPageViewControllerC", "PageWeAreOn"]
 - ["So20UIPageViewControllerC", "SettingLauncher"]
 - ["So20UIPageViewControllerC", "String"]
 - ["So20UIPageViewControllerC", "UIBarButtonItem"]
 - !private ["So20UIPageViewControllerC", "UIColor"]
+- !private ["So20UIPageViewControllerC", "UINavigationBar"]
 - !private ["So20UIPageViewControllerC", "UIPageControl"]
 - ["So20UIPageViewControllerC", "UIPageViewController"]
 - !private ["So20UIPageViewControllerC", "UIScreen"]
@@ -773,8 +889,10 @@ depends-member:
 - ["So20UIPageViewControllerC", "VCinstance"]
 - ["So20UIPageViewControllerC", "catNavBoutton"]
 - !private ["So20UIPageViewControllerC", "dataSource"]
+- !private ["So20UIPageViewControllerC", "del"]
 - !private ["So20UIPageViewControllerC", "delegate"]
 - ["So20UIPageViewControllerC", "didReceiveMemoryWarning"]
+- !private ["So20UIPageViewControllerC", "dismiss"]
 - ["So20UIPageViewControllerC", "forumPageVC"]
 - ["So20UIPageViewControllerC", "getPageNumber"]
 - ["So20UIPageViewControllerC", "highlightAndUpdate"]
@@ -803,16 +921,20 @@ depends-member:
 - ["So20UIPageViewControllerC", "viewWillLayoutSubviews"]
 - ["So20UIPageViewControllerC", "whichSettingButtonWasClicked"]
 - ["So20UIPageViewControllerC", ""]
+- !private ["So30UIPageViewControllerDataSourceP", "NSAttributedStringKey"]
 - !private ["So30UIPageViewControllerDataSourceP", "PageWeAreOn"]
 - !private ["So30UIPageViewControllerDataSourceP", "SettingLauncher"]
 - !private ["So30UIPageViewControllerDataSourceP", "UIColor"]
+- !private ["So30UIPageViewControllerDataSourceP", "UINavigationBar"]
 - !private ["So30UIPageViewControllerDataSourceP", "UIScreen"]
 - !private ["So30UIPageViewControllerDataSourceP", "UIStoryboard"]
 - !private ["So30UIPageViewControllerDataSourceP", "VCarray"]
 - !private ["So30UIPageViewControllerDataSourceP", "VCinstance"]
 - !private ["So30UIPageViewControllerDataSourceP", "catNavBoutton"]
 - !private ["So30UIPageViewControllerDataSourceP", "dataSource"]
+- !private ["So30UIPageViewControllerDataSourceP", "del"]
 - !private ["So30UIPageViewControllerDataSourceP", "delegate"]
+- !private ["So30UIPageViewControllerDataSourceP", "dismiss"]
 - !private ["So30UIPageViewControllerDataSourceP", "homeNavButton"]
 - !private ["So30UIPageViewControllerDataSourceP", "imNavButton"]
 - !private ["So30UIPageViewControllerDataSourceP", "navigationController"]
@@ -831,16 +953,20 @@ depends-member:
 - !private ["So30UIPageViewControllerDataSourceP", "viewController"]
 - !private ["So30UIPageViewControllerDataSourceP", "viewControllers"]
 - ["So30UIPageViewControllerDataSourceP", ""]
+- !private ["So28UIPageViewControllerDelegateP", "NSAttributedStringKey"]
 - !private ["So28UIPageViewControllerDelegateP", "PageWeAreOn"]
 - !private ["So28UIPageViewControllerDelegateP", "SettingLauncher"]
 - !private ["So28UIPageViewControllerDelegateP", "UIColor"]
+- !private ["So28UIPageViewControllerDelegateP", "UINavigationBar"]
 - !private ["So28UIPageViewControllerDelegateP", "UIScreen"]
 - !private ["So28UIPageViewControllerDelegateP", "UIStoryboard"]
 - !private ["So28UIPageViewControllerDelegateP", "VCarray"]
 - !private ["So28UIPageViewControllerDelegateP", "VCinstance"]
 - !private ["So28UIPageViewControllerDelegateP", "catNavBoutton"]
 - !private ["So28UIPageViewControllerDelegateP", "dataSource"]
+- !private ["So28UIPageViewControllerDelegateP", "del"]
 - !private ["So28UIPageViewControllerDelegateP", "delegate"]
+- !private ["So28UIPageViewControllerDelegateP", "dismiss"]
 - !private ["So28UIPageViewControllerDelegateP", "homeNavButton"]
 - !private ["So28UIPageViewControllerDelegateP", "imNavButton"]
 - !private ["So28UIPageViewControllerDelegateP", "navigationController"]
@@ -860,19 +986,26 @@ depends-member:
 - !private ["So28UIPageViewControllerDelegateP", "viewControllers"]
 - ["So28UIPageViewControllerDelegateP", ""]
 - !private ["SC39UIPageViewControllerNavigationDirectionO", "forward"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSAttributedStringKey"]
 - !private ["So30UIPasteConfigurationSupportingP", "PageWeAreOn"]
 - !private ["So30UIPasteConfigurationSupportingP", "SettingLauncher"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINavigationBar"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIScreen"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIStoryboard"]
 - !private ["So30UIPasteConfigurationSupportingP", "VCarray"]
 - !private ["So30UIPasteConfigurationSupportingP", "VCinstance"]
+- !private ["So30UIPasteConfigurationSupportingP", "appearance"]
 - !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "catBool"]
 - !private ["So30UIPasteConfigurationSupportingP", "catNavBoutton"]
 - !private ["So30UIPasteConfigurationSupportingP", "dataSource"]
+- !private ["So30UIPasteConfigurationSupportingP", "del"]
 - !private ["So30UIPasteConfigurationSupportingP", "delegate"]
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
 - !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "home"]
 - !private ["So30UIPasteConfigurationSupportingP", "homeNavButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "imNavButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
@@ -889,6 +1022,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "setViewControllers"]
 - !private ["So30UIPasteConfigurationSupportingP", "settingsLauncher"]
 - !private ["So30UIPasteConfigurationSupportingP", "subviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "titleTextAttributes"]
 - !private ["So30UIPasteConfigurationSupportingP", "view"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewControllers"]
@@ -899,11 +1033,13 @@ depends-member:
 - ["So11UIResponderC", "Int"]
 - ["So11UIResponderC", "MENUBUTTON"]
 - ["So11UIResponderC", "MENUBUTTONCLICKED"]
+- !private ["So11UIResponderC", "NSAttributedStringKey"]
 - !private ["So11UIResponderC", "PageWeAreOn"]
 - ["So11UIResponderC", "SettingLauncher"]
 - ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UIBarButtonItem"]
 - !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UINavigationBar"]
 - !private ["So11UIResponderC", "UIPageControl"]
 - ["So11UIResponderC", "UIPageViewController"]
 - !private ["So11UIResponderC", "UIScreen"]
@@ -913,15 +1049,20 @@ depends-member:
 - ["So11UIResponderC", "VCarray"]
 - ["So11UIResponderC", "VCarray.storage"]
 - ["So11UIResponderC", "VCinstance"]
+- !private ["So11UIResponderC", "appearance"]
 - !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "catBool"]
 - ["So11UIResponderC", "catNavBoutton"]
 - !private ["So11UIResponderC", "dataSource"]
+- !private ["So11UIResponderC", "del"]
 - !private ["So11UIResponderC", "delegate"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "dismiss"]
 - ["So11UIResponderC", "forumPageVC"]
 - !private ["So11UIResponderC", "frame"]
 - ["So11UIResponderC", "getPageNumber"]
 - ["So11UIResponderC", "highlightAndUpdate"]
+- !private ["So11UIResponderC", "home"]
 - ["So11UIResponderC", "homeNavButton"]
 - ["So11UIResponderC", "imNavButton"]
 - ["So11UIResponderC", "init"]
@@ -940,6 +1081,7 @@ depends-member:
 - ["So11UIResponderC", "settingsLauncher"]
 - ["So11UIResponderC", "settingsLauncher.storage"]
 - !private ["So11UIResponderC", "subviews"]
+- !private ["So11UIResponderC", "titleTextAttributes"]
 - !private ["So11UIResponderC", "view"]
 - ["So11UIResponderC", "viewController"]
 - !private ["So11UIResponderC", "viewControllers"]
@@ -947,19 +1089,26 @@ depends-member:
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So11UIResponderC", "viewWillLayoutSubviews"]
 - ["So11UIResponderC", "whichSettingButtonWasClicked"]
+- !private ["So30UIResponderStandardEditActionsP", "NSAttributedStringKey"]
 - !private ["So30UIResponderStandardEditActionsP", "PageWeAreOn"]
 - !private ["So30UIResponderStandardEditActionsP", "SettingLauncher"]
 - !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UINavigationBar"]
 - !private ["So30UIResponderStandardEditActionsP", "UIScreen"]
 - !private ["So30UIResponderStandardEditActionsP", "UIStoryboard"]
 - !private ["So30UIResponderStandardEditActionsP", "VCarray"]
 - !private ["So30UIResponderStandardEditActionsP", "VCinstance"]
+- !private ["So30UIResponderStandardEditActionsP", "appearance"]
 - !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "catBool"]
 - !private ["So30UIResponderStandardEditActionsP", "catNavBoutton"]
 - !private ["So30UIResponderStandardEditActionsP", "dataSource"]
+- !private ["So30UIResponderStandardEditActionsP", "del"]
 - !private ["So30UIResponderStandardEditActionsP", "delegate"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
 - !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "home"]
 - !private ["So30UIResponderStandardEditActionsP", "homeNavButton"]
 - !private ["So30UIResponderStandardEditActionsP", "imNavButton"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
@@ -976,6 +1125,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "setViewControllers"]
 - !private ["So30UIResponderStandardEditActionsP", "settingsLauncher"]
 - !private ["So30UIResponderStandardEditActionsP", "subviews"]
+- !private ["So30UIResponderStandardEditActionsP", "titleTextAttributes"]
 - !private ["So30UIResponderStandardEditActionsP", "view"]
 - !private ["So30UIResponderStandardEditActionsP", "viewController"]
 - !private ["So30UIResponderStandardEditActionsP", "viewControllers"]
@@ -988,17 +1138,21 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "init"]
 - !private ["So20UIScrollViewDelegateP", "revealMenu"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "tintColor"]
+- !private ["So16UIStateRestoringP", "NSAttributedStringKey"]
 - !private ["So16UIStateRestoringP", "PageWeAreOn"]
 - !private ["So16UIStateRestoringP", "SettingLauncher"]
 - !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "UINavigationBar"]
 - !private ["So16UIStateRestoringP", "UIScreen"]
 - !private ["So16UIStateRestoringP", "UIStoryboard"]
 - !private ["So16UIStateRestoringP", "VCarray"]
 - !private ["So16UIStateRestoringP", "VCinstance"]
 - !private ["So16UIStateRestoringP", "catNavBoutton"]
 - !private ["So16UIStateRestoringP", "dataSource"]
+- !private ["So16UIStateRestoringP", "del"]
 - !private ["So16UIStateRestoringP", "delegate"]
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "dismiss"]
 - !private ["So16UIStateRestoringP", "homeNavButton"]
 - !private ["So16UIStateRestoringP", "imNavButton"]
 - !private ["So16UIStateRestoringP", "init"]
@@ -1022,19 +1176,24 @@ depends-member:
 - ["So16UIStateRestoringP", ""]
 - !private ["So12UIStoryboardC", "init"]
 - !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "NSAttributedStringKey"]
 - !private ["So18UITraitEnvironmentP", "PageWeAreOn"]
 - !private ["So18UITraitEnvironmentP", "SettingLauncher"]
 - !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UINavigationBar"]
 - !private ["So18UITraitEnvironmentP", "UIScreen"]
 - !private ["So18UITraitEnvironmentP", "UIStoryboard"]
 - !private ["So18UITraitEnvironmentP", "VCarray"]
 - !private ["So18UITraitEnvironmentP", "VCinstance"]
+- !private ["So18UITraitEnvironmentP", "appearance"]
 - !private ["So18UITraitEnvironmentP", "backgroundColor"]
 - !private ["So18UITraitEnvironmentP", "bounds"]
 - !private ["So18UITraitEnvironmentP", "catNavBoutton"]
 - !private ["So18UITraitEnvironmentP", "dataSource"]
+- !private ["So18UITraitEnvironmentP", "del"]
 - !private ["So18UITraitEnvironmentP", "delegate"]
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
 - !private ["So18UITraitEnvironmentP", "frame"]
 - !private ["So18UITraitEnvironmentP", "homeNavButton"]
 - !private ["So18UITraitEnvironmentP", "imNavButton"]
@@ -1053,24 +1212,29 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "setViewControllers"]
 - !private ["So18UITraitEnvironmentP", "settingsLauncher"]
 - !private ["So18UITraitEnvironmentP", "subviews"]
+- !private ["So18UITraitEnvironmentP", "titleTextAttributes"]
 - !private ["So18UITraitEnvironmentP", "view"]
 - !private ["So18UITraitEnvironmentP", "viewController"]
 - !private ["So18UITraitEnvironmentP", "viewControllers"]
 - !private ["So18UITraitEnvironmentP", "viewDidLayoutSubviews"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "appearance"]
 - !private ["So6UIViewC", "backgroundColor"]
 - !private ["So6UIViewC", "frame"]
 - !private ["So6UIViewC", "subviews"]
+- !private ["So6UIViewC", "titleTextAttributes"]
 - ["So16UIViewControllerC", "ForumPageViewController"]
 - ["So16UIViewControllerC", "Int"]
 - ["So16UIViewControllerC", "MENUBUTTON"]
 - ["So16UIViewControllerC", "MENUBUTTONCLICKED"]
+- !private ["So16UIViewControllerC", "NSAttributedStringKey"]
 - !private ["So16UIViewControllerC", "PageWeAreOn"]
 - ["So16UIViewControllerC", "SettingLauncher"]
 - ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "UIBarButtonItem"]
 - !private ["So16UIViewControllerC", "UIColor"]
+- !private ["So16UIViewControllerC", "UINavigationBar"]
 - !private ["So16UIViewControllerC", "UIPageControl"]
 - ["So16UIViewControllerC", "UIPageViewController"]
 - !private ["So16UIViewControllerC", "UIScreen"]
@@ -1082,8 +1246,10 @@ depends-member:
 - ["So16UIViewControllerC", "VCinstance"]
 - ["So16UIViewControllerC", "catNavBoutton"]
 - !private ["So16UIViewControllerC", "dataSource"]
+- !private ["So16UIViewControllerC", "del"]
 - !private ["So16UIViewControllerC", "delegate"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- !private ["So16UIViewControllerC", "dismiss"]
 - ["So16UIViewControllerC", "forumPageVC"]
 - ["So16UIViewControllerC", "getPageNumber"]
 - ["So16UIViewControllerC", "highlightAndUpdate"]
@@ -1122,9 +1288,11 @@ depends-member:
 - !private ["s23_BidirectionalIndexableP", "init"]
 - !private ["s23_BidirectionalIndexableP", "last"]
 - !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "appearance"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "subviews"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "titleTextAttributes"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "first"]
 - !private ["s24_DestructorSafeContainerP", "index"]
@@ -1152,22 +1320,29 @@ depends-member:
 - !private ["s14_IndexableBaseP", "init"]
 - !private ["s14_IndexableBaseP", "last"]
 - !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSAttributedStringKey"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "PageWeAreOn"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "SettingLauncher"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationBar"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "VCarray"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "VCinstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appearance"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "catBool"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "catNavBoutton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "del"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "forumPageVC"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "home"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "homeNavButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imNavButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
@@ -1189,6 +1364,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "settingsLauncher"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "subviews"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleTextAttributes"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewControllers"]
@@ -1204,6 +1380,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "foregroundColor"]
 - !private ["s21_ObjectiveCBridgeableP", "index"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "last"]
@@ -1219,8 +1396,10 @@ depends-member:
 - !private ["s26_RangeReplaceableIndexableP", "init"]
 - !private ["s26_RangeReplaceableIndexableP", "last"]
 - !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s20_SwiftNewtypeWrapperP", "foregroundColor"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- !private "24UserLoginAndRegistration11AppDelegateC"
 - !private "Sa"
 - !private "s23BidirectionalCollectionP"
 - !private "Sb"
@@ -1245,6 +1424,7 @@ depends-nominal:
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - !private "s17MutableCollectionP"
+- !private "SC21NSAttributedStringKeyV"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
@@ -1268,8 +1448,10 @@ depends-nominal:
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
+- !private "So21UIApplicationDelegateP"
 - !private "So15UIBarButtonItemC"
 - !private "So9UIBarItemC"
+- !private "So16UIBarPositioningP"
 - !private "So26UICollectionViewDataSourceP"
 - !private "So24UICollectionViewDelegateP"
 - !private "So34UICollectionViewDelegateFlowLayoutP"
@@ -1279,6 +1461,7 @@ depends-nominal:
 - !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - !private "So11UIFocusItemP"
+- !private "So15UINavigationBarC"
 - !private "So22UINavigationControllerC"
 - "So20UIPageViewControllerC"
 - "So30UIPageViewControllerDataSourceP"
@@ -1314,31 +1497,48 @@ depends-nominal:
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s22_RandomAccessIndexableP"
 - !private "s26_RangeReplaceableIndexableP"
+- !private "s20_SwiftNewtypeWrapperP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController-umbrella.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer-umbrella.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageMediaData.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageData.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageBubbleImageDataSource.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageAvatarImageDataSource.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDataSource.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImage.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessage.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
@@ -1348,6 +1548,9 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellIncoming.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellOutgoing.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleSizeCalculating.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
@@ -1356,7 +1559,14 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLabel.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCell.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQLocationMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQVideoMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQPhotoMediaItem.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
@@ -1366,6 +1576,7 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesInputToolbar.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/UserLoginAndRegistration-Bridging-Header.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
@@ -1374,13 +1585,29 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesKeyboardController.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/SWRevealViewController.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTimestampFormatter.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubblesSizeCalculator.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIDevice+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIImage+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSBundle+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSString+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQSystemSoundPlayer+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIColor+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIView+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessages.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewLayoutAttributes.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaViewAttributes.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
@@ -1395,12 +1622,41 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDelegateFlowLayout.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayout.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLoadEarlierHeaderView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaPlaceholderView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTypingIndicatorFooterView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarContentView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCellTextView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesComposerTextView.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImageFactory.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImageFactory.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarButtonFactory.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 interface-hash: "b783c64a377101117b158b066665a05b"

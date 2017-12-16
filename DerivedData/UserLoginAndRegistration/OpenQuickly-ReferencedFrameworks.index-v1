@@ -3,9 +3,12 @@
 <plist version="1.0">
 <array>
 	<string>Foundation</string>
+	<string>MapKit</string>
 	<string>Firebase</string>
 	<string>FirebaseInstanceID</string>
+	<string>AVFoundation</string>
 	<string>FirebaseFirestore</string>
+	<string>QuartzCore</string>
 	<string>GoogleMobileAds</string>
 	<string>FirebaseDatabase</string>
 	<string>Fabric</string>
@@ -13,18 +16,23 @@
 	<string>UIKit</string>
 	<string>FirebasePerformance</string>
 	<string>sys</string>
+	<string>JSQMessagesViewController</string>
 	<string>FirebaseRemoteConfig</string>
 	<string>Crashlytics</string>
+	<string>CoreLocation</string>
 	<string>FirebaseAuth</string>
-	<string>XCTest</string>
-	<string>FirebaseCrash</string>
-	<string>UserLoginAndRegistration</string>
-	<string>FirebaseMessaging</string>
 	<string>WatchKit</string>
+	<string>FirebaseCrash</string>
+	<string>JSQSystemSoundPlayer</string>
+	<string>FirebaseMessaging</string>
+	<string>XCTest</string>
+	<string>UserLoginAndRegistration</string>
 	<string>FirebaseCore</string>
 	<string>FirebaseInvites</string>
 	<string>FirebaseStorage</string>
 	<string>FirebaseDynamicLinks</string>
 	<string>FirebaseAppIndexing</string>
+	<string>AudioToolbox</string>
+	<string>objc</string>
 </array>
 </plist>

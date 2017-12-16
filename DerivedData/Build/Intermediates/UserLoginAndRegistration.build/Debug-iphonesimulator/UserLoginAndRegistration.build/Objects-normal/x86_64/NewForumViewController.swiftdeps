@@ -6,135 +6,583 @@ provides-nominal:
 provides-member:
 - ["24UserLoginAndRegistration22NewForumViewControllerC", ""]
 provides-dynamic-lookup:
+- "addBodyTextField"
+- "addPicture"
+- "addTitleTextField"
+- "addType"
 - "didReceiveMemoryWarning"
+- "submitButton"
 - "viewDidLoad"
 depends-top-level:
+- "AppDelegate"
+- "CastingPrecedence"
+- !private "Constants"
+- !private "Dictionary"
 - "NewForumViewController"
+- !private "String"
+- "UIApplication"
+- "UITextField"
+- "UITextView"
 - "UIViewController"
+- !private "UnicodeScalarType"
+- !private "arc4random_uniform"
+- !private "||"
 depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "Constants"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "addBodyTextField"]
+- !private ["s7CVarArgP", "addPicture"]
+- !private ["s7CVarArgP", "addTitleTextField"]
+- !private ["s7CVarArgP", "addType"]
+- !private ["s7CVarArgP", "arc4random_uniform"]
+- !private ["s7CVarArgP", "child"]
+- ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "setValue"]
+- ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isEmpty"]
+- !private ["24UserLoginAndRegistration9ConstantsV", "refs"]
+- !private ["s28CustomDebugStringConvertibleP", "Constants"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "addBodyTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "addPicture"]
+- !private ["s28CustomDebugStringConvertibleP", "addTitleTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "addType"]
+- !private ["s28CustomDebugStringConvertibleP", "arc4random_uniform"]
+- !private ["s28CustomDebugStringConvertibleP", "child"]
+- ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "Constants"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addBodyTextField"]
+- !private ["s23CustomStringConvertibleP", "addPicture"]
+- !private ["s23CustomStringConvertibleP", "addTitleTextField"]
+- !private ["s23CustomStringConvertibleP", "addType"]
+- !private ["s23CustomStringConvertibleP", "arc4random_uniform"]
+- !private ["s23CustomStringConvertibleP", "child"]
+- ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "text"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["So13DatabaseQueryC", "child"]
+- !private ["So13DatabaseQueryC", "setValue"]
+- !private ["So17DatabaseReferenceC", "child"]
+- !private ["So17DatabaseReferenceC", "setValue"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EquatableP", "Constants"]
+- !private ["s9EquatableP", "String"]
+- ["s9EquatableP", "UIApplication"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addBodyTextField"]
+- !private ["s9EquatableP", "addPicture"]
+- !private ["s9EquatableP", "addTitleTextField"]
+- !private ["s9EquatableP", "addType"]
+- !private ["s9EquatableP", "arc4random_uniform"]
+- !private ["s9EquatableP", "child"]
+- ["s9EquatableP", "delegate"]
 - !private ["s9EquatableP", "didReceiveMemoryWarning"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "setValue"]
+- ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "text"]
 - !private ["s9EquatableP", "viewDidLoad"]
 - ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s8HashableP", "Constants"]
+- !private ["s8HashableP", "String"]
+- ["s8HashableP", "UIApplication"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addBodyTextField"]
+- !private ["s8HashableP", "addPicture"]
+- !private ["s8HashableP", "addTitleTextField"]
+- !private ["s8HashableP", "addType"]
+- !private ["s8HashableP", "arc4random_uniform"]
+- !private ["s8HashableP", "child"]
+- ["s8HashableP", "delegate"]
 - !private ["s8HashableP", "didReceiveMemoryWarning"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isEmpty"]
+- !private ["s8HashableP", "setValue"]
+- ["s8HashableP", "shared"]
+- !private ["s8HashableP", "text"]
 - !private ["s8HashableP", "viewDidLoad"]
 - ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["So8NSCodingP", "Constants"]
+- !private ["So8NSCodingP", "String"]
+- ["So8NSCodingP", "UIApplication"]
+- !private ["So8NSCodingP", "addBodyTextField"]
+- !private ["So8NSCodingP", "addPicture"]
+- !private ["So8NSCodingP", "addTitleTextField"]
+- !private ["So8NSCodingP", "addType"]
+- !private ["So8NSCodingP", "arc4random_uniform"]
 - !private ["So8NSCodingP", "didReceiveMemoryWarning"]
 - !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "text"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So26NSExtensionRequestHandlingP", "Constants"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- ["So26NSExtensionRequestHandlingP", "UIApplication"]
+- !private ["So26NSExtensionRequestHandlingP", "addBodyTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "addPicture"]
+- !private ["So26NSExtensionRequestHandlingP", "addTitleTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "addType"]
+- !private ["So26NSExtensionRequestHandlingP", "arc4random_uniform"]
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- ["So8NSObjectC", "AppDelegate"]
+- !private ["So8NSObjectC", "Constants"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "UITextView"]
+- ["So8NSObjectC", "addBodyTextField"]
+- ["So8NSObjectC", "addPicture"]
+- ["So8NSObjectC", "addTitleTextField"]
+- ["So8NSObjectC", "addType"]
+- !private ["So8NSObjectC", "arc4random_uniform"]
+- !private ["So8NSObjectC", "child"]
+- ["So8NSObjectC", "del"]
+- ["So8NSObjectC", "delegate"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "setValue"]
+- ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "submitButton"]
+- !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "Constants"]
+- !private ["So16NSObjectProtocolP", "String"]
+- ["So16NSObjectProtocolP", "UIApplication"]
+- !private ["So16NSObjectProtocolP", "addBodyTextField"]
+- !private ["So16NSObjectProtocolP", "addPicture"]
+- !private ["So16NSObjectProtocolP", "addTitleTextField"]
+- !private ["So16NSObjectProtocolP", "addType"]
+- !private ["So16NSObjectProtocolP", "arc4random_uniform"]
+- !private ["So16NSObjectProtocolP", "child"]
+- ["So16NSObjectProtocolP", "delegate"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isEmpty"]
+- !private ["So16NSObjectProtocolP", "setValue"]
+- ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "text"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "isEmpty"]
+- ["24UserLoginAndRegistration22NewForumViewControllerC", "AppDelegate"]
+- !private ["24UserLoginAndRegistration22NewForumViewControllerC", "Constants"]
+- !private ["24UserLoginAndRegistration22NewForumViewControllerC", "String"]
+- ["24UserLoginAndRegistration22NewForumViewControllerC", "UIApplication"]
+- ["24UserLoginAndRegistration22NewForumViewControllerC", "UITextField"]
+- ["24UserLoginAndRegistration22NewForumViewControllerC", "UITextView"]
+- ["24UserLoginAndRegistration22NewForumViewControllerC", "addBodyTextField"]
+- ["24UserLoginAndRegistration22NewForumViewControllerC", "addPicture"]
+- ["24UserLoginAndRegistration22NewForumViewControllerC", "addTitleTextField"]
+- ["24UserLoginAndRegistration22NewForumViewControllerC", "addType"]
+- !private ["24UserLoginAndRegistration22NewForumViewControllerC", "arc4random_uniform"]
 - ["24UserLoginAndRegistration22NewForumViewControllerC", "deinit"]
+- ["24UserLoginAndRegistration22NewForumViewControllerC", "del"]
 - ["24UserLoginAndRegistration22NewForumViewControllerC", "didReceiveMemoryWarning"]
 - ["24UserLoginAndRegistration22NewForumViewControllerC", "init"]
+- ["24UserLoginAndRegistration22NewForumViewControllerC", "submitButton"]
 - ["24UserLoginAndRegistration22NewForumViewControllerC", "viewDidLoad"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "Constants"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", "UIApplication"]
+- !private ["So21UIAppearanceContainerP", "addBodyTextField"]
+- !private ["So21UIAppearanceContainerP", "addPicture"]
+- !private ["So21UIAppearanceContainerP", "addTitleTextField"]
+- !private ["So21UIAppearanceContainerP", "addType"]
+- !private ["So21UIAppearanceContainerP", "arc4random_uniform"]
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
 - !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", ""]
+- ["So13UIApplicationC", "delegate"]
+- ["So13UIApplicationC", "shared"]
+- !private ["So18UIContentContainerP", "Constants"]
+- !private ["So18UIContentContainerP", "String"]
+- ["So18UIContentContainerP", "UIApplication"]
+- !private ["So18UIContentContainerP", "addBodyTextField"]
+- !private ["So18UIContentContainerP", "addPicture"]
+- !private ["So18UIContentContainerP", "addTitleTextField"]
+- !private ["So18UIContentContainerP", "addType"]
+- !private ["So18UIContentContainerP", "arc4random_uniform"]
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "Constants"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", "UIApplication"]
+- !private ["So18UIFocusEnvironmentP", "addBodyTextField"]
+- !private ["So18UIFocusEnvironmentP", "addPicture"]
+- !private ["So18UIFocusEnvironmentP", "addTitleTextField"]
+- !private ["So18UIFocusEnvironmentP", "addType"]
+- !private ["So18UIFocusEnvironmentP", "arc4random_uniform"]
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Constants"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "addBodyTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "addPicture"]
+- !private ["So30UIPasteConfigurationSupportingP", "addTitleTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "addType"]
+- !private ["So30UIPasteConfigurationSupportingP", "arc4random_uniform"]
+- ["So30UIPasteConfigurationSupportingP", "delegate"]
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "AppDelegate"]
+- !private ["So11UIResponderC", "Constants"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "UITextView"]
+- ["So11UIResponderC", "addBodyTextField"]
+- ["So11UIResponderC", "addPicture"]
+- ["So11UIResponderC", "addTitleTextField"]
+- ["So11UIResponderC", "addType"]
+- !private ["So11UIResponderC", "arc4random_uniform"]
+- ["So11UIResponderC", "del"]
+- ["So11UIResponderC", "delegate"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "shared"]
+- ["So11UIResponderC", "submitButton"]
+- !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Constants"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "addBodyTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "addPicture"]
+- !private ["So30UIResponderStandardEditActionsP", "addTitleTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "addType"]
+- !private ["So30UIResponderStandardEditActionsP", "arc4random_uniform"]
+- ["So30UIResponderStandardEditActionsP", "delegate"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "text"]
+- !private ["So16UIStateRestoringP", "Constants"]
+- !private ["So16UIStateRestoringP", "String"]
+- ["So16UIStateRestoringP", "UIApplication"]
+- !private ["So16UIStateRestoringP", "addBodyTextField"]
+- !private ["So16UIStateRestoringP", "addPicture"]
+- !private ["So16UIStateRestoringP", "addTitleTextField"]
+- !private ["So16UIStateRestoringP", "addType"]
+- !private ["So16UIStateRestoringP", "arc4random_uniform"]
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", ""]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So10UITextViewC", "text"]
+- !private ["So18UITraitEnvironmentP", "Constants"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", "UIApplication"]
+- !private ["So18UITraitEnvironmentP", "addBodyTextField"]
+- !private ["So18UITraitEnvironmentP", "addPicture"]
+- !private ["So18UITraitEnvironmentP", "addTitleTextField"]
+- !private ["So18UITraitEnvironmentP", "addType"]
+- !private ["So18UITraitEnvironmentP", "arc4random_uniform"]
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "AppDelegate"]
+- !private ["So16UIViewControllerC", "Constants"]
+- !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIApplication"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", "UITextView"]
+- ["So16UIViewControllerC", "addBodyTextField"]
+- ["So16UIViewControllerC", "addPicture"]
+- ["So16UIViewControllerC", "addTitleTextField"]
+- ["So16UIViewControllerC", "addType"]
+- !private ["So16UIViewControllerC", "arc4random_uniform"]
+- ["So16UIViewControllerC", "del"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "submitButton"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", ""]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "isEmpty"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "isEmpty"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Constants"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addBodyTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addPicture"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTitleTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arc4random_uniform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "child"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "isEmpty"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
+- !private ["24UserLoginAndRegistration9ConstantsV4refsV", "databaseForums"]
 depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "24UserLoginAndRegistration9ConstantsV"
 - "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "So13DatabaseQueryC"
+- !private "So17DatabaseReferenceC"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
 - "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSCodingP"
+- !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
 - "24UserLoginAndRegistration22NewForumViewControllerC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
+- "So13UIApplicationC"
 - "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So10UIKeyInputP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
 - "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So10UITextViewC"
 - "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
 - "So16UIViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+- !private "24UserLoginAndRegistration9ConstantsV4refsV"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController-umbrella.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer-umbrella.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageMediaData.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageData.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageBubbleImageDataSource.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageAvatarImageDataSource.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDataSource.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImage.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessage.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
@@ -144,6 +592,9 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellIncoming.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellOutgoing.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleSizeCalculating.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
@@ -152,7 +603,14 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLabel.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCell.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQLocationMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQVideoMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQPhotoMediaItem.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
@@ -162,6 +620,7 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesInputToolbar.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/UserLoginAndRegistration-Bridging-Header.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
@@ -170,13 +629,29 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesKeyboardController.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/SWRevealViewController.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTimestampFormatter.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubblesSizeCalculator.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIDevice+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIImage+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSBundle+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSString+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQSystemSoundPlayer+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIColor+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIView+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessages.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewLayoutAttributes.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaViewAttributes.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
@@ -191,12 +666,41 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDelegateFlowLayout.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayout.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLoadEarlierHeaderView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaPlaceholderView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTypingIndicatorFooterView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarContentView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCellTextView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesComposerTextView.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImageFactory.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImageFactory.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarButtonFactory.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-interface-hash: "8bf467de34b7c5ceac137ea075352745"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "602a664c5b5dc16ae86285b3d636be4d"

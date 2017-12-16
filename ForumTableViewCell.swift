@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+/*
 class ForumTableViewCell: UITableViewCell {
 
     @IBOutlet weak var cellImage: UIImageView!
@@ -29,13 +29,13 @@ class ForumTableViewCell: UITableViewCell {
     
     func useForum(_ forum: Forum) {
         /////
-        let socialPagesOnly = forum.forumType()//
-           if socialPagesOnly == "social"{//
+       // let socialPagesOnly = forum.forumType()//
+         //  if socialPagesOnly == "social"{//
         //////
         self.dontUse = false
-       if let aImage = forum.getImage()  {
+       /*if let aImage = forum.getImage()  {
             cellImage.image = aImage
-        }
+        }*/
         //not really using but need for contraints
         let thumbnailImageView = forum.setthumbnailImageView()
         addSubview(thumbnailImageView!)
@@ -97,13 +97,14 @@ class ForumTableViewCell: UITableViewCell {
         
         addConstraint(NSLayoutConstraint(item: forumSubTitleLabel, attribute: .height, relatedBy: .equal, toItem: self, attribute: .height, multiplier: 0, constant: 30))
        //////
-        }//
-        if socialPagesOnly != "social"{
+        //}//
+   /*     if socialPagesOnly != "social"{
             self.dontUse = true
             forum.setUseCellOrNot()
             forum.setNumberOfCellsNotUsed()
 
         }
+ */
         //  print("numofunusedcells\(forum.returnNumberOfCellsNotUsed())")
         self.dontUse = false
     }
@@ -119,4 +120,6 @@ class ForumTableViewCell: UITableViewCell {
     
     func setupViews(){
     }
+ 
 }
+*/

@@ -22,7 +22,7 @@ class Setting: NSObject {
 class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     let blackView = UIView()
    
-    //var forumTableViewController: ForumTableViewController?
+
     var forumPageVC: ForumPageViewController?
     
     let collectionView: UICollectionView = {
@@ -70,21 +70,7 @@ class SettingLauncher: NSObject, UICollectionViewDataSource, UICollectionViewDel
         
         }
     }
- /*
-    @objc func endMenuView(){
-       let screenSize = UIScreen.main.bounds
-       let screenWidth = screenSize.width
-       let screenHeight = screenSize.height
-       let CGrect3 = CGRect(origin: CGPoint(x: 0,y :screenHeight), size: CGSize(width: self.collectionView.frame.width, height: self.collectionView.frame.height))
-        
-        UIView.animate(withDuration: 0.5, animations: { self.blackView.alpha = 0})
-       
-        if let window = UIApplication.shared.keyWindow{
-            self.collectionView.frame = CGrect3
-            
-        }
-    }
-   */
+
     @objc func handleDismiss(setting: Setting) {
         UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
             

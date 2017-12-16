@@ -7,6 +7,7 @@
 //
 
 import UIKit
+//ROOT VIEW CONTROLLER FOR MAIN PROGRAM//
 
 class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate  {
     @IBOutlet weak var MENUBUTTON: UIBarButtonItem!
@@ -74,10 +75,13 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
     override func viewDidLoad() {
         super.viewDidLoad()
         //JUST added
+  
         if let navController = self.navigationController {
             viewController = navController.viewControllers as [UIViewController]
         //do changes etc
         }
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
+        
         self.dataSource = self
         self.delegate = self
         //homeNavButton.tintColor = UIColor.black
@@ -182,19 +186,20 @@ class ForumPageViewController: UIPageViewController, UIPageViewControllerDataSou
             }
             
             if stringToCheck == "Add New Forum" {
-                performSegue(withIdentifier: "NewForumViewContoler", sender: nil)
+                performSegue(withIdentifier: "NewForumViewController", sender: nil)
             
             }
             if stringToCheck == "Home" {// complete
-                performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
-            
+               del?.home = true
+                del?.catBool = false
             }
             if stringToCheck == "History" { //complete
                 performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
             
             }
             if stringToCheck == "Logout" { //complete
-                performSegue(withIdentifier: "ShowAboutInfo", sender: nil)
+                //performSegue(withIdentifier: "loginView", sender: nil)
+                dismiss(animated: true) 
             
             }
         }

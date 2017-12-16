@@ -16,55 +16,67 @@ class CatagoryViewController: UIViewController {
     @IBOutlet weak var social: UIButton!
     @IBAction func socialImageButton(_ sender: Any) {
         self.del?.whichSettingButtonIClicked = "social"
+         self.del?.catBool = true
+
     }
     @IBAction func socialLabelButton(_ sender: Any) {
         self.del?.whichSettingButtonIClicked = "social"
+        self.del?.catBool = true
     }
     ///////
     @IBAction func sportsImageButton(_ sender: Any) {
         self.del?.whichSettingButtonIClicked = "sports"
+         self.del?.catBool = true
     }
     @IBAction func sportsLabelButton(_ sender: Any) {
         self.del?.whichSettingButtonIClicked = "sports"
+         self.del?.catBool = true
     }
     
     @IBAction func generalInfoLabelButton(_ sender: Any) {
         self.del?.whichSettingButtonIClicked = "help"
+         self.del?.catBool = true
     }
     @IBAction func generalInfoImageButton(_ sender: Any) {
         self.del?.whichSettingButtonIClicked = "help"
+         self.del?.catBool = true
     }
     ////
     @IBAction func jokesLabelButton(_ sender: Any) {
         self.del?.whichSettingButtonIClicked = "jokes"
+         self.del?.catBool = true
     }
     @IBAction func jokesImageButton(_ sender: Any) {
         self.del?.whichSettingButtonIClicked = "jokes"
+         self.del?.catBool = true
     }
     ////
     @IBAction func schoolLabelButton(_ sender: Any) {
         self.del?.whichSettingButtonIClicked = "school"
+         self.del?.catBool = true
     }
     @IBAction func schoolImageButton(_ sender: Any) {
         self.del?.whichSettingButtonIClicked = "school"
+         self.del?.catBool = true
     }
     ////
     @IBAction func buySellLabelButton(_ sender: Any) {
         self.del?.whichSettingButtonIClicked = "buySell"
+        self.del?.catBool = false
+        self.del?.home = true
     }
     @IBAction func buySellImageButton(_ sender: Any) {
         self.del?.whichSettingButtonIClicked = "buySell"
+        self.del?.catBool = false
+        self.del?.home = true
     }
     ////
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func whichSettingButtonWasClicked(stringToCheck: String){

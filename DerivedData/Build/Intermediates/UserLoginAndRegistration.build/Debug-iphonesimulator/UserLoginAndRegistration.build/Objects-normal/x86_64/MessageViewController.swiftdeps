@@ -1,0 +1,1555 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MessageViewController"
+provides-nominal:
+- "24UserLoginAndRegistration21MessageViewControllerC"
+provides-member:
+- ["24UserLoginAndRegistration21MessageViewControllerC", ""]
+provides-dynamic-lookup:
+- "collectionView"
+- "didPressSend"
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+depends-top-level:
+- !private "!"
+- !private "=="
+- "AssignmentPrecedence"
+- "CGFloat"
+- !private "CGSize"
+- !private "CastingPrecedence"
+- !private "Constants"
+- "Date"
+- !private "Dictionary"
+- "IndexPath"
+- "Int"
+- "JSQMessage"
+- "JSQMessageAvatarImageDataSource"
+- "JSQMessageBubbleImageDataSource"
+- "JSQMessageData"
+- "JSQMessagesBubbleImage"
+- !private "JSQMessagesBubbleImageFactory"
+- "JSQMessagesCollectionView"
+- "JSQMessagesCollectionViewFlowLayout"
+- "JSQMessagesViewController"
+- "MessageViewController"
+- "NSAttributedString"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UIButton"
+- "UICollectionView"
+- !private "UIColor"
+- !private "UserDefaults"
+- !private "arc4random_uniform"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "senderDisplayName"]
+- !private ["s10ArraySliceV", "senderId"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "item"]
+- !private ["s23BidirectionalCollectionP", "senderDisplayName"]
+- !private ["s23BidirectionalCollectionP", "senderId"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "collectionViewLayout"]
+- !private ["So15CALayerDelegateP", "contentView"]
+- !private ["So15CALayerDelegateP", "leftBarButtonItem"]
+- !private ["SC6CGSizeV", "zero"]
+- !private ["s7CVarArgP", "CGSize"]
+- !private ["s7CVarArgP", "Constants"]
+- ["s7CVarArgP", "JSQMessage"]
+- !private ["s7CVarArgP", "JSQMessagesBubbleImageFactory"]
+- !private ["s7CVarArgP", "NSAttributedString"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "arc4random_uniform"]
+- !private ["s7CVarArgP", "childByAutoId"]
+- !private ["s7CVarArgP", "collectionView"]
+- !private ["s7CVarArgP", "collectionViewLayout"]
+- !private ["s7CVarArgP", "contentView"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "finishReceivingMessage"]
+- !private ["s7CVarArgP", "finishSendingMessage"]
+- !private ["s7CVarArgP", "incomingAvatarViewSize"]
+- !private ["s7CVarArgP", "incomingBubble"]
+- !private ["s7CVarArgP", "incomingMessagesBubbleImage"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "inputToolbar"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "jsq_messageBubbleBlue"]
+- !private ["s7CVarArgP", "jsq_messageBubbleGreen"]
+- !private ["s7CVarArgP", "leftBarButtonItem"]
+- !private ["s7CVarArgP", "messages"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "observe"]
+- !private ["s7CVarArgP", "outgoingAvatarViewSize"]
+- !private ["s7CVarArgP", "outgoingBubble"]
+- !private ["s7CVarArgP", "outgoingMessagesBubbleImage"]
+- !private ["s7CVarArgP", "queryLimited"]
+- !private ["s7CVarArgP", "senderDisplayName"]
+- !private ["s7CVarArgP", "senderId"]
+- !private ["s7CVarArgP", "set"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "synchronize"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "value"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "item"]
+- !private ["s10CollectionP", "senderDisplayName"]
+- !private ["s10CollectionP", "senderId"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isEmpty"]
+- !private ["s10ComparableP", "item"]
+- !private ["24UserLoginAndRegistration9ConstantsV", "refs"]
+- !private ["s28CustomDebugStringConvertibleP", "CGSize"]
+- !private ["s28CustomDebugStringConvertibleP", "Constants"]
+- ["s28CustomDebugStringConvertibleP", "JSQMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "JSQMessagesBubbleImageFactory"]
+- !private ["s28CustomDebugStringConvertibleP", "NSAttributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "arc4random_uniform"]
+- !private ["s28CustomDebugStringConvertibleP", "childByAutoId"]
+- !private ["s28CustomDebugStringConvertibleP", "collectionView"]
+- !private ["s28CustomDebugStringConvertibleP", "collectionViewLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "contentView"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "finishReceivingMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "finishSendingMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "incomingAvatarViewSize"]
+- !private ["s28CustomDebugStringConvertibleP", "incomingBubble"]
+- !private ["s28CustomDebugStringConvertibleP", "incomingMessagesBubbleImage"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "inputToolbar"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "item"]
+- !private ["s28CustomDebugStringConvertibleP", "jsq_messageBubbleBlue"]
+- !private ["s28CustomDebugStringConvertibleP", "jsq_messageBubbleGreen"]
+- !private ["s28CustomDebugStringConvertibleP", "leftBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "messages"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "observe"]
+- !private ["s28CustomDebugStringConvertibleP", "outgoingAvatarViewSize"]
+- !private ["s28CustomDebugStringConvertibleP", "outgoingBubble"]
+- !private ["s28CustomDebugStringConvertibleP", "outgoingMessagesBubbleImage"]
+- !private ["s28CustomDebugStringConvertibleP", "queryLimited"]
+- !private ["s28CustomDebugStringConvertibleP", "senderDisplayName"]
+- !private ["s28CustomDebugStringConvertibleP", "senderId"]
+- !private ["s28CustomDebugStringConvertibleP", "set"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "synchronize"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "item"]
+- !private ["s17CustomReflectableP", "senderDisplayName"]
+- !private ["s17CustomReflectableP", "senderId"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "CGSize"]
+- !private ["s23CustomStringConvertibleP", "Constants"]
+- ["s23CustomStringConvertibleP", "JSQMessage"]
+- !private ["s23CustomStringConvertibleP", "JSQMessagesBubbleImageFactory"]
+- !private ["s23CustomStringConvertibleP", "NSAttributedString"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "arc4random_uniform"]
+- !private ["s23CustomStringConvertibleP", "childByAutoId"]
+- !private ["s23CustomStringConvertibleP", "collectionView"]
+- !private ["s23CustomStringConvertibleP", "collectionViewLayout"]
+- !private ["s23CustomStringConvertibleP", "contentView"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "finishReceivingMessage"]
+- !private ["s23CustomStringConvertibleP", "finishSendingMessage"]
+- !private ["s23CustomStringConvertibleP", "incomingAvatarViewSize"]
+- !private ["s23CustomStringConvertibleP", "incomingBubble"]
+- !private ["s23CustomStringConvertibleP", "incomingMessagesBubbleImage"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "inputToolbar"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "item"]
+- !private ["s23CustomStringConvertibleP", "jsq_messageBubbleBlue"]
+- !private ["s23CustomStringConvertibleP", "jsq_messageBubbleGreen"]
+- !private ["s23CustomStringConvertibleP", "leftBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "messages"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "observe"]
+- !private ["s23CustomStringConvertibleP", "outgoingAvatarViewSize"]
+- !private ["s23CustomStringConvertibleP", "outgoingBubble"]
+- !private ["s23CustomStringConvertibleP", "outgoingMessagesBubbleImage"]
+- !private ["s23CustomStringConvertibleP", "queryLimited"]
+- !private ["s23CustomStringConvertibleP", "senderDisplayName"]
+- !private ["s23CustomStringConvertibleP", "senderId"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "synchronize"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["SC13DataEventTypeO", "childAdded"]
+- !private ["So12DataSnapshotC", "value"]
+- !private ["So13DatabaseQueryC", "childByAutoId"]
+- !private ["So13DatabaseQueryC", "observe"]
+- !private ["So13DatabaseQueryC", "queryLimited"]
+- !private ["So13DatabaseQueryC", "setValue"]
+- !private ["So17DatabaseReferenceC", "childByAutoId"]
+- !private ["So17DatabaseReferenceC", "queryLimited"]
+- !private ["So17DatabaseReferenceC", "setValue"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "item"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "zero"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "item"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "zero"]
+- !private ["s9EquatableP", "CGSize"]
+- !private ["s9EquatableP", "Constants"]
+- ["s9EquatableP", "JSQMessage"]
+- !private ["s9EquatableP", "JSQMessagesBubbleImageFactory"]
+- !private ["s9EquatableP", "NSAttributedString"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UserDefaults"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "arc4random_uniform"]
+- !private ["s9EquatableP", "childAdded"]
+- !private ["s9EquatableP", "childByAutoId"]
+- !private ["s9EquatableP", "collectionView"]
+- !private ["s9EquatableP", "collectionViewLayout"]
+- !private ["s9EquatableP", "contentView"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "finishReceivingMessage"]
+- !private ["s9EquatableP", "finishSendingMessage"]
+- !private ["s9EquatableP", "incomingAvatarViewSize"]
+- !private ["s9EquatableP", "incomingBubble"]
+- !private ["s9EquatableP", "incomingMessagesBubbleImage"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "inputToolbar"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "item"]
+- !private ["s9EquatableP", "jsq_messageBubbleBlue"]
+- !private ["s9EquatableP", "jsq_messageBubbleGreen"]
+- !private ["s9EquatableP", "leftBarButtonItem"]
+- !private ["s9EquatableP", "messages"]
+- !private ["s9EquatableP", "navigationItem"]
+- !private ["s9EquatableP", "observe"]
+- !private ["s9EquatableP", "outgoingAvatarViewSize"]
+- !private ["s9EquatableP", "outgoingBubble"]
+- !private ["s9EquatableP", "outgoingMessagesBubbleImage"]
+- !private ["s9EquatableP", "queryLimited"]
+- !private ["s9EquatableP", "senderDisplayName"]
+- !private ["s9EquatableP", "senderId"]
+- !private ["s9EquatableP", "set"]
+- !private ["s9EquatableP", "setValue"]
+- !private ["s9EquatableP", "standard"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "synchronize"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "value"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "zero"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "item"]
+- !private ["s25ExpressibleByArrayLiteralP", "senderDisplayName"]
+- !private ["s25ExpressibleByArrayLiteralP", "senderId"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s8HashableP", "CGSize"]
+- !private ["s8HashableP", "Constants"]
+- ["s8HashableP", "JSQMessage"]
+- !private ["s8HashableP", "JSQMessagesBubbleImageFactory"]
+- !private ["s8HashableP", "NSAttributedString"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UserDefaults"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "arc4random_uniform"]
+- !private ["s8HashableP", "childAdded"]
+- !private ["s8HashableP", "childByAutoId"]
+- !private ["s8HashableP", "collectionView"]
+- !private ["s8HashableP", "collectionViewLayout"]
+- !private ["s8HashableP", "contentView"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "finishReceivingMessage"]
+- !private ["s8HashableP", "finishSendingMessage"]
+- !private ["s8HashableP", "incomingAvatarViewSize"]
+- !private ["s8HashableP", "incomingBubble"]
+- !private ["s8HashableP", "incomingMessagesBubbleImage"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "inputToolbar"]
+- !private ["s8HashableP", "isEmpty"]
+- !private ["s8HashableP", "item"]
+- !private ["s8HashableP", "jsq_messageBubbleBlue"]
+- !private ["s8HashableP", "jsq_messageBubbleGreen"]
+- !private ["s8HashableP", "leftBarButtonItem"]
+- !private ["s8HashableP", "messages"]
+- !private ["s8HashableP", "navigationItem"]
+- !private ["s8HashableP", "observe"]
+- !private ["s8HashableP", "outgoingAvatarViewSize"]
+- !private ["s8HashableP", "outgoingBubble"]
+- !private ["s8HashableP", "outgoingMessagesBubbleImage"]
+- !private ["s8HashableP", "queryLimited"]
+- !private ["s8HashableP", "senderDisplayName"]
+- !private ["s8HashableP", "senderId"]
+- !private ["s8HashableP", "set"]
+- !private ["s8HashableP", "setValue"]
+- !private ["s8HashableP", "standard"]
+- !private ["s8HashableP", "string"]
+- !private ["s8HashableP", "synchronize"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "value"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["10Foundation9IndexPathV", "item"]
+- !private ["So10JSQMessageC", "init"]
+- !private ["So10JSQMessageC", "senderDisplayName"]
+- !private ["So10JSQMessageC", "senderId"]
+- !private ["So14JSQMessageDataP", "init"]
+- !private ["So14JSQMessageDataP", "senderDisplayName"]
+- !private ["So14JSQMessageDataP", "senderId"]
+- !private ["So29JSQMessagesBubbleImageFactoryC", "incomingMessagesBubbleImage"]
+- !private ["So29JSQMessagesBubbleImageFactoryC", "init"]
+- !private ["So29JSQMessagesBubbleImageFactoryC", "outgoingMessagesBubbleImage"]
+- !private ["So25JSQMessagesCollectionViewC", "collectionViewLayout"]
+- !private ["So37JSQMessagesCollectionViewCellDelegateP", "collectionViewLayout"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "CGSize"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "Constants"]
+- ["So35JSQMessagesCollectionViewDataSourceP", "JSQMessage"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "JSQMessagesBubbleImageFactory"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "NSAttributedString"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "String"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "UIColor"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "UserDefaults"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "arc4random_uniform"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "collectionView"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "didReceiveMemoryWarning"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "finishReceivingMessage"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "finishSendingMessage"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "incomingBubble"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "init"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "inputToolbar"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "messages"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "navigationItem"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "outgoingBubble"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "senderDisplayName"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "senderId"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "title"]
+- !private ["So35JSQMessagesCollectionViewDataSourceP", "viewDidLoad"]
+- ["So35JSQMessagesCollectionViewDataSourceP", ""]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "CGSize"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "Constants"]
+- ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "JSQMessage"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "JSQMessagesBubbleImageFactory"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "NSAttributedString"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "String"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "UIColor"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "UserDefaults"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "arc4random_uniform"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "collectionView"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "didReceiveMemoryWarning"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "finishReceivingMessage"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "finishSendingMessage"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "incomingBubble"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "init"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "inputToolbar"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "messages"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "navigationItem"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "outgoingBubble"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "senderDisplayName"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "senderId"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "title"]
+- !private ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", "viewDidLoad"]
+- ["So43JSQMessagesCollectionViewDelegateFlowLayoutP", ""]
+- !private ["So35JSQMessagesCollectionViewFlowLayoutC", "incomingAvatarViewSize"]
+- !private ["So35JSQMessagesCollectionViewFlowLayoutC", "outgoingAvatarViewSize"]
+- !private ["So23JSQMessagesInputToolbarC", "contentView"]
+- !private ["So29JSQMessagesToolbarContentViewC", "leftBarButtonItem"]
+- ["So25JSQMessagesViewControllerC", "CGFloat"]
+- !private ["So25JSQMessagesViewControllerC", "CGSize"]
+- !private ["So25JSQMessagesViewControllerC", "Constants"]
+- ["So25JSQMessagesViewControllerC", "Date"]
+- ["So25JSQMessagesViewControllerC", "IndexPath"]
+- ["So25JSQMessagesViewControllerC", "Int"]
+- ["So25JSQMessagesViewControllerC", "JSQMessage"]
+- ["So25JSQMessagesViewControllerC", "JSQMessageAvatarImageDataSource"]
+- ["So25JSQMessagesViewControllerC", "JSQMessageBubbleImageDataSource"]
+- ["So25JSQMessagesViewControllerC", "JSQMessageData"]
+- ["So25JSQMessagesViewControllerC", "JSQMessagesBubbleImage"]
+- !private ["So25JSQMessagesViewControllerC", "JSQMessagesBubbleImageFactory"]
+- ["So25JSQMessagesViewControllerC", "JSQMessagesCollectionView"]
+- ["So25JSQMessagesViewControllerC", "JSQMessagesCollectionViewFlowLayout"]
+- ["So25JSQMessagesViewControllerC", "NSAttributedString"]
+- ["So25JSQMessagesViewControllerC", "String"]
+- ["So25JSQMessagesViewControllerC", "UIButton"]
+- ["So25JSQMessagesViewControllerC", "UICollectionView"]
+- !private ["So25JSQMessagesViewControllerC", "UIColor"]
+- !private ["So25JSQMessagesViewControllerC", "UserDefaults"]
+- !private ["So25JSQMessagesViewControllerC", "arc4random_uniform"]
+- ["So25JSQMessagesViewControllerC", "collectionView"]
+- ["So25JSQMessagesViewControllerC", "didPressSend"]
+- ["So25JSQMessagesViewControllerC", "didReceiveMemoryWarning"]
+- !private ["So25JSQMessagesViewControllerC", "finishReceivingMessage"]
+- !private ["So25JSQMessagesViewControllerC", "finishSendingMessage"]
+- ["So25JSQMessagesViewControllerC", "incomingBubble"]
+- ["So25JSQMessagesViewControllerC", "incomingBubble.storage"]
+- ["So25JSQMessagesViewControllerC", "init"]
+- !private ["So25JSQMessagesViewControllerC", "inputToolbar"]
+- ["So25JSQMessagesViewControllerC", "messages"]
+- !private ["So25JSQMessagesViewControllerC", "navigationItem"]
+- ["So25JSQMessagesViewControllerC", "outgoingBubble"]
+- ["So25JSQMessagesViewControllerC", "outgoingBubble.storage"]
+- !private ["So25JSQMessagesViewControllerC", "senderDisplayName"]
+- !private ["So25JSQMessagesViewControllerC", "senderId"]
+- !private ["So25JSQMessagesViewControllerC", "title"]
+- ["So25JSQMessagesViewControllerC", "viewDidLoad"]
+- ["So25JSQMessagesViewControllerC", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "CGFloat"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "CGSize"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "Constants"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "Date"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "IndexPath"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "Int"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "JSQMessage"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "JSQMessageAvatarImageDataSource"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "JSQMessageBubbleImageDataSource"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "JSQMessageData"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "JSQMessagesBubbleImage"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "JSQMessagesBubbleImageFactory"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "JSQMessagesCollectionView"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "JSQMessagesCollectionViewFlowLayout"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "NSAttributedString"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "String"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "UIButton"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "UICollectionView"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "UIColor"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "UserDefaults"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "arc4random_uniform"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "collectionView"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "deinit"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "didPressSend"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "didReceiveMemoryWarning"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "finishReceivingMessage"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "finishSendingMessage"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "incomingBubble"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "incomingBubble.storage"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "init"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "inputToolbar"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "messages"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "navigationItem"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "outgoingBubble"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "outgoingBubble.storage"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "senderDisplayName"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "senderId"]
+- !private ["24UserLoginAndRegistration21MessageViewControllerC", "title"]
+- ["24UserLoginAndRegistration21MessageViewControllerC", "viewDidLoad"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "item"]
+- !private ["s17MutableCollectionP", "senderDisplayName"]
+- !private ["s17MutableCollectionP", "senderId"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So18NSAttributedStringC", "init"]
+- !private ["So8NSCodingP", "CGSize"]
+- !private ["So8NSCodingP", "Constants"]
+- ["So8NSCodingP", "JSQMessage"]
+- !private ["So8NSCodingP", "JSQMessagesBubbleImageFactory"]
+- !private ["So8NSCodingP", "NSAttributedString"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UserDefaults"]
+- !private ["So8NSCodingP", "arc4random_uniform"]
+- !private ["So8NSCodingP", "collectionView"]
+- !private ["So8NSCodingP", "collectionViewLayout"]
+- !private ["So8NSCodingP", "contentView"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "finishReceivingMessage"]
+- !private ["So8NSCodingP", "finishSendingMessage"]
+- !private ["So8NSCodingP", "incomingAvatarViewSize"]
+- !private ["So8NSCodingP", "incomingBubble"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "inputToolbar"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "jsq_messageBubbleBlue"]
+- !private ["So8NSCodingP", "jsq_messageBubbleGreen"]
+- !private ["So8NSCodingP", "leftBarButtonItem"]
+- !private ["So8NSCodingP", "messages"]
+- !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "outgoingAvatarViewSize"]
+- !private ["So8NSCodingP", "outgoingBubble"]
+- !private ["So8NSCodingP", "senderDisplayName"]
+- !private ["So8NSCodingP", "senderId"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "jsq_messageBubbleBlue"]
+- !private ["So9NSCopyingP", "jsq_messageBubbleGreen"]
+- !private ["So9NSCopyingP", "senderDisplayName"]
+- !private ["So9NSCopyingP", "senderId"]
+- !private ["So26NSExtensionRequestHandlingP", "CGSize"]
+- !private ["So26NSExtensionRequestHandlingP", "Constants"]
+- ["So26NSExtensionRequestHandlingP", "JSQMessage"]
+- !private ["So26NSExtensionRequestHandlingP", "JSQMessagesBubbleImageFactory"]
+- !private ["So26NSExtensionRequestHandlingP", "NSAttributedString"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- !private ["So26NSExtensionRequestHandlingP", "UserDefaults"]
+- !private ["So26NSExtensionRequestHandlingP", "arc4random_uniform"]
+- !private ["So26NSExtensionRequestHandlingP", "collectionView"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "finishReceivingMessage"]
+- !private ["So26NSExtensionRequestHandlingP", "finishSendingMessage"]
+- !private ["So26NSExtensionRequestHandlingP", "incomingBubble"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "inputToolbar"]
+- !private ["So26NSExtensionRequestHandlingP", "messages"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- !private ["So26NSExtensionRequestHandlingP", "outgoingBubble"]
+- !private ["So26NSExtensionRequestHandlingP", "senderDisplayName"]
+- !private ["So26NSExtensionRequestHandlingP", "senderId"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "jsq_messageBubbleBlue"]
+- !private ["So21NSItemProviderReadingP", "jsq_messageBubbleGreen"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "jsq_messageBubbleBlue"]
+- !private ["So21NSItemProviderWritingP", "jsq_messageBubbleGreen"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "CGSize"]
+- !private ["So8NSObjectC", "Constants"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "JSQMessage"]
+- ["So8NSObjectC", "JSQMessageAvatarImageDataSource"]
+- ["So8NSObjectC", "JSQMessageBubbleImageDataSource"]
+- ["So8NSObjectC", "JSQMessageData"]
+- ["So8NSObjectC", "JSQMessagesBubbleImage"]
+- !private ["So8NSObjectC", "JSQMessagesBubbleImageFactory"]
+- ["So8NSObjectC", "JSQMessagesCollectionView"]
+- ["So8NSObjectC", "JSQMessagesCollectionViewFlowLayout"]
+- ["So8NSObjectC", "NSAttributedString"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UICollectionView"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- !private ["So8NSObjectC", "arc4random_uniform"]
+- !private ["So8NSObjectC", "childByAutoId"]
+- ["So8NSObjectC", "collectionView"]
+- !private ["So8NSObjectC", "collectionViewLayout"]
+- !private ["So8NSObjectC", "contentView"]
+- ["So8NSObjectC", "didPressSend"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "finishReceivingMessage"]
+- !private ["So8NSObjectC", "finishSendingMessage"]
+- !private ["So8NSObjectC", "incomingAvatarViewSize"]
+- ["So8NSObjectC", "incomingBubble"]
+- ["So8NSObjectC", "incomingBubble.storage"]
+- !private ["So8NSObjectC", "incomingMessagesBubbleImage"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "inputToolbar"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "jsq_messageBubbleBlue"]
+- !private ["So8NSObjectC", "jsq_messageBubbleGreen"]
+- !private ["So8NSObjectC", "leftBarButtonItem"]
+- ["So8NSObjectC", "messages"]
+- !private ["So8NSObjectC", "navigationItem"]
+- !private ["So8NSObjectC", "observe"]
+- !private ["So8NSObjectC", "outgoingAvatarViewSize"]
+- ["So8NSObjectC", "outgoingBubble"]
+- ["So8NSObjectC", "outgoingBubble.storage"]
+- !private ["So8NSObjectC", "outgoingMessagesBubbleImage"]
+- !private ["So8NSObjectC", "queryLimited"]
+- !private ["So8NSObjectC", "senderDisplayName"]
+- !private ["So8NSObjectC", "senderId"]
+- !private ["So8NSObjectC", "set"]
+- !private ["So8NSObjectC", "setValue"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "synchronize"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "value"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "CGSize"]
+- !private ["So16NSObjectProtocolP", "Constants"]
+- ["So16NSObjectProtocolP", "JSQMessage"]
+- !private ["So16NSObjectProtocolP", "JSQMessagesBubbleImageFactory"]
+- !private ["So16NSObjectProtocolP", "NSAttributedString"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UserDefaults"]
+- !private ["So16NSObjectProtocolP", "arc4random_uniform"]
+- !private ["So16NSObjectProtocolP", "childByAutoId"]
+- !private ["So16NSObjectProtocolP", "collectionView"]
+- !private ["So16NSObjectProtocolP", "collectionViewLayout"]
+- !private ["So16NSObjectProtocolP", "contentView"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "finishReceivingMessage"]
+- !private ["So16NSObjectProtocolP", "finishSendingMessage"]
+- !private ["So16NSObjectProtocolP", "incomingAvatarViewSize"]
+- !private ["So16NSObjectProtocolP", "incomingBubble"]
+- !private ["So16NSObjectProtocolP", "incomingMessagesBubbleImage"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "inputToolbar"]
+- !private ["So16NSObjectProtocolP", "isEmpty"]
+- !private ["So16NSObjectProtocolP", "jsq_messageBubbleBlue"]
+- !private ["So16NSObjectProtocolP", "jsq_messageBubbleGreen"]
+- !private ["So16NSObjectProtocolP", "leftBarButtonItem"]
+- !private ["So16NSObjectProtocolP", "messages"]
+- !private ["So16NSObjectProtocolP", "navigationItem"]
+- !private ["So16NSObjectProtocolP", "observe"]
+- !private ["So16NSObjectProtocolP", "outgoingAvatarViewSize"]
+- !private ["So16NSObjectProtocolP", "outgoingBubble"]
+- !private ["So16NSObjectProtocolP", "outgoingMessagesBubbleImage"]
+- !private ["So16NSObjectProtocolP", "queryLimited"]
+- !private ["So16NSObjectProtocolP", "senderDisplayName"]
+- !private ["So16NSObjectProtocolP", "senderId"]
+- !private ["So16NSObjectProtocolP", "set"]
+- !private ["So16NSObjectProtocolP", "setValue"]
+- !private ["So16NSObjectProtocolP", "standard"]
+- !private ["So16NSObjectProtocolP", "string"]
+- !private ["So16NSObjectProtocolP", "synchronize"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "value"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "jsq_messageBubbleBlue"]
+- !private ["So14NSSecureCodingP", "jsq_messageBubbleGreen"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "item"]
+- !private ["s22RandomAccessCollectionP", "senderDisplayName"]
+- !private ["s22RandomAccessCollectionP", "senderId"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "senderDisplayName"]
+- !private ["s26RangeReplaceableCollectionP", "senderId"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "childAdded"]
+- !private ["10Foundation20ReferenceConvertibleP", "item"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "item"]
+- !private ["s8SequenceP", "senderDisplayName"]
+- !private ["s8SequenceP", "senderId"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["So29UIAccessibilityIdentificationP", "collectionViewLayout"]
+- !private ["So29UIAccessibilityIdentificationP", "contentView"]
+- !private ["So29UIAccessibilityIdentificationP", "leftBarButtonItem"]
+- !private ["So12UIAppearanceP", "collectionViewLayout"]
+- !private ["So12UIAppearanceP", "contentView"]
+- !private ["So12UIAppearanceP", "leftBarButtonItem"]
+- !private ["So21UIAppearanceContainerP", "CGSize"]
+- !private ["So21UIAppearanceContainerP", "Constants"]
+- ["So21UIAppearanceContainerP", "JSQMessage"]
+- !private ["So21UIAppearanceContainerP", "JSQMessagesBubbleImageFactory"]
+- !private ["So21UIAppearanceContainerP", "NSAttributedString"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UserDefaults"]
+- !private ["So21UIAppearanceContainerP", "arc4random_uniform"]
+- !private ["So21UIAppearanceContainerP", "collectionView"]
+- !private ["So21UIAppearanceContainerP", "collectionViewLayout"]
+- !private ["So21UIAppearanceContainerP", "contentView"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "finishReceivingMessage"]
+- !private ["So21UIAppearanceContainerP", "finishSendingMessage"]
+- !private ["So21UIAppearanceContainerP", "incomingBubble"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "inputToolbar"]
+- !private ["So21UIAppearanceContainerP", "leftBarButtonItem"]
+- !private ["So21UIAppearanceContainerP", "messages"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- !private ["So21UIAppearanceContainerP", "outgoingBubble"]
+- !private ["So21UIAppearanceContainerP", "senderDisplayName"]
+- !private ["So21UIAppearanceContainerP", "senderId"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So16UIBarPositioningP", "contentView"]
+- !private ["So16UICollectionViewC", "collectionViewLayout"]
+- !private ["So26UICollectionViewDataSourceP", "CGSize"]
+- !private ["So26UICollectionViewDataSourceP", "Constants"]
+- ["So26UICollectionViewDataSourceP", "JSQMessage"]
+- !private ["So26UICollectionViewDataSourceP", "JSQMessagesBubbleImageFactory"]
+- !private ["So26UICollectionViewDataSourceP", "NSAttributedString"]
+- !private ["So26UICollectionViewDataSourceP", "String"]
+- !private ["So26UICollectionViewDataSourceP", "UIColor"]
+- !private ["So26UICollectionViewDataSourceP", "UserDefaults"]
+- !private ["So26UICollectionViewDataSourceP", "arc4random_uniform"]
+- !private ["So26UICollectionViewDataSourceP", "collectionView"]
+- !private ["So26UICollectionViewDataSourceP", "didReceiveMemoryWarning"]
+- !private ["So26UICollectionViewDataSourceP", "finishReceivingMessage"]
+- !private ["So26UICollectionViewDataSourceP", "finishSendingMessage"]
+- !private ["So26UICollectionViewDataSourceP", "incomingBubble"]
+- !private ["So26UICollectionViewDataSourceP", "init"]
+- !private ["So26UICollectionViewDataSourceP", "inputToolbar"]
+- !private ["So26UICollectionViewDataSourceP", "messages"]
+- !private ["So26UICollectionViewDataSourceP", "navigationItem"]
+- !private ["So26UICollectionViewDataSourceP", "outgoingBubble"]
+- !private ["So26UICollectionViewDataSourceP", "senderDisplayName"]
+- !private ["So26UICollectionViewDataSourceP", "senderId"]
+- !private ["So26UICollectionViewDataSourceP", "title"]
+- !private ["So26UICollectionViewDataSourceP", "viewDidLoad"]
+- ["So26UICollectionViewDataSourceP", ""]
+- !private ["So24UICollectionViewDelegateP", "CGSize"]
+- !private ["So24UICollectionViewDelegateP", "Constants"]
+- ["So24UICollectionViewDelegateP", "JSQMessage"]
+- !private ["So24UICollectionViewDelegateP", "JSQMessagesBubbleImageFactory"]
+- !private ["So24UICollectionViewDelegateP", "NSAttributedString"]
+- !private ["So24UICollectionViewDelegateP", "String"]
+- !private ["So24UICollectionViewDelegateP", "UIColor"]
+- !private ["So24UICollectionViewDelegateP", "UserDefaults"]
+- !private ["So24UICollectionViewDelegateP", "arc4random_uniform"]
+- !private ["So24UICollectionViewDelegateP", "collectionView"]
+- !private ["So24UICollectionViewDelegateP", "didReceiveMemoryWarning"]
+- !private ["So24UICollectionViewDelegateP", "finishReceivingMessage"]
+- !private ["So24UICollectionViewDelegateP", "finishSendingMessage"]
+- !private ["So24UICollectionViewDelegateP", "incomingBubble"]
+- !private ["So24UICollectionViewDelegateP", "init"]
+- !private ["So24UICollectionViewDelegateP", "inputToolbar"]
+- !private ["So24UICollectionViewDelegateP", "messages"]
+- !private ["So24UICollectionViewDelegateP", "navigationItem"]
+- !private ["So24UICollectionViewDelegateP", "outgoingBubble"]
+- !private ["So24UICollectionViewDelegateP", "senderDisplayName"]
+- !private ["So24UICollectionViewDelegateP", "senderId"]
+- !private ["So24UICollectionViewDelegateP", "title"]
+- !private ["So24UICollectionViewDelegateP", "viewDidLoad"]
+- ["So24UICollectionViewDelegateP", ""]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "CGSize"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "Constants"]
+- ["So34UICollectionViewDelegateFlowLayoutP", "JSQMessage"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "JSQMessagesBubbleImageFactory"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "NSAttributedString"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "String"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "UIColor"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "UserDefaults"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "arc4random_uniform"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "collectionView"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "didReceiveMemoryWarning"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "finishReceivingMessage"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "finishSendingMessage"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "incomingBubble"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "init"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "inputToolbar"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "messages"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "navigationItem"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "outgoingBubble"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "senderDisplayName"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "senderId"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "title"]
+- !private ["So34UICollectionViewDelegateFlowLayoutP", "viewDidLoad"]
+- ["So34UICollectionViewDelegateFlowLayoutP", ""]
+- !private ["So26UICollectionViewFlowLayoutC", "incomingAvatarViewSize"]
+- !private ["So26UICollectionViewFlowLayoutC", "outgoingAvatarViewSize"]
+- !private ["So22UICollectionViewLayoutC", "incomingAvatarViewSize"]
+- !private ["So22UICollectionViewLayoutC", "outgoingAvatarViewSize"]
+- !private ["So7UIColorC", "jsq_messageBubbleBlue"]
+- !private ["So7UIColorC", "jsq_messageBubbleGreen"]
+- !private ["So18UIContentContainerP", "CGSize"]
+- !private ["So18UIContentContainerP", "Constants"]
+- ["So18UIContentContainerP", "JSQMessage"]
+- !private ["So18UIContentContainerP", "JSQMessagesBubbleImageFactory"]
+- !private ["So18UIContentContainerP", "NSAttributedString"]
+- !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- !private ["So18UIContentContainerP", "UserDefaults"]
+- !private ["So18UIContentContainerP", "arc4random_uniform"]
+- !private ["So18UIContentContainerP", "collectionView"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "finishReceivingMessage"]
+- !private ["So18UIContentContainerP", "finishSendingMessage"]
+- !private ["So18UIContentContainerP", "incomingBubble"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "inputToolbar"]
+- !private ["So18UIContentContainerP", "messages"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- !private ["So18UIContentContainerP", "outgoingBubble"]
+- !private ["So18UIContentContainerP", "senderDisplayName"]
+- !private ["So18UIContentContainerP", "senderId"]
+- !private ["So18UIContentContainerP", "title"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "collectionViewLayout"]
+- !private ["So17UICoordinateSpaceP", "contentView"]
+- !private ["So17UICoordinateSpaceP", "leftBarButtonItem"]
+- !private ["So23UIDataSourceTranslatingP", "collectionViewLayout"]
+- !private ["So13UIDynamicItemP", "collectionViewLayout"]
+- !private ["So13UIDynamicItemP", "contentView"]
+- !private ["So13UIDynamicItemP", "leftBarButtonItem"]
+- !private ["So18UIFocusEnvironmentP", "CGSize"]
+- !private ["So18UIFocusEnvironmentP", "Constants"]
+- ["So18UIFocusEnvironmentP", "JSQMessage"]
+- !private ["So18UIFocusEnvironmentP", "JSQMessagesBubbleImageFactory"]
+- !private ["So18UIFocusEnvironmentP", "NSAttributedString"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UserDefaults"]
+- !private ["So18UIFocusEnvironmentP", "arc4random_uniform"]
+- !private ["So18UIFocusEnvironmentP", "collectionView"]
+- !private ["So18UIFocusEnvironmentP", "collectionViewLayout"]
+- !private ["So18UIFocusEnvironmentP", "contentView"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "finishReceivingMessage"]
+- !private ["So18UIFocusEnvironmentP", "finishSendingMessage"]
+- !private ["So18UIFocusEnvironmentP", "incomingBubble"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "inputToolbar"]
+- !private ["So18UIFocusEnvironmentP", "leftBarButtonItem"]
+- !private ["So18UIFocusEnvironmentP", "messages"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- !private ["So18UIFocusEnvironmentP", "outgoingBubble"]
+- !private ["So18UIFocusEnvironmentP", "senderDisplayName"]
+- !private ["So18UIFocusEnvironmentP", "senderId"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "collectionViewLayout"]
+- !private ["So11UIFocusItemP", "contentView"]
+- !private ["So11UIFocusItemP", "leftBarButtonItem"]
+- !private ["So16UINavigationItemC", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "Constants"]
+- ["So30UIPasteConfigurationSupportingP", "JSQMessage"]
+- !private ["So30UIPasteConfigurationSupportingP", "JSQMessagesBubbleImageFactory"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSAttributedString"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
+- !private ["So30UIPasteConfigurationSupportingP", "arc4random_uniform"]
+- !private ["So30UIPasteConfigurationSupportingP", "collectionView"]
+- !private ["So30UIPasteConfigurationSupportingP", "collectionViewLayout"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentView"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "finishReceivingMessage"]
+- !private ["So30UIPasteConfigurationSupportingP", "finishSendingMessage"]
+- !private ["So30UIPasteConfigurationSupportingP", "incomingBubble"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "inputToolbar"]
+- !private ["So30UIPasteConfigurationSupportingP", "leftBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "messages"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "outgoingBubble"]
+- !private ["So30UIPasteConfigurationSupportingP", "senderDisplayName"]
+- !private ["So30UIPasteConfigurationSupportingP", "senderId"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "CGFloat"]
+- !private ["So11UIResponderC", "CGSize"]
+- !private ["So11UIResponderC", "Constants"]
+- ["So11UIResponderC", "Date"]
+- ["So11UIResponderC", "IndexPath"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "JSQMessage"]
+- ["So11UIResponderC", "JSQMessageAvatarImageDataSource"]
+- ["So11UIResponderC", "JSQMessageBubbleImageDataSource"]
+- ["So11UIResponderC", "JSQMessageData"]
+- ["So11UIResponderC", "JSQMessagesBubbleImage"]
+- !private ["So11UIResponderC", "JSQMessagesBubbleImageFactory"]
+- ["So11UIResponderC", "JSQMessagesCollectionView"]
+- ["So11UIResponderC", "JSQMessagesCollectionViewFlowLayout"]
+- ["So11UIResponderC", "NSAttributedString"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UICollectionView"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UserDefaults"]
+- !private ["So11UIResponderC", "arc4random_uniform"]
+- ["So11UIResponderC", "collectionView"]
+- !private ["So11UIResponderC", "collectionViewLayout"]
+- !private ["So11UIResponderC", "contentView"]
+- ["So11UIResponderC", "didPressSend"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "finishReceivingMessage"]
+- !private ["So11UIResponderC", "finishSendingMessage"]
+- ["So11UIResponderC", "incomingBubble"]
+- ["So11UIResponderC", "incomingBubble.storage"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "inputToolbar"]
+- !private ["So11UIResponderC", "leftBarButtonItem"]
+- ["So11UIResponderC", "messages"]
+- !private ["So11UIResponderC", "navigationItem"]
+- ["So11UIResponderC", "outgoingBubble"]
+- ["So11UIResponderC", "outgoingBubble.storage"]
+- !private ["So11UIResponderC", "senderDisplayName"]
+- !private ["So11UIResponderC", "senderId"]
+- !private ["So11UIResponderC", "title"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CGSize"]
+- !private ["So30UIResponderStandardEditActionsP", "Constants"]
+- ["So30UIResponderStandardEditActionsP", "JSQMessage"]
+- !private ["So30UIResponderStandardEditActionsP", "JSQMessagesBubbleImageFactory"]
+- !private ["So30UIResponderStandardEditActionsP", "NSAttributedString"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UserDefaults"]
+- !private ["So30UIResponderStandardEditActionsP", "arc4random_uniform"]
+- !private ["So30UIResponderStandardEditActionsP", "collectionView"]
+- !private ["So30UIResponderStandardEditActionsP", "collectionViewLayout"]
+- !private ["So30UIResponderStandardEditActionsP", "contentView"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "finishReceivingMessage"]
+- !private ["So30UIResponderStandardEditActionsP", "finishSendingMessage"]
+- !private ["So30UIResponderStandardEditActionsP", "incomingBubble"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "inputToolbar"]
+- !private ["So30UIResponderStandardEditActionsP", "leftBarButtonItem"]
+- !private ["So30UIResponderStandardEditActionsP", "messages"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- !private ["So30UIResponderStandardEditActionsP", "outgoingBubble"]
+- !private ["So30UIResponderStandardEditActionsP", "senderDisplayName"]
+- !private ["So30UIResponderStandardEditActionsP", "senderId"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So12UIScrollViewC", "collectionViewLayout"]
+- !private ["So20UIScrollViewDelegateP", "CGSize"]
+- !private ["So20UIScrollViewDelegateP", "Constants"]
+- ["So20UIScrollViewDelegateP", "JSQMessage"]
+- !private ["So20UIScrollViewDelegateP", "JSQMessagesBubbleImageFactory"]
+- !private ["So20UIScrollViewDelegateP", "NSAttributedString"]
+- !private ["So20UIScrollViewDelegateP", "String"]
+- !private ["So20UIScrollViewDelegateP", "UIColor"]
+- !private ["So20UIScrollViewDelegateP", "UserDefaults"]
+- !private ["So20UIScrollViewDelegateP", "arc4random_uniform"]
+- !private ["So20UIScrollViewDelegateP", "collectionView"]
+- !private ["So20UIScrollViewDelegateP", "didReceiveMemoryWarning"]
+- !private ["So20UIScrollViewDelegateP", "finishReceivingMessage"]
+- !private ["So20UIScrollViewDelegateP", "finishSendingMessage"]
+- !private ["So20UIScrollViewDelegateP", "incomingBubble"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "inputToolbar"]
+- !private ["So20UIScrollViewDelegateP", "messages"]
+- !private ["So20UIScrollViewDelegateP", "navigationItem"]
+- !private ["So20UIScrollViewDelegateP", "outgoingBubble"]
+- !private ["So20UIScrollViewDelegateP", "senderDisplayName"]
+- !private ["So20UIScrollViewDelegateP", "senderId"]
+- !private ["So20UIScrollViewDelegateP", "title"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "collectionViewLayout"]
+- !private ["So16UIStateRestoringP", "CGSize"]
+- !private ["So16UIStateRestoringP", "Constants"]
+- ["So16UIStateRestoringP", "JSQMessage"]
+- !private ["So16UIStateRestoringP", "JSQMessagesBubbleImageFactory"]
+- !private ["So16UIStateRestoringP", "NSAttributedString"]
+- !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- !private ["So16UIStateRestoringP", "UserDefaults"]
+- !private ["So16UIStateRestoringP", "arc4random_uniform"]
+- !private ["So16UIStateRestoringP", "collectionView"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "finishReceivingMessage"]
+- !private ["So16UIStateRestoringP", "finishSendingMessage"]
+- !private ["So16UIStateRestoringP", "incomingBubble"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "inputToolbar"]
+- !private ["So16UIStateRestoringP", "messages"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- !private ["So16UIStateRestoringP", "outgoingBubble"]
+- !private ["So16UIStateRestoringP", "senderDisplayName"]
+- !private ["So16UIStateRestoringP", "senderId"]
+- !private ["So16UIStateRestoringP", "title"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITextViewDelegateP", "CGSize"]
+- !private ["So18UITextViewDelegateP", "Constants"]
+- ["So18UITextViewDelegateP", "JSQMessage"]
+- !private ["So18UITextViewDelegateP", "JSQMessagesBubbleImageFactory"]
+- !private ["So18UITextViewDelegateP", "NSAttributedString"]
+- !private ["So18UITextViewDelegateP", "String"]
+- !private ["So18UITextViewDelegateP", "UIColor"]
+- !private ["So18UITextViewDelegateP", "UserDefaults"]
+- !private ["So18UITextViewDelegateP", "arc4random_uniform"]
+- !private ["So18UITextViewDelegateP", "collectionView"]
+- !private ["So18UITextViewDelegateP", "didReceiveMemoryWarning"]
+- !private ["So18UITextViewDelegateP", "finishReceivingMessage"]
+- !private ["So18UITextViewDelegateP", "finishSendingMessage"]
+- !private ["So18UITextViewDelegateP", "incomingBubble"]
+- !private ["So18UITextViewDelegateP", "init"]
+- !private ["So18UITextViewDelegateP", "inputToolbar"]
+- !private ["So18UITextViewDelegateP", "messages"]
+- !private ["So18UITextViewDelegateP", "navigationItem"]
+- !private ["So18UITextViewDelegateP", "outgoingBubble"]
+- !private ["So18UITextViewDelegateP", "senderDisplayName"]
+- !private ["So18UITextViewDelegateP", "senderId"]
+- !private ["So18UITextViewDelegateP", "title"]
+- !private ["So18UITextViewDelegateP", "viewDidLoad"]
+- ["So18UITextViewDelegateP", ""]
+- !private ["So9UIToolbarC", "contentView"]
+- !private ["So18UITraitEnvironmentP", "CGSize"]
+- !private ["So18UITraitEnvironmentP", "Constants"]
+- ["So18UITraitEnvironmentP", "JSQMessage"]
+- !private ["So18UITraitEnvironmentP", "JSQMessagesBubbleImageFactory"]
+- !private ["So18UITraitEnvironmentP", "NSAttributedString"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UserDefaults"]
+- !private ["So18UITraitEnvironmentP", "arc4random_uniform"]
+- !private ["So18UITraitEnvironmentP", "collectionView"]
+- !private ["So18UITraitEnvironmentP", "collectionViewLayout"]
+- !private ["So18UITraitEnvironmentP", "contentView"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "finishReceivingMessage"]
+- !private ["So18UITraitEnvironmentP", "finishSendingMessage"]
+- !private ["So18UITraitEnvironmentP", "incomingBubble"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "inputToolbar"]
+- !private ["So18UITraitEnvironmentP", "leftBarButtonItem"]
+- !private ["So18UITraitEnvironmentP", "messages"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- !private ["So18UITraitEnvironmentP", "outgoingBubble"]
+- !private ["So18UITraitEnvironmentP", "senderDisplayName"]
+- !private ["So18UITraitEnvironmentP", "senderId"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "collectionViewLayout"]
+- !private ["So6UIViewC", "contentView"]
+- !private ["So6UIViewC", "leftBarButtonItem"]
+- ["So16UIViewControllerC", "CGFloat"]
+- !private ["So16UIViewControllerC", "CGSize"]
+- !private ["So16UIViewControllerC", "Constants"]
+- ["So16UIViewControllerC", "Date"]
+- ["So16UIViewControllerC", "IndexPath"]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "JSQMessage"]
+- ["So16UIViewControllerC", "JSQMessageAvatarImageDataSource"]
+- ["So16UIViewControllerC", "JSQMessageBubbleImageDataSource"]
+- ["So16UIViewControllerC", "JSQMessageData"]
+- ["So16UIViewControllerC", "JSQMessagesBubbleImage"]
+- !private ["So16UIViewControllerC", "JSQMessagesBubbleImageFactory"]
+- ["So16UIViewControllerC", "JSQMessagesCollectionView"]
+- ["So16UIViewControllerC", "JSQMessagesCollectionViewFlowLayout"]
+- ["So16UIViewControllerC", "NSAttributedString"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UICollectionView"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- !private ["So16UIViewControllerC", "UserDefaults"]
+- !private ["So16UIViewControllerC", "arc4random_uniform"]
+- ["So16UIViewControllerC", "collectionView"]
+- ["So16UIViewControllerC", "didPressSend"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- !private ["So16UIViewControllerC", "finishReceivingMessage"]
+- !private ["So16UIViewControllerC", "finishSendingMessage"]
+- ["So16UIViewControllerC", "incomingBubble"]
+- ["So16UIViewControllerC", "incomingBubble.storage"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "inputToolbar"]
+- ["So16UIViewControllerC", "messages"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- ["So16UIViewControllerC", "outgoingBubble"]
+- ["So16UIViewControllerC", "outgoingBubble.storage"]
+- !private ["So16UIViewControllerC", "senderDisplayName"]
+- !private ["So16UIViewControllerC", "senderId"]
+- !private ["So16UIViewControllerC", "title"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So12UserDefaultsC", "set"]
+- !private ["So12UserDefaultsC", "standard"]
+- !private ["So12UserDefaultsC", "string"]
+- !private ["So12UserDefaultsC", "synchronize"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "senderDisplayName"]
+- !private ["s14_ArrayProtocolP", "senderId"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "isEmpty"]
+- !private ["s23_BidirectionalIndexableP", "item"]
+- !private ["s23_BidirectionalIndexableP", "senderDisplayName"]
+- !private ["s23_BidirectionalIndexableP", "senderId"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "collectionViewLayout"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "leftBarButtonItem"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "senderDisplayName"]
+- !private ["s24_DestructorSafeContainerP", "senderId"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s26_ExpressibleByColorLiteralP", "jsq_messageBubbleBlue"]
+- !private ["s26_ExpressibleByColorLiteralP", "jsq_messageBubbleGreen"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "count"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "isEmpty"]
+- !private ["s10_IndexableP", "item"]
+- !private ["s10_IndexableP", "senderDisplayName"]
+- !private ["s10_IndexableP", "senderId"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "count"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "isEmpty"]
+- !private ["s14_IndexableBaseP", "item"]
+- !private ["s14_IndexableBaseP", "senderDisplayName"]
+- !private ["s14_IndexableBaseP", "senderId"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Constants"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "JSQMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSQMessagesBubbleImageFactory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSAttributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arc4random_uniform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "childByAutoId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "collectionView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "collectionViewLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finishReceivingMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finishSendingMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "incomingAvatarViewSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "incomingBubble"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "incomingMessagesBubbleImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "inputToolbar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsq_messageBubbleBlue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsq_messageBubbleGreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "messages"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outgoingAvatarViewSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outgoingBubble"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "outgoingMessagesBubbleImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queryLimited"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "senderDisplayName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "senderId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "synchronize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "count"]
+- ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "item"]
+- !private ["s17_MutableIndexableP", "senderDisplayName"]
+- !private ["s17_MutableIndexableP", "senderId"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "item"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "item"]
+- !private ["s22_RandomAccessIndexableP", "senderDisplayName"]
+- !private ["s22_RandomAccessIndexableP", "senderId"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "isEmpty"]
+- !private ["s26_RangeReplaceableIndexableP", "senderDisplayName"]
+- !private ["s26_RangeReplaceableIndexableP", "senderId"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
+- !private ["24UserLoginAndRegistration9ConstantsV4refsV", "databaseChats"]
+depends-nominal:
+- "Sa"
+- !private "s10ArraySliceV"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- !private "24UserLoginAndRegistration9ConstantsV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "SC13DataEventTypeO"
+- !private "So12DataSnapshotC"
+- !private "So13DatabaseQueryC"
+- !private "So17DatabaseReferenceC"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation9IndexPathV"
+- !private "So10JSQMessageC"
+- !private "So14JSQMessageDataP"
+- !private "So29JSQMessagesBubbleImageFactoryC"
+- !private "So25JSQMessagesCollectionViewC"
+- !private "So37JSQMessagesCollectionViewCellDelegateP"
+- "So35JSQMessagesCollectionViewDataSourceP"
+- "So43JSQMessagesCollectionViewDelegateFlowLayoutP"
+- !private "So35JSQMessagesCollectionViewFlowLayoutC"
+- !private "So23JSQMessagesInputToolbarC"
+- !private "So29JSQMessagesToolbarContentViewC"
+- "So25JSQMessagesViewControllerC"
+- !private "s25LosslessStringConvertibleP"
+- "24UserLoginAndRegistration21MessageViewControllerC"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- !private "So18NSAttributedStringC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So16UIBarPositioningP"
+- !private "So16UICollectionViewC"
+- "So26UICollectionViewDataSourceP"
+- "So24UICollectionViewDelegateP"
+- "So34UICollectionViewDelegateFlowLayoutP"
+- !private "So26UICollectionViewFlowLayoutC"
+- !private "So22UICollectionViewLayoutC"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITextViewDelegateP"
+- !private "So9UIToolbarC"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So12UserDefaultsC"
+- "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+- !private "24UserLoginAndRegistration9ConstantsV4refsV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController-umbrella.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer-umbrella.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageMediaData.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageData.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageBubbleImageDataSource.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageAvatarImageDataSource.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDataSource.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellIncoming.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellOutgoing.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleSizeCalculating.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLabel.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCell.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQLocationMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQVideoMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQPhotoMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesInputToolbar.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/UserLoginAndRegistration-Bridging-Header.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesKeyboardController.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/SWRevealViewController.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTimestampFormatter.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubblesSizeCalculator.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIDevice+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIImage+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSBundle+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSString+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQSystemSoundPlayer+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIColor+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIView+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewLayoutAttributes.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaViewAttributes.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDelegateFlowLayout.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayout.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLoadEarlierHeaderView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaPlaceholderView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTypingIndicatorFooterView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarContentView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCellTextView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesComposerTextView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImageFactory.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImageFactory.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarButtonFactory.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "0598bbb9356947a72483729c0ff660bb"

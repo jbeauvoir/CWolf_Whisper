@@ -7,253 +7,390 @@ provides-member:
 - ["24UserLoginAndRegistration26RegisterPageViewControllerC", ""]
 provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
+- "emailTextField"
+- "passwordTextField"
 - "registerButtonTapped"
-- "repeatPasswordTextField"
-- "userEmailTextField"
-- "userPasswordTextField"
+- "repeatTextField"
+- "usernameTextField"
 - "viewDidLoad"
 depends-top-level:
-- !private "!="
+- !private "=="
+- !private "Auth"
+- !private "BooleanLiteralType"
+- !private "Constants"
+- !private "Dictionary"
 - "RegisterPageViewController"
-- "String"
 - !private "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertController"
 - "UIButton"
 - "UITextField"
 - "UIViewController"
-- !private "||"
+- !private "print"
 depends-member:
+- !private ["So4AuthC", "auth"]
+- !private ["So4AuthC", "createUser"]
 - !private ["s23BidirectionalCollectionP", "init"]
-- !private ["s23BidirectionalCollectionP", "isEmpty"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "Auth"]
+- !private ["s7CVarArgP", "Constants"]
+- !private ["s7CVarArgP", "UIAlertAction"]
+- !private ["s7CVarArgP", "UIAlertController"]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "auth"]
+- !private ["s7CVarArgP", "childByAutoId"]
+- !private ["s7CVarArgP", "createUser"]
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
-- !private ["s7CVarArgP", "displayMyAlertsMessage"]
+- !private ["s7CVarArgP", "emailTextField"]
 - !private ["s7CVarArgP", "init"]
-- !private ["s7CVarArgP", "isEmpty"]
-- !private ["s7CVarArgP", "repeatPasswordTextField"]
+- !private ["s7CVarArgP", "passwordTextField"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "repeatTextField"]
+- !private ["s7CVarArgP", "setValue"]
 - !private ["s7CVarArgP", "text"]
-- !private ["s7CVarArgP", "userEmailTextField"]
-- !private ["s7CVarArgP", "userPasswordTextField"]
+- !private ["s7CVarArgP", "usernameTextField"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "init"]
-- !private ["s10CollectionP", "isEmpty"]
 - !private ["s10ComparableP", "init"]
-- !private ["s10ComparableP", "isEmpty"]
+- !private ["24UserLoginAndRegistration9ConstantsV", "refs"]
+- !private ["s28CustomDebugStringConvertibleP", "Auth"]
+- !private ["s28CustomDebugStringConvertibleP", "Constants"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
+- !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
+- !private ["s28CustomDebugStringConvertibleP", "childByAutoId"]
+- !private ["s28CustomDebugStringConvertibleP", "createUser"]
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
-- !private ["s28CustomDebugStringConvertibleP", "displayMyAlertsMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "emailTextField"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
-- !private ["s28CustomDebugStringConvertibleP", "repeatPasswordTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "passwordTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "repeatTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
-- !private ["s28CustomDebugStringConvertibleP", "userEmailTextField"]
-- !private ["s28CustomDebugStringConvertibleP", "userPasswordTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "usernameTextField"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "init"]
-- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "Auth"]
+- !private ["s23CustomStringConvertibleP", "Constants"]
+- !private ["s23CustomStringConvertibleP", "UIAlertAction"]
+- !private ["s23CustomStringConvertibleP", "UIAlertController"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "auth"]
+- !private ["s23CustomStringConvertibleP", "childByAutoId"]
+- !private ["s23CustomStringConvertibleP", "createUser"]
 - !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
-- !private ["s23CustomStringConvertibleP", "displayMyAlertsMessage"]
+- !private ["s23CustomStringConvertibleP", "emailTextField"]
 - !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "isEmpty"]
-- !private ["s23CustomStringConvertibleP", "repeatPasswordTextField"]
+- !private ["s23CustomStringConvertibleP", "passwordTextField"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "repeatTextField"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
 - !private ["s23CustomStringConvertibleP", "text"]
-- !private ["s23CustomStringConvertibleP", "userEmailTextField"]
-- !private ["s23CustomStringConvertibleP", "userPasswordTextField"]
+- !private ["s23CustomStringConvertibleP", "usernameTextField"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["So13DatabaseQueryC", "childByAutoId"]
+- !private ["So13DatabaseQueryC", "setValue"]
+- !private ["So17DatabaseReferenceC", "childByAutoId"]
+- !private ["So17DatabaseReferenceC", "setValue"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "init"]
-- !private ["s9DecodableP", "isEmpty"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EquatableP", "Auth"]
+- !private ["s9EquatableP", "Constants"]
+- !private ["s9EquatableP", "UIAlertAction"]
+- !private ["s9EquatableP", "UIAlertController"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addAction"]
+- !private ["s9EquatableP", "alert"]
+- !private ["s9EquatableP", "auth"]
+- !private ["s9EquatableP", "cancel"]
+- !private ["s9EquatableP", "childByAutoId"]
+- !private ["s9EquatableP", "createUser"]
 - !private ["s9EquatableP", "didReceiveMemoryWarning"]
-- !private ["s9EquatableP", "displayMyAlertsMessage"]
+- !private ["s9EquatableP", "emailTextField"]
 - !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "isEmpty"]
-- !private ["s9EquatableP", "repeatPasswordTextField"]
+- !private ["s9EquatableP", "passwordTextField"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "repeatTextField"]
+- !private ["s9EquatableP", "setValue"]
 - !private ["s9EquatableP", "text"]
-- !private ["s9EquatableP", "userEmailTextField"]
-- !private ["s9EquatableP", "userPasswordTextField"]
+- !private ["s9EquatableP", "usernameTextField"]
 - !private ["s9EquatableP", "viewDidLoad"]
 - ["s9EquatableP", ""]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s8HashableP", "Auth"]
+- !private ["s8HashableP", "Constants"]
+- !private ["s8HashableP", "UIAlertAction"]
+- !private ["s8HashableP", "UIAlertController"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addAction"]
+- !private ["s8HashableP", "alert"]
+- !private ["s8HashableP", "auth"]
+- !private ["s8HashableP", "cancel"]
+- !private ["s8HashableP", "childByAutoId"]
+- !private ["s8HashableP", "createUser"]
 - !private ["s8HashableP", "didReceiveMemoryWarning"]
-- !private ["s8HashableP", "displayMyAlertsMessage"]
+- !private ["s8HashableP", "emailTextField"]
 - !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "isEmpty"]
-- !private ["s8HashableP", "repeatPasswordTextField"]
+- !private ["s8HashableP", "passwordTextField"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "repeatTextField"]
+- !private ["s8HashableP", "setValue"]
 - !private ["s8HashableP", "text"]
-- !private ["s8HashableP", "userEmailTextField"]
-- !private ["s8HashableP", "userPasswordTextField"]
+- !private ["s8HashableP", "usernameTextField"]
 - !private ["s8HashableP", "viewDidLoad"]
 - ["s8HashableP", ""]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s25LosslessStringConvertibleP", "isEmpty"]
 - !private ["s10MirrorPathP", "init"]
-- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["So8NSCodingP", "Auth"]
+- !private ["So8NSCodingP", "Constants"]
+- !private ["So8NSCodingP", "UIAlertAction"]
+- !private ["So8NSCodingP", "UIAlertController"]
+- !private ["So8NSCodingP", "addAction"]
 - !private ["So8NSCodingP", "didReceiveMemoryWarning"]
-- !private ["So8NSCodingP", "displayMyAlertsMessage"]
+- !private ["So8NSCodingP", "emailTextField"]
 - !private ["So8NSCodingP", "init"]
-- !private ["So8NSCodingP", "isEmpty"]
-- !private ["So8NSCodingP", "repeatPasswordTextField"]
+- !private ["So8NSCodingP", "passwordTextField"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "repeatTextField"]
 - !private ["So8NSCodingP", "text"]
-- !private ["So8NSCodingP", "userEmailTextField"]
-- !private ["So8NSCodingP", "userPasswordTextField"]
+- !private ["So8NSCodingP", "usernameTextField"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "init"]
-- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So26NSExtensionRequestHandlingP", "Auth"]
+- !private ["So26NSExtensionRequestHandlingP", "Constants"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
+- !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
 - !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
-- !private ["So26NSExtensionRequestHandlingP", "displayMyAlertsMessage"]
+- !private ["So26NSExtensionRequestHandlingP", "emailTextField"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
-- !private ["So26NSExtensionRequestHandlingP", "repeatPasswordTextField"]
-- !private ["So26NSExtensionRequestHandlingP", "userEmailTextField"]
-- !private ["So26NSExtensionRequestHandlingP", "userPasswordTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "passwordTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "repeatTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "usernameTextField"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So21NSItemProviderReadingP", "init"]
-- !private ["So21NSItemProviderReadingP", "isEmpty"]
 - !private ["So21NSItemProviderWritingP", "init"]
-- !private ["So21NSItemProviderWritingP", "isEmpty"]
 - !private ["So16NSMutableCopyingP", "init"]
-- !private ["So16NSMutableCopyingP", "isEmpty"]
-- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "Auth"]
+- !private ["So8NSObjectC", "Constants"]
+- !private ["So8NSObjectC", "UIAlertAction"]
+- !private ["So8NSObjectC", "UIAlertController"]
 - ["So8NSObjectC", "UIButton"]
 - ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "auth"]
+- !private ["So8NSObjectC", "childByAutoId"]
+- !private ["So8NSObjectC", "createUser"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
-- ["So8NSObjectC", "displayMyAlertsMessage"]
+- ["So8NSObjectC", "emailTextField"]
 - ["So8NSObjectC", "init"]
-- !private ["So8NSObjectC", "isEmpty"]
+- ["So8NSObjectC", "passwordTextField"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
 - ["So8NSObjectC", "registerButtonTapped"]
-- ["So8NSObjectC", "repeatPasswordTextField"]
+- ["So8NSObjectC", "repeatTextField"]
+- !private ["So8NSObjectC", "setValue"]
 - !private ["So8NSObjectC", "text"]
-- ["So8NSObjectC", "userEmailTextField"]
-- ["So8NSObjectC", "userPasswordTextField"]
+- ["So8NSObjectC", "usernameTextField"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "Auth"]
+- !private ["So16NSObjectProtocolP", "Constants"]
+- !private ["So16NSObjectProtocolP", "UIAlertAction"]
+- !private ["So16NSObjectProtocolP", "UIAlertController"]
+- !private ["So16NSObjectProtocolP", "addAction"]
+- !private ["So16NSObjectProtocolP", "auth"]
+- !private ["So16NSObjectProtocolP", "childByAutoId"]
+- !private ["So16NSObjectProtocolP", "createUser"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
-- !private ["So16NSObjectProtocolP", "displayMyAlertsMessage"]
+- !private ["So16NSObjectProtocolP", "emailTextField"]
 - !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "isEmpty"]
-- !private ["So16NSObjectProtocolP", "repeatPasswordTextField"]
+- !private ["So16NSObjectProtocolP", "passwordTextField"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "repeatTextField"]
+- !private ["So16NSObjectProtocolP", "setValue"]
 - !private ["So16NSObjectProtocolP", "text"]
-- !private ["So16NSObjectProtocolP", "userEmailTextField"]
-- !private ["So16NSObjectProtocolP", "userPasswordTextField"]
+- !private ["So16NSObjectProtocolP", "usernameTextField"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", ""]
 - !private ["So14NSSecureCodingP", "init"]
-- !private ["So14NSSecureCodingP", "isEmpty"]
 - !private ["So8NSStringC", "init"]
-- !private ["So8NSStringC", "isEmpty"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
-- ["24UserLoginAndRegistration26RegisterPageViewControllerC", "String"]
+- !private ["s16RawRepresentableP", "alert"]
+- !private ["s16RawRepresentableP", "cancel"]
+- !private ["24UserLoginAndRegistration26RegisterPageViewControllerC", "Auth"]
+- !private ["24UserLoginAndRegistration26RegisterPageViewControllerC", "Constants"]
+- !private ["24UserLoginAndRegistration26RegisterPageViewControllerC", "UIAlertAction"]
+- !private ["24UserLoginAndRegistration26RegisterPageViewControllerC", "UIAlertController"]
 - ["24UserLoginAndRegistration26RegisterPageViewControllerC", "UIButton"]
 - ["24UserLoginAndRegistration26RegisterPageViewControllerC", "UITextField"]
 - ["24UserLoginAndRegistration26RegisterPageViewControllerC", "deinit"]
 - ["24UserLoginAndRegistration26RegisterPageViewControllerC", "didReceiveMemoryWarning"]
-- ["24UserLoginAndRegistration26RegisterPageViewControllerC", "displayMyAlertsMessage"]
+- ["24UserLoginAndRegistration26RegisterPageViewControllerC", "emailTextField"]
 - ["24UserLoginAndRegistration26RegisterPageViewControllerC", "init"]
+- ["24UserLoginAndRegistration26RegisterPageViewControllerC", "passwordTextField"]
+- !private ["24UserLoginAndRegistration26RegisterPageViewControllerC", "present"]
+- !private ["24UserLoginAndRegistration26RegisterPageViewControllerC", "print"]
 - ["24UserLoginAndRegistration26RegisterPageViewControllerC", "registerButtonTapped"]
-- ["24UserLoginAndRegistration26RegisterPageViewControllerC", "repeatPasswordTextField"]
-- ["24UserLoginAndRegistration26RegisterPageViewControllerC", "userEmailTextField"]
-- ["24UserLoginAndRegistration26RegisterPageViewControllerC", "userPasswordTextField"]
+- ["24UserLoginAndRegistration26RegisterPageViewControllerC", "repeatTextField"]
+- ["24UserLoginAndRegistration26RegisterPageViewControllerC", "usernameTextField"]
 - ["24UserLoginAndRegistration26RegisterPageViewControllerC", "viewDidLoad"]
 - !private ["s8SequenceP", "init"]
-- !private ["s8SequenceP", "isEmpty"]
 - !private ["SS", "init"]
-- !private ["SS", "isEmpty"]
 - !private ["s14StringProtocolP", "init"]
-- !private ["s14StringProtocolP", "isEmpty"]
 - !private ["s16TextOutputStreamP", "init"]
-- !private ["s16TextOutputStreamP", "isEmpty"]
 - !private ["s20TextOutputStreamableP", "init"]
-- !private ["s20TextOutputStreamableP", "isEmpty"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["SC18UIAlertActionStyleO", "cancel"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["SC22UIAlertControllerStyleO", "alert"]
 - !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "Auth"]
+- !private ["So21UIAppearanceContainerP", "Constants"]
+- !private ["So21UIAppearanceContainerP", "UIAlertAction"]
+- !private ["So21UIAppearanceContainerP", "UIAlertController"]
+- !private ["So21UIAppearanceContainerP", "addAction"]
 - !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
-- !private ["So21UIAppearanceContainerP", "displayMyAlertsMessage"]
+- !private ["So21UIAppearanceContainerP", "emailTextField"]
 - !private ["So21UIAppearanceContainerP", "init"]
-- !private ["So21UIAppearanceContainerP", "repeatPasswordTextField"]
+- !private ["So21UIAppearanceContainerP", "passwordTextField"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "repeatTextField"]
 - !private ["So21UIAppearanceContainerP", "text"]
-- !private ["So21UIAppearanceContainerP", "userEmailTextField"]
-- !private ["So21UIAppearanceContainerP", "userPasswordTextField"]
+- !private ["So21UIAppearanceContainerP", "usernameTextField"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "Auth"]
+- !private ["So18UIContentContainerP", "Constants"]
+- !private ["So18UIContentContainerP", "UIAlertAction"]
+- !private ["So18UIContentContainerP", "UIAlertController"]
+- !private ["So18UIContentContainerP", "addAction"]
 - !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
-- !private ["So18UIContentContainerP", "displayMyAlertsMessage"]
+- !private ["So18UIContentContainerP", "emailTextField"]
 - !private ["So18UIContentContainerP", "init"]
-- !private ["So18UIContentContainerP", "repeatPasswordTextField"]
-- !private ["So18UIContentContainerP", "userEmailTextField"]
-- !private ["So18UIContentContainerP", "userPasswordTextField"]
+- !private ["So18UIContentContainerP", "passwordTextField"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "repeatTextField"]
+- !private ["So18UIContentContainerP", "usernameTextField"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", ""]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - !private ["So9UIControlC", "text"]
 - !private ["So17UICoordinateSpaceP", "text"]
 - !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "Auth"]
+- !private ["So18UIFocusEnvironmentP", "Constants"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
+- !private ["So18UIFocusEnvironmentP", "UIAlertController"]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
 - !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
-- !private ["So18UIFocusEnvironmentP", "displayMyAlertsMessage"]
+- !private ["So18UIFocusEnvironmentP", "emailTextField"]
 - !private ["So18UIFocusEnvironmentP", "init"]
-- !private ["So18UIFocusEnvironmentP", "repeatPasswordTextField"]
+- !private ["So18UIFocusEnvironmentP", "passwordTextField"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "repeatTextField"]
 - !private ["So18UIFocusEnvironmentP", "text"]
-- !private ["So18UIFocusEnvironmentP", "userEmailTextField"]
-- !private ["So18UIFocusEnvironmentP", "userPasswordTextField"]
+- !private ["So18UIFocusEnvironmentP", "usernameTextField"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Auth"]
+- !private ["So30UIPasteConfigurationSupportingP", "Constants"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
-- !private ["So30UIPasteConfigurationSupportingP", "displayMyAlertsMessage"]
+- !private ["So30UIPasteConfigurationSupportingP", "emailTextField"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
-- !private ["So30UIPasteConfigurationSupportingP", "repeatPasswordTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "passwordTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "repeatTextField"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
-- !private ["So30UIPasteConfigurationSupportingP", "userEmailTextField"]
-- !private ["So30UIPasteConfigurationSupportingP", "userPasswordTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "usernameTextField"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
-- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "Auth"]
+- !private ["So11UIResponderC", "Constants"]
+- !private ["So11UIResponderC", "UIAlertAction"]
+- !private ["So11UIResponderC", "UIAlertController"]
 - ["So11UIResponderC", "UIButton"]
 - ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "addAction"]
 - ["So11UIResponderC", "didReceiveMemoryWarning"]
-- ["So11UIResponderC", "displayMyAlertsMessage"]
+- ["So11UIResponderC", "emailTextField"]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "passwordTextField"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
 - ["So11UIResponderC", "registerButtonTapped"]
-- ["So11UIResponderC", "repeatPasswordTextField"]
+- ["So11UIResponderC", "repeatTextField"]
 - !private ["So11UIResponderC", "text"]
-- ["So11UIResponderC", "userEmailTextField"]
-- ["So11UIResponderC", "userPasswordTextField"]
+- ["So11UIResponderC", "usernameTextField"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Auth"]
+- !private ["So30UIResponderStandardEditActionsP", "Constants"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
+- !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
 - !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
-- !private ["So30UIResponderStandardEditActionsP", "displayMyAlertsMessage"]
+- !private ["So30UIResponderStandardEditActionsP", "emailTextField"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
-- !private ["So30UIResponderStandardEditActionsP", "repeatPasswordTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "passwordTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "repeatTextField"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
-- !private ["So30UIResponderStandardEditActionsP", "userEmailTextField"]
-- !private ["So30UIResponderStandardEditActionsP", "userPasswordTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "usernameTextField"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "Auth"]
+- !private ["So16UIStateRestoringP", "Constants"]
+- !private ["So16UIStateRestoringP", "UIAlertAction"]
+- !private ["So16UIStateRestoringP", "UIAlertController"]
+- !private ["So16UIStateRestoringP", "addAction"]
 - !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
-- !private ["So16UIStateRestoringP", "displayMyAlertsMessage"]
+- !private ["So16UIStateRestoringP", "emailTextField"]
 - !private ["So16UIStateRestoringP", "init"]
-- !private ["So16UIStateRestoringP", "repeatPasswordTextField"]
-- !private ["So16UIStateRestoringP", "userEmailTextField"]
-- !private ["So16UIStateRestoringP", "userPasswordTextField"]
+- !private ["So16UIStateRestoringP", "passwordTextField"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "repeatTextField"]
+- !private ["So16UIStateRestoringP", "usernameTextField"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", ""]
 - !private ["So15UITextDraggableP", "text"]
@@ -262,76 +399,92 @@ depends-member:
 - !private ["So11UITextInputP", "text"]
 - !private ["So17UITextInputTraitsP", "text"]
 - !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "Auth"]
+- !private ["So18UITraitEnvironmentP", "Constants"]
+- !private ["So18UITraitEnvironmentP", "UIAlertAction"]
+- !private ["So18UITraitEnvironmentP", "UIAlertController"]
+- !private ["So18UITraitEnvironmentP", "addAction"]
 - !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
-- !private ["So18UITraitEnvironmentP", "displayMyAlertsMessage"]
+- !private ["So18UITraitEnvironmentP", "emailTextField"]
 - !private ["So18UITraitEnvironmentP", "init"]
-- !private ["So18UITraitEnvironmentP", "repeatPasswordTextField"]
+- !private ["So18UITraitEnvironmentP", "passwordTextField"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "repeatTextField"]
 - !private ["So18UITraitEnvironmentP", "text"]
-- !private ["So18UITraitEnvironmentP", "userEmailTextField"]
-- !private ["So18UITraitEnvironmentP", "userPasswordTextField"]
+- !private ["So18UITraitEnvironmentP", "usernameTextField"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So6UIViewC", "text"]
-- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "Auth"]
+- !private ["So16UIViewControllerC", "Constants"]
+- !private ["So16UIViewControllerC", "UIAlertAction"]
+- !private ["So16UIViewControllerC", "UIAlertController"]
 - ["So16UIViewControllerC", "UIButton"]
 - ["So16UIViewControllerC", "UITextField"]
+- !private ["So16UIViewControllerC", "addAction"]
 - ["So16UIViewControllerC", "didReceiveMemoryWarning"]
-- ["So16UIViewControllerC", "displayMyAlertsMessage"]
+- ["So16UIViewControllerC", "emailTextField"]
 - ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "passwordTextField"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "registerButtonTapped"]
-- ["So16UIViewControllerC", "repeatPasswordTextField"]
-- ["So16UIViewControllerC", "userEmailTextField"]
-- ["So16UIViewControllerC", "userPasswordTextField"]
+- ["So16UIViewControllerC", "repeatTextField"]
+- ["So16UIViewControllerC", "usernameTextField"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", ""]
 - !private ["s23_BidirectionalIndexableP", "init"]
-- !private ["s23_BidirectionalIndexableP", "isEmpty"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
-- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
 - !private ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "isEmpty"]
 - !private ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Constants"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "childByAutoId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createUser"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "displayMyAlertsMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emailTextField"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "repeatPasswordTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "passwordTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "repeatTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "userEmailTextField"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "userPasswordTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "usernameTextField"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
 - !private ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "isEmpty"]
 - !private ["s16_SwiftStringViewP", "init"]
-- !private ["s16_SwiftStringViewP", "isEmpty"]
+- !private ["24UserLoginAndRegistration9ConstantsV4refsV", "databaseUsers"]
 depends-nominal:
+- !private "So4AuthC"
 - !private "s23BidirectionalCollectionP"
 - !private "Sb"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - !private "s10CollectionP"
 - !private "s10ComparableP"
+- !private "24UserLoginAndRegistration9ConstantsV"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "So13DatabaseQueryC"
+- !private "So17DatabaseReferenceC"
 - !private "s9DecodableP"
 - !private "s9EncodableP"
 - "s9EquatableP"
@@ -353,6 +506,7 @@ depends-nominal:
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
 - !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
 - "24UserLoginAndRegistration26RegisterPageViewControllerC"
 - !private "s8SequenceP"
 - !private "SS"
@@ -360,6 +514,10 @@ depends-nominal:
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "SC18UIAlertActionStyleO"
+- !private "So17UIAlertControllerC"
+- !private "SC22UIAlertControllerStyleO"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
@@ -373,6 +531,7 @@ depends-nominal:
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
 - !private "So15UITextDraggableP"
 - !private "So15UITextDroppableP"
@@ -398,30 +557,47 @@ depends-nominal:
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s26_RangeReplaceableIndexableP"
 - !private "s16_SwiftStringViewP"
+- !private "24UserLoginAndRegistration9ConstantsV4refsV"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController-umbrella.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer-umbrella.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageMediaData.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageData.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageBubbleImageDataSource.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessageAvatarImageDataSource.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDataSource.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImage.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessage.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
@@ -431,6 +607,9 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellIncoming.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCellOutgoing.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleSizeCalculating.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
@@ -439,7 +618,14 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLabel.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewCell.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQLocationMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQVideoMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaItem.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQPhotoMediaItem.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
@@ -449,6 +635,7 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesInputToolbar.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/UserLoginAndRegistration-Bridging-Header.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
@@ -457,13 +644,29 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaViewBubbleImageMasker.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesKeyboardController.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/UserLoginAndRegistration/SWRevealViewController.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTimestampFormatter.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubblesSizeCalculator.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIDevice+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIImage+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSBundle+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/NSString+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQSystemSoundPlayer+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIColor+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/UIView+JSQMessages.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessages.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewLayoutAttributes.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQAudioMediaViewAttributes.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
@@ -478,12 +681,41 @@ depends-external:
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewDelegateFlowLayout.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayout.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCollectionView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesLoadEarlierHeaderView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesMediaPlaceholderView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesTypingIndicatorFooterView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarContentView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesCellTextView.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesComposerTextView.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesBubbleImageFactory.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesAvatarImageFactory.h"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesToolbarButtonFactory.h"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/JSQMessagesViewController.framework/Modules/module.modulemap"
+- "/Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Modules/module.modulemap"
 - "/Users/student/Desktop/UserLoginAndRegistration/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-interface-hash: "d2d5a038dda9cc1506440917f8a5ec83"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "07d622eee0c7bf18dfd2d1ff30c7280e"

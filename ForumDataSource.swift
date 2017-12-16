@@ -22,7 +22,7 @@ class ForumDataSource: NSObject {
     }
     
     func forumAt(_ index: Int) -> Forum{
-        let forum = Forum(forum: forums[index])
+        let forum = Forum(forum: forums[index] as! [String : Any])
         return forum
     }
     

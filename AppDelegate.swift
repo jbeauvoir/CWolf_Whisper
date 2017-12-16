@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var whichSettingButtonIClicked: String = ""
     var numOfUnusedCells: Int = 0
     var useCellOrNot: Bool = false
+    var userNameEmail: String = ""
+    var forum_idClicked: String = ""
+    var forum: Forum?
+    var catBool: Bool = false
+    var home: Bool = true
+    var initialLoad: Bool = true
+    
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -27,6 +34,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
         application.statusBarStyle = .lightContent
         */
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
+        application.statusBarStyle = .lightContent
+        FirebaseApp.configure()
         return true
     }
     

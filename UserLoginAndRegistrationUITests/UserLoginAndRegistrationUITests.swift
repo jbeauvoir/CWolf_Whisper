@@ -1,10 +1,6 @@
-//
-//  UserLoginAndRegistrationUITests.swift
-//  UserLoginAndRegistrationUITests
-//
+
 //  Created by student on 11/1/17.
 //  Copyright © 2017 team SeaWolfWhisper. All rights reserved.
-//
 
 import XCTest
 

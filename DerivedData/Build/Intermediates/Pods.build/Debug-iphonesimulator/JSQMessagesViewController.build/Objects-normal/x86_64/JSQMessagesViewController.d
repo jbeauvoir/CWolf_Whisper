@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Controllers/JSQMessagesViewController.m \
+  /Users/student/Desktop/UserLoginAndRegistration/DerivedData/Build/Intermediates/Pods.build/Debug-iphonesimulator/JSQMessagesViewController.build/module.modulemap \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/Target\ Support\ Files/JSQMessagesViewController/JSQMessagesViewController-prefix.pch \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Controllers/JSQMessagesViewController.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionView.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayout.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesBubbleSizeCalculating.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesCollectionViewDelegateFlowLayout.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesCollectionViewDataSource.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCell.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesLabel.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCellTextView.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesInputToolbar.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesToolbarContentView.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesComposerTextView.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Controllers/JSQMessagesKeyboardController.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessageData.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessageMediaData.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessageBubbleImageDataSource.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessageAvatarImageDataSource.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellIncoming.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellOutgoing.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesTypingIndicatorFooterView.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/NSString+JSQMessages.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/UIColor+JSQMessages.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/UIDevice+JSQMessages.h \
+  /Users/student/Desktop/UserLoginAndRegistration/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/NSBundle+JSQMessages.h

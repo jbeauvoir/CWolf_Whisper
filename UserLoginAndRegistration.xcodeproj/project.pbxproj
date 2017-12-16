@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		33A3BDF2978733FC335C56B9 /* Pods_UserLoginAndRegistrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B4889C5637F3DB5AF5586A /* Pods_UserLoginAndRegistrationTests.framework */; };
+		3F4874FF1FD62ADB00E96691 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4874FE1FD62ADB00E96691 /* Constants.swift */; };
 		3F814F641FD4FBF300E65FF6 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F814F631FD4FBF300E65FF6 /* MessageViewController.swift */; };
 		3F814F661FD53A9B00E65FF6 /* NewForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F814F651FD53A9B00E65FF6 /* NewForumViewController.swift */; };
-		3F8544DD1FD558D9004799B9 /* CatagoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8544DC1FD558D9004799B9 /* CatagoryTableViewController.swift */; };
-		3F8942E51FBBF7D40094D056 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8942E41FBBF7D40094D056 /* UserInformation.swift */; };
 		3F9A10F21FB6766100A626C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A10F11FB6766100A626C7 /* LoginViewController.swift */; };
 		3F9ADF1C1FBA3C3E004B41D4 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9ADF1B1FBA3C3E004B41D4 /* SettingCell.swift */; };
 		3F9ADF1E1FBA3E80004B41D4 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9ADF1D1FBA3E80004B41D4 /* BaseCell.swift */; };
@@ -20,10 +19,8 @@
 		3FA25BAF1FB789FC00205B38 /* ForumDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA25BAE1FB789FC00205B38 /* ForumDetailsViewController.swift */; };
 		3FA25BB31FB78AB000205B38 /* Forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA25BB21FB78AB000205B38 /* Forum.swift */; };
 		3FC3A6751FB9085100EAD209 /* CommentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A6741FB9085100EAD209 /* CommentTableViewController.swift */; };
-		3FC3A6771FB90C3100EAD209 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A6761FB90C3100EAD209 /* CommentTableViewCell.swift */; };
-		3FC3A6791FB90DB100EAD209 /* DownloadComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A6781FB90DB100EAD209 /* DownloadComments.swift */; };
-		3FC3A67B1FB90DF300EAD209 /* CommentDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A67A1FB90DF300EAD209 /* CommentDataSource.swift */; };
 		3FC3A67D1FB90E0400EAD209 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A67C1FB90E0400EAD209 /* Comment.swift */; };
+		3FD2854B1FDC918500C5A9C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FD2854A1FDC918500C5A9C8 /* GoogleService-Info.plist */; };
 		3FD8DA6D1FCE52690014E583 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8DA6C1FCE52680014E583 /* AboutUsViewController.swift */; };
 		3FE0AAC91FAAE33700971C39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AAC81FAAE33700971C39 /* AppDelegate.swift */; };
 		3FE0AACB1FAAE33700971C39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AACA1FAAE33700971C39 /* ViewController.swift */; };
@@ -34,10 +31,7 @@
 		3FE0AAE91FAAE33700971C39 /* UserLoginAndRegistrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AAE81FAAE33700971C39 /* UserLoginAndRegistrationUITests.swift */; };
 		3FE0AAF71FAAEDC300971C39 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0AAF61FAAEDC300971C39 /* RegisterPageViewController.swift */; };
 		3FE1A10E1FB96E7F00F0A09B /* SettingLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1A10D1FB96E7F00F0A09B /* SettingLauncher.swift */; };
-		3FE612D01FB78C9200DDC94C /* ForumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE612CF1FB78C9200DDC94C /* ForumTableViewCell.swift */; };
 		3FE612D21FB78D1F00DDC94C /* ForumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE612D11FB78D1F00DDC94C /* ForumTableViewController.swift */; };
-		3FE612D41FB78D5D00DDC94C /* ForumDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE612D31FB78D5D00DDC94C /* ForumDataSource.swift */; };
-		3FE612D61FB78D7900DDC94C /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE612D51FB78D7900DDC94C /* Download.swift */; };
 		3FF8E0171FC64076009D55C0 /* ForumPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8E0161FC64075009D55C0 /* ForumPageViewController.swift */; };
 		3FF8E01F1FC64171009D55C0 /* CatagoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8E01E1FC64171009D55C0 /* CatagoryViewController.swift */; };
 		C8588C1EBFC3B2B582FD1F94 /* Pods_UserLoginAndRegistration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B35CDDD65C10C6AA227FD94 /* Pods_UserLoginAndRegistration.framework */; };
@@ -67,10 +61,10 @@
 		0C218FFDF43D43766DB1C337 /* Pods-UserLoginAndRegistrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginAndRegistrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginAndRegistrationTests/Pods-UserLoginAndRegistrationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1FC60F021E072A3573A2EE29 /* Pods-UserLoginAndRegistration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginAndRegistration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginAndRegistration/Pods-UserLoginAndRegistration.debug.xcconfig"; sourceTree = "<group>"; };
 		281F2E918A5B4E2259946DE6 /* Pods-UserLoginAndRegistrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserLoginAndRegistrationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserLoginAndRegistrationTests/Pods-UserLoginAndRegistrationTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F4874FD1FD62A8D00E96691 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		3F4874FE1FD62ADB00E96691 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3F814F631FD4FBF300E65FF6 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		3F814F651FD53A9B00E65FF6 /* NewForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewForumViewController.swift; sourceTree = "<group>"; };
-		3F8544DC1FD558D9004799B9 /* CatagoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryTableViewController.swift; sourceTree = "<group>"; };
-		3F8942E41FBBF7D40094D056 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
 		3F9A10F11FB6766100A626C7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3F9ADF1B1FBA3C3E004B41D4 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
 		3F9ADF1D1FBA3E80004B41D4 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
@@ -79,10 +73,9 @@
 		3FA25BAE1FB789FC00205B38 /* ForumDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumDetailsViewController.swift; sourceTree = "<group>"; };
 		3FA25BB21FB78AB000205B38 /* Forum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forum.swift; sourceTree = "<group>"; };
 		3FC3A6741FB9085100EAD209 /* CommentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewController.swift; sourceTree = "<group>"; };
-		3FC3A6761FB90C3100EAD209 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
-		3FC3A6781FB90DB100EAD209 /* DownloadComments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadComments.swift; sourceTree = "<group>"; };
-		3FC3A67A1FB90DF300EAD209 /* CommentDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentDataSource.swift; sourceTree = "<group>"; };
 		3FC3A67C1FB90E0400EAD209 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		3FD2854A1FDC918500C5A9C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FD2854C1FDC918C00C5A9C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3FD8DA6C1FCE52680014E583 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		3FE0AAC51FAAE33700971C39 /* UserLoginAndRegistration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserLoginAndRegistration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE0AAC81FAAE33700971C39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,10 +92,7 @@
 		3FE0AAEA1FAAE33700971C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FE0AAF61FAAEDC300971C39 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		3FE1A10D1FB96E7F00F0A09B /* SettingLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingLauncher.swift; sourceTree = "<group>"; };
-		3FE612CF1FB78C9200DDC94C /* ForumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumTableViewCell.swift; sourceTree = "<group>"; };
 		3FE612D11FB78D1F00DDC94C /* ForumTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumTableViewController.swift; sourceTree = "<group>"; };
-		3FE612D31FB78D5D00DDC94C /* ForumDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumDataSource.swift; sourceTree = "<group>"; };
-		3FE612D51FB78D7900DDC94C /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		3FF8E0161FC64075009D55C0 /* ForumPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumPageViewController.swift; sourceTree = "<group>"; };
 		3FF8E01E1FC64171009D55C0 /* CatagoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryViewController.swift; sourceTree = "<group>"; };
 		75B4889C5637F3DB5AF5586A /* Pods_UserLoginAndRegistrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserLoginAndRegistrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,11 +134,9 @@
 			children = (
 				3F9ADF1D1FBA3E80004B41D4 /* BaseCell.swift */,
 				3FA25BAE1FB789FC00205B38 /* ForumDetailsViewController.swift */,
-				3FE612CF1FB78C9200DDC94C /* ForumTableViewCell.swift */,
 				3FE612D11FB78D1F00DDC94C /* ForumTableViewController.swift */,
 				3FA25BB21FB78AB000205B38 /* Forum.swift */,
-				3FE612D31FB78D5D00DDC94C /* ForumDataSource.swift */,
-				3FE612D51FB78D7900DDC94C /* Download.swift */,
+				3FC3A6731FB9079F00EAD209 /* CommentsOfForum */,
 			);
 			name = SetupForums;
 			sourceTree = "<group>";
@@ -169,23 +157,14 @@
 				3F814F631FD4FBF300E65FF6 /* MessageViewController.swift */,
 				3F814F651FD53A9B00E65FF6 /* NewForumViewController.swift */,
 				3FF8E01E1FC64171009D55C0 /* CatagoryViewController.swift */,
-				3F8544DC1FD558D9004799B9 /* CatagoryTableViewController.swift */,
+				3F4874FD1FD62A8D00E96691 /* Bridging-Header.h */,
 			);
 			name = ViewsToNavigateToFromRVC;
-			sourceTree = "<group>";
-		};
-		3F8942E31FBBF79A0094D056 /* UserInformation */ = {
-			isa = PBXGroup;
-			children = (
-				3F8942E41FBBF7D40094D056 /* UserInformation.swift */,
-			);
-			path = UserInformation;
 			sourceTree = "<group>";
 		};
 		3F95F5E01FD5439300ABF913 /* LoginRegSetup */ = {
 			isa = PBXGroup;
 			children = (
-				3F8942E31FBBF79A0094D056 /* UserInformation */,
 				3FE0AADC1FAAE33700971C39 /* UserLoginAndRegistrationTests */,
 				3FE0AAE71FAAE33700971C39 /* UserLoginAndRegistrationUITests */,
 				3FE0AAC71FAAE33700971C39 /* UserLoginAndRegistration */,
@@ -196,25 +175,25 @@
 		3F9ADF1F1FBA46F3004B41D4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				3FD2854C1FDC918C00C5A9C8 /* GoogleService-Info.plist */,
+				3F4874FE1FD62ADB00E96691 /* Constants.swift */,
 				3F9ADF201FBA4734004B41D4 /* Extensions.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
 		};
-		3FA132DA1FBD071A006B8476 /* ThingsToDo */ = {
+		3FA132DA1FBD071A006B8476 /* ThingsToDo_ReadMe */ = {
 			isa = PBXGroup;
 			children = (
 				3FA132DB1FBD0747006B8476 /* WhatToDoList-ReadMe.swift */,
 			);
-			path = ThingsToDo;
+			path = ThingsToDo_ReadMe;
 			sourceTree = "<group>";
 		};
 		3FC3A6711FB8FFE300EAD209 /* ProgramAfterLoginAndReg */ = {
 			isa = PBXGroup;
 			children = (
-				3FA132DA1FBD071A006B8476 /* ThingsToDo */,
 				3FF8E0161FC64075009D55C0 /* ForumPageViewController.swift */,
-				3FC3A6731FB9079F00EAD209 /* CommentsOfForum */,
 				3F814F691FD53F4600E65FF6 /* ViewsToNavigateToFromRVC */,
 				3F814F681FD53E2700E65FF6 /* SetupMenuBar */,
 				3F814F671FD53DEB00E65FF6 /* SetupForums */,
@@ -225,11 +204,8 @@
 		3FC3A6731FB9079F00EAD209 /* CommentsOfForum */ = {
 			isa = PBXGroup;
 			children = (
-				3FC3A6761FB90C3100EAD209 /* CommentTableViewCell.swift */,
 				3FC3A6741FB9085100EAD209 /* CommentTableViewController.swift */,
 				3FC3A67C1FB90E0400EAD209 /* Comment.swift */,
-				3FC3A67A1FB90DF300EAD209 /* CommentDataSource.swift */,
-				3FC3A6781FB90DB100EAD209 /* DownloadComments.swift */,
 			);
 			name = CommentsOfForum;
 			sourceTree = "<group>";
@@ -237,10 +213,12 @@
 		3FE0AABC1FAAE33700971C39 = {
 			isa = PBXGroup;
 			children = (
+				3FA132DA1FBD071A006B8476 /* ThingsToDo_ReadMe */,
+				3FD2854A1FDC918500C5A9C8 /* GoogleService-Info.plist */,
 				3FE0AACA1FAAE33700971C39 /* ViewController.swift */,
 				3FE0AAC81FAAE33700971C39 /* AppDelegate.swift */,
-				3FE0AACC1FAAE33700971C39 /* Main.storyboard */,
 				3FE0AACF1FAAE33700971C39 /* Assets.xcassets */,
+				3FE0AACC1FAAE33700971C39 /* Main.storyboard */,
 				3FE0AAD11FAAE33700971C39 /* LaunchScreen.storyboard */,
 				3F95F5E01FD5439300ABF913 /* LoginRegSetup */,
 				3F9ADF1F1FBA46F3004B41D4 /* Helpers */,
@@ -430,6 +408,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FE0AAD31FAAE33700971C39 /* LaunchScreen.storyboard in Resources */,
+				3FD2854B1FDC918500C5A9C8 /* GoogleService-Info.plist in Resources */,
 				3FE0AAD01FAAE33700971C39 /* Assets.xcassets in Resources */,
 				3FE0AACE1FAAE33700971C39 /* Main.storyboard in Resources */,
 			);
@@ -527,6 +506,8 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-UserLoginAndRegistration/Pods-UserLoginAndRegistration-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -534,6 +515,8 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -612,17 +595,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8544DD1FD558D9004799B9 /* CatagoryTableViewController.swift in Sources */,
 				3F9ADF1E1FBA3E80004B41D4 /* BaseCell.swift in Sources */,
 				3F814F641FD4FBF300E65FF6 /* MessageViewController.swift in Sources */,
 				3FD8DA6D1FCE52690014E583 /* AboutUsViewController.swift in Sources */,
-				3F8942E51FBBF7D40094D056 /* UserInformation.swift in Sources */,
-				3FE612D01FB78C9200DDC94C /* ForumTableViewCell.swift in Sources */,
 				3F814F661FD53A9B00E65FF6 /* NewForumViewController.swift in Sources */,
-				3FE612D41FB78D5D00DDC94C /* ForumDataSource.swift in Sources */,
 				3FF8E0171FC64076009D55C0 /* ForumPageViewController.swift in Sources */,
 				3FF8E01F1FC64171009D55C0 /* CatagoryViewController.swift in Sources */,
-				3FC3A6791FB90DB100EAD209 /* DownloadComments.swift in Sources */,
+				3F4874FF1FD62ADB00E96691 /* Constants.swift in Sources */,
 				3FE612D21FB78D1F00DDC94C /* ForumTableViewController.swift in Sources */,
 				3F9A10F21FB6766100A626C7 /* LoginViewController.swift in Sources */,
 				3FE0AACB1FAAE33700971C39 /* ViewController.swift in Sources */,
@@ -630,13 +609,10 @@
 				3FC3A6751FB9085100EAD209 /* CommentTableViewController.swift in Sources */,
 				3F9ADF1C1FBA3C3E004B41D4 /* SettingCell.swift in Sources */,
 				3FA25BAF1FB789FC00205B38 /* ForumDetailsViewController.swift in Sources */,
-				3FC3A6771FB90C3100EAD209 /* CommentTableViewCell.swift in Sources */,
 				3FE0AAC91FAAE33700971C39 /* AppDelegate.swift in Sources */,
 				3FC3A67D1FB90E0400EAD209 /* Comment.swift in Sources */,
-				3FE612D61FB78D7900DDC94C /* Download.swift in Sources */,
 				3F9ADF211FBA4734004B41D4 /* Extensions.swift in Sources */,
 				3FE0AAF71FAAEDC300971C39 /* RegisterPageViewController.swift in Sources */,
-				3FC3A67B1FB90DF300EAD209 /* CommentDataSource.swift in Sources */,
 				3FA25BB31FB78AB000205B38 /* Forum.swift in Sources */,
 				3FE1A10E1FB96E7F00F0A09B /* SettingLauncher.swift in Sources */,
 			);

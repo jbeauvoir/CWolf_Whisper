@@ -16,6 +16,7 @@ class AboutUsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
+        self.navigationItem.title = "About Our Team"
  
         // Do any additional setup after loading the view.
     }

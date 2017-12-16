@@ -10,10 +10,17 @@ import UIKit
 
 class NewForumViewController: UIViewController {
 
+    @IBOutlet weak var addTitleTextField: UITextField!
+    @IBOutlet weak var addBodyTextField: UITextView!
+    @IBOutlet weak var addType: UITextField!
+    @IBOutlet weak var addPicture: UITextField!
+    
+    
+     let del = UIApplication.shared.delegate as? AppDelegate
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+       
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +28,20 @@ class NewForumViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func submitButton(_ sender: Any) {
+        let addTitle = addTitleTextField.text
+        let addBody  = addBodyTextField.text
+        let addPic   = addPicture.text
+        let addForumtype  = addType.text
+        
+        if(addTitle!.isEmpty || addBody!.isEmpty) {
+            
+        } else {
+            let forum_id = String(arc4random_uniform(999999))
+            //let ref   = Constants.refs.databaseForums.childByAutoId()
+            let ref   = Constants.refs.databaseForums.child(forum_id)
+            let forum = ["forum_body": addBody, "forum_comments": "", "forum_creator": "", "forum_id": forum_id, "forum_likes": "0", "forum_name": addTitle, "forum_subtitle": "Check it", "forum_type": addForumtype, "forum_picture": addPic ] as [String : Any]
+            ref.setValue(forum)
+        }
     }
-    */
-
 }

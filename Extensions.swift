@@ -1,10 +1,3 @@
-//
-//  Extensions.swift
-//  UserLoginAndRegistration
-//
-//  Created by student on 11/13/17.
-//  Copyright © 2017 team SeaWolfWhisper. All rights reserved.
-//
 
 import UIKit
 

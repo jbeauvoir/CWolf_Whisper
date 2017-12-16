@@ -8,7 +8,9 @@
 
 import UIKit
 
+
 class CommentDataSource: NSObject {
+    
     var comments: [AnyObject]
     
     init(dataSource: [AnyObject]){
@@ -21,8 +23,9 @@ class CommentDataSource: NSObject {
     }
     
     func commentAt(_ index: Int) -> Comment{
-        let comment = Comment(comment: comments[index])
+        let comment = Comment(comment: comments[index] as! [String : Any])
         return comment
     }
     
 }
+
